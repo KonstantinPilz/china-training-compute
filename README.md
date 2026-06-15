@@ -11,18 +11,24 @@ hover details. Rendered with Plotly.js.
 - Color by **developer** or **data source**. Optional running-max **frontier line**.
   Log/linear compute axis toggle.
 - Hover shows model name, developer, release date, training compute, parameters,
+  **ECI** (Epoch Capabilities Index) with its 90% CI where the model is benchmarked,
   confidence, data source, and the **basis** for the compute estimate. Click a point to
   open its source.
+- **Color by ECI** renders capability on a Viridis scale (benchmarked models only;
+  others shown gray) — useful for reading capability against compute and time.
 
 ## Data
 
-Two sources, merged by [`fetch_data.py`](fetch_data.py) into `docs/data.json`:
+Sources merged by [`fetch_data.py`](fetch_data.py) into `docs/data.json`:
 
 1. **Epoch AI** (primary) — public CC-BY [`notable_ai_models.csv`](https://epoch.ai/data/notable-ai-models),
    filtered to China-org models since 2023 with a training-compute estimate.
 2. **Team research** (augmentation) — `data/additions_*.json`, hand-researched models Epoch
    is missing, with compute estimates and shown arithmetic. See [`data/SCHEMA.md`](data/SCHEMA.md).
    These render as white-edged diamonds. Models that duplicate an Epoch entry are dropped.
+3. **ECI** — `benchmarked_models.csv` (also Epoch, CC-BY) is joined by model name (nearest
+   release date on ambiguity) to attach the Epoch Capabilities Index + 90% CI. ECI exists
+   only for benchmarked models, so most points have none; that is expected.
 
 Training-compute values are mostly estimates of varying confidence; each point's basis is
 on hover. Most are computed as `6 × params × tokens` (dense) or with active params (MoE).
