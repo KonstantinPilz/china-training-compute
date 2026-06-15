@@ -127,6 +127,8 @@ def short_org(org: str) -> str:
         "Z.ai": "Zhipu AI",
         "Huawei Noah's Ark Lab": "Huawei",
         "Kunlun Inc.": "Kunlun (Skywork)",
+        "Kunlun (Skywork AI)": "Kunlun (Skywork)",
+        "Kunlun": "Kunlun (Skywork)",
         "Xiaomi Corp": "Xiaomi",
         "Meituan Inc": "Meituan",
         "Moonshot": "Moonshot AI",

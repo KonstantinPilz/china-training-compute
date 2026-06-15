@@ -1,0 +1,90 @@
+[
+  {
+    "model": "Hunyuan-7B",
+    "organization": "Tencent",
+    "publication_date": "2024-01-24",
+    "parameters": 7.0e9,
+    "training_compute_flop": null,
+    "compute_basis": "Dense ~7B params (later cards list 8B). No official pretraining token count published in the HF/GitHub model cards or any tech report we found, so a defensible FLOP estimate is not possible without inventing a token count. If one assumed a typical ~3T tokens: 6 x 7e9 x 3e12 = 1.3e23 — but tokens are unstated, so we leave null.",
+    "confidence": 0.0,
+    "source_urls": ["https://huggingface.co/tencent/Hunyuan-7B-Instruct-0124", "https://github.com/Tencent-Hunyuan/Hunyuan-7B"],
+    "notes": "Tencent dense 7B (0124 instruct release Jan 2024; pretrain weights open-sourced 2025-07-30). No public token count -> training_compute_flop=null per SCHEMA. The '13B' in Hunyuan-A13B is an MoE active-param count, not a dense 13B; we found no public dense Hunyuan-13B."
+  },
+  {
+    "model": "PanGu Pro MoE 72B",
+    "organization": "Huawei",
+    "publication_date": "2025-06-30",
+    "parameters": 7.199e10,
+    "training_compute_flop": 1.3e24,
+    "compute_basis": "Official figures from the tech report (arXiv 2505.21411): 16.5B activated params per token, 13T pretraining tokens. MoE convention 6 x active-params x tokens = 6 x 1.65e10 x 1.3e13 = 1.29e24 FLOP. Excludes post-training; pretrain only.",
+    "confidence": 0.55,
+    "source_urls": ["https://arxiv.org/abs/2505.21411", "https://arxiv.org/html/2505.21411v1", "https://gigazine.net/gsc_news/en/20250702-huawei-moge-pangu-pro-moe-72b/"],
+    "notes": "72BA16B MoGE model trained on Ascend NPUs. Total 71.99B / activated 16.5B. Tokens (13T) and active params both official, so confidence > back-of-envelope. Epoch has PanGu-Sigma and Pangu Ultra but not this model."
+  },
+  {
+    "model": "Skywork-MoE",
+    "organization": "Kunlun (Skywork AI)",
+    "publication_date": "2024-06-03",
+    "parameters": 1.46e11,
+    "training_compute_flop": 5.1e23,
+    "compute_basis": "Official architecture from tech report (arXiv 2406.06563): 146B total, 22B activated. Upcycled from a Skywork-13B dense checkpoint (pretrained on 3.2T tokens) then trained ~2T additional tokens as an MoE. Two-phase sum: dense base 6 x 13e9 x 3.2e12 = 2.5e23, plus MoE continued-training at active params 6 x 22e9 x 2e12 = 2.6e23; total ~5.1e23 FLOP.",
+    "confidence": 0.35,
+    "source_urls": ["https://arxiv.org/abs/2406.06563", "https://arxiv.org/html/2406.06563v1", "https://www.marktechpost.com/2024/06/05/skywork-team-introduces-skywork-moe-a-high-performance-mixture-of-experts-moe-model-with-146b-parameters-16-experts-and-22b-activated-parameters/"],
+    "notes": "146B total / 22B-A MoE, upcycled from Skywork-13B. FLOP counts both the dense pretraining base and the MoE continued training. If Epoch counts only the MoE continued-training phase, use ~2.6e23 instead."
+  },
+  {
+    "model": "Skywork-R1V-38B",
+    "organization": "Kunlun (Skywork AI)",
+    "publication_date": "2025-03-18",
+    "parameters": 3.8e10,
+    "training_compute_flop": null,
+    "compute_basis": "Built by connecting a pretrained vision encoder (InternViT-6B) to a pretrained LLM (DeepSeek-R1-Distill-Qwen-32B) via a lightweight adapter, then alignment/SFT. No from-scratch pretraining; the dominant compute is in the (separately-counted) base models. Marginal fine-tuning/alignment compute is small and the token count is unpublished, so we leave null rather than estimate.",
+    "confidence": 0.0,
+    "source_urls": ["https://arxiv.org/abs/2504.05599", "https://huggingface.co/Skywork/Skywork-R1V-38B"],
+    "notes": "Multimodal reasoning model. Composed from pretrained InternViT-6B + DeepSeek-R1-Distill-Qwen-32B. Training compute is fine-tune-only and unquantified -> null. Including for date/attribution completeness."
+  },
+  {
+    "model": "Skywork-R1V2-38B",
+    "organization": "Kunlun (Skywork AI)",
+    "publication_date": "2025-04-24",
+    "parameters": 3.8e10,
+    "training_compute_flop": null,
+    "compute_basis": "Same composition as R1V (InternViT-6B + DeepSeek-R1-Distill-Qwen-32B) with a hybrid RL (MPO/GRPO) post-training stage. RL post-training FLOP is not disclosed and base-model compute is counted under the base models, so no defensible standalone estimate -> null.",
+    "confidence": 0.0,
+    "source_urls": ["https://arxiv.org/abs/2504.16656", "https://huggingface.co/Skywork/Skywork-R1V2-38B"],
+    "notes": "RL-trained successor to R1V. Training compute fine-tune/RL-only and undisclosed -> null."
+  },
+  {
+    "model": "360Zhinao2-7B",
+    "organization": "Qihoo 360",
+    "publication_date": "2024-11-01",
+    "parameters": 7.0e9,
+    "training_compute_flop": 4.2e23,
+    "compute_basis": "Official: dense 7B trained on 10.1T tokens (10T stage-1 + 100B stage-2), per model card / GitHub. Dense convention 6 x params x tokens = 6 x 7e9 x 1.01e13 = 4.24e23 FLOP.",
+    "confidence": 0.6,
+    "source_urls": ["https://github.com/Qihoo360/360zhinao2", "https://huggingface.co/qihoo360/360Zhinao2-7B-Base", "https://arxiv.org/abs/2405.13386"],
+    "notes": "Dense 7B; both params and 10.1T token count are official, so confidence is relatively high. publication_date is month-only (Nov 2024) -> YYYY-MM-01. Epoch has neither 360Zhinao nor 360Zhinao2."
+  },
+  {
+    "model": "360Zhinao-7B",
+    "organization": "Qihoo 360",
+    "publication_date": "2024-05-23",
+    "parameters": 7.0e9,
+    "training_compute_flop": 1.4e23,
+    "compute_basis": "Official: dense 7B trained on 3.4T tokens, per the 360Zhinao tech report (arXiv 2405.13386). Dense convention 6 x 7e9 x 3.4e12 = 1.43e23 FLOP.",
+    "confidence": 0.6,
+    "source_urls": ["https://arxiv.org/abs/2405.13386", "https://arxiv.org/html/2405.13386v1"],
+    "notes": "First-gen 360Zhinao dense 7B. Date = arXiv submission of the tech report. Both inputs official."
+  },
+  {
+    "model": "Yuan 2.0-102B",
+    "organization": "Inspur (IEIT Systems)",
+    "publication_date": "2023-11-27",
+    "parameters": 1.026e11,
+    "training_compute_flop": 1.6e24,
+    "compute_basis": "Dense 102.6B params (arXiv 2311.15786). Paper states pretraining on ~2.6T tokens (could not re-confirm exact token count from the PDF in this pass; ~2.6T is the widely-cited figure). Dense convention 6 x 1.026e11 x 2.6e12 = 1.6e24 FLOP. ESTIMATE -- token count not verified from primary text in this pass.",
+    "confidence": 0.3,
+    "source_urls": ["https://arxiv.org/abs/2311.15786", "https://arxiv.org/pdf/2311.15786", "https://replicate.com/ieit-yuan/yuan2.0-102b/readme"],
+    "notes": "Largest Yuan 2.0 dense model. Token count (~2.6T) is cited from memory/secondary, NOT re-verified against the paper PDF (PDF text was not extractable in this pass) -> confidence 0.3. Distinct from Yuan 2.0-M32 (MoE, May 2024) which may warrant its own entry. Epoch inventory has neither."
+  }
+]
