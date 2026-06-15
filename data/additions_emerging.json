@@ -1,0 +1,200 @@
+[
+  {
+    "model": "MiniMax-Text-01",
+    "organization": "MiniMax",
+    "publication_date": "2025-01-14",
+    "parameters": 456000000000,
+    "training_compute_flop": 2.9e24,
+    "compute_basis": "Estimated from official report: 6 x 45.9e9 active params x ~10.4e12 pretrain tokens = 2.9e24 FLOP. Token total inferred from stated phase lengths (7.2T constant + 3.2T decay). MoE 456B total / 45.9B active. Trained on H800.",
+    "confidence": 0.55,
+    "source_urls": ["https://arxiv.org/abs/2501.08313", "https://filecdn.minimax.chat/_Arxiv_MiniMax_01_Report.pdf"],
+    "notes": "Our own FLOP estimate (internal MiniMax-compute writeup, 2026-06-11). Report states a dynamic 1500-2500 H800 cluster; FLOP-derived cluster (1700-4600 over 3-8 wk) brackets it. VL-01 variant adds ~512B vision-language continued-training tokens. Not in Epoch inventory."
+  },
+  {
+    "model": "MiniMax-M1",
+    "organization": "MiniMax",
+    "publication_date": "2025-06-16",
+    "parameters": 456000000000,
+    "training_compute_flop": 3.0e24,
+    "compute_basis": "Built on MiniMax-Text-01 (same 456B/45.9B base, no new large pretrain) plus an RL/long-context extension. Pretrain FLOP ~= Text-01's 2.9e24; the disclosed RL run (512 H800 x 3 weeks, $534,700) adds only ~5e22 (512 x 504h x 989e12 x 0.35 = ~9e22 raw, less for RL). Total ~3.0e24.",
+    "confidence": 0.45,
+    "source_urls": ["https://arxiv.org/abs/2506.13585"],
+    "notes": "RL extension of Text-01 to 1M context. M1's $534,700 / 512 H800 / 3 wk implies $2.07/H800-hour, an independent MiniMax-sourced rental rate. Most of the compute is inherited from the Text-01 base, so total is close to Text-01's. Not in Epoch inventory."
+  },
+  {
+    "model": "ERNIE 4.5 (424B-A47B)",
+    "organization": "Baidu",
+    "publication_date": "2025-06-30",
+    "parameters": 424000000000,
+    "training_compute_flop": 1.6e24,
+    "compute_basis": "Estimated: 6 x 47e9 active params x 5.6e12 tokens = 1.58e24 FLOP. Token count (5.6T) and 47B active / 424B total from the official ERNIE 4.5 technical report. Report states 47% MFU but no headline FLOP.",
+    "confidence": 0.6,
+    "source_urls": ["https://ernie.baidu.com/blog/posts/ernie4.5/", "https://ernie.baidu.com/blog/publication/ERNIE_Technical_Report.pdf", "https://www.marktechpost.com/2025/07/01/baidu-open-sources-ernie-4-5-llm-series-scaling-from-0-3b-to-424b-parameters/"],
+    "notes": "Base model name (ERNIE-4.5-VL-424B-A47B) is in Epoch inventory, but Epoch lacks a training-compute estimate. Supplying our derived FLOP per SCHEMA note. The 5.6T figure is the full multimodal corpus; text-only active-param FLOP is the floor here."
+  },
+  {
+    "model": "ERNIE 4.5 (300B-A47B, text)",
+    "organization": "Baidu",
+    "publication_date": "2025-06-30",
+    "parameters": 300000000000,
+    "training_compute_flop": 1.6e24,
+    "compute_basis": "Estimated: 6 x 47e9 active params x 5.6e12 tokens = 1.58e24 FLOP. Text-only MoE variant, 300B total / 47B active, same 5.6T corpus per the ERNIE 4.5 technical report.",
+    "confidence": 0.55,
+    "source_urls": ["https://huggingface.co/baidu/ERNIE-4.5-300B-A47B-PT", "https://ernie.baidu.com/blog/publication/ERNIE_Technical_Report.pdf"],
+    "notes": "Text-only flagship (distinct from the 424B VL model already in Epoch). Same active-param count so similar FLOP; lower confidence because the 300B variant's exact token schedule may differ from the VL model's."
+  },
+  {
+    "model": "ERNIE 4.5 (21B-A3B)",
+    "organization": "Baidu",
+    "publication_date": "2025-06-30",
+    "parameters": 21000000000,
+    "training_compute_flop": 1.0e23,
+    "compute_basis": "Estimated: 6 x 3e9 active params x 5.6e12 tokens = 1.01e23 FLOP. 21B total / 3B active MoE per official release; assumes same 5.6T corpus as the family (uncertain for the small variant).",
+    "confidence": 0.4,
+    "source_urls": ["https://huggingface.co/baidu/ERNIE-4.5-21B-A3B-PT", "https://www.marktechpost.com/2025/09/10/baidu-releases-ernie-4-5-21b-a3b-thinking-a-compact-moe-model-for-deep-reasoning/"],
+    "notes": "Compact MoE. Token count assumed equal to family corpus (5.6T); if the small model was trained on fewer tokens, this overstates. Not in Epoch inventory."
+  },
+  {
+    "model": "StepFun Step-2",
+    "organization": "StepFun",
+    "publication_date": "2024-07-04",
+    "parameters": 1000000000000,
+    "training_compute_flop": 6.0e24,
+    "compute_basis": "Back-of-envelope: ~1T total MoE; active params undisclosed. Assuming ~10% active (~100B) x ~10e12 tokens x 6 = 6e24 FLOP. Both active-param fraction and token count are guesses; trillion-param total is the only firm figure.",
+    "confidence": 0.2,
+    "source_urls": ["https://www.marktechpost.com/2024/11/20/chinese-agi-startup-stepfun-developed-step-2-a-new-trillion-parameter-moe-architecture-model-ranking-5th-on-livebench/", "https://en.wikipedia.org/wiki/StepFun"],
+    "notes": "Released at WAIC July 2024 (date approximate). Trillion-param MoE; StepFun disclosed neither active params nor tokens, so this is a pure estimate. Was China's top-ranked LLM on LiveBench at release. Not in Epoch inventory."
+  },
+  {
+    "model": "Step-3",
+    "organization": "StepFun",
+    "publication_date": "2025-07-31",
+    "parameters": 321000000000,
+    "training_compute_flop": 4.6e24,
+    "compute_basis": "Estimated: 6 x 38e9 active params x 20e12 tokens = 4.56e24 FLOP. 321B total / 38B active MoE, trained on 20T+ tokens (incl. 4T multimodal) per StepFun's release and technical report (arXiv 2507.19427).",
+    "confidence": 0.5,
+    "source_urls": ["https://arxiv.org/abs/2507.19427", "https://stepfun.ai/research/en/step3", "https://x.com/StepFun_ai/status/1950912271565385770"],
+    "notes": "Open-source multimodal reasoning VLM. Active-param and token counts are official; FLOP is our 6ND derivation. Not in Epoch inventory."
+  },
+  {
+    "model": "Step-3.5-Flash",
+    "organization": "StepFun",
+    "publication_date": "2026-02-01",
+    "parameters": 196000000000,
+    "training_compute_flop": 1.1e24,
+    "compute_basis": "Estimated: 6 x 11e9 active params x 17.2e12 tokens = 1.14e24 FLOP. 196B total / 11B active MoE, 17.2T tokens per StepFun (arXiv 2602.10604). Date is month-only (YYYY-MM-01).",
+    "confidence": 0.5,
+    "source_urls": ["https://arxiv.org/html/2602.10604v1", "https://www.startuphub.ai/ai-news/tech/2026/step-3-5-flash-ai-s-new-efficiency-standard"],
+    "notes": "Active params and tokens official; FLOP is our 6ND derivation. A Step-3.7-Flash (May 2026) also exists with fewer disclosed details. Not in Epoch inventory."
+  },
+  {
+    "model": "Baichuan 2 (7B)",
+    "organization": "Baichuan",
+    "publication_date": "2023-09-06",
+    "parameters": 7000000000,
+    "training_compute_flop": 1.1e23,
+    "compute_basis": "Estimated: 6 x 7e9 dense params x 2.6e12 tokens = 1.09e23 FLOP. Both figures from the Baichuan 2 technical report (arXiv 2309.10305); dense model, 2.6T tokens.",
+    "confidence": 0.75,
+    "source_urls": ["https://arxiv.org/abs/2309.10305", "https://huggingface.co/baichuan-inc/Baichuan2-7B-Base"],
+    "notes": "Well-grounded: both params and tokens are officially reported. Standard 6ND dense estimate. Not in Epoch inventory."
+  },
+  {
+    "model": "Baichuan 2 (13B)",
+    "organization": "Baichuan",
+    "publication_date": "2023-09-06",
+    "parameters": 13000000000,
+    "training_compute_flop": 2.0e23,
+    "compute_basis": "Estimated: 6 x 13e9 dense params x 2.6e12 tokens = 2.03e23 FLOP. Both figures from the Baichuan 2 technical report (arXiv 2309.10305); dense model, 2.6T tokens.",
+    "confidence": 0.75,
+    "source_urls": ["https://arxiv.org/abs/2309.10305", "https://huggingface.co/baichuan-inc/Baichuan2-13B-Base"],
+    "notes": "Well-grounded: both params and tokens officially reported. Standard 6ND dense estimate. Not in Epoch inventory."
+  },
+  {
+    "model": "Baichuan 3",
+    "organization": "Baichuan",
+    "publication_date": "2024-01-29",
+    "parameters": null,
+    "training_compute_flop": 3.0e24,
+    "compute_basis": "Back-of-envelope: reported as >100B (some coverage says ~1T) params; architecture undisclosed. Assuming a dense-equivalent ~200B trained on ~2.5T tokens x 6 = 3e24. Both params and tokens are guesses.",
+    "confidence": 0.2,
+    "source_urls": ["https://www.linkedin.com/posts/thepandaily_baichuan-ai-releases-large-scale-model-baichuan-activity-7157621335446233088-S18N", "https://www.llmreference.com/model-family/baichuan-3"],
+    "notes": "Closed model; conflicting param reports (>100B vs ~1T). No official tokens or compute. Pure estimate, flagged low confidence. Not in Epoch inventory."
+  },
+  {
+    "model": "Baichuan 4",
+    "organization": "Baichuan",
+    "publication_date": "2024-05-22",
+    "parameters": null,
+    "training_compute_flop": null,
+    "compute_basis": "No official parameter count, token count, or compute disclosed. Closed model. No defensible FLOP estimate possible beyond noting it is a generational successor to Baichuan 3 (likely similar or larger scale, low-single-digit e24).",
+    "confidence": 0.1,
+    "source_urls": ["https://braintitan.medium.com/baichuan-intelligence-releases-baichuan-4-model-and-the-first-ai-intelligent-assistant-fb2736d8d2f2"],
+    "notes": "Closed flagship, ranked #1 on SuperCLUE in China at release. No specs disclosed; FLOP left null. Included for completeness/dating. Not in Epoch inventory."
+  },
+  {
+    "model": "Baichuan-M1-14B",
+    "organization": "Baichuan",
+    "publication_date": "2025-02-18",
+    "parameters": 14000000000,
+    "training_compute_flop": 1.7e24,
+    "compute_basis": "Estimated: 6 x 14e9 dense params x 20e12 tokens = 1.68e24 FLOP. Both figures official: 14B dense, trained from scratch on 20T tokens per the Baichuan-M1 technical report (arXiv 2502.12671).",
+    "confidence": 0.7,
+    "source_urls": ["https://arxiv.org/abs/2502.12671", "https://huggingface.co/baichuan-inc/Baichuan-M1-14B-Base"],
+    "notes": "Medical-specialized LLM trained from scratch. Well-grounded: params and tokens both officially reported. High token-to-param ratio. Not in Epoch inventory."
+  },
+  {
+    "model": "SenseNova 5.0",
+    "organization": "SenseTime",
+    "publication_date": "2024-04-23",
+    "parameters": 600000000000,
+    "training_compute_flop": 1.4e25,
+    "compute_basis": "Back-of-envelope: 600B-param MoE trained on >10TB of tokens. Assuming ~10TB ~= ~4T tokens and treating active params as ~100B (MoE) x 4e12 x 6 = 2.4e24; but if dense-equivalent at 600B x 4T x 6 = 1.4e25. Reported as MoE, so true figure is likely below the dense bound. Using the dense bound as an upper estimate.",
+    "confidence": 0.2,
+    "source_urls": ["https://daoinsights.com/news/what-is-sensenova-5-0-its-the-reason-sensetimes-stock-increased-by-36/", "https://www.prnewswire.com/apac/news-releases/sensetime-launches-sensenova-5-0-with-comprehensive-updates-and-the-industry-leading-cloud-to-edge-full-stack-large-model-product-matrix-302125415.html"],
+    "notes": "Closed MoE; '10TB tokens' is a data-volume claim not a token count (TB->token conversion is rough, ~2.5-4 chars/token). Active params undisclosed, so 6ND is highly uncertain. Estimate flagged low confidence. Not in Epoch inventory."
+  },
+  {
+    "model": "SenseNova 5.5",
+    "organization": "SenseTime",
+    "publication_date": "2024-07-05",
+    "parameters": 600000000000,
+    "training_compute_flop": 1.5e25,
+    "compute_basis": "Back-of-envelope: incremental update over SenseNova 5.0 (~30% performance gain), same >10TB token claim and ~600B MoE. Assuming modestly more compute than 5.0; same dense-equivalent upper bound ~1.5e25. Active params undisclosed.",
+    "confidence": 0.18,
+    "source_urls": ["https://www.marktechpost.com/2024/07/10/sensetime-unveiled-sensenova-5-5-setting-a-new-benchmark-to-rival-gpt-4o-in-5-out-of-8-key-metrics/"],
+    "notes": "Closed MoE update of 5.0. Same caveats as SenseNova 5.0 (TB-not-tokens, undisclosed active params). Low confidence. Not in Epoch inventory. (SenseNova V6, Apr 2025, >600B MoE, also exists but with no token disclosure.)"
+  },
+  {
+    "model": "iFlytek Spark 4.0 (Xinghuo V4.0)",
+    "organization": "iFlytek",
+    "publication_date": "2024-06-27",
+    "parameters": null,
+    "training_compute_flop": 2.0e24,
+    "compute_basis": "Back-of-envelope: trillion-param-class model trained on Huawei Ascend ('Feixing-1' cluster). No params/tokens/compute disclosed. Assuming a dense-equivalent ~few-hundred-B x ~few-T tokens, ~2e24 order. Pure guess.",
+    "confidence": 0.15,
+    "source_urls": ["https://news.futunn.com/en/post/44305445/iflytek-co-ltd-has-released-the-iflytek-spark-v4-0", "https://www.laitimes.com/en/article/63ehg_6jrir.html"],
+    "notes": "Closed model, trained entirely on Huawei Ascend (notable: domestic-chip training). No disclosed scale; FLOP is a rough order-of-magnitude guess. Date approximate. Not in Epoch inventory."
+  },
+  {
+    "model": "iFlytek Spark X1",
+    "organization": "iFlytek",
+    "publication_date": "2025-01-15",
+    "parameters": null,
+    "training_compute_flop": null,
+    "compute_basis": "Reasoning model trained entirely on Huawei Ascend 910B. No params, tokens, or compute disclosed. iFlytek emphasizes compute-efficiency ('top results with less computing power'), so scale is unknown. No defensible FLOP estimate.",
+    "confidence": 0.1,
+    "source_urls": ["https://news.cgtn.com/news/2025-01-15/China-releases-Spark-X1-deep-reasoning-model-that-packs-a-punch-1AbIq8PzzEI/index.html", "https://www.scmp.com/tech/big-tech/article/3307493/no-need-nvidia-iflytek-touts-reasoning-model-trained-entirely-huaweis-ai-chips"],
+    "notes": "Deep-reasoning model, fully Ascend-trained (Ascend 910B), upgraded April 2025. Notable as a near-entirely domestic-chip training run. No scale disclosed; FLOP null. Not in Epoch inventory."
+  },
+  {
+    "model": "MiniMax abab6.5",
+    "organization": "MiniMax",
+    "publication_date": "2024-04-17",
+    "parameters": 1000000000000,
+    "training_compute_flop": 4.0e24,
+    "compute_basis": "Back-of-envelope: ~1T total MoE; active params undisclosed. Assuming ~8% active (~80B) x ~8e12 tokens x 6 = 3.8e24. Both active fraction and tokens are guesses; only trillion-param total is stated.",
+    "confidence": 0.18,
+    "source_urls": ["https://www.minimax.io/news/abab65-series", "https://www.webull.com/news/10592389725398016"],
+    "notes": "Trillion-param MoE, 200K context. Predecessor abab6 (Jan 2024) was China's first >100B MoE LLM. No active-param or token disclosure, so pure estimate. Not in Epoch inventory."
+  }
+]

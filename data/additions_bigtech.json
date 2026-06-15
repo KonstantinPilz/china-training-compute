@@ -1,0 +1,200 @@
+[
+  {
+    "model": "Qwen2.5-Max",
+    "organization": "Alibaba",
+    "publication_date": "2025-01-28",
+    "parameters": null,
+    "training_compute_flop": 6.84e24,
+    "compute_basis": "Our estimate: large MoE, >20T tokens (official Qwen2.5-Max blog), active params undisclosed. Assuming ~57B active (the figure carried in the internal Holy Grail tab): 6 x 57e9 x 20e12 = 6.84e24. Arithmetic cross-check: VentureBeat (secondary) reports a 45-day pretrain on 2,048 GPUs, which is ~2.5x lower than 6.84e24 implies at H800 989 TFLOP/s x 35% MFU, so the 2,048 figure may be one stage or a higher-MFU run. Active-param count is the dominant unknown.",
+    "confidence": 0.4,
+    "source_urls": ["https://qwenlm.github.io/blog/qwen2.5-max/", "https://venturebeat.com/ai/alibabas-qwen2-5-max-challenges-u-s-tech-giants-reshapes-enterprise-ai"],
+    "notes": "Flagship Alibaba MoE, Jan 2025. NOT in Epoch inventory. Compute is our estimate (active params unstated). Internal corroboration: alibaba-compute/domestic_and_fleet.md C.1 (~2,000-5,100 concurrent H800)."
+  },
+  {
+    "model": "Qwen2-VL-72B",
+    "organization": "Alibaba",
+    "publication_date": "2024-09-18",
+    "parameters": 73.4e9,
+    "training_compute_flop": 7.0e23,
+    "compute_basis": "Our estimate of incremental VL training only (the Qwen2-72B text base is separately in Epoch). Qwen2-VL technical report (arXiv:2409.12191) states VL pretraining of ~600B tokens (phase 1) + ~800B tokens (phase 2) = ~1.4T tokens over the 73.4B dense model: 6 x 73.4e9 x 1.4e12 = 6.2e23, rounded to ~7e23 to include instruction tuning. Excludes the text-base pretrain (would add ~3e24 if counting Qwen2-72B's 7T tokens, but that is already an Epoch entry).",
+    "confidence": 0.35,
+    "source_urls": ["https://arxiv.org/abs/2409.12191", "https://arxiv.org/html/2409.12191v1"],
+    "notes": "Qwen2-VL flagship VLM, Sep 2024. NOT in Epoch inventory (Epoch has Qwen2-72B text base, Qwen-VL, Qwen-VL-Max but not Qwen2-VL). Compute counts the VL adaptation stage; flag in any rollup whether to add the text-base FLOP."
+  },
+  {
+    "model": "Qwen2.5-VL-72B",
+    "organization": "Alibaba",
+    "publication_date": "2025-02-20",
+    "parameters": 72e9,
+    "training_compute_flop": 8.0e24,
+    "compute_basis": "Our estimate. Qwen2.5-VL technical report (arXiv:2502.13923) builds on the Qwen2.5-72B base (18T text tokens) plus a from-scratch dynamic-resolution ViT and multimodal pretraining. Full run dominated by the text base: 6 x 72e9 x 18e12 = 7.8e24; VL pretraining adds ~few x 1e23. Rounded to ~8e24 for the whole model. If only the VL adaptation stage is wanted (text base counted under Qwen2.5-72B, which is in Epoch), use ~7e23.",
+    "confidence": 0.4,
+    "source_urls": ["https://arxiv.org/abs/2502.13923", "https://arxiv.org/pdf/2502.13923"],
+    "notes": "Qwen2.5-VL flagship VLM, Feb 2025. NOT in Epoch inventory. Estimate is total-run including the 18T-token text base; flag the base-vs-adaptation framing."
+  },
+  {
+    "model": "QvQ-72B-Preview",
+    "organization": "Alibaba",
+    "publication_date": "2024-12-24",
+    "parameters": 72e9,
+    "training_compute_flop": null,
+    "compute_basis": "No defensible standalone figure. QvQ-72B-Preview is a visual-reasoning fine-tune built on Qwen2-VL-72B (Simon Willison; Maginative). The incremental RL/reasoning post-training compute is unpublished and small relative to the base; the base VL pretrain is captured under Qwen2-VL-72B. training_compute_flop=null to avoid double-counting the base.",
+    "confidence": 0.2,
+    "source_urls": ["https://simonwillison.net/2024/Dec/24/qvq/", "https://www.maginative.com/article/alibaba-unveils-qvq-an-open-weight-ai-model-focused-on-visual-reasoning-2/"],
+    "notes": "First open visual-reasoning model, Dec 2024. NOT in Epoch inventory. A post-trained variant of Qwen2-VL-72B; standalone compute not separable."
+  },
+  {
+    "model": "Qwen2.5-Omni-7B",
+    "organization": "Alibaba",
+    "publication_date": "2025-03-26",
+    "parameters": 7e9,
+    "training_compute_flop": 8.1e23,
+    "compute_basis": "Our estimate. Alibaba states the model trained on 18T text tokens + 800B image/video + 300B audio + 100B video-with-audio = ~19.2T total tokens over a 7B dense model: 6 x 7e9 x 19.2e12 = 8.06e23. Token totals are official (Alibaba Cloud blog); the 7B is dense.",
+    "confidence": 0.55,
+    "source_urls": ["https://www.alibabacloud.com/blog/alibaba-cloud-releases-qwen2-5-omni-7b-an-end-to-end-multimodal-ai-model_602095", "https://github.com/QwenLM/Qwen2.5-Omni"],
+    "notes": "End-to-end omni-modal (text/image/audio/video) 7B, Mar 2025. NOT in Epoch (Epoch has Qwen3-Omni-30B-A3B and Qwen3.5-Omni variants but not Qwen2.5-Omni-7B). Token totals official, so confidence moderate."
+  },
+  {
+    "model": "Qwen3-VL-235B-A22B",
+    "organization": "Alibaba",
+    "publication_date": "2025-09-23",
+    "parameters": 235e9,
+    "training_compute_flop": 4.8e24,
+    "compute_basis": "Our estimate. Qwen3-VL technical report (arXiv:2511.21631): flagship is 235B total / 22B active MoE built on the Qwen3 backbone. Assuming the VL training mirrors Qwen3-235B-A22B's ~36T tokens at 22B active: 6 x 22e9 x 36e12 = 4.75e24. Token count assumed equal to the Qwen3 text base (report does not separately state VL token volume); active-param count is official.",
+    "confidence": 0.35,
+    "source_urls": ["https://arxiv.org/abs/2511.21631", "https://arxiv.org/pdf/2511.21631"],
+    "notes": "Qwen3-VL flagship VLM, Sep 2025. NOT in Epoch (Epoch lists Qwen3-235B-A22B text variants but not Qwen3-VL). Estimate assumes shared 36T-token budget with the Qwen3 text base; flag overlap if both summed."
+  },
+  {
+    "model": "Wan2.1-T2V-14B",
+    "organization": "Alibaba",
+    "publication_date": "2025-02-25",
+    "parameters": 14e9,
+    "training_compute_flop": 1.5e23,
+    "compute_basis": "Our rough estimate; video diffusion does not follow the 6ND LLM rule. Wan2.1 is a 14B-param diffusion transformer (Alibaba Wan blog/HF). For diffusion models, a common order-of-magnitude is C ~ 6 x N x (tokens-equivalent of training samples). With no published step count, we anchor to peer open video diffusion (e.g. ~1e23-3e23 FLOP scale for ~10B-param video DiTs trained on hundreds of millions of clips) and take ~1.5e23. Highly uncertain; not an official figure.",
+    "confidence": 0.2,
+    "source_urls": ["https://github.com/Wan-Video/Wan2.2", "https://huggingface.co/Wan-AI/Wan2.2-T2V-A14B"],
+    "notes": "Open text-to-video diffusion, 14B, Feb 2025. NOT in Epoch. Compute is a back-of-envelope (diffusion, no published training-step count) — low confidence, flag as such."
+  },
+  {
+    "model": "Wan2.2-T2V-A14B",
+    "organization": "Alibaba",
+    "publication_date": "2025-07-28",
+    "parameters": 27e9,
+    "training_compute_flop": 3.0e23,
+    "compute_basis": "Our rough estimate. Wan2.2 adds a two-expert MoE diffusion design: 27B total / 14B active per denoising step, trained on 65.6% more images and 83.2% more videos than Wan2.1 (Alibaba Wan2.2 blog/HF). Scaling Wan2.1's ~1.5e23 by ~1.8x for the larger dataset and roughly comparable active-param compute per step gives ~3e23. Diffusion, no published step count; highly uncertain.",
+    "confidence": 0.2,
+    "source_urls": ["https://huggingface.co/Wan-AI/Wan2.2-T2V-A14B", "https://github.com/Wan-Video/Wan2.2"],
+    "notes": "MoE video diffusion (27B total / 14B active), Jul 2025. NOT in Epoch. Back-of-envelope, low confidence."
+  },
+  {
+    "model": "Hunyuan-Large",
+    "organization": "Tencent",
+    "publication_date": "2024-11-05",
+    "parameters": 389e9,
+    "training_compute_flop": 2.18e24,
+    "compute_basis": "Our estimate (Epoch lists Hunyuan-Large but may lack a compute figure). MoE 389B total / 52B active, trained on 7T tokens (technical report arXiv:2411.02265): per SCHEMA's MoE rule, 6 x 52e9 x 7e12 = 2.18e24 (active-param convention). Dense-total upper bound (389B x 7T x 6 = 1.63e25) is noted only as a bracket; we report the active-param figure as the headline. Both params and token count first-party.",
+    "confidence": 0.5,
+    "source_urls": ["https://arxiv.org/html/2411.02265v3", "https://arxiv.org/pdf/2411.02265"],
+    "notes": "IN Epoch inventory by name — adding a compute estimate Epoch may lack. Headline 2.18e24 uses the active-param MoE convention (SCHEMA); dense-total upper bound is 1.63e25. Params + tokens both first-party."
+  },
+  {
+    "model": "Hunyuan-TurboS",
+    "organization": "Tencent",
+    "publication_date": "2025-03-10",
+    "parameters": 560e9,
+    "training_compute_flop": 5.4e24,
+    "compute_basis": "Our estimate (Epoch lists Hunyuan-TurboS but may lack compute). Hybrid Mamba-Transformer MoE: 560B total / 56B active, pre-trained on 16T tokens (technical report arXiv:2505.15431): 6 x 56e9 x 16e12 = 5.38e24 on the active-param MoE convention. Both params and token count first-party.",
+    "confidence": 0.5,
+    "source_urls": ["https://arxiv.org/abs/2505.15431", "https://github.com/Tencent-Hunyuan/Hunyuan-TurboS"],
+    "notes": "IN Epoch inventory by name — adding a compute estimate Epoch may lack. First ultra-large hybrid Transformer-Mamba MoE. Mamba layers have linear (not quadratic) complexity, so 6ND slightly overcounts attention FLOP, but pretraining is dominated by FFN/MoE, so the estimate holds."
+  },
+  {
+    "model": "Hunyuan-T1",
+    "organization": "Tencent",
+    "publication_date": "2025-03-21",
+    "parameters": 560e9,
+    "training_compute_flop": null,
+    "compute_basis": "No defensible standalone pretraining figure. Hunyuan-T1 is the reasoning model built ON Hunyuan-TurboS (Tencent T1 page) via heavy RL post-training (Tencent states 96.7% of post-training compute went to RL). The base pretrain compute is captured under Hunyuan-TurboS (~5.4e24); the incremental RL compute is unpublished. training_compute_flop=null to avoid double-counting the TurboS base.",
+    "confidence": 0.2,
+    "source_urls": ["https://tencent.github.io/llm.hunyuan.T1/README_EN.html", "https://the-decoder.com/tencent-develops-reasoning-model-that-matches-openais-o1-capabilities/"],
+    "notes": "Reasoning model on the TurboS base, Mar 2025. NOT in Epoch inventory. Standalone compute not separable from TurboS; RL post-training volume unpublished."
+  },
+  {
+    "model": "Hunyuan-A13B",
+    "organization": "Tencent",
+    "publication_date": "2025-06-27",
+    "parameters": 80e9,
+    "training_compute_flop": 1.6e24,
+    "compute_basis": "Our estimate. Fine-grained MoE 80B total / 13B active (GitHub Tencent-Hunyuan/Hunyuan-A13B, MarkTechPost). Token count not officially stated; Tencent's open Hunyuan series typically pretrains on ~7T+ tokens, and the model card implies ~20T-class pretraining. Taking ~20T tokens: 6 x 13e9 x 20e12 = 1.56e24. Token count is the dominant unknown (assumed, not first-party).",
+    "confidence": 0.3,
+    "source_urls": ["https://github.com/Tencent-Hunyuan/Hunyuan-A13B", "https://www.marktechpost.com/2025/06/28/tencent-open-sources-hunyuan-a13b-a-13b-active-parameter-moe-model-with-dual-mode-reasoning-and-256k-context/"],
+    "notes": "Open fine-grained MoE (80B/13B), Jun 2025. NOT in Epoch inventory. Token count assumed (~20T); flag as estimate."
+  },
+  {
+    "model": "HunyuanVideo",
+    "organization": "Tencent",
+    "publication_date": "2024-12-03",
+    "parameters": 13e9,
+    "training_compute_flop": 2.0e23,
+    "compute_basis": "Our rough estimate; video diffusion, not 6ND LLM scaling. 13B-param diffusion transformer (technical report arXiv:2412.03603), the largest open video model at release. With no published training-step/sample count, anchored to the same ~10B-param video-DiT order of magnitude as Wan2.1 (~1-3e23 FLOP) and set slightly higher at ~2e23 given its frontier positioning. Highly uncertain.",
+    "confidence": 0.2,
+    "source_urls": ["https://arxiv.org/html/2412.03603v1", "https://github.com/Tencent-Hunyuan/HunyuanVideo"],
+    "notes": "Largest open video model at release (13B), Dec 2024. NOT in Epoch inventory. Diffusion back-of-envelope, low confidence."
+  },
+  {
+    "model": "Doubao-1.5-pro",
+    "organization": "ByteDance",
+    "publication_date": "2025-01-22",
+    "parameters": null,
+    "training_compute_flop": null,
+    "compute_basis": "Already in Epoch inventory; no new defensible figure to add. Reported as a sparse MoE with ~20B activated params (secondary reporting), but ByteDance has not published total params or pretraining token count, so a credible standalone FLOP cannot be derived. Deferring to Epoch's entry.",
+    "confidence": 0.2,
+    "source_urls": ["https://seed.bytedance.com/en/doubao_1_5_pro"],
+    "notes": "ALREADY in Epoch inventory (Doubao-1.5-pro). Listed here only to document that no better compute figure is available (token count unpublished). Do not duplicate."
+  },
+  {
+    "model": "Seed-Thinking-v1.5",
+    "organization": "ByteDance",
+    "publication_date": "2025-04-17",
+    "parameters": 200e9,
+    "training_compute_flop": 1.4e24,
+    "compute_basis": "Our estimate. MoE 200B total / 20B active (ByteDance Seed blog). Token count not officially stated; ByteDance Seed base models are ~10-20T-token class. Taking ~12T tokens for the pretrained base under the reasoning model: 6 x 20e9 x 12e12 = 1.44e24. NOTE this is the base-pretrain estimate; the RL reasoning post-training adds an unpublished increment. Token count assumed, not first-party.",
+    "confidence": 0.3,
+    "source_urls": ["https://seed.bytedance.com/en/blog/bytedance-s-latest-thinking-model-seed-thinking-v1-5-technical-details-disclosed"],
+    "notes": "ByteDance reasoning MoE (200B/20B), Apr 2025. NOT in Epoch inventory (Epoch has Seed-1.6-Thinking and Seed1.5-VL, not Seed-Thinking-v1.5). Token count assumed; flag estimate."
+  },
+  {
+    "model": "UI-TARS-72B",
+    "organization": "ByteDance",
+    "publication_date": "2025-01-21",
+    "parameters": 72e9,
+    "training_compute_flop": 3.2e22,
+    "compute_basis": "Our estimate of the incremental GUI-agent training only. UI-TARS-72B is built by continually training Qwen2-VL-72B on ~50B tokens of GUI-interaction data (arXiv:2501.12326; HF model card): 6 x 72e9 x 50e9 = 2.16e22, rounded up to ~3.2e22 to include DPO. The Qwen2-VL-72B base pretrain is counted separately. Token count and base both first-party.",
+    "confidence": 0.4,
+    "source_urls": ["https://arxiv.org/html/2501.12326v1", "https://huggingface.co/ByteDance-Seed/UI-TARS-72B-DPO"],
+    "notes": "GUI-agent model continual-trained on Qwen2-VL-72B, Jan 2025. NOT in Epoch inventory. Compute counts only the ~50B-token continual-training stage (base captured under Qwen2-VL-72B)."
+  },
+  {
+    "model": "Seedream 3.0",
+    "organization": "ByteDance",
+    "publication_date": "2025-04-15",
+    "parameters": null,
+    "training_compute_flop": null,
+    "compute_basis": "No defensible figure. Seedream 3.0 is a bilingual text-to-image diffusion foundation model (technical report arXiv:2504.11346); ByteDance does not publish parameter count or training-step volume, and image-diffusion compute does not follow 6ND. No credible standalone FLOP can be derived.",
+    "confidence": 0.15,
+    "source_urls": ["https://arxiv.org/html/2504.11346v1", "https://seed.bytedance.com/en/blog/seedream-3-0-text-to-image-model-technical-report-released"],
+    "notes": "Text-to-image diffusion, Apr 2025. NOT in Epoch inventory. Params and step count unpublished; compute=null (genuinely indefensible)."
+  },
+  {
+    "model": "Seedance 1.0",
+    "organization": "ByteDance",
+    "publication_date": "2025-06-11",
+    "parameters": null,
+    "training_compute_flop": null,
+    "compute_basis": "No defensible figure. Seedance 1.0 is a 1080p text/image-to-video diffusion foundation model (ByteDance Seed tech report); parameter count and training-step volume unpublished, video-diffusion compute does not follow 6ND. Epoch lists 'Seedance 2.0' separately; this is the 1.0 predecessor. No credible standalone FLOP.",
+    "confidence": 0.15,
+    "source_urls": ["https://seed.bytedance.com/en/blog/tech-report-of-seedance-1-0-is-now-publicly-available"],
+    "notes": "Video diffusion foundation model, Jun 2025. NOT in Epoch (Epoch has Seedance 2.0 only). Params/steps unpublished; compute=null."
+  }
+]

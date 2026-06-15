@@ -1,0 +1,222 @@
+[
+  {
+    "model": "DeepSeek-Coder 33B",
+    "organization": "DeepSeek",
+    "publication_date": "2023-11-02",
+    "parameters": 33e9,
+    "training_compute_flop": 4.0e23,
+    "compute_basis": "Estimated (6ND, dense): paper states the series trained from scratch on 2T tokens; 6 x 33e9 x 2.0e12 = 4.0e23. Tokens are official; FLOP is our 6ND estimate.",
+    "confidence": 0.7,
+    "source_urls": ["https://arxiv.org/abs/2401.14196", "https://github.com/deepseek-ai/DeepSeek-Coder"],
+    "notes": "DeepSeek's first public model (GitHub release 2023-11-02; arXiv tech report 2024-01-25). Dense 33B, 2T tokens (87% code / 13% NL). Not in Epoch inventory."
+  },
+  {
+    "model": "DeepSeek LLM 67B",
+    "organization": "DeepSeek",
+    "publication_date": "2023-11-29",
+    "parameters": 67e9,
+    "training_compute_flop": 8.0e23,
+    "compute_basis": "Estimated (6ND, dense): paper reports 67B dense params trained on 2.0T tokens; 6 x 67e9 x 2.0e12 = 8.04e23. Matches our internal DeepSeek pre-training trajectory anchor.",
+    "confidence": 0.8,
+    "source_urls": ["https://arxiv.org/abs/2401.02954", "https://github.com/deepseek-ai/DeepSeek-LLM"],
+    "notes": "DeepSeek's first general-purpose LLM (dense 7B/67B). Tokens official; 6ND our estimate. Corroborated by internal trajectory script (make_training_compute_fig.py). Not in Epoch inventory."
+  },
+  {
+    "model": "DeepSeekMath 7B",
+    "organization": "DeepSeek",
+    "publication_date": "2024-02-05",
+    "parameters": 7e9,
+    "training_compute_flop": 2.1e22,
+    "compute_basis": "Estimated (6ND, continued pre-train only): initialized from DeepSeek-Coder-v1.5 7B, continually trained on 500B tokens; 6 x 7e9 x 500e9 = 2.1e22. Counts only the math continued-pretrain stage, not the inherited base.",
+    "confidence": 0.55,
+    "source_urls": ["https://arxiv.org/abs/2402.03300"],
+    "notes": "GRPO paper model. 500B-token continued pre-train (120B math + code/web/arXiv mix). FLOP excludes the base-model compute it was initialized from. Not in Epoch inventory."
+  },
+  {
+    "model": "DeepSeek-V2-Lite",
+    "organization": "DeepSeek",
+    "publication_date": "2024-05-16",
+    "parameters": 15.7e9,
+    "training_compute_flop": 8.2e22,
+    "compute_basis": "Estimated (6ND, MoE active params): 15.7B total / 2.4B activated, trained from scratch on 5.7T tokens (HF model card); 6 x 2.4e9 x 5.7e12 = 8.2e22.",
+    "confidence": 0.65,
+    "source_urls": ["https://huggingface.co/deepseek-ai/DeepSeek-V2-Lite", "https://arxiv.org/abs/2405.04434"],
+    "notes": "Small MoE companion to DeepSeek-V2 (2 shared + 64 routed experts, 6 active). Token count from HF card; FLOP our 6ND-active estimate. Not in Epoch inventory."
+  },
+  {
+    "model": "DeepSeek-VL2",
+    "organization": "DeepSeek",
+    "publication_date": "2024-12-13",
+    "parameters": 27e9,
+    "training_compute_flop": 2.2e22,
+    "compute_basis": "Estimated (6ND, MoE active + assumed VL token budget): 27B total / 4.5B activated. VL training-token count not disclosed; assume ~0.8T vision-language tokens (typical for a DeepSeekMoE-based VLM fine-tune); 6 x 4.5e9 x 0.8e12 = 2.2e22.",
+    "confidence": 0.25,
+    "source_urls": ["https://arxiv.org/abs/2412.10302", "https://github.com/deepseek-ai/DeepSeek-VL2"],
+    "notes": "MoE vision-language model on DeepSeekMoE + MoonViT-style encoder. Token budget is OUR assumption (not disclosed) -> low confidence. Not in Epoch inventory."
+  },
+  {
+    "model": "DeepSeek-V3.1",
+    "organization": "DeepSeek",
+    "publication_date": "2025-08-21",
+    "parameters": 671e9,
+    "training_compute_flop": 3.7e24,
+    "compute_basis": "Estimated (6ND, MoE active, base + extension): V3 base (37B active x 14.8T = 3.29e24) plus DeepSeek's disclosed ~840B-token long-context/continued-pretrain extension (6 x 37e9 x 0.84e12 = 1.9e23); total ~3.5e24, rounded to 3.7e24 to include the V3.1 hybrid-reasoning extension.",
+    "confidence": 0.4,
+    "source_urls": ["https://api-docs.deepseek.com/news/news250821", "https://huggingface.co/deepseek-ai/DeepSeek-V3.1"],
+    "notes": "Hybrid (think/non-think) update on the V3 base; 671B total / 37B active. Most compute is inherited V3 pre-training. Epoch lists 'DeepSeek-V3 (Mar 2025)' but not V3.1 specifically."
+  },
+  {
+    "model": "DeepSeek-V3.2-Exp",
+    "organization": "DeepSeek",
+    "publication_date": "2025-09-29",
+    "parameters": 671e9,
+    "training_compute_flop": 3.8e24,
+    "compute_basis": "Estimated: continued-pretrain/sparse-attention experiment on the V3.1 base; adds a modest continued-pretrain budget on top of V3.1 (~3.7e24). Marginal new compute small; total dominated by inherited V3 pre-training.",
+    "confidence": 0.35,
+    "source_urls": ["https://api-docs.deepseek.com/news/news250929", "https://arxiv.org/abs/2412.19437"],
+    "notes": "DeepSeek Sparse Attention experimental release (V3.2 official 2025-12-01). 671B/37B-active MoE. FLOP near-identical to V3.1; new compute is incremental. Not separately in Epoch inventory."
+  },
+  {
+    "model": "Moonlight-16B-A3B",
+    "organization": "Moonshot AI",
+    "publication_date": "2025-02-22",
+    "parameters": 15.29e9,
+    "training_compute_flop": 9.6e22,
+    "compute_basis": "Estimated (6ND, MoE active): 16B total / 2.8B activated, trained on 5.7T tokens with the Muon optimizer (HF card + Muon scaling paper); 6 x 2.8e9 x 5.7e12 = 9.6e22.",
+    "confidence": 0.65,
+    "source_urls": ["https://huggingface.co/moonshotai/Moonlight-16B-A3B", "https://arxiv.org/abs/2502.16982"],
+    "notes": "Moonshot's open MoE base used as the LLM backbone for Kimi-VL. Tokens official; FLOP our 6ND-active estimate. Not in Epoch inventory."
+  },
+  {
+    "model": "Kimi-VL-A3B",
+    "organization": "Moonshot AI",
+    "publication_date": "2025-04-10",
+    "parameters": 16e9,
+    "training_compute_flop": 1.2e23,
+    "compute_basis": "Estimated (6ND, MoE active, base + VL): Moonlight 16B/2.8B-active base (5.7T tokens -> 9.6e22) plus a vision-language joint-training stage. Report describes multi-stage VL pre-training; assume ~1.4T additional multimodal tokens at 2.8B active (6 x 2.8e9 x 1.4e12 = 2.4e22). Total ~1.2e23.",
+    "confidence": 0.3,
+    "source_urls": ["https://arxiv.org/abs/2504.07491", "https://huggingface.co/moonshotai/Kimi-VL-A3B-Instruct"],
+    "notes": "2.8B-active MoE LLM (Moonlight) + 400M MoonViT encoder. VL-stage token budget is OUR assumption -> low confidence. Not in Epoch inventory (Epoch has Kimi k1.5 / K2, not Kimi-VL)."
+  },
+  {
+    "model": "GLM-4-9B",
+    "organization": "Zhipu AI",
+    "publication_date": "2024-06-05",
+    "parameters": 9e9,
+    "training_compute_flop": 5.4e23,
+    "compute_basis": "Estimated (6ND, dense): ChatGLM/GLM-4 tech report states GLM-4-9B pre-trained on ~10T tokens; 6 x 9e9 x 10e12 = 5.4e23.",
+    "confidence": 0.7,
+    "source_urls": ["https://arxiv.org/abs/2406.12793", "https://huggingface.co/THUDM/glm-4-9b"],
+    "notes": "Open 9B from the GLM-4 family (released alongside the GLM-4 API models). 10T tokens official; FLOP our 6ND estimate. Epoch lists GLM-4 (0520) and GLM-4-Plus but not the open 9B."
+  },
+  {
+    "model": "GLM-4-32B-0414",
+    "organization": "Zhipu AI",
+    "publication_date": "2025-04-15",
+    "parameters": 32e9,
+    "training_compute_flop": 2.9e24,
+    "compute_basis": "Estimated (6ND, dense): GLM-4-0414 release reports ~15T-token pre-training corpus for the 32B base; 6 x 32e9 x 15e12 = 2.88e24.",
+    "confidence": 0.5,
+    "source_urls": ["https://www.prnewswire.com/news-releases/zai-unveils-new-glm-open-source-models-with-world-class-reasoning-performance-302429306.html", "https://huggingface.co/THUDM/GLM-4-32B-0414"],
+    "notes": "Base for the GLM-Z1 reasoning family. 15T-token figure from the 0414 release notes (not a peer-reviewed report) -> moderate confidence. GLM-Z1-32B reasoning variant is a post-train on this base. Not in Epoch inventory."
+  },
+  {
+    "model": "CogVideoX-5B",
+    "organization": "Zhipu AI",
+    "publication_date": "2024-08-27",
+    "parameters": 5e9,
+    "training_compute_flop": 1.0e22,
+    "compute_basis": "Estimated (diffusion-transformer, NOT 6ND): no token count applies. Order-of-magnitude from comparable 5B video DiTs trained ~1e5 GPU-hours on H100 (~1e15 FLOP/s effective, ~30% MFU): ~1e5 x 3600 x 1e15 x 0.3 ~= 1e23 upper bound; we use 1e22 as a conservative central given the modest 720x480 resolution and limited compute reported.",
+    "confidence": 0.2,
+    "source_urls": ["https://arxiv.org/abs/2408.06072", "https://github.com/zai-org/CogVideo"],
+    "notes": "Text-to-video diffusion model (3D-VAE + Expert Transformer). FLOP is a very rough order-of-magnitude (no GPU-hours or token count disclosed) -> low confidence. Not in Epoch inventory."
+  },
+  {
+    "model": "InternLM2-20B",
+    "organization": "Shanghai AI Laboratory",
+    "publication_date": "2024-01-17",
+    "parameters": 20e9,
+    "training_compute_flop": 3.1e23,
+    "compute_basis": "Estimated (6ND, dense): tech report states the 1.8B/7B/20B models pre-trained on 2.0-2.6T tokens; using 2.6T for the 20B: 6 x 20e9 x 2.6e12 = 3.12e23.",
+    "confidence": 0.6,
+    "source_urls": ["https://arxiv.org/abs/2403.17297", "https://huggingface.co/internlm/internlm2-20b"],
+    "notes": "Shanghai AI Lab / SenseTime flagship open dense model. Token range official (2.0-2.6T); FLOP our 6ND estimate using upper bound. Epoch lists 'InternLM' (v1) only."
+  },
+  {
+    "model": "InternLM2-7B",
+    "organization": "Shanghai AI Laboratory",
+    "publication_date": "2024-01-17",
+    "parameters": 7e9,
+    "training_compute_flop": 1.1e23,
+    "compute_basis": "Estimated (6ND, dense): same report, ~2.6T tokens; 6 x 7e9 x 2.6e12 = 1.09e23.",
+    "confidence": 0.6,
+    "source_urls": ["https://arxiv.org/abs/2403.17297", "https://huggingface.co/internlm/internlm2-7b"],
+    "notes": "7B sibling of InternLM2-20B. Token count official; FLOP our estimate. Not in Epoch inventory."
+  },
+  {
+    "model": "InternVL 2.5 78B",
+    "organization": "Shanghai AI Laboratory (OpenGVLab)",
+    "publication_date": "2024-12-05",
+    "parameters": 78e9,
+    "training_compute_flop": null,
+    "compute_basis": "No defensible training-compute estimate: InternVL2.5-78B composes a 6B InternViT vision encoder with a ~72B Qwen2.5 LLM backbone (not trained from scratch by OpenGVLab); the multimodal alignment/SFT token budget is undisclosed and the LLM compute belongs to Alibaba's Qwen2.5-72B. Left null to avoid double-counting.",
+    "confidence": 0.0,
+    "source_urls": ["https://internvl.github.io/blog/2024-12-05-InternVL-2.5/", "https://github.com/OpenGVLab/InternVL"],
+    "notes": "First open MLLM >70% on MMMU. Compute null on purpose (backbone is Qwen2.5-72B; alignment tokens undisclosed). Included for inventory completeness. Not in Epoch inventory."
+  },
+  {
+    "model": "Yi-1.5 34B",
+    "organization": "01.AI",
+    "publication_date": "2024-05-13",
+    "parameters": 34e9,
+    "training_compute_flop": 1.0e23,
+    "compute_basis": "Estimated (6ND, continued pre-train only): 01.AI states Yi-1.5 is continually pre-trained on the Yi base with a 500B-token high-quality corpus; 6 x 34e9 x 500e9 = 1.02e23. Counts only the 1.5 continued-pretrain stage (the ~3.1T-token Yi base is the separately-listed Yi-34B).",
+    "confidence": 0.5,
+    "source_urls": ["https://www.marktechpost.com/2024/05/18/01-ai-introduces-yi-1-5-34b-model-an-upgraded-version-of-yi-with-a-high-quality-corpus-of-500b-tokens-and-fine-tuned-on-3m-diverse-fine-tuning-samples/", "https://huggingface.co/01-ai/Yi-1.5-34B"],
+    "notes": "Conflicting figures exist (500B continued vs 3.1T from-scratch); we treat it as a 500B continued-pretrain on the existing Yi-34B base (Epoch already lists Yi-34B). FLOP excludes inherited base. Moderate confidence."
+  },
+  {
+    "model": "MiniCPM-2.4B",
+    "organization": "OpenBMB / ModelBest",
+    "publication_date": "2024-02-01",
+    "parameters": 2.4e9,
+    "training_compute_flop": 1.5e22,
+    "compute_basis": "Estimated (6ND, dense): MiniCPM tech report reports ~1.06T tokens of stable+decay pre-training for the 2.4B model; 6 x 2.4e9 x 1.06e12 = 1.53e22.",
+    "confidence": 0.6,
+    "source_urls": ["https://arxiv.org/abs/2404.06395", "https://github.com/OpenBMB/MiniCPM"],
+    "notes": "Tsinghua/OpenBMB small-LM with WSD scheduler. Tokens official; FLOP our 6ND estimate. Release Feb 2024 (day uncertain -> YYYY-MM-01). Not in Epoch inventory."
+  },
+  {
+    "model": "Xiaomi MiMo-7B",
+    "organization": "Xiaomi",
+    "publication_date": "2025-04-30",
+    "parameters": 7e9,
+    "training_compute_flop": 1.05e24,
+    "compute_basis": "Estimated (6ND, dense): MiMo-7B-Base trained from scratch on 25T tokens (tech report); 6 x 7e9 x 25e12 = 1.05e24.",
+    "confidence": 0.7,
+    "source_urls": ["https://arxiv.org/abs/2505.07608", "https://github.com/XiaomiMiMo/MiMo"],
+    "notes": "Xiaomi's first open reasoning LLM; unusually high 25T-token budget for a 7B dense model. Tokens official; FLOP our 6ND estimate (MTP objective ignored for the estimate). Epoch lists later MiMo-V2 variants, not MiMo-7B."
+  },
+  {
+    "model": "Ling-Plus (Bailing) 290B-A28.8B",
+    "organization": "Ant Group",
+    "publication_date": "2025-03-11",
+    "parameters": 290e9,
+    "training_compute_flop": 1.6e24,
+    "compute_basis": "Estimated (6ND, MoE active): 290B total / 28.8B activated, pre-trained on 9T tokens ('Every FLOP Counts' report); 6 x 28.8e9 x 9e12 = 1.56e24.",
+    "confidence": 0.6,
+    "source_urls": ["https://arxiv.org/abs/2503.05139", "https://huggingface.co/inclusionAI/Ling-plus"],
+    "notes": "Ant's large MoE trained partly on domestic (non-NVIDIA) GPUs. Params and 9T tokens official; FLOP our 6ND-active estimate. Not in Epoch inventory (Epoch lists Ling-1T)."
+  },
+  {
+    "model": "Ling-Lite (Bailing) 16.8B-A2.75B",
+    "organization": "Ant Group",
+    "publication_date": "2025-03-11",
+    "parameters": 16.8e9,
+    "training_compute_flop": 1.5e23,
+    "compute_basis": "Estimated (6ND, MoE active): 16.8B total / 2.75B activated; the report co-trains Lite and Plus on the same corpus, so assume ~9T tokens; 6 x 2.75e9 x 9e12 = 1.49e23.",
+    "confidence": 0.45,
+    "source_urls": ["https://arxiv.org/abs/2503.05139", "https://huggingface.co/inclusionAI/Ling-lite"],
+    "notes": "Smaller Bailing MoE. Active params official; token count assumed equal to Ling-Plus (9T) -> moderate confidence. Not in Epoch inventory."
+  }
+]
