@@ -53,6 +53,7 @@
       <select id="colorMode">
         <option value="org">Developer</option>
         <option value="source">Data source</option>
+        <option value="eci">ECI (capability)</option>
       </select>
     </label>
     <label><input type="checkbox" id="showFrontier" checked /> Frontier line (running max)</label>
@@ -95,6 +96,10 @@ function hoverText(m) {
   ];
   const pp = fmtParams(m.params);
   if (pp) lines.push(`Parameters: ${pp}`);
+  if (m.eci != null) {
+    const ci = m.eci_ci ? ` (90% CI ${m.eci_ci[0]}–${m.eci_ci[1]})` : "";
+    lines.push(`ECI: ${m.eci}${ci}`);
+  }
   if (m.confidence != null && m.confidence !== "") lines.push(`Confidence: ${m.confidence}`);
   lines.push(`Source: ${m.source}`);
   if (m.compute_basis) {
@@ -119,34 +124,65 @@ function draw() {
   const showFrontier = document.getElementById("showFrontier").checked;
   const models = DATA.models;
 
-  // group key
-  const keyOf = (m) => colorMode === "source" ? m.source : m.org;
-  const groups = {};
-  for (const m of models) (groups[keyOf(m)] ||= []).push(m);
-  // order groups by model count desc so the legend leads with the biggest developers
-  const keys = Object.keys(groups).sort((a, b) => groups[b].length - groups[a].length);
+  const symOf = (m) => m.source === "Team research" ? "diamond" : "circle";
+  const sizeOf = (m) => m.source === "Team research" ? 11 : 9;
+  let traces;
 
-  const traces = keys.map((k, i) => {
-    const g = groups[k];
-    return {
-      x: g.map((m) => m.date),
-      y: g.map((m) => m.compute),
-      text: g.map(hoverText),
-      customdata: g.map((m) => m.link || ""),
-      hoverinfo: "text",
-      mode: "markers",
-      type: "scatter",
-      name: `${k} (${g.length})`,
-      marker: {
-        size: g.map((m) => m.source === "Team research" ? 11 : 9),
-        color: PALETTE[i % PALETTE.length],
-        line: { width: g.map((m) => m.source === "Team research" ? 1.6 : 0.5),
-                color: g.map((m) => m.source === "Team research" ? "#fff" : "#0008") },
-        opacity: 0.92,
-        symbol: g.map((m) => m.source === "Team research" ? "diamond" : "circle"),
+  if (colorMode === "eci") {
+    // continuous colorscale by capability; models lacking ECI shown in gray
+    const withEci = models.filter((m) => m.eci != null);
+    const noEci = models.filter((m) => m.eci == null);
+    traces = [
+      {
+        x: noEci.map((m) => m.date), y: noEci.map((m) => m.compute),
+        text: noEci.map(hoverText), customdata: noEci.map((m) => m.link || ""),
+        hoverinfo: "text", mode: "markers", type: "scatter", name: `No ECI (${noEci.length})`,
+        marker: { size: noEci.map(sizeOf), color: "#5b6270", opacity: 0.6,
+          symbol: noEci.map(symOf), line: { width: 0.5, color: "#0008" } },
       },
-    };
-  });
+      {
+        x: withEci.map((m) => m.date), y: withEci.map((m) => m.compute),
+        text: withEci.map(hoverText), customdata: withEci.map((m) => m.link || ""),
+        hoverinfo: "text", mode: "markers", type: "scatter", name: `ECI (${withEci.length})`,
+        marker: {
+          size: withEci.map((m) => sizeOf(m) + 1), symbol: withEci.map(symOf),
+          color: withEci.map((m) => m.eci), colorscale: "Viridis",
+          line: { width: withEci.map((m) => m.source === "Team research" ? 1.4 : 0.5),
+                  color: withEci.map((m) => m.source === "Team research" ? "#fff" : "#0008") },
+          opacity: 0.95, showscale: true,
+          colorbar: { title: { text: "ECI", side: "right" }, thickness: 12, len: 0.6,
+            outlinewidth: 0, tickfont: { size: 10 } },
+        },
+      },
+    ];
+  } else {
+    const keyOf = (m) => colorMode === "source" ? m.source : m.org;
+    const groups = {};
+    for (const m of models) (groups[keyOf(m)] ||= []).push(m);
+    // order groups by model count desc so the legend leads with the biggest developers
+    const keys = Object.keys(groups).sort((a, b) => groups[b].length - groups[a].length);
+    traces = keys.map((k, i) => {
+      const g = groups[k];
+      return {
+        x: g.map((m) => m.date),
+        y: g.map((m) => m.compute),
+        text: g.map(hoverText),
+        customdata: g.map((m) => m.link || ""),
+        hoverinfo: "text",
+        mode: "markers",
+        type: "scatter",
+        name: `${k} (${g.length})`,
+        marker: {
+          size: g.map(sizeOf),
+          color: PALETTE[i % PALETTE.length],
+          line: { width: g.map((m) => m.source === "Team research" ? 1.6 : 0.5),
+                  color: g.map((m) => m.source === "Team research" ? "#fff" : "#0008") },
+          opacity: 0.92,
+          symbol: g.map(symOf),
+        },
+      };
+    });
+  }
 
   if (showFrontier) {
     const sorted = [...models].sort((a, b) => a.date < b.date ? -1 : 1);
@@ -199,7 +235,9 @@ fetch("data.json").then((r) => r.json()).then((d) => {
     `<span class="badge">${d.orgs.length} developers</span>`;
   document.getElementById("footer").innerHTML =
     `<b>${d.n_epoch}</b> models from Epoch AI · <b>${d.n_team}</b> added by team research ` +
-    `(shown as white-edged diamonds). Click a point to open its source. ` +
+    `(shown as white-edged diamonds) · <b>${d.n_eci ?? 0}</b> carry an ` +
+    `<a href="https://epoch.ai/data-insights/eci" target="_blank" rel="noopener">Epoch Capabilities Index (ECI)</a> ` +
+    `score (benchmarked models only; shown on hover). Click a point to open its source. ` +
     `Data updated ${d.updated}. Training-compute values are estimates with varying confidence; ` +
     `hover shows the basis for each. Built by Konstantin's Claude.`;
   draw();

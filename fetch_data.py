@@ -16,34 +16,92 @@ import csv
 import glob
 import io
 import json
+import re
 import sys
 import urllib.request
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from pathlib import Path
 
 CSV_URL = "https://epoch.ai/data/notable_ai_models.csv"
+ECI_URL = "https://epoch.ai/data/benchmarked_models.csv"
 ROOT = Path(__file__).parent
 OUT = ROOT / "docs" / "data.json"
 CSV_CACHE = ROOT / "data" / "epoch_notable_ai_models.csv"
+ECI_CACHE = ROOT / "data" / "epoch_benchmarked_models.csv"
 MIN_DATE = "2023-01-01"
 
 
-def fetch_epoch_csv() -> str:
-    """Fetch the Epoch CSV, falling back to the local cache on network failure."""
+def fetch_csv(url: str, cache: Path) -> str:
+    """Fetch a CSV, falling back to the local cache on network failure."""
     try:
-        req = urllib.request.Request(
-            CSV_URL, headers={"User-Agent": "china-training-compute/1.0"}
-        )
+        req = urllib.request.Request(url, headers={"User-Agent": "china-training-compute/1.0"})
         with urllib.request.urlopen(req, timeout=90) as r:
             text = r.read().decode("utf-8")
-        CSV_CACHE.parent.mkdir(parents=True, exist_ok=True)
-        CSV_CACHE.write_text(text)
+        cache.parent.mkdir(parents=True, exist_ok=True)
+        cache.write_text(text)
         return text
     except Exception as e:  # noqa: BLE001
-        if CSV_CACHE.exists():
-            print(f"WARN: fetch failed ({e}); using cached CSV", file=sys.stderr)
-            return CSV_CACHE.read_text()
+        if cache.exists():
+            print(f"WARN: fetch {url} failed ({e}); using cached copy", file=sys.stderr)
+            return cache.read_text()
         raise
+
+
+def fetch_epoch_csv() -> str:
+    return fetch_csv(CSV_URL, CSV_CACHE)
+
+
+def _norm(s: str) -> str:
+    return re.sub(r"[^a-z0-9]", "", (s or "").lower())
+
+
+def _parse_date(s: str):
+    try:
+        return date.fromisoformat((s or "")[:10])
+    except ValueError:
+        return None
+
+
+def eci_index() -> dict:
+    """normalized model name -> list of {date, eci, ci_low, ci_high} from benchmarked_models.csv.
+
+    ECI (Epoch Capabilities Index) is only computed for benchmarked models, so most
+    plotted models will have no entry — that is expected.
+    """
+    rows = list(csv.DictReader(io.StringIO(fetch_csv(ECI_URL, ECI_CACHE))))
+    idx = {}
+    for r in rows:
+        eci = r.get("eci")
+        if not eci:
+            continue
+        try:
+            entry = {
+                "date": (r.get("Version release date") or "")[:10],
+                "eci": float(eci),
+                "ci_low": float(r["eci_ci_low"]) if r.get("eci_ci_low") else None,
+                "ci_high": float(r["eci_ci_high"]) if r.get("eci_ci_high") else None,
+            }
+        except ValueError:
+            continue
+        for key in (r.get("Display name"), r.get("Model")):
+            if key:
+                idx.setdefault(_norm(key), []).append(entry)
+    return idx
+
+
+def attach_eci(model: dict, idx: dict) -> None:
+    """Attach ECI to a model by name match; on multiple matches pick the nearest release date."""
+    cands = idx.get(_norm(model["model"]))
+    if not cands:
+        return
+    md = _parse_date(model["date"])
+    def dist(c):
+        cd = _parse_date(c["date"])
+        return abs((cd - md).days) if (cd and md) else 10**6
+    best = min(cands, key=dist)
+    model["eci"] = round(best["eci"], 1)
+    if best["ci_low"] is not None and best["ci_high"] is not None:
+        model["eci_ci"] = [round(best["ci_low"], 1), round(best["ci_high"], 1)]
 
 
 def is_china(row: dict) -> bool:
@@ -150,12 +208,19 @@ def main() -> None:
         models.append(m)
         added += 1
 
+    # Join Epoch Capabilities Index (ECI) where the model is benchmarked
+    idx = eci_index()
+    for m in models:
+        attach_eci(m, idx)
+    n_eci = sum(1 for m in models if "eci" in m)
+
     models.sort(key=lambda m: m["date"])
     orgs = sorted({m["org"] for m in models})
     payload = {
         "updated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
         "n_epoch": n_epoch,
         "n_team": added,
+        "n_eci": n_eci,
         "orgs": orgs,
         "models": models,
     }
@@ -163,7 +228,8 @@ def main() -> None:
     OUT.write_text(json.dumps(payload, separators=(",", ":")))
     print(
         f"wrote {OUT}: {len(models)} models "
-        f"({n_epoch} from Epoch, {added} from team research), {len(orgs)} orgs"
+        f"({n_epoch} from Epoch, {added} from team research), {len(orgs)} orgs, "
+        f"{n_eci} with ECI"
     )
     if len(models) < 40:
         print("WARNING: suspiciously few models — check upstream schema", file=sys.stderr)
