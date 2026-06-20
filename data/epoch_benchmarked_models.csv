@@ -1,4 +1,5 @@
 Model,id_model_version,Display name,Organization,Country (of organization),Version release date,Model accessibility,Publication date,Training compute (FLOP),Confidence,Description,Unique display name,Model aggregation,model_group,slug,eci,eci_ci_low,eci_ci_high
+Grok 4.3 Beta,grok-4.3_high,,xAI,United States of America,2026-04-17,Hosted access (no API),2026-04-17,,Likely,,,,Grok 4.3 Beta,grok-4-3-beta,,,
 DeepSeek-V4-Pro,deepseek-v4-pro_max,DeepSeek v4 Pro (max),DeepSeek,China,2026-04-24,Open weights (unrestricted),2026-04-24,9.702e+24,Likely,,DeepSeek v4 (max),,DeepSeek-V4-Pro,deepseek-v4-pro,,,
 Qwen3.7-Max,qwen3.7-max,,Alibaba,China,2026-05-19,API access,2026-05-19,,Unverified,,,,Qwen3.7-Max,qwen3-7-max,154.12243768320374,149.88344076454416,159.93514532571697
 GPT-5.4 Pro,gpt-5.4-pro-2026-03-05_xhigh,GPT-5.4 Pro (xhigh),OpenAI,United States of America,2026-03-05,API access,2026-03-05,,Likely,,GPT-5.4 Pro (xhigh),,GPT-5.4 Pro,gpt-5-4-pro,157.6175396805358,153.30394389537574,164.78847574556863
