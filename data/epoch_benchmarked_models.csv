@@ -103,7 +103,7 @@ o3,o3-2025-04-16_low,o3 (low),OpenAI,United States of America,2025-04-16,API acc
 o4-mini,o4-mini-2025-04-16_low,o4-mini (low),OpenAI,United States of America,2025-04-16,API access,2025-04-16,,Unknown,"The latest smaller size o-series reasoning model from OpenAI, evaluated with low reasoning effort.",,,o4-mini,o4-mini,146.7175966627816,143.19814495423873,152.01133422739977
 o4-mini,o4-mini-2025-04-16_medium,o4-mini (medium),OpenAI,United States of America,2025-04-16,API access,2025-04-16,,Unknown,"The latest smaller size o-series reasoning model from OpenAI, evaluated with medium reasoning effort.",,,o4-mini,o4-mini,146.7175966627816,143.19814495423873,152.01133422739977
 Claude Sonnet 4.5,claude-sonnet-4-5-20250929_16K,Claude Sonnet 4.5 (16k thinking),Anthropic,United States of America,2025-09-29,API access,2025-09-29,,Unknown,"Anthropic's latest mid-size model, part of the Claude 4.5 series, evaluated with up to 16,000 reasoning tokens.",Claude Sonnet 4.5 (16k thinking),,Claude Sonnet 4.5,claude-sonnet-4-5,146.63439380983957,142.90398882547765,152.41048501820308
-GPT-4 (Jun 2023),gpt-4-0613,GPT-4 (Jun 2023),OpenAI,United States of America,2023-06-13,API access,2023-03-15,2.1e+25,Likely,"The June 2023 version of GPT-4, OpenAI's 2023 multimodal flagship model.",,,GPT-4 (Jun 2023),gpt-4-jun-2023,121.90039863320769,118.43397776912056,126.16972625570007
+GPT-4 (Jun 2023),gpt-4-0613,GPT-4 (Jun 2023),OpenAI,United States of America,2023-06-13,API access,2023-06-13,2.1e+25,Likely,"The June 2023 version of GPT-4, OpenAI's 2023 multimodal flagship model.",,,GPT-4 (Jun 2023),gpt-4-jun-2023,121.90039863320769,118.43397776912056,126.16972625570007
 GPT-4 (Mar 2023),gpt-4-0314,GPT-4 (Mar 2023),OpenAI,United States of America,2023-03-14,API access,2023-03-15,2.1e+25,Likely,"The March 2023 version of GPT-4, OpenAI's 2023 multimodal flagship model.",,,GPT-4 (Mar 2023),gpt-4-mar-2023,125.95096290206976,121.7553854713407,133.8568626407116
 Claude Haiku 4.5,claude-haiku-4-5-20251001,,Anthropic,United States of America,2025-10-15,API access,2025-10-15,,Unknown,,,,Claude Haiku 4.5,claude-haiku-4-5,142.86314626859487,139.0884187116765,148.29262688506313
 Grok 4 Heavy,grok-4-heavy-web-app,Grok 4 Heavy (web app),xAI,United States of America,2025-07-10,Unreleased,2025-07-10,,Unknown,,,,Grok 4 Heavy,grok-4-heavy,,,
@@ -214,7 +214,7 @@ Ministral 8B,ministral-8b-2410,,Mistral AI,France,2024-10-16,Open weights (non-c
 Mixtral 8x7B,open-mixtral-8x7b,,Mistral AI,France,2023-12-11,Open weights (unrestricted),2023-12-11,7.74e+23,Speculative,,,,Mixtral 8x7B,mixtral-8x7b,118.10156401808426,114.29888636199331,122.11895111323918
 Mistral 7B,open-mistral-7b,,Mistral AI,France,2023-09-27,Open weights (unrestricted),2023-10-10,,Confident,,,Mistral 7B v0.3,Mistral 7B v0.3,mistral-7b-v0-3,,,
 Mistral NeMo,open-mistral-nemo-2407,,Mistral AI,France,2024-07-18,Open weights (unrestricted),2024-07-18,,Confident,,,,Mistral NeMo,mistral-nemo,118.35462651443112,113.98909919907172,122.50591355894421
-Eurus-2-7B-PRIME,Eurus-2-7B-PRIME,,"Tsinghua University,University of Illinois Urbana-Champaign (UIUC),Shanghai AI Lab,Peking University,Shanghai Jiao Tong University,CUHK Shenzhen Research Institute","China,United States of America",2024-12-31,Open weights (unrestricted),2025-02-03,,Speculative,,,,Eurus-2-7B-PRIME,eurus-2-7b-prime,,,
+Eurus-2-7B-PRIME,Eurus-2-7B-PRIME,,"Tsinghua University,University of Illinois Urbana-Champaign (UIUC),Shanghai AI Lab,Peking University,Shanghai Jiao Tong University,CUHK Shenzhen Research Institute","United States of America,China",2024-12-31,Open weights (unrestricted),2025-02-03,,Speculative,,,,Eurus-2-7B-PRIME,eurus-2-7b-prime,,,
 Gemini 2.5 Deep Think,gemini-2.5-deep-think-2025-08-01-webapp,,"Google,Google DeepMind",United States of America,2025-08-01,Hosted access (no API),2025-08-01,,Unknown,,,,Gemini 2.5 Deep Think,gemini-2-5-deep-think,,,
 Claude Opus 4.7,claude-opus-4-7,Claude Opus 4.7 (no thinking),Anthropic,United States of America,2026-04-16,API access,2026-04-16,,Likely,,Claude Opus 4.7 (no thinking),,Claude Opus 4.7,claude-opus-4-7,155.55885789993786,152.31932754486974,161.8324014294239
 Claude Opus 4.7,claude-opus-4-7_high,Claude Opus 4.7 (high),Anthropic,United States of America,2026-04-16,API access,2026-04-16,,Likely,,Claude Opus 4.7 (high),,Claude Opus 4.7,claude-opus-4-7,155.55885789993786,152.31932754486974,161.8324014294239
@@ -246,7 +246,7 @@ InternVL2_5-78B,InternVL2_5-78B,,"Shanghai AI Lab,SenseTime,Tsinghua University,
 ,LLaVA-Video-7B-Qwen2-TPO,,,,2025-01-19,,,,Unverified,,,,,llava-video-7b-qwen2-tpo,,,
 ,VideoChat-Flash-Qwen2-7B_res448,,,,2025-01-11,,,,Unverified,,,,,videochat-flash-qwen2-7b-res448,,,
 ,ByteVideoLLM-14B,,,,2024-10-13,,,,Unverified,,,,,bytevideollm-14b,,,
-NVILA 8B,NVILA-8B,,"NVIDIA,Massachusetts Institute of Technology (MIT),University of California (UC) Berkeley,University of California San Diego,University of Washington,Tsinghua University","China,United States of America",2024-12-10,Open weights (non-commercial),2024-12-05,2.2794518e+21,Likely,,,,NVILA 8B,nvila-8b,,,
+NVILA 8B,NVILA-8B,,"NVIDIA,Massachusetts Institute of Technology (MIT),University of California (UC) Berkeley,University of California San Diego,University of Washington,Tsinghua University","United States of America,China",2024-12-10,Open weights (non-commercial),2024-12-05,2.2794518e+21,Likely,,,,NVILA 8B,nvila-8b,,,
 ,LiveCC-7B-Instruct,,,,2024-04-12,,,,Unverified,,,,,livecc-7b-instruct,,,
 ,Qwen2-VL-7B-Instruct,,,,2024-08-29,,,,Unverified,A 7 billion-parameter instruction-tuned vision language model in Qwen's Qwen 2 series.,,,,qwen2-vl-7b-instruct,,,
 ,MiniCPM-o-2_6,,,,2025-01-12,,,,Unverified,,,,,minicpm-o-2-6,,,
@@ -445,7 +445,7 @@ OPT-175B,opt-175b,,Meta AI,United States of America,2022-05-02,Open weights (non
 T5-11B,T5-11B,,Google,United States of America,,Open weights (unrestricted),2019-10-23,3.3e+22,Confident,"The largest, 11 billion-parameter version of T5, an early large language model from Google. ",,,T5-11B,t5-11b,,,
 OPT-66B,opt-66b,,Meta AI,United States of America,2022-05-03,Open weights (non-commercial),2022-06-21,1.100000000001e+23,Confident,Facebook's 66 billion-parameter model in the OPT series.,,,OPT-66B,opt-66b,,,
 GPT-3 175B (davinci),davinci,,OpenAI,United States of America,,API access,2020-05-28,3.14e+23,Confident,,GPT-3 175B (davinci),,GPT-3 175B (davinci),gpt-3-175b-davinci,,,
-BLOOM-176B,bloom,,"Hugging Face,BigScience","France,United States of America",2022-07-06,Open weights (restricted use),2022-07-11,3.65664e+23,Confident,,,,BLOOM-176B,bloom-176b,,,
+BLOOM-176B,bloom,,"Hugging Face,BigScience","United States of America,France",2022-07-06,Open weights (restricted use),2022-07-11,3.65664e+23,Confident,,,,BLOOM-176B,bloom-176b,,,
 MPT-30B,mpt-30b,,MosaicML,United States of America,2023-06-22,Open weights (unrestricted),2023-06-22,1.8900000000001e+23,Confident,,,,MPT-30B,mpt-30b,99.93817064996367,97.42636114730132,103.11056875640351
 GPT-3 6.7B,curie,,OpenAI,United States of America,,,2020-06-22,1.2e+22,Confident,,,,GPT-3 6.7B,gpt-3-6-7b,,,
 InstructGPT 6B,text-curie-001,,OpenAI,United States of America,,API access,2022-01-27,,Confident,,,,InstructGPT 6B,instructgpt-6b,,,
@@ -479,7 +479,7 @@ XGen-7B,xgen-7b-8k-base,,Salesforce,United States of America,2023-06-27,Open wei
 ,RedPajama-INCITE-7B-Base,,,,2023-05-04,,,,Unverified,,,,,redpajama-incite-7b-base,,,
 GPT-NeoX-20B,gpt-neox-20b,,EleutherAI,United States of America,2022-04-07,Open weights (unrestricted),2022-02-09,9.31627008e+22,Confident,,,,GPT-NeoX-20B,gpt-neox-20b,,,
 ,opt-13b,,,,2022-05-11,,,,Unverified,,,,,opt-13b,,,
-GPT-J-6B,gpt-j-6b,,"EleutherAI,LAION","Germany,United States of America",2021-08-05,Open weights (unrestricted),2021-05-01,1.5e+22,Confident,,,,GPT-J-6B,gpt-j-6b,,,
+GPT-J-6B,gpt-j-6b,,"EleutherAI,LAION","United States of America,Germany",2021-08-05,Open weights (unrestricted),2021-05-01,1.5e+22,Confident,,,,GPT-J-6B,gpt-j-6b,,,
 Dolly 2.0-12b,dolly-v2-12b,,Databricks,United States of America,2023-04-11,Open weights (unrestricted),2023-04-12,,Confident,,,,Dolly 2.0-12b,dolly-2-0-12b,88.658069937414,80.16276247688904,95.14896589498794
 Cerebras-GPT-13B,Cerebras-GPT-13B,,Cerebras Systems,United States of America,2023-03-20,Open weights (unrestricted),2023-04-06,2.3e+22,Confident,,,,Cerebras-GPT-13B,cerebras-gpt-13b,82.07776830750825,74.25956298890553,87.66631657793337
 ,stablelm-tuned-alpha-7b,,,,2023-04-19,,,,Unverified,,,,,stablelm-tuned-alpha-7b,,,
