@@ -506,7 +506,7 @@ XGen-7B,xgen-7b-8k-base,,Salesforce,United States of America,2023-06-27,Open wei
 ,RedPajama-INCITE-7B-Base,,,,2023-05-04,,,,Unverified,,,,,redpajama-incite-7b-base,,,
 GPT-NeoX-20B,gpt-neox-20b,,EleutherAI,United States of America,2022-04-07,Open weights (unrestricted),2022-02-09,9.31627008e+22,Confident,,,,GPT-NeoX-20B,gpt-neox-20b,,,
 ,opt-13b,,,,2022-05-11,,,,Unverified,,,,,opt-13b,,,
-GPT-J-6B,gpt-j-6b,,"EleutherAI,LAION","Germany,United States of America",2021-08-05,Open weights (unrestricted),2021-05-01,1.5e+22,Confident,,,,GPT-J-6B,gpt-j-6b,,,
+GPT-J-6B,gpt-j-6b,,"EleutherAI,LAION","United States of America,Germany",2021-08-05,Open weights (unrestricted),2021-05-01,1.5e+22,Confident,,,,GPT-J-6B,gpt-j-6b,,,
 Dolly 2.0-12b,dolly-v2-12b,,Databricks,United States of America,2023-04-11,Open weights (unrestricted),2023-04-12,,Confident,,,,Dolly 2.0-12b,dolly-2-0-12b,89.39,82.65,94.1
 Cerebras-GPT-13B,Cerebras-GPT-13B,,Cerebras Systems,United States of America,2023-03-20,Open weights (unrestricted),2023-04-06,2.3e+22,Confident,,,,Cerebras-GPT-13B,cerebras-gpt-13b,82.97,76.57,87.52
 ,stablelm-tuned-alpha-7b,,,,2023-04-19,,,,Unverified,,,,,stablelm-tuned-alpha-7b,,,
