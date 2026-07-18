@@ -1,4 +1,5 @@
 Model,id_model_version,Display name,Organization,Country (of organization),Version release date,Model accessibility,Publication date,Training compute (FLOP),Confidence,Description,Unique display name,Model aggregation,model_group,slug,eci,eci_ci_low,eci_ci_high
+Kimi K3,kimi-k3_max,Kimi K3 (max),Moonshot,China,2026-07-16,API access,2026-07-16,,Unverified,,,,Kimi K3,kimi-k3,,,
 Grok 4.20,grok-4.20-0309-reasoning,,xAI,United States of America,2026-02-17,API access,2026-02-17,,Likely,,,,Grok 4.20,grok-4-20,152.56,149.24,154.54
 GPT-5.6 Sol,gpt-5.6-sol_promax,"GPT-5.6 Sol (pro, max)",OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Unverified,,"GPT-5.6 Sol (pro, max)",,GPT-5.6 Sol,gpt-5-6-sol,161.77,159.26,166.01
 GPT-5.6 Terra,gpt-5.6-terra_max,GPT-5.6 Terra (max),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Unverified,,GPT-5.6 Terra (max),,GPT-5.6 Terra,gpt-5-6-terra,158.25,155.39,161.26
@@ -412,7 +413,7 @@ XGen-7B,xgen-7b-8k-base,,Salesforce,United States of America,2023-06-27,Open wei
 ,RedPajama-INCITE-7B-Base,,,,2023-05-04,,,,Unverified,,,,,redpajama-incite-7b-base,,,
 GPT-NeoX-20B,gpt-neox-20b,,EleutherAI,United States of America,2022-04-07,Open weights (unrestricted),2022-02-09,9.31627008e+22,Confident,,,,GPT-NeoX-20B,gpt-neox-20b,,,
 ,opt-13b,,,,2022-05-11,,,,Unverified,,,,,opt-13b,,,
-GPT-J-6B,gpt-j-6b,,"EleutherAI,LAION","United States of America,Germany",2021-08-05,Open weights (unrestricted),2021-05-01,1.5e+22,Confident,,,,GPT-J-6B,gpt-j-6b,,,
+GPT-J-6B,gpt-j-6b,,"EleutherAI,LAION","Germany,United States of America",2021-08-05,Open weights (unrestricted),2021-05-01,1.5e+22,Confident,,,,GPT-J-6B,gpt-j-6b,,,
 Dolly 2.0-12b,dolly-v2-12b,,Databricks,United States of America,2023-04-11,Open weights (unrestricted),2023-04-12,,Confident,,,,Dolly 2.0-12b,dolly-2-0-12b,89.37,74.42,98.45
 Cerebras-GPT-13B,Cerebras-GPT-13B,,Cerebras Systems,United States of America,2023-03-20,Open weights (unrestricted),2023-04-06,2.3e+22,Confident,,,,Cerebras-GPT-13B,cerebras-gpt-13b,82.95,67.22,92.99
 ,stablelm-tuned-alpha-7b,,,,2023-04-19,,,,Unverified,,,,,stablelm-tuned-alpha-7b,,,
@@ -654,7 +655,7 @@ T5-11B,T5-11B,,Google,United States of America,,Open weights (unrestricted),2019
 T5-3B,T5-3B,,Google,United States of America,,Open weights (unrestricted),2019-10-23,9.0000000001e+21,Confident,"The 3 billion-parameter version of T5, an early large language model from Google. ",,,T5-3B,t5-3b,,,
 GPT-3 Medium,ada,,OpenAI,United States of America,,,2020-06-22,6.41e+20,Confident,,,,GPT-3 Medium,gpt-3-medium,,,
 GPT-3 XL,babbage,,OpenAI,United States of America,2020-06-22,,2020-06-22,2.38e+21,Confident,,,GPT-3 XL (babbage),GPT-3 XL (babbage),gpt-3-xl-babbage,,,
-BLOOM-176B,bloom,,"Hugging Face,BigScience","United States of America,France",2022-07-06,Open weights (restricted use),2022-07-11,3.65664e+23,Confident,,,,BLOOM-176B,bloom-176b,,,
+BLOOM-176B,bloom,,"Hugging Face,BigScience","France,United States of America",2022-07-06,Open weights (restricted use),2022-07-11,3.65664e+23,Confident,,,,BLOOM-176B,bloom-176b,,,
 GPT-3 6.7B,curie,,OpenAI,United States of America,,,2020-06-22,1.2e+22,Confident,,,,GPT-3 6.7B,gpt-3-6-7b,,,
 GPT-3 175B (davinci),davinci,,OpenAI,United States of America,,API access,2020-05-28,3.14e+23,Confident,,GPT-3 175B (davinci),,GPT-3 175B (davinci),gpt-3-175b-davinci,,,
 GPT-3.5 (davinci-003),text-davinci-003,,,,2022-11-28,,2022-11-28,,Likely,,,davinci-003,davinci-003,davinci-003,,,
