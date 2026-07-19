@@ -1,5 +1,5 @@
 Model,id_model_version,Display name,Organization,Country (of organization),Version release date,Model accessibility,Publication date,Training compute (FLOP),Confidence,Description,Unique display name,Model aggregation,model_group,slug,eci,eci_ci_low,eci_ci_high
-Kimi K3,kimi-k3_max,Kimi K3 (max),Moonshot,China,2026-07-16,API access,2026-07-16,,Unverified,,,,Kimi K3,kimi-k3,,,
+Kimi K3,kimi-k3_max,Kimi K3 (max),Moonshot,China,2026-07-16,API access,2026-07-16,,Confident,,,,Kimi K3,kimi-k3,,,
 Grok 4.20,grok-4.20-0309-reasoning,,xAI,United States of America,2026-02-17,API access,2026-02-17,,Likely,,,,Grok 4.20,grok-4-20,152.56,149.24,154.54
 GPT-5.6 Sol,gpt-5.6-sol_promax,"GPT-5.6 Sol (pro, max)",OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Unverified,,"GPT-5.6 Sol (pro, max)",,GPT-5.6 Sol,gpt-5-6-sol,161.77,159.26,166.01
 GPT-5.6 Terra,gpt-5.6-terra_max,GPT-5.6 Terra (max),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Unverified,,GPT-5.6 Terra (max),,GPT-5.6 Terra,gpt-5-6-terra,158.25,155.39,161.26
@@ -587,7 +587,7 @@ Grok 4.1,grok-4-1,,xAI,United States of America,2025-11-17,API access,2025-11-17
 Claude 3.7 Sonnet,claude-3-7-sonnet-20250219_15K,Claude 3.7 Sonnet (15k thinking),Anthropic,United States of America,2025-02-24,API access,2025-02-24,3.3499999999999998e+25,Likely,"A previous flagship reasoning model from Anthropic, benchmarked with up to 15,000 reasoning tokens allowed.",Claude 3.7 Sonnet (15k thinking),,Claude 3.7 Sonnet,claude-3-7-sonnet,141.7,139.28,143.27
 Pixtral 12B,Pixtral-12B-2409,,Mistral AI,France,2024-09-17,Open weights (unrestricted),2024-09-17,,Confident,,,,Pixtral 12B,pixtral-12b,,,
 video-SALMONN 2+,video-SALMONN-2plus,,ByteDance,China,2025-06-18,,2025-06-18,,Likely,,,,video-SALMONN 2+,video-salmonn-2,,,
-InternVL2_5-78B,InternVL2_5-78B,,"Shanghai AI Lab,SenseTime,Tsinghua University,Nanjing University,Fudan University,Chinese University of Hong Kong (CUHK),Shanghai Jiao Tong University","China,Hong Kong",2024-12-06,Open weights (restricted use),2024-12-06,,Confident,,,,InternVL2_5-78B,internvl2-5-78b,,,
+InternVL2_5-78B,InternVL2_5-78B,,"Shanghai AI Lab,SenseTime,Tsinghua University,Nanjing University,Fudan University,Chinese University of Hong Kong (CUHK),Shanghai Jiao Tong University","Hong Kong,China",2024-12-06,Open weights (restricted use),2024-12-06,,Confident,,,,InternVL2_5-78B,internvl2-5-78b,,,
 ,Qwen2-VL-72B-Instruct,,,,2024-08-29,,,,Unverified,A 72 billion-parameter instruction-tuned vision language model in Qwen's Qwen 2 series.,,,,qwen2-vl-72b-instruct,,,
 ,LLaVA-Video-72B-Qwen2,,,,2024-09-02,,,,Unverified,,,,,llava-video-72b-qwen2,,,
 ,LinVT,,,,2024-12-06,,,,Unverified,,,,,linvt,,,
@@ -655,7 +655,7 @@ T5-11B,T5-11B,,Google,United States of America,,Open weights (unrestricted),2019
 T5-3B,T5-3B,,Google,United States of America,,Open weights (unrestricted),2019-10-23,9.0000000001e+21,Confident,"The 3 billion-parameter version of T5, an early large language model from Google. ",,,T5-3B,t5-3b,,,
 GPT-3 Medium,ada,,OpenAI,United States of America,,,2020-06-22,6.41e+20,Confident,,,,GPT-3 Medium,gpt-3-medium,,,
 GPT-3 XL,babbage,,OpenAI,United States of America,2020-06-22,,2020-06-22,2.38e+21,Confident,,,GPT-3 XL (babbage),GPT-3 XL (babbage),gpt-3-xl-babbage,,,
-BLOOM-176B,bloom,,"Hugging Face,BigScience","France,United States of America",2022-07-06,Open weights (restricted use),2022-07-11,3.65664e+23,Confident,,,,BLOOM-176B,bloom-176b,,,
+BLOOM-176B,bloom,,"Hugging Face,BigScience","United States of America,France",2022-07-06,Open weights (restricted use),2022-07-11,3.65664e+23,Confident,,,,BLOOM-176B,bloom-176b,,,
 GPT-3 6.7B,curie,,OpenAI,United States of America,,,2020-06-22,1.2e+22,Confident,,,,GPT-3 6.7B,gpt-3-6-7b,,,
 GPT-3 175B (davinci),davinci,,OpenAI,United States of America,,API access,2020-05-28,3.14e+23,Confident,,GPT-3 175B (davinci),,GPT-3 175B (davinci),gpt-3-175b-davinci,,,
 GPT-3.5 (davinci-003),text-davinci-003,,,,2022-11-28,,2022-11-28,,Likely,,,davinci-003,davinci-003,davinci-003,,,
