@@ -225,135 +225,447 @@ Ministral 8B,ministral-8b-2410,,Mistral AI,France,2024-10-16,Open weights (non-c
 Mixtral 8x7B,open-mixtral-8x7b,,Mistral AI,France,2023-12-11,Open weights (unrestricted),2023-12-11,7.74e+23,Speculative,,,,Mixtral 8x7B,mixtral-8x7b,118.09,110.07,120.79
 Mistral 7B,open-mistral-7b,,Mistral AI,France,2023-09-27,Open weights (unrestricted),2023-10-10,,Confident,,,Mistral 7B v0.3,Mistral 7B v0.3,mistral-7b-v0-3,,,
 Mistral NeMo,open-mistral-nemo-2407,,Mistral AI,France,2024-07-18,Open weights (unrestricted),2024-07-18,,Confident,,,,Mistral NeMo,mistral-nemo,118.35,110.68,121.97
-Eurus-2-7B-PRIME,Eurus-2-7B-PRIME,,"Tsinghua University,University of Illinois Urbana-Champaign (UIUC),Shanghai AI Lab,Peking University,Shanghai Jiao Tong University,CUHK Shenzhen Research Institute","United States of America,China",2024-12-31,Open weights (unrestricted),2025-02-03,,Speculative,,,,Eurus-2-7B-PRIME,eurus-2-7b-prime,,,
+Eurus-2-7B-PRIME,Eurus-2-7B-PRIME,,"Tsinghua University,University of Illinois Urbana-Champaign (UIUC),Shanghai AI Lab,Peking University,Shanghai Jiao Tong University,CUHK Shenzhen Research Institute","China,United States of America",2024-12-31,Open weights (unrestricted),2025-02-03,,Speculative,,,,Eurus-2-7B-PRIME,eurus-2-7b-prime,,,
 Gemini 2.5 Deep Think,gemini-2.5-deep-think-2025-08-01-webapp,,"Google,Google DeepMind",United States of America,2025-08-01,Hosted access (no API),2025-08-01,,Unknown,,,,Gemini 2.5 Deep Think,gemini-2-5-deep-think,,,
-Claude Opus 4.7,claude-opus-4-7_unknown,Claude Opus 4.7 (unknown),Anthropic,United States of America,2026-04-16,API access,2026-04-16,,Likely,,Claude Opus 4.7 (unknown settings),,Claude Opus 4.7,claude-opus-4-7,156.1,154.29,158.61
-GPT-5.6 Sol,gpt-5.6-sol_unknown,GPT-5.6 Sol (unknown thinking),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Sol (unknown thinking),,GPT-5.6 Sol,gpt-5-6-sol,162.06,159.6,166.58
-GLM-5.2,glm-5.2_unknown,GLM-5.2,Z.ai (Zhipu AI),China,2026-06-16,Open weights (unrestricted),2026-06-16,,Confident,,GLM-5.2 (unknown thinking),,GLM-5.2,glm-5-2,151.41,150.01,153.47
-Claude Opus 4.6,claude-opus-4-6_unknown,Claude Opus 4.6 (unknown thinking),Anthropic,United States of America,2026-02-05,API access,2026-02-05,,Likely,,Claude Opus 4.6 (unknown settings),,Claude Opus 4.6,claude-opus-4-6,155.38,153.47,157.95
-GPT-5.5,gpt-5.5_unknown,GPT-5.5 (unknown thinking),OpenAI,United States of America,2026-04-23,API access,2026-04-23,,Likely,,,,GPT-5.5,gpt-5-5,158.52,156.66,161.58
-GPT-5.6 Terra,gpt-5.6-terra_unknown,GPT-5.6 Terra (unknown thinking),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Terra (unknown thinking),,GPT-5.6 Terra,gpt-5-6-terra,158.36,155.43,161.46
-Claude Sonnet 4.6,claude-sonnet-4-6_unknown,Claude Sonnet 4.6 (unknown thinking),Anthropic,United States of America,2026-02-17,API access,2026-02-17,,Likely,,,,Claude Sonnet 4.6,claude-sonnet-4-6,153.18,150.02,156.88
-Claude Sonnet 5,claude-sonnet-5_unknown,Claude Sonnet 5 (unknown thinking),Anthropic,United States of America,2026-06-30,API access,2026-06-30,,Confident,,Claude Sonnet 5 (unknown thinking),,Claude Sonnet 5,claude-sonnet-5,153.2,151.08,155.29
-GPT-5.4,gpt-5.4-2026-03-05_unknown,GPT-5.4,OpenAI,United States of America,2026-03-05,API access,2026-03-05,,Likely,,GPT-5.4 (none),,GPT-5.4,gpt-5-4,156.12,154.56,158.38
-GPT-5.3 Codex,gpt-5.3-codex,GPT-5.3 Codex,OpenAI,United States of America,2026-02-05,API access,2026-02-05,,Likely,,GPT-5.3 Codex,,GPT-5.3 Codex,gpt-5-3-codex,155.57,153.34,158.79
-Claude Opus 4.8,claude-opus-4-8_unknown,Claude Opus 4.8,Anthropic,United States of America,2026-05-28,API access,2026-05-28,,Confident,,Claude Opus 4.8 (unknown thinking),,Claude Opus 4.8,claude-opus-4-8,158.03,155.7,160.86
-Claude Fable 5,claude-fable-5_high,Claude Fable 5 (high),Anthropic,United States of America,2026-06-09,API access,2026-06-09,,Confident,,Claude Fable 5 (high),,Claude Fable 5,claude-fable-5,160.75,158.5,164.79
-Gemini 3.5 Flash,gemini-3.5-flash_unknown,Gemini 3.5 Flash (unknown thinking),Google,United States of America,2026-05-19,API access,,,Confident,,,,Gemini 3.5 Flash,gemini-3-5-flash,154.66,152.99,157.19
-Claude Fable 5,claude-fable-5_low,Claude Fable 5 (low),Anthropic,United States of America,2026-06-09,API access,2026-06-09,,Confident,,Claude Fable 5 (low),,Claude Fable 5,claude-fable-5,160.75,158.5,164.79
-Claude Opus 4.5,claude-opus-4-5-20251101_unknown,Claude Opus 4.5 (unknown thinking),Anthropic,United States of America,2025-11-24,API access,2025-11-24,,Unknown,,Claude Opus 4.5 (unknown settings),,Claude Opus 4.5,claude-opus-4-5,149.54,147.4,152.08
-Grok 4.20,grok-4-20,,xAI,United States of America,2026-02-17,API access,2026-02-17,,Likely,,,,Grok 4.20,grok-4-20,152.59,149.19,154.74
-Claude Fable 5,claude-fable-5,Claude Fable 5,Anthropic,United States of America,2026-06-09,API access,2026-06-09,,Confident,,Claude Fable 5,,Claude Fable 5,claude-fable-5,160.75,158.5,164.79
-Claude Fable 5,claude-fable-5_medium,Claude Fable 5 (medium),Anthropic,United States of America,2026-06-09,API access,2026-06-09,,Confident,,Claude Fable 5 (medium),,Claude Fable 5,claude-fable-5,160.75,158.5,164.79
-GPT-5.6 Luna,gpt-5.6-luna_unknown,GPT-5.6 Luna (unknown thinking),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Luna (unknown thinking),,GPT-5.6 Luna,gpt-5-6-luna,155.31,152.67,158.14
-Grok 4.5,grok-4.5_unknown,Grok 4.5 (unknown thinking),xAI,United States of America,2026-07-08,API access,2026-07-08,,Likely,,Grok 4.5 (unknown thinking),,Grok 4.5,grok-4-5,153.4,151.94,156.13
-Claude Sonnet 4.5,claude-sonnet-4-5-20250929_unknown,Claude Sonnet 4.5 (unknown thinking),Anthropic,United States of America,2025-09-29,API access,2025-09-29,,Unknown,,Claude Sonnet 4.5 (59k thinking),,Claude Sonnet 4.5,claude-sonnet-4-5,146.76,144.75,148.29
-GPT-5.2,gpt-5.2-2025-12-11_unknown,GPT-5.2 (unknown thinking),OpenAI,United States of America,2025-12-11,API access,2025-12-11,,Unknown,,GPT-5.2 (high),,GPT-5.2,gpt-5-2,153.72,152.27,155.53
-DeepSeek-V4-Pro,deepseek-v4-pro_unknown,DeepSeek v4 Pro (unknown thinking),DeepSeek,China,2026-04-24,Open weights (unrestricted),2026-04-24,9.702e+24,Likely,,DeepSeek v4 (unknown thinking),,DeepSeek-V4-Pro,deepseek-v4-pro,148.87,147.05,151.42
-MiniMax-M3,MiniMax-M3,,MiniMax,China,2026-06-01,API access,2026-06-01,,Confident,,,,MiniMax-M3,minimax-m3,147.57,143.63,150.13
-GPT-5.1,gpt-5.1-2025-11-13_unknown,GPT-5.1 (unknown thinking),OpenAI,United States of America,2025-11-13,API access,2025-11-13,,Unknown,,GPT-5.1 (high),,GPT-5.1,gpt-5-1,149.74,148.51,150.98
-Grok 4.1 Fast,grok-4-1-fast-reasoning,,xAI,United States of America,2025-11-19,API access,2025-11-19,,Unknown,,,,Grok 4.1 Fast,grok-4-1-fast,,,
-DeepSeek-V3.2-Exp,DeepSeek-V3.2-Exp_unknown,,DeepSeek,China,2025-09-29,Open weights (unrestricted),2025-09-29,4.18e+24,Confident,,,,DeepSeek-V3.2-Exp,deepseek-v3-2-exp,144.87,141.89,146.87
-Claude Haiku 4.5,claude-haiku-4-5-20251001_unknown,Claude Haiku 4.5 (unknown thinking),Anthropic,United States of America,2025-10-15,API access,2025-10-15,,Unknown,,Claude Haiku 4.5 (16k thinking),,Claude Haiku 4.5,claude-haiku-4-5,142.89,139.88,144.83
-Qwen3.5-27B,qwen3.5-27B,,Alibaba,China,2026-02-24,Open weights (restricted use),2026-02-24,,Confident,,,,Qwen3.5-27B,qwen3-5-27b,,,
-MiniMax-M2,MiniMax-M2,,MiniMax,China,2025-10-27,Open weights (unrestricted),2025-10-27,,Confident,,,,MiniMax-M2,minimax-m2,,,
-Grok 4.3 Beta,grok-4-3,,xAI,United States of America,2026-04-17,Hosted access (no API),2026-04-17,,Likely,,,,Grok 4.3 Beta,grok-4-3-beta,148.94,147.37,150.6
-gpt-oss-120b,gpt-oss-120b,,OpenAI,United States of America,2025-08-05,Open weights (unrestricted),2025-08-05,4.94e+24,Confident,The larger one of OpenAI's two latest open source language models.,,,gpt-oss-120b,gpt-oss-120b,140.63,135.57,143.3
-MiniMax-M2.5,MiniMax-M2.5,,MiniMax,China,2026-02-12,Open weights (unrestricted),2026-02-12,,Likely,,,,MiniMax-M2.5,minimax-m2-5,147.1,140.83,148.31
-GPT-5 mini,gpt-5-mini-2025-08-07_unknown,GPT-5 mini (unknown thinking),OpenAI,United States of America,2025-08-07,API access,2025-08-07,,Unknown,"A smaller version of OpenAI's latest flagship frontier model, benchmarked using high reasoning effort.",GPT-5 mini (high),,GPT-5 mini,gpt-5-mini,145.8,144.02,147.03
+GPT-5.6 Sol,gpt-5.6-sol_xhigh,GPT-5.6 Sol (xhigh),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Sol (xhigh),,GPT-5.6 Sol,gpt-5-6-sol,162.06,159.6,166.58
+GPT-5.6 Sol,gpt-5.6-sol_high,GPT-5.6 Sol (high),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Sol (high),,GPT-5.6 Sol,gpt-5-6-sol,162.06,159.6,166.58
+GPT-5.5 Pro,gpt-5.5-pro_high,GPT-5.5 Pro (high),OpenAI,United States of America,2026-04-23,API access,2026-04-23,,Likely,,,,GPT-5.5 Pro,gpt-5-5-pro,160.93,158.44,164.63
 GPT-5.5,gpt-5.5_high,GPT-5.5 (high),OpenAI,United States of America,2026-04-23,API access,2026-04-23,,Likely,,,,GPT-5.5,gpt-5-5,158.52,156.66,161.58
+GPT-5.6 Terra,gpt-5.6-terra_xhigh,GPT-5.6 Terra (xhigh),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Terra (xhigh),,GPT-5.6 Terra,gpt-5-6-terra,158.36,155.43,161.46
+Claude Opus 4.7,claude-opus-4-7_high,Claude Opus 4.7 (high),Anthropic,United States of America,2026-04-16,API access,2026-04-16,,Likely,,Claude Opus 4.7 (high),,Claude Opus 4.7,claude-opus-4-7,156.1,154.29,158.61
+GPT-5.6 Sol,gpt-5.6-sol_medium,GPT-5.6 Sol (medium),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Sol (medium),,GPT-5.6 Sol,gpt-5-6-sol,162.06,159.6,166.58
+GPT-5.5,gpt-5.5_medium,GPT-5.5 (medium),OpenAI,United States of America,2026-04-23,API access,2026-04-23,,Likely,,,,GPT-5.5,gpt-5-5,158.52,156.66,161.58
+Claude Opus 4.8,claude-opus-4-8_high,Claude Opus 4.8,Anthropic,United States of America,2026-05-28,API access,2026-05-28,,Confident,,Claude Opus 4.8 (high),,Claude Opus 4.8,claude-opus-4-8,158.03,155.7,160.86
+GPT-5.6 Terra,gpt-5.6-terra_high,GPT-5.6 Terra (high),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Terra (high),,GPT-5.6 Terra,gpt-5-6-terra,158.36,155.43,161.46
+Claude Opus 4.8,claude-opus-4-8_medium,Claude Opus 4.8,Anthropic,United States of America,2026-05-28,API access,2026-05-28,,Confident,,Claude Opus 4.8 (medium),,Claude Opus 4.8,claude-opus-4-8,158.03,155.7,160.86
+Claude Opus 4.7,claude-opus-4-7_low,Claude Opus 4.7 (low),Anthropic,United States of America,2026-04-16,API access,2026-04-16,,Likely,,Claude Opus 4.7 (low),,Claude Opus 4.7,claude-opus-4-7,156.1,154.29,158.61
+Claude Opus 4.7,claude-opus-4-7_medium,Claude Opus 4.7 (medium),Anthropic,United States of America,2026-04-16,API access,2026-04-16,,Likely,,Claude Opus 4.7 (medium),,Claude Opus 4.7,claude-opus-4-7,156.1,154.29,158.61
+Grok 4.20,grok-4-20,,xAI,United States of America,2026-02-17,API access,2026-02-17,,Likely,,,,Grok 4.20,grok-4-20,152.59,149.19,154.74
+Claude Opus 4.8,claude-opus-4-8_low,Claude Opus 4.8,Anthropic,United States of America,2026-05-28,API access,2026-05-28,,Confident,,Claude Opus 4.8 (low),,Claude Opus 4.8,claude-opus-4-8,158.03,155.7,160.86
+GPT-5.6 Luna,gpt-5.6-luna_xhigh,GPT-5.6 Luna (xhigh),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Luna (xhigh),,GPT-5.6 Luna,gpt-5-6-luna,155.31,152.67,158.14
+,gemini-3-deep-think-preview,,,,2026-02-12,,,,Unverified,,,,,gemini-3-deep-think-preview,,,
+Claude Sonnet 4.6,claude-sonnet-4-6_high,Claude Sonnet 4.6 (high),Anthropic,United States of America,2026-02-17,API access,2026-02-17,,Likely,,,,Claude Sonnet 4.6,claude-sonnet-4-6,153.18,150.02,156.88
+GPT-5.4,gpt-5.4-2026-03-05_medium,GPT-5.4 (medium),OpenAI,United States of America,2026-03-05,API access,2026-03-05,,Likely,,GPT-5.4 (medium),,GPT-5.4,gpt-5-4,156.12,154.56,158.38
+Claude Sonnet 4.6,claude-sonnet-4-6_max,Claude Sonnet 4.6 (max),Anthropic,United States of America,2026-02-17,API access,2026-02-17,,Likely,,,,Claude Sonnet 4.6,claude-sonnet-4-6,153.18,150.02,156.88
+GPT-5.2 Pro,gpt-5.2-pro-2025-12-11_high,GPT-5.2 Pro,OpenAI,United States of America,2025-12-11,API access,2025-12-11,,Likely,,GPT-5.2 Pro (high),,GPT-5.2 Pro,gpt-5-2-pro,154.67,152.95,157.22
+GPT-5.2 Pro,gpt-5.2-pro-2025-12-11_medium,GPT-5.2 Pro,OpenAI,United States of America,2025-12-11,API access,2025-12-11,,Likely,,GPT-5.2 Pro (medium),,GPT-5.2 Pro,gpt-5-2-pro,154.67,152.95,157.22
+Claude Opus 4.5,claude-opus-4-5-20251101_64K,Claude Opus 4.5 (64k thinking),Anthropic,United States of America,2025-11-24,API access,2025-11-24,,Unknown,,Claude Opus 4.5 (64k thinking),,Claude Opus 4.5,claude-opus-4-5,149.54,147.4,152.08
+GLM-5.2,glm-5.2_unknown,GLM-5.2,Z.ai (Zhipu AI),China,2026-06-16,Open weights (unrestricted),2026-06-16,,Confident,,GLM-5.2 (unknown thinking),,GLM-5.2,glm-5-2,151.41,150.01,153.47
+GPT-5.6 Terra,gpt-5.6-terra_medium,GPT-5.6 Terra (medium),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Terra (medium),,GPT-5.6 Terra,gpt-5-6-terra,158.36,155.43,161.46
+GPT-5.6 Luna,gpt-5.6-luna_high,GPT-5.6 Luna (high),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Luna (high),,GPT-5.6 Luna,gpt-5-6-luna,155.31,152.67,158.14
+GPT-5.6 Sol,gpt-5.6-sol_low,GPT-5.6 Sol (low),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Sol (low),,GPT-5.6 Sol,gpt-5-6-sol,162.06,159.6,166.58
+GPT-5 Pro,gpt-5-pro-2025-10-06_unknown,GPT-5 Pro,OpenAI,United States of America,2025-10-07,API access,2025-10-07,,Unknown,,GPT-5 Pro (unknown thinking),,GPT-5 Pro,gpt-5-pro,150.41,149.13,152.34
+GPT-5.4,gpt-5.4-2026-03-05_low,GPT-5.4 (low),OpenAI,United States of America,2026-03-05,API access,2026-03-05,,Likely,,GPT-5.4 (low),,GPT-5.4,gpt-5-4,156.12,154.56,158.38
+MiniMax-M2.5,MiniMax-M2.5,,MiniMax,China,2026-02-12,Open weights (unrestricted),2026-02-12,,Likely,,,,MiniMax-M2.5,minimax-m2-5,147.1,140.83,148.31
+GPT-5.6 Terra,gpt-5.6-terra_low,GPT-5.6 Terra (low),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Terra (low),,GPT-5.6 Terra,gpt-5-6-terra,158.36,155.43,161.46
+o3-pro,o3-pro-2025-06-10_high,,OpenAI,United States of America,2025-06-10,,2025-06-10,,Unknown,"An enhanced version of OpenAI's previous flagship reasoning model o3, evaluated with high reasoning effort.",,,o3-pro,o3-pro,147.92,146.38,150.63
+Claude Opus 4.5,claude-opus-4-5-20251101_8K,Claude Opus 4.5 (8k thinking),Anthropic,United States of America,2025-11-24,API access,2025-11-24,,Unknown,,Claude Opus 4.5 (8k thinking),,Claude Opus 4.5,claude-opus-4-5,149.54,147.4,152.08
+o3-pro,o3-pro-2025-06-10_medium,,OpenAI,United States of America,2025-06-10,,2025-06-10,,Unknown,"An enhanced version of OpenAI's previous flagship reasoning model o3, evaluated with medium reasoning effort.",,,o3-pro,o3-pro,147.92,146.38,150.63
+DeepSeek-V3.2,deepseek/deepseek-v3.2,DeepSeek-V3.2 (Thinking; Novita),DeepSeek,China,2025-12-01,Open weights (unrestricted),2025-12-01,4.1999999999999997e+24,Likely,,,DeepSeek-V3.2,DeepSeek-V3.2,deepseek-v3-2,146.59,144.75,147.64
+GPT-5.6 Luna,gpt-5.6-luna_medium,GPT-5.6 Luna (medium),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Luna (medium),,GPT-5.6 Luna,gpt-5-6-luna,155.31,152.67,158.14
+GPT-5.4 Nano,gpt-5.4-nano-2026-03-17_xhigh,GPT-5.4 nano (xhigh),OpenAI,United States of America,2026-03-17,API access,2026-03-17,,Likely,,GPT-5.4 nano (xhigh),,GPT-5.4 Nano,gpt-5-4-nano,146.61,144.41,148.63
+Gemini 3.5 Flash,gemini-3.5-flash_minimal,Gemini 3.5 Flash (minimal),Google,United States of America,2026-05-19,API access,,,Confident,,,,Gemini 3.5 Flash,gemini-3-5-flash,154.66,152.99,157.19
+Grok 4 Fast,grok-4-fast,,xAI,United States of America,2025-09-19,API access,2025-09-19,,Unknown,,Grok 4 Fast,,Grok 4 Fast,grok-4-fast,144.62,141.62,147.34
+Claude Sonnet 4.5,claude-sonnet-4-5-20250929_8K,Claude Sonnet 4.5 (8k thinking),Anthropic,United States of America,2025-09-29,API access,2025-09-29,,Unknown,,Claude Sonnet 4.5 (2k thinking),,Claude Sonnet 4.5,claude-sonnet-4-5,146.76,144.75,148.29
+o3-pro,o3-pro-2025-06-10_low,,OpenAI,United States of America,2025-06-10,,2025-06-10,,Unknown,"An enhanced version of OpenAI's previous flagship reasoning model o3, evaluated with low reasoning effort.",,,o3-pro,o3-pro,147.92,146.38,150.63
+GPT-5,gpt-5-2025-08-07_low,GPT-5 (low),OpenAI,United States of America,2025-08-07,API access,2025-08-07,6.6e+25,Speculative,"OpenAI's latest flagship frontier model, benchmarked using low reasoning effort.",GPT-5 (low),,GPT-5,gpt-5,150.0,,
+Gemini 2.5 Pro (Jun 2025),gemini-2.5-pro_16K,,Google DeepMind,United States of America,2025-06-17,API access,2025-06-05,,Unknown,"Google’s general-purpose frontier reasoning model, evaluated with up to 16,000 reasoning tokens.",Gemini 2.5 Pro (16k thinking),Gemini 2.5 Pro (Jun 2025),Gemini 2.5 Pro (Jun 2025),gemini-2-5-pro-jun-2025,146.07,144.37,147.73
+GPT-5.4 Mini,gpt-5.4-mini-2026-03-17_medium,GPT-5.4 mini (medium),OpenAI,United States of America,2026-03-17,API access,2026-03-17,,Likely,,GPT-5.4 mini (medium),,GPT-5.4 Mini,gpt-5-4-mini,148.87,147.14,150.16
+,tiny-recursion-model,,,,2025-10-06,,,,Unverified,,,,,tiny-recursion-model,,,
+Claude Haiku 4.5,claude-haiku-4-5-20251001_16K,,Anthropic,United States of America,2025-10-15,API access,2025-10-15,,Unknown,,Claude Haiku 4.5 (16k thinking),,Claude Haiku 4.5,claude-haiku-4-5,142.89,139.88,144.83
+Gemini 2.5 Pro (Jun 2025),gemini-2.5-pro_32K,,Google DeepMind,United States of America,2025-06-17,API access,2025-06-05,,Unknown,"Google’s general-purpose frontier reasoning model, evaluated with up to 32,000 reasoning tokens.",Gemini 2.5 Pro (32k thinking),Gemini 2.5 Pro (Jun 2025),Gemini 2.5 Pro (Jun 2025),gemini-2-5-pro-jun-2025,146.07,144.37,147.73
+GPT-5.6 Luna,gpt-5.6-luna_low,GPT-5.6 Luna (low),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Luna (low),,GPT-5.6 Luna,gpt-5-6-luna,155.31,152.67,158.14
+Gemini 2.5 Flash,gemini-2.5-flash-preview-05-20_16K,,Google DeepMind,United States of America,2025-05-20,API access,2025-04-17,,Unknown,"An April 2025 preview version of Gemini 2.5 Flash, a small reasoning model in the Gemini 2.5 series from DeepMind, evaluated with up to 16,000 reasoning tokens.",,Gemini 2.5 Flash (May 2025),Gemini 2.5 Flash (May 2025),gemini-2-5-flash-may-2025,142.24,139.76,143.76
+GPT-5.4 Nano,gpt-5.4-nano-2026-03-17_medium,GPT-5.4 nano (medium),OpenAI,United States of America,2026-03-17,API access,2026-03-17,,Likely,,GPT-5.4 nano (medium),,GPT-5.4 Nano,gpt-5-4-nano,146.61,144.41,148.63
+Gemini 2.5 Flash,gemini-2.5-flash-preview-05-20_23K,,Google DeepMind,United States of America,2025-05-20,API access,2025-04-17,,Unknown,"A May 2025 preview version of Gemini 2.5 Flash, a small model in Google DeepMind's Gemini 2.5 series, evaluated with up to 23,000 reasoning tokens.",,Gemini 2.5 Flash (May 2025),Gemini 2.5 Flash (May 2025),gemini-2-5-flash-may-2025,142.24,139.76,143.76
+Gemini 2.5 Flash,gemini-2.5-flash-preview-04-17 (24K thinking),,Google DeepMind,United States of America,2025-04-17,API access,2025-04-17,,Unknown,"An April 2025 preview version of Gemini 2.5 Flash, a small reasoning model in the Gemini 2.5 series from DeepMind, evaluated with up to 24,000 reasoning tokens.",,Gemini 2.5 Flash (Apr 2025),Gemini 2.5 Flash (Apr 2025),gemini-2-5-flash-apr-2025,140.63,136.54,142.72
+Gemini 2.5 Pro (Jun 2025),gemini-2.5-pro-preview-06-05_1K,Gemini 2.5 Pro Preview (Jun 2025),Google DeepMind,United States of America,2025-06-05,API access,2025-06-05,,Unknown,"A June 2025 preview version of Gemini 2.5 Pro, Google DeepMind's flagship frontier model, evaluated with up to 1,000 reasoning tokens.","Gemini 2.5 Pro Preview (Jun 2025, 1k thinking)",Gemini 2.5 Pro (Jun 2025),Gemini 2.5 Pro (Jun 2025),gemini-2-5-pro-jun-2025,146.07,144.37,147.73
+Claude Sonnet 4.5,claude-sonnet-4-5-20250929_1K,Claude Sonnet 4.5 (1k thinking),Anthropic,United States of America,2025-09-29,API access,2025-09-29,,Unknown,,Claude Sonnet 4.5 (2k thinking),,Claude Sonnet 4.5,claude-sonnet-4-5,146.76,144.75,148.29
+Claude Opus 4,claude-opus-4-20250514_8K,Claude Opus 4,Anthropic,United States of America,2025-05-22,API access,2025-05-22,,Unknown,"Anthropic's largest model in the Claude 4 series (superseded by Claude Opus 4.1), benchmarked with up to 8,000 reasoning tokens.",Claude Opus 4 (8k thinking),,Claude Opus 4,claude-opus-4,142.93,140.32,144.52
+Gemini 2.5 Pro (Jun 2025),gemini-2.5-pro_8K,,Google DeepMind,United States of America,2025-06-17,API access,2025-06-05,,Unknown,"Google’s general-purpose frontier reasoning model, evaluated with up to 8,000 reasoning tokens.",Gemini 2.5 Pro (8k thinking),Gemini 2.5 Pro (Jun 2025),Gemini 2.5 Pro (Jun 2025),gemini-2-5-pro-jun-2025,146.07,144.37,147.73
+Claude Sonnet 4,claude-sonnet-4-20250514_8K,,Anthropic,United States of America,2025-05-22,API access,2025-05-22,,Unknown,,Claude Sonnet 4 (8k thinking),,Claude Sonnet 4,claude-sonnet-4,142.18,139.59,143.61
+Claude Sonnet 4,claude-sonnet-4-20250514_1K,,Anthropic,United States of America,2025-05-22,API access,2025-05-22,,Unknown,"Anthropic's mid-sized Claude 4 series model, evaluated at up to 1,000 reasoning tokens.",Claude Sonnet 4 (1k thinking),,Claude Sonnet 4,claude-sonnet-4,142.18,139.59,143.61
+,codex-mini-2025-05-16,,,,2025-05-16,,,,Unverified,,,,,codex-mini-2025-05-16,,,
+o1,o1-2024-12-17_low,o1 (low),OpenAI,United States of America,2024-12-17,API access,2024-12-05,,Unknown,"OpenAI's first reasoning model, evaluated with at the low reasoning tokens level.",,,o1,o1,142.71,140.84,143.96
+Claude Opus 4,claude-opus-4-20250514_1K,Claude Opus 4,Anthropic,United States of America,2025-05-22,API access,2025-05-22,,Unknown,"Anthropic's largest model in the Claude 4 series (superseded by Claude Opus 4.1), benchmarked with up to 1,000 reasoning tokens.",Claude Opus 4 (1k thinking),,Claude Opus 4,claude-opus-4,142.93,140.32,144.52
+GPT-5 mini,gpt-5-mini-2025-08-07_low,GPT-5 mini (low),OpenAI,United States of America,2025-08-07,API access,2025-08-07,,Unknown,"A smaller version of OpenAI's latest flagship frontier model, benchmarked using medium reasoning effort.",GPT-5 mini (medium),,GPT-5 mini,gpt-5-mini,145.8,144.02,147.03
+Gemini 2.5 Flash,gemini-2.5-flash-preview-05-20_8K,,Google DeepMind,United States of America,2025-05-20,API access,2025-04-17,,Unknown,"An April 2025 preview version of Gemini 2.5 Flash, a small reasoning model in the Gemini 2.5 series from DeepMind, evaluated with up to 8,000 reasoning tokens.",,Gemini 2.5 Flash (May 2025),Gemini 2.5 Flash (May 2025),gemini-2-5-flash-may-2025,142.24,139.76,143.76
+Claude Haiku 4.5,claude-haiku-4-5-20251001_8K,,Anthropic,United States of America,2025-10-15,API access,2025-10-15,,Unknown,,Claude Haiku 4.5 (8k thinking),,Claude Haiku 4.5,claude-haiku-4-5,142.89,139.88,144.83
+o1-pro,o1-pro-2025-03-19_low,o1 Pro (low),OpenAI,United States of America,2025-03-19,API access,2025-03-19,,Likely,"An An enhanced version of OpenAI's first reasoning model,o1, evaluated with low reasoning effort.",,,o1-pro,o1-pro,,,
+Claude 3.7 Sonnet,claude-3-7-sonnet-20250219_8K,Claude 3.7 Sonnet (8k thinking),Anthropic,United States of America,2025-02-24,API access,2025-02-24,3.3499999999999998e+25,Likely,"A previous flagship reasoning model from Anthropic, benchmarked with up to 9,000 reasoning tokens allowed.",Claude 3.7 Sonnet (8k thinking),,Claude 3.7 Sonnet,claude-3-7-sonnet,141.7,139.32,143.19
+GPT-5.4 Nano,gpt-5.4-nano-2026-03-17_low,GPT-5.4 nano (low),OpenAI,United States of America,2026-03-17,API access,2026-03-17,,Likely,,GPT-5.4 nano (low),,GPT-5.4 Nano,gpt-5-4-nano,146.61,144.41,148.63
+Claude Haiku 4.5,claude-haiku-4-5-20251001_1K,,Anthropic,United States of America,2025-10-15,API access,2025-10-15,,Unknown,,Claude Haiku 4.5 (1k thinking),,Claude Haiku 4.5,claude-haiku-4-5,142.89,139.88,144.83
+Grok-3 mini,grok-3-mini_low,Grok 3 mini,xAI,United States of America,2025-06-24,API access,2025-02-19,,Unknown,,Grok 3 mini (low),,Grok-3 mini,grok-3-mini,141.03,138.11,142.62
+Gemini 2.5 Flash,gemini-2.5-flash-preview-05-20_1K,,Google DeepMind,United States of America,2025-05-20,API access,2025-04-17,,Unknown,"An April 2025 preview version of Gemini 2.5 Flash, a small reasoning model in the Gemini 2.5 series from DeepMind, evaluated with up to 1,000 reasoning tokens.",,Gemini 2.5 Flash (May 2025),Gemini 2.5 Flash (May 2025),gemini-2-5-flash-may-2025,142.24,139.76,143.76
+o3-mini,o3-mini-2025-01-31_low,,OpenAI,United States of America,2025-01-31,API access,2025-01-31,,Unknown,"A smaller version of OpenAI's o3 reasoning model, evaluated with low reasoning effort.",,,o3-mini,o3-mini,141.42,138.55,143.06
+o1-mini,o1-mini-2024-09-12_unknown,o1-mini (unknown thinking),OpenAI,United States of America,2024-09-12,API access,2024-09-12,,Unknown,"A smaller version of OpenAI’s first reasoning model, o1, evaluated with high reasoning effort.",,,o1-mini,o1-mini,136.58,132.79,138.06
+GPT-5.4 Mini,gpt-5.4-mini-2026-03-17_low,GPT-5.4 mini (low),OpenAI,United States of America,2026-03-17,API access,2026-03-17,,Likely,,GPT-5.4 mini (low),,GPT-5.4 Mini,gpt-5-4-mini,148.87,147.14,150.16
+GPT-5.2,gpt-5.2-2025-12-11_unknown,GPT-5.2 (unknown thinking),OpenAI,United States of America,2025-12-11,API access,2025-12-11,,Unknown,,GPT-5.2 (high),,GPT-5.2,gpt-5-2,153.72,152.27,155.53
+Claude 3.7 Sonnet,claude-3-7-sonnet-20250219_1K,Claude 3.7 Sonnet (1k thinking),Anthropic,United States of America,2025-02-24,API access,2025-02-24,3.3499999999999998e+25,Likely,"A previous flagship reasoning model from Anthropic, benchmarked with up to 1,000 reasoning tokens allowed.",Claude 3.7 Sonnet (1k thinking),,Claude 3.7 Sonnet,claude-3-7-sonnet,141.7,139.32,143.19
+Qwen3-235B-A22B (Jul 2025),Qwen3-235B-A22B-Instruct-2507,,Alibaba,China,2025-07-25,Open weights (unrestricted),2025-07-25,4.752e+24,Likely,A 22 billion active (235 billion total)-parameter mixture-of-experts instruction-tuned model in the Qwen 3 series.,Qwen3 Non-thinking (Jul 2025),Qwen3-235B-A22B-Instruct (Jul 2025),Qwen3-235B-A22B-Instruct (Jul 2025),qwen3-235b-a22b-instruct-jul-2025,138.96,135.37,140.79
+GPT-5,gpt-5-2025-08-07_minimal,GPT-5 (minimal),OpenAI,United States of America,2025-08-07,API access,2025-08-07,6.6e+25,Speculative,"OpenAI's latest flagship frontier model, benchmarked using minimal reasoning effort.",GPT-5 (minimal),,GPT-5,gpt-5,150.0,,
+Magistral Medium 1.1,magistral-medium-2506,,Mistral AI,France,2025-06-10,API access,2025-06-10,,Unknown,,,,Magistral Medium 1.1,magistral-medium-1-1,,,
+Grok 3,grok-3,,xAI,United States of America,2025-04-09,API access,2025-02-17,3.5000000000000006e+26,Likely,XAI's third generation flagship model.,Grok 3,,Grok 3,grok-3,139.03,136.19,140.21
+GPT-5 mini,gpt-5-mini-2025-08-07_minimal,GPT-5 mini (minimal),OpenAI,United States of America,2025-08-07,API access,2025-08-07,,Unknown,"A smaller version of OpenAI's latest flagship frontier model, benchmarked using medium reasoning effort.",GPT-5 mini (medium),,GPT-5 mini,gpt-5-mini,145.8,144.02,147.03
+Llama 4 Maverick,Llama-4-Maverick-17B-128E-Instruct,Llama 4 Maverick,Meta AI,United States of America,2025-04-05,Open weights (restricted use),2025-04-05,2.244000000001e+24,Likely,The 17 billion active (400 billion total)-parameter model in Meta's Llama 4 series.,,,Llama 4 Maverick,llama-4-maverick,133.02,128.82,135.16
+GPT-5 nano,gpt-5-nano-2025-08-07_low,GPT-5 nano (low),OpenAI,United States of America,2025-08-07,API access,2025-08-07,,Unknown,"The smallest version of OpenAI's latest flagship frontier model, benchmarked using medium reasoning effort.",GPT-5 nano (low),,GPT-5 nano,gpt-5-nano,140.86,136.8,142.7
+GPT-5 nano,gpt-5-nano-2025-08-07_minimal,GPT-5 nano (minimal),OpenAI,United States of America,2025-08-07,API access,2025-08-07,,Unknown,"The smallest version of OpenAI's latest flagship frontier model, benchmarked using medium reasoning effort.",GPT-5 nano (low),,GPT-5 nano,gpt-5-nano,140.86,136.8,142.7
+Claude Fable 5,claude-fable-5_unknown,Claude Fable 5 (unknown),Anthropic,United States of America,2026-06-09,API access,2026-06-09,,Confident,,Claude Fable 5 (unknown),,Claude Fable 5,claude-fable-5,160.75,158.5,164.79
+Claude Opus 4.7,claude-opus-4-7_unknown,Claude Opus 4.7 (unknown),Anthropic,United States of America,2026-04-16,API access,2026-04-16,,Likely,,Claude Opus 4.7 (unknown settings),,Claude Opus 4.7,claude-opus-4-7,156.1,154.29,158.61
+Claude Opus 4.7,claude-opus-4-7,Claude Opus 4.7 (no thinking),Anthropic,United States of America,2026-04-16,API access,2026-04-16,,Likely,,Claude Opus 4.7 (no thinking),,Claude Opus 4.7,claude-opus-4-7,156.1,154.29,158.61
+Claude Opus 4.6,claude-opus-4-6_unknown,Claude Opus 4.6 (unknown thinking),Anthropic,United States of America,2026-02-05,API access,2026-02-05,,Likely,,Claude Opus 4.6 (unknown settings),,Claude Opus 4.6,claude-opus-4-6,155.38,153.47,157.95
+Claude Opus 4.8,claude-opus-4-8_unknown,Claude Opus 4.8,Anthropic,United States of America,2026-05-28,API access,2026-05-28,,Confident,,Claude Opus 4.8 (unknown thinking),,Claude Opus 4.8,claude-opus-4-8,158.03,155.7,160.86
+Claude Opus 4.8,claude-opus-4-8_none,Claude Opus 4.8,Anthropic,United States of America,2026-05-28,API access,2026-05-28,,Confident,,Claude Opus 4.8 (no thinking),,Claude Opus 4.8,claude-opus-4-8,158.03,155.7,160.86
+MiniMax-M3,MiniMax-M3,,MiniMax,China,2026-06-01,API access,2026-06-01,,Confident,,,,MiniMax-M3,minimax-m3,147.57,143.63,150.13
+Gemini 3.5 Flash,gemini-3.5-flash_unknown,Gemini 3.5 Flash (unknown thinking),Google,United States of America,2026-05-19,API access,,,Confident,,,,Gemini 3.5 Flash,gemini-3-5-flash,154.66,152.99,157.19
+MiMo-V2.5-Pro,mimo-v2.5-pro,,Xiaomi Corp,China,,Open weights (unrestricted),2026-04-23,6.804e+24,Likely,,,,MiMo-V2.5-Pro,mimo-v2-5-pro,,,
+DeepSeek-V4-Pro,deepseek-v4-pro_unknown,DeepSeek v4 Pro (unknown thinking),DeepSeek,China,2026-04-24,Open weights (unrestricted),2026-04-24,9.702e+24,Likely,,DeepSeek v4 (unknown thinking),,DeepSeek-V4-Pro,deepseek-v4-pro,148.87,147.05,151.42
+GPT-5.5,gpt-5.5_unknown,GPT-5.5 (unknown thinking),OpenAI,United States of America,2026-04-23,API access,2026-04-23,,Likely,,,,GPT-5.5,gpt-5-5,158.52,156.66,161.58
+MiMo-V2-Pro,mimo-v2-pro,,Xiaomi Corp,China,,,2026-03-18,,Confident,,,,MiMo-V2-Pro,mimo-v2-pro,,,
+MiMo-V2.5,mimo-v2.5,,Xiaomi Corp,China,,Open weights (unrestricted),2026-04-23,4.32e+24,Unverified,,,,MiMo-V2.5,mimo-v2-5,,,
+Kimi K2.5,kimi-k2.5_none,Kimi K2.5 (instant),Moonshot,China,2026-01-27,Open weights (unrestricted),2026-02-02,5.8e+24,Likely,,,,Kimi K2.5,kimi-k2-5,148.26,146.57,149.45
+GPT-5.3 Codex,gpt-5.3-codex,GPT-5.3 Codex,OpenAI,United States of America,2026-02-05,API access,2026-02-05,,Likely,,GPT-5.3 Codex,,GPT-5.3 Codex,gpt-5-3-codex,155.57,153.34,158.79
+MiniMax-M2.7,MiniMax-M2.7,,MiniMax,China,2026-03-18,Open weights (non-commercial),2026-03-18,,Confident,,,,MiniMax-M2.7,minimax-m2-7,145.67,137.9,147.81
+MiniMax-M2.1,MiniMax-M2.1,,MiniMax,China,2025-12-23,Open weights (restricted use),2025-12-23,,Confident,,,,MiniMax-M2.1,minimax-m2-1,,,
+GPT-5.4,gpt-5.4-2026-03-05_unknown,GPT-5.4,OpenAI,United States of America,2026-03-05,API access,2026-03-05,,Likely,,GPT-5.4 (none),,GPT-5.4,gpt-5-4,156.12,154.56,158.38
+Claude Opus 4.1,claude-opus-4-1-20250805_unknown,Claude Opus 4.1 (unknown thinking),Anthropic,United States of America,2025-08-05,API access,2025-08-05,,Unknown,"Anthropic’s largest flagship model, benchmarked with up to 27,000 reasoning tokens.",Claude Opus 4.1 (unknown settings),,Claude Opus 4.1,claude-opus-4-1,144.21,141.96,146.13
+Grok 4.3 Beta,grok-4-3,,xAI,United States of America,2026-04-17,Hosted access (no API),2026-04-17,,Likely,,,,Grok 4.3 Beta,grok-4-3-beta,148.94,147.37,150.6
+DeepSeek-V3.2-Exp,DeepSeek-V3.2-Exp_thinking,,DeepSeek,China,2025-09-29,Open weights (unrestricted),2025-09-29,4.18e+24,Confident,,,,DeepSeek-V3.2-Exp,deepseek-v3-2-exp,144.87,141.89,146.87
+GLM-4.6,glm-4.6,GLM-4.6,"Z.ai (Zhipu AI),Tsinghua University",China,2025-09-30,Open weights (unrestricted),2025-09-30,4.42e+24,Likely,,,,GLM-4.6,glm-4-6,141.02,136.28,142.71
+Gemma 4 26B A4B,gemma-4-26b-a4b,Gemma 4 26B A4B,Google DeepMind,United States of America,2026-04-02,Open weights (unrestricted),2026-04-02,,Confident,,,,Gemma 4 26B A4B,gemma-4-26b-a4b,,,
+Qwen3.5-27B,qwen3.5-27B,,Alibaba,China,2026-02-24,Open weights (restricted use),2026-02-24,,Confident,,,,Qwen3.5-27B,qwen3-5-27b,,,
+GPT-5.1,gpt-5.1-2025-11-13_unknown,GPT-5.1 (unknown thinking),OpenAI,United States of America,2025-11-13,API access,2025-11-13,,Unknown,,GPT-5.1 (high),,GPT-5.1,gpt-5-1,149.74,148.51,150.98
+MiMo-V2-Flash,mimo-v2-flash,,Xiaomi Corp,China,,Open weights (unrestricted),2025-12-16,2.43e+24,Likely,,,,MiMo-V2-Flash,mimo-v2-flash,,,
+GPT-5.2 Codex,gpt-5.2-codex,GPT-5.2 Codex,OpenAI,United States of America,2025-12-18,API access,2025-12-18,,Likely,,GPT-5.2 Codex,,GPT-5.2 Codex,gpt-5-2-codex,,,
+GPT-5.1-Codex,gpt-5.1-codex,GPT-5.1 Codex,OpenAI,United States of America,2025-11-12,API access,2025-11-12,,Unknown,,GPT-5.1-codex,,GPT-5.1-Codex,gpt-5-1-codex,,,
+Claude Haiku 4.5,claude-haiku-4-5-20251001_unknown,Claude Haiku 4.5 (unknown thinking),Anthropic,United States of America,2025-10-15,API access,2025-10-15,,Unknown,,Claude Haiku 4.5 (16k thinking),,Claude Haiku 4.5,claude-haiku-4-5,142.89,139.88,144.83
+MiniMax-M2,MiniMax-M2,,MiniMax,China,2025-10-27,Open weights (unrestricted),2025-10-27,,Confident,,,,MiniMax-M2,minimax-m2,,,
+DeepSeek-V3.2-Exp,DeepSeek-V3.2-Exp,,DeepSeek,China,2025-09-29,Open weights (unrestricted),2025-09-29,4.18e+24,Confident,,,,DeepSeek-V3.2-Exp,deepseek-v3-2-exp,144.87,141.89,146.87
+Qwen3-Coder-480B-A35B,Qwen3-Coder-480B-A35B-Instruct,,Alibaba,China,2025-07-31,Open weights (unrestricted),2025-07-22,1.575e+24,Confident,,Qwen3 Coder,,Qwen3-Coder-480B-A35B,qwen3-coder-480b-a35b,,,
+Qwen 3.6 35B-A3B,qwen3.6-35b-a3b,,Alibaba,China,2026-04-14,Open weights (unrestricted),2026-04-14,,Unverified,,,,Qwen 3.6 35B-A3B,qwen-3-6-35b-a3b,143.38,137.69,147.11
+Gemini 3.1 Flash-Lite,gemini-3.1-flash-lite,,Google,United States of America,2026-03-03,API access,2026-03-03,,Likely,,,,Gemini 3.1 Flash-Lite,gemini-3-1-flash-lite,144.34,137.3,146.47
+GPT-5.1-Codex-mini,gpt-5.1-codex-mini,GPT-5.1 Codex Mini,OpenAI,United States of America,2025-11-12,API access,2025-11-12,,Unknown,,GPT-5.1-codex mini,,GPT-5.1-Codex-mini,gpt-5-1-codex-mini,,,
+Grok 4.1 Fast,grok-4-1-fast-reasoning,,xAI,United States of America,2025-11-19,API access,2025-11-19,,Unknown,,,,Grok 4.1 Fast,grok-4-1-fast,,,
+Grok 4.1,grok-4-1,,xAI,United States of America,2025-11-17,API access,2025-11-17,,Unknown,,,,Grok 4.1,grok-4-1,,,
+Mercury 2,mercury-2,Mercury 2,Inception Labs,United States of America,,API access,2026-02-20,,Unverified,,,,Mercury 2,mercury-2,,,
+,grok-code-fast-1,,,,2025-08-28,,,,Unverified,,,,,grok-code-fast-1,,,
+GPT-5.2,gpt-5.2-2025-12-11_none,GPT-5.2 (none),OpenAI,United States of America,2025-12-11,API access,2025-12-11,,Unknown,,GPT-5.2 (none),,GPT-5.2,gpt-5-2,153.72,152.27,155.53
+Grok 4,grok-4-0709_high,,xAI,United States of America,2025-07-09,API access,2025-07-09,5.0000000000001e+26,Speculative,,Grok 4,,Grok 4,grok-4,147.05,145.08,148.91
+Claude Sonnet 4.6,claude-sonnet-4-6_medium,Claude Sonnet 4.6 (medium),Anthropic,United States of America,2026-02-17,API access,2026-02-17,,Likely,,,,Claude Sonnet 4.6,claude-sonnet-4-6,153.18,150.02,156.88
+Amazon Nova Lite,amazon.nova-lite-v1:0,,Amazon,United States of America,2024-12-03,API access,2024-12-03,,Unknown,,,,Amazon Nova Lite,amazon-nova-lite,,,
+Amazon Nova Micro,amazon.nova-micro-v1:0,,Amazon,United States of America,2024-12-03,API access,2024-12-03,,Unknown,,,,Amazon Nova Micro,amazon-nova-micro,,,
+Amazon Nova Pro,amazon.nova-pro-v1:0,,Amazon,United States of America,2024-12-03,API access,2024-12-03,6.000010000000001e+24,Speculative,,,,Amazon Nova Pro,amazon-nova-pro,123.85,108.99,126.58
+Baichuan1-7B,Baichuan-7B,,Baichuan,China,2023-06-01,Open weights (non-commercial),2023-06-01,5.04e+22,Confident,,,,Baichuan1-7B,baichuan1-7b,89.94,77.33,99.2
+Baichuan 1-13B,Baichuan-13B-Base,,Baichuan,China,2023-07-11,Open weights (restricted use),2023-07-11,9.36e+22,Confident,,,,Baichuan 1-13B,baichuan-1-13b,,,
+Baichuan 2-7B,Baichuan-2-7B-Base,,Baichuan,China,2023-09-20,Open weights (restricted use),2023-09-20,1.092e+23,Confident,,,,Baichuan 2-7B,baichuan-2-7b,95.87,83.78,104.7
+Baichuan2-13B,Baichuan-2-13B-Base,,Baichuan,China,2023-09-06,Open weights (restricted use),2023-09-06,2.03e+23,Confident,,,,Baichuan2-13B,baichuan2-13b,102.8,89.83,110.21
+,Baichuan2-13B-Chat,,,,2023-09-06,,,,Unverified,A chat-optimized version of Baichuan's 13 billion-parameter model in the Baichuan 2 series.,,,,baichuan2-13b-chat,,,
+Cerebras-GPT-13B,Cerebras-GPT-13B,,Cerebras Systems,United States of America,2023-03-20,Open weights (unrestricted),2023-04-06,2.3e+22,Confident,,,,Cerebras-GPT-13B,cerebras-gpt-13b,82.7,67.67,92.51
+,chatglm2-6b,,,,2023-06-24,,,,Unverified,,,,,chatglm2-6b,,,
+Chinchilla,Chinchilla (70B),,DeepMind,United Kingdom of Great Britain and Northern Ireland,2022-03-29,Unreleased,2022-03-29,5.76e+23,Confident,,Chinchilla,,Chinchilla,chinchilla,,,
+Claude 1.3,claude-1.3,,Anthropic,United States of America,2023-04-18,API access,2023-04-18,,Unknown,An updated version of Anthropic's first generation Claude model.,,,Claude 1.3,claude-1-3,,,
+Claude Instant,claude-instant-1.1,,Anthropic,United States of America,,API access,2023-08-09,,Unknown,,,,Claude Instant,claude-instant,121.08,113.11,123.91
+Claude Instant,claude-instant-1.2,,Anthropic,United States of America,2023-08-09,API access,2023-08-09,,Unknown,,,,Claude Instant,claude-instant,121.08,113.11,123.91
+,CodeQwen1.5-7B,,,,2024-04-15,,,,Unverified,,,,,codeqwen1-5-7b,,,
+,c4ai-command-r-08-2024,,,,2024-08-30,,,,Unverified,,,,,c4ai-command-r-08-2024,,,
+Command R+,c4ai-command-r-plus-08-2024,,"Cohere,Cohere for AI",Canada,2024-08-30,Open weights (non-commercial),2024-04-04,,Confident,,Command R+,,Command R+,command-r,,,
+DeepSeek-V2 (MoE-236B),DeepSeek-V2,,DeepSeek,China,2024-05-07,Open weights (restricted use),2024-05-07,1.02e+24,Confident,,,"DeepSeek-V2 (MoE-236B, May 2024)","DeepSeek-V2 (MoE-236B, May 2024)",deepseek-v2-moe-236b-may-2024,124.57,117.19,127.39
+Dolly 2.0-12b,dolly-v2-12b,,Databricks,United States of America,2023-04-11,Open weights (unrestricted),2023-04-12,,Confident,,,,Dolly 2.0-12b,dolly-2-0-12b,89.16,74.74,98.36
+DeepSeek Coder 1.3B,deepseek-coder-1.3b-base,,"DeepSeek,Peking University",China,2023-11-02,Open weights (restricted use),2024-01-25,1.56e+22,Likely,,DeepSeek Coder 1.3B (base),,DeepSeek Coder 1.3B,deepseek-coder-1-3b,63.63,47.75,78.94
+DeepSeek Coder 6.7B,deepseek-coder-6.7b-base,,"DeepSeek,Peking University",China,2023-11-02,Open weights (restricted use),2024-01-25,8.04e+22,Likely,,DeepSeek Coder 6.7B (base),,DeepSeek Coder 6.7B,deepseek-coder-6-7b,89.11,75.25,98.37
+DeepSeek Coder 33B,deepseek-coder-33b-base,,"DeepSeek,Peking University",China,2023-11-02,Open weights (restricted use),2024-01-25,3.96e+23,Likely,,DeepSeek Coder 33B (base),,DeepSeek Coder 33B,deepseek-coder-33b,95.86,84.08,103.49
+,DeepSeek-Coder-V2-Lite-Base,,,,2024-06-13,,,,Unverified,,,,,deepseek-coder-v2-lite-base,,,
+Falcon-7B,falcon-7b,,Technology Innovation Institute,United Arab Emirates,2023-04-24,Open weights (unrestricted),2023-04-24,6.3e+22,Confident,The 7 billion-parameter model in the Falcon series.,,,Falcon-7B,falcon-7b,94.63,82.75,102.92
+Falcon-40B,falcon-40b,,Technology Innovation Institute,United Arab Emirates,2023-03-15,Open weights (unrestricted),2023-03-15,2.4e+23,Confident,The 40 billion-parameter model in the Falcon series.,,,Falcon-40B,falcon-40b,104.07,94.28,110.61
+Falcon-180B,falcon-180B,,Technology Innovation Institute,United Arab Emirates,2023-09-06,Open weights (restricted use),2023-09-06,3.76e+24,Confident,The 180 billion-parameter model in the Falcon series.,,,Falcon-180B,falcon-180b,111.84,103.38,119.45
+Falcon 2 11B,falcon-11b,Falcon 2-11B,Technology Innovation Institute,United Arab Emirates,2024-05-09,Open weights (restricted use),2024-05-09,3.6e+23,Confident,,,,Falcon 2 11B,falcon-2-11b,109.21,100.72,115.4
+Gemini 1.5 Flash,gemini-1.5-flash-0514,,Google DeepMind,United States of America,2024-05-14,API access,2024-05-10,,Unknown,,,Gemini 1.5 Flash (May 2024),Gemini 1.5 Flash (May 2024),gemini-1-5-flash-may-2024,122.52,115.74,124.63
+Gemini 1.5 Pro,gemini-1.5-pro-001-feb24,,Google DeepMind,United States of America,2024-02-15,API access,2024-02-15,,Speculative,"The first of two versions of a previous flagship model from Google DeepMind, Gemini 1.5 Pro.",,Gemini 1.5 Pro (Feb 2024),Gemini 1.5 Pro (Feb 2024),gemini-1-5-pro-feb-2024,,,
+Gemini 2.0 Flash,gemini-2.0-flash-exp,,"Google DeepMind,Google",United States of America,2024-12-11,API access,2024-12-11,,Unknown,"A December 2024 experimental version of Gemini 2.0 Flash, a small langauge model from Google DeepMind.",,Gemini 2.0 Flash (Dec 2024),Gemini 2.0 Flash (Dec 2024),gemini-2-0-flash-dec-2024,135.11,124.08,136.98
+Gemma 7B,gemma-7b,,Google DeepMind,United States of America,2024-02-21,Open weights (restricted use),2024-02-21,3.07e+23,Confident,Google's 7 billion-parameter model in the Gemma series of open source models.,,,Gemma 7B,gemma-7b,111.68,102.58,116.48
+Gemma 2B,gemma-2b,,Google DeepMind,United States of America,2024-02-21,Open weights (restricted use),2024-02-21,4.5115822e+22,Confident,Google's 2 billion-parameter model in the Gemma series of open source models.,,,Gemma 2B,gemma-2b,93.73,82.12,101.24
+Gopher (280B),Gopher (280B),,DeepMind,United Kingdom of Great Britain and Northern Ireland,2021-12-08,Unreleased,2021-12-08,6.31e+23,Confident,A 280 billion-parameter model from DeepMind in 2021.,,,Gopher (280B),gopher-280b,,,
+InstructGPT 175B,text-davinci-001,,OpenAI,United States of America,2022-01-27,API access,2022-01-27,3.19181e+23,Confident,,,,InstructGPT 175B,instructgpt-175b,,,
+"GPT-3.5 (davinci-002)
+",text-davinci-002,,OpenAI,United States of America,2022-03-15,API access,2022-03-15,2.578e+24,Speculative,,,davinci-002,davinci-002,davinci-002,,,
+GPT-3.5 Turbo,gpt-3.5-turbo-0613,GPT-3.5 Turbo (June 2023),OpenAI,United States of America,2023-06-13,API access,2023-06-13,,Likely,,GPT-3.5 Turbo (June 2023),GPT-3.5 Turbo (Jun 2023),GPT-3.5 Turbo (Jun 2023),gpt-3-5-turbo-jun-2023,113.05,104.68,117.82
+GPT-4 Turbo (Nov 2023),gpt-4-turbo,,OpenAI,United States of America,2023-11-06,API access,2023-11-06,,Unknown,An updated version of GPT-4 and OpenAI's then-new flagship language model.,,,GPT-4 Turbo (Nov 2023),gpt-4-turbo-nov-2023,,,
+GPT-J-6B,gpt-j-6b,,"EleutherAI,LAION","United States of America,Germany",2021-08-05,Open weights (unrestricted),2021-05-01,1.5e+22,Confident,,,,GPT-J-6B,gpt-j-6b,,,
+Inflection-1,Inflection-1,,Inflection AI,United States of America,2023-06-22,Hosted access (no API),2023-06-23,1.0001e+24,Speculative,,,,Inflection-1,inflection-1,,,
+INTELLECT-1,INTELLECT-1-Instruct,,"Prime Intellect,Hugging Face,Arcee AI",United States of America,2024-11-29,,2024-11-29,6.000001e+22,Confident,,,,INTELLECT-1,intellect-1,100.44,89.72,106.87
+,internlm-7b,,,,2023-07-05,,,,Unverified,,,,,internlm-7b,,,
+,internlm-chat-20b,,,,2023-09-17,,,,Unverified,,,,,internlm-chat-20b,,,
+LLaMA-7B,LLaMA-7B,,Meta AI,United States of America,2023-02-24,Open weights (non-commercial),2023-02-24,4.00000001e+22,Confident,Meta's smallest model in the original Llama series.,,,LLaMA-7B,llama-7b,96.24,83.96,103.67
+LLaMA-13B,LLaMA-13B,,Meta AI,United States of America,2023-02-24,Open weights (non-commercial),2023-02-27,7.8e+22,Confident,Meta's 13 billion-parameter model in the original Llama series.,,,LLaMA-13B,llama-13b,100.16,89.84,106.81
+LLaMA-33B,LLaMA-33B,,Meta AI,United States of America,2023-02-24,Open weights (non-commercial),2023-02-27,2.7300000000001e+23,Confident,Meta's 33 billion-parameter model in the original Llama series,,,LLaMA-33B,llama-33b,107.05,97.79,112.22
+LLaMA-65B,LLaMA-65B,,Meta AI,United States of America,2023-02-24,Open weights (non-commercial),2023-02-24,5.5e+23,Confident,Meta's largest model in the original Llama series.,,,LLaMA-65B,llama-65b,109.84,100.69,114.44
+Llama 2-7B,Llama-2-7b,,Meta AI,United States of America,2023-07-18,Open weights (restricted use),2023-07-18,8.4e+22,Confident,Meta's 7 billion-parameter model in the Llama 2 series of open source models.,,,Llama 2-7B,llama-2-7b,98.63,87.91,105.56
+Llama 2-13B,Llama-2-13b,,Meta AI,United States of America,2023-07-18,Open weights (restricted use),2023-07-18,1.6e+23,Confident,Meta's 13 billion-parameter model in the Llama 2 series of open source models.,,,Llama 2-13B,llama-2-13b,105.8,96.31,111.25
+Llama 2-70B,"Llama-2-70b-hf ",,Meta AI,United States of America,2023-07-18,Open weights (restricted use),2023-07-18,8.1e+23,Confident,A chat-optimized of a 70 billion-parameter model in the Llama 2 series.,,,Llama 2-70B,llama-2-70b,113.66,104.17,117.96
+Llama 2-34B,Llama-2-34b,,Meta AI,United States of America,2023-07-18,Unreleased,2023-07-18,4.08e+23,Confident,Meta's 34 billion-parameter model in the Llama 2 series.,,,Llama 2-34B,llama-2-34b,104.83,95.11,110.85
+Llama 3.2 11B,Llama-3.2-11B-Vision-Instruct,,Meta AI,United States of America,2024-09-24,Open weights (restricted use),2024-09-24,5.79e+23,Confident,An 11 billion-parameter instruction-tuned vision language model in Meta's Llama 3.2 series.,,,Llama 3.2 11B,llama-3-2-11b,,,
+Llama 3.1-405B,Llama-3.1-405B,,Meta AI,United States of America,2024-07-23,Open weights (restricted use),2024-07-23,3.8e+25,Confident,The 405 billion-parameter model in Meta’s LLaMA 3.1 series.,,,Llama 3.1-405B,llama-3-1-405b,128.99,123.86,130.93
+Llama 2-13B,Llama-2-13b-chat,,Meta AI,United States of America,2023-07-18,Open weights (restricted use),2023-07-18,1.6e+23,Confident,A chat-optimized version of Meta's 13 billion-parameter model in the Llama 2 series.,,,Llama 2-13B,llama-2-13b,105.8,96.31,111.25
+Llama 2-70B,Llama-2-70b-chat,,Meta AI,United States of America,2023-07-18,Open weights (restricted use),2023-07-18,8.1e+23,Confident,A chat-optimized version of Meta's 70 billion-parameter model in the Llama 2 series.,,,Llama 2-70B,llama-2-70b,113.66,104.17,117.96
+Mistral 7B,Mistral-7B-Instruct-v0.2,,Mistral AI,France,2023-12-11,Open weights (unrestricted),2023-10-10,,Confident,,,Mistral 7B v0.2,Mistral 7B v0.2,mistral-7b-v0-2,,,
+Mistral 7B,Mistral-7B-v0.1,,Mistral AI,France,2023-09-27,Open weights (unrestricted),2023-10-10,,Confident,,,Mistral 7B v0.1,Mistral 7B v0.1,mistral-7b-v0-1,111.9,102.35,115.88
+,mistral-small-2402,,,,2024-02-26,,,,Unverified,A 2024 version of a Mistral language model.,,,,mistral-small-2402,,,
+Mixtral 8x22B,Mixtral-8x22B-v0.1,,Mistral AI,France,2024-04-17,Open weights (unrestricted),2024-04-17,2.34e+24,Speculative,,,,Mixtral 8x22B,mixtral-8x22b,121.26,112.34,123.45
+Mixtral 8x7B,Mixtral-8x7B-v0.1,,Mistral AI,France,2023-12-11,Open weights (unrestricted),2023-12-11,7.74e+23,Speculative,,,,Mixtral 8x7B,mixtral-8x7b,118.09,110.07,120.79
+MPT-7B,mpt-7b,,MosaicML,United States of America,2023-05-05,Open weights (unrestricted),2023-05-05,4.2e+22,Confident,,,,MPT-7B,mpt-7b,94.12,81.47,102.87
+MPT-30B,mpt-30b,,MosaicML,United States of America,2023-06-22,Open weights (unrestricted),2023-06-22,1.8900000000001e+23,Confident,,,,MPT-30B,mpt-30b,100.24,90.86,106.45
+Nemotron-4 15B,Nemotron-4 15B,,NVIDIA,United States of America,2024-02-26,Unreleased,2024-02-27,7.5005116e+23,Confident,A 15 billion-parameter language model trained by Nvidia.,,,Nemotron-4 15B,nemotron-4-15b,107.37,97.63,112.9
+,open_llama_7b,,,,2023-06-07,,,,Unverified,,,,,open-llama-7b,,,
+,opt-13b,,,,2022-05-11,,,,Unverified,,,,,opt-13b,,,
+,PaLM 62B,,,,2022-04-04,,,,Unverified,Google's 62 billion-parameter model in the PaLM series.,,,,palm-62b,,,
+PaLM (540B),PaLM 540B,,Google Research,United States of America,2022-04-04,Unreleased,2022-04-04,2.5272e+24,Confident,Google's largest model in the PaLM series.,,,PaLM (540B),palm-540b,,,
+Phi-1.5,phi-1_5,,Microsoft,United States of America,2023-09-11,Open weights (unrestricted),2023-09-11,1.17e+21,Confident,,,,Phi-1.5,phi-1-5,91.06,69.8,101.36
+Phi-2,phi-2,,Microsoft,United States of America,2023-12-12,Open weights (unrestricted),2023-12-12,2.27e+22,Confident,,,,Phi-2,phi-2,107.56,85.07,113.66
+phi-3-mini 3.8B,Phi-3-mini-4k-instruct,,Microsoft,United States of America,2024-04-23,Open weights (unrestricted),2024-04-23,7.524e+22,Confident,A 4 billion-parameter model in Microsoft's Phi-3 open source model series with a 4000-token context length.,,,phi-3-mini 3.8B,phi-3-mini-3-8b,117.09,107.67,120.81
+phi-3-small 7.4B,Phi-3-small-8k-instruct,,Microsoft,United States of America,2024-04-23,Open weights (unrestricted),2024-04-23,2.1312e+23,Confident,A 7 billion-parameter model in Microsoft's Phi-3 open source model series with a 8000-token context length.,,,phi-3-small 7.4B,phi-3-small-7-4b,121.61,114.15,124.33
+,Qwen-1_8B,Qwen-1.8B,,,2023-11-30,,,,Unverified,Qwen's 1.8 billion-parameter model in the original Qwen series.,,,,qwen-1-8b,,,
+Qwen-7B,Qwen-7B,,Alibaba,China,2023-09-28,Open weights (restricted use),2023-09-28,1.01e+23,Confident,Qwen's 7 billion-parameter model in the original Qwen series.,Qwen-7B,,Qwen-7B,qwen-7b,106.45,94.33,112.06
+Qwen-14B,Qwen-14B,,Alibaba,China,2023-09-28,Open weights (restricted use),2023-09-28,2.5e+23,Confident,Qwen's 14 billion-parameter model in the original Qwen series.,Qwen-14B,,Qwen-14B,qwen-14b,112.72,103.38,117.39
+Qwen-14B,Qwen-14B-Chat,,Alibaba,China,2023-09-24,Open weights (restricted use),2023-09-28,2.5e+23,Confident,A chat-optimized version of Qwen's first-generation 14 billion-parameter model.,Qwen-14B (chat),,Qwen-14B,qwen-14b,112.72,103.38,117.39
+Qwen1.5-7B,Qwen1.5-7B,,Alibaba,China,2024-02-04,Open weights (unrestricted),2024-02-04,1.68e+23,Confident,A 7 billion-parameter model in the Qwen 1.5 series.,Qwen1.5-7B,,Qwen1.5-7B,qwen1-5-7b,,,
+Qwen1.5-14B,qwen1.5-14B,,Alibaba,China,2024-02-04,Open weights (unrestricted),2024-02-04,3.36e+23,Confident,A 14 billion-parameter model in the Qwen 1.5 series.,Qwen1.5-14B,,Qwen1.5-14B,qwen1-5-14b,,,
+Qwen1.5-32B,qwen1.5-32B,,Alibaba,China,2024-02-04,Open weights (restricted use),2024-02-05,,Confident,A 32 billion-parameter model in the Qwen 1.5 series.,Qwen1.5-32B,,Qwen1.5-32B,qwen1-5-32b,,,
+Qwen2.5-14B,qwen2.5-14b-instruct,,Alibaba,China,2025-02-26,Open weights (unrestricted),2024-09-19,1.58760000000001e+24,Confident,An instruction-tuned version of Qwen 2.5 14b.,Qwen2.5-14B (instruct),,Qwen2.5-14B,qwen2-5-14b,,,
+Qwen2.5-72B,Qwen2.5-72B,,Alibaba,China,2024-09-19,Open weights (unrestricted),2024-09-19,7.8e+24,Confident,A 72 billion-parameter model in the Qwen 2.5 series.,Qwen2.5-72B,,Qwen2.5-72B,qwen2-5-72b,129.12,122.58,130.87
+Qwen2.5-7B,qwen2.5-7b-instruct,,Alibaba,China,2025-02-26,Open weights (unrestricted),2024-09-19,8.2188e+23,Confident,An instruction-tuned version of Qwen 2.5 7b.,Qwen2.5-7B,,Qwen2.5-7B,qwen2-5-7b,,,
+,Qwen2.5-Coder-0.5B,,,,2024-09-18,,,,Unverified,Qwen's 500 million-parameter model in the Qwen 2.5 Coder series of open source models.,,,,qwen2-5-coder-0-5b,,,
+Qwen2.5-Coder (1.5B),Qwen2.5-Coder-1.5B,,Alibaba,China,2024-09-18,Open weights (unrestricted),2024-09-18,5.082e+22,Confident,Qwen's 1.5 billion-parameter model in the Qwen 2.5 Coder series of open source models.,Qwen2.5-Coder-1.5B,,Qwen2.5-Coder (1.5B),qwen2-5-coder-1-5b,102.59,85.79,110.57
+Qwen2.5-Coder (32B),Qwen2.5-Coder-32B,,Alibaba,China,2024-09-18,Open weights (unrestricted),2024-11-12,1.0725e+24,Confident,Qwen's 32 billion-parameter model in the Qwen 2.5 Coder series of open source models.,Qwen2.5-Coder-32B,Qwen2.5-Coder-32B,Qwen2.5-Coder-32B,qwen2-5-coder-32b,119.23,109.95,124.68
+Qwen2.5-Coder (7B),Qwen2.5-Coder-7B,,Alibaba,China,2024-09-18,Open weights (unrestricted),2024-09-18,2.5113e+23,Confident,Qwen's 7 billion-parameter model in the Qwen 2.5 Coder series of open source models.,Qwen2.5-Coder-7B,,Qwen2.5-Coder (7B),qwen2-5-coder-7b,112.83,101.15,119.2
+,Qwen2.5-Coder-14B,,,,2024-09-18,,,,Unverified,Qwen's 14 billion-parameter model in the Qwen 2.5 Coder series of open source models.,,,,qwen2-5-coder-14b,,,
+,RedPajama-INCITE-7B-Base,,,,2023-05-04,,,,Unverified,,,,,redpajama-incite-7b-base,,,
+Stable Beluga 2,StableBeluga2,,Stability AI,United Kingdom of Great Britain and Northern Ireland,2023-07-20,Open weights (non-commercial),2023-07-20,,Likely,,Stable Beluga 2,,Stable Beluga 2,stable-beluga-2,116.85,109.0,120.31
+StarCoder 2 3B,starcoder2-3b,,"Hugging Face,ServiceNow,NVIDIA,BigCode",United States of America,2024-02-22,Open weights (restricted use),2024-02-29,5.94e+22,Confident,,StarCoder 2 3B,,StarCoder 2 3B,starcoder-2-3b,88.25,73.45,98.1
+StarCoder 2 7B,starcoder2-7b,,"Hugging Face,ServiceNow,NVIDIA,BigCode",United States of America,2024-02-20,Open weights (restricted use),2024-02-29,1.55e+23,Confident,,StarCoder 2 7B,,StarCoder 2 7B,starcoder-2-7b,93.07,75.06,102.39
+StarCoder 2 15B,starcoder2-15b,,"Hugging Face,ServiceNow,NVIDIA,BigCode",United States of America,2024-02-20,Open weights (restricted use),2024-02-29,3.87e+23,Confident,,StarCoder 2 15B,,StarCoder 2 15B,starcoder-2-15b,104.62,92.93,112.03
+XGen-7B,xgen-7b-8k-base,,Salesforce,United States of America,2023-06-27,Open weights (unrestricted),2023-09-07,8.02e+22,Confident,,XGen-7B,,XGen-7B,xgen-7b,92.92,81.16,100.75
+Yi 6B,Yi-6B,,01.AI,China,2023-11-02,Open weights (restricted use),2023-11-02,1.26e+23,Confident,,Yi-6B (chat),,Yi 6B,yi-6b,104.39,93.55,110.61
+Yi-34B,Yi-34B,,01.AI,China,2023-11-02,Open weights (restricted use),2023-11-02,6.1e+23,Confident,,Yi-34B,Yi-34B,Yi-34B,yi-34b,117.1,107.88,120.52
+Yi-Large,Yi-large,,01.AI,China,2024-05-13,API access,2024-05-13,1.8e+24,Speculative,,Yi-Large,,Yi-Large,yi-large,,,
+,Yi-9B,,,,2024-03-01,,,,Unverified,,,,,yi-9b,,,
+Yi 6B,Yi-6B-Chat,,01.AI,China,2023-11-22,Open weights (restricted use),2023-11-02,1.26e+23,Confident,,Yi-6B,,Yi 6B,yi-6b,104.39,93.55,110.61
+Muse Spark 1.1,muse-spark-1.1,Muse Spark 1.1,Meta AI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,Muse Spark 1.1,,Muse Spark 1.1,muse-spark-1-1,,,
+Claude Opus 4.5,claude-opus-4-5-20251101_unknown,Claude Opus 4.5 (unknown thinking),Anthropic,United States of America,2025-11-24,API access,2025-11-24,,Unknown,,Claude Opus 4.5 (unknown settings),,Claude Opus 4.5,claude-opus-4-5,149.54,147.4,152.08
+Claude Sonnet 4.5,claude-sonnet-4-5-20250929_unknown,Claude Sonnet 4.5 (unknown thinking),Anthropic,United States of America,2025-09-29,API access,2025-09-29,,Unknown,,Claude Sonnet 4.5 (59k thinking),,Claude Sonnet 4.5,claude-sonnet-4-5,146.76,144.75,148.29
+GPT-5.1-Codex-Max,gpt-5.1-codex-max,GPT-5.1-Codex-Max,OpenAI,United States of America,2025-11-19,API access,2025-11-19,,Unknown,,GPT-5.1-Codex-Max,,GPT-5.1-Codex-Max,gpt-5-1-codex-max,,,
+Nemotron 3 Ultra,nemotron-3-ultra,,NVIDIA,United States of America,2026-06-04,Open weights (unrestricted),2026-06-04,6.6e+24,Likely,,,,Nemotron 3 Ultra,nemotron-3-ultra,,,
 Claude Opus 4.6,claude-opus-4-6_high,Claude Opus 4.6 (high),Anthropic,United States of America,2026-02-05,API access,2026-02-05,,Likely,,Claude Opus 4.6 (high),,Claude Opus 4.6,claude-opus-4-6,155.38,153.47,157.95
 DeepSeek-V4-Pro,deepseek-v4-pro_high,DeepSeek v4 Pro (high),DeepSeek,China,2026-04-24,Open weights (unrestricted),2026-04-24,9.702e+24,Likely,,DeepSeek v4 (high),,DeepSeek-V4-Pro,deepseek-v4-pro,148.87,147.05,151.42
 GLM-4.7,zai-org/glm-4.7,GLM-4.7 (Novita),Z.ai (Zhipu AI),China,2025-12-22,Open weights (unrestricted),2025-12-22,4.42e+24,Likely,,,,GLM-4.7,glm-4-7,143.76,141.34,145.52
-DeepSeek-V3.2-Exp,DeepSeek-V3.2-Exp_thinking,,DeepSeek,China,2025-09-29,Open weights (unrestricted),2025-09-29,4.18e+24,Confident,,,,DeepSeek-V3.2-Exp,deepseek-v3-2-exp,144.87,141.89,146.87
-DeepSeek-V3.2,deepseek/deepseek-v3.2,DeepSeek-V3.2 (Thinking; Novita),DeepSeek,China,2025-12-01,Open weights (unrestricted),2025-12-01,4.1999999999999997e+24,Likely,,,DeepSeek-V3.2,DeepSeek-V3.2,deepseek-v3-2,146.59,144.75,147.64
-MiMo-V2-Pro,mimo-v2-pro,,Xiaomi Corp,China,,,2026-03-18,,Confident,,,,MiMo-V2-Pro,mimo-v2-pro,,,
-Claude Opus 4.7,claude-opus-4-7,Claude Opus 4.7 (no thinking),Anthropic,United States of America,2026-04-16,API access,2026-04-16,,Likely,,Claude Opus 4.7 (no thinking),,Claude Opus 4.7,claude-opus-4-7,156.1,154.29,158.61
-Claude Opus 4.7,claude-opus-4-7_high,Claude Opus 4.7 (high),Anthropic,United States of America,2026-04-16,API access,2026-04-16,,Likely,,Claude Opus 4.7 (high),,Claude Opus 4.7,claude-opus-4-7,156.1,154.29,158.61
-Claude Opus 4,claude-opus-4-20250514_unknown,Claude Opus 4,Anthropic,United States of America,2025-05-22,API access,2025-05-22,,Unknown,"Anthropic's largest model in the Claude 4 series (superseded by Claude Opus 4.1), benchmarked with up to 32,000 reasoning tokens.",Claude Opus 4 (unknown settings),,Claude Opus 4,claude-opus-4,142.93,140.32,144.52
-Kimi K2,Kimi-K2-Instruct,Kimi K2 Instruct,Moonshot,China,2025-07-12,Open weights (restricted use),2025-07-11,2.976e+24,Confident,Moonshot AI’s 1-trillion parameter scale model.,,Kimi K2 (Jul 2025),Kimi K2 (Jul 2025),kimi-k2-jul-2025,140.45,137.2,142.25
-Qwen3-Coder-480B-A35B,Qwen3-Coder-480B-A35B-Instruct,,Alibaba,China,2025-07-31,Open weights (unrestricted),2025-07-22,1.575e+24,Confident,,Qwen3 Coder,,Qwen3-Coder-480B-A35B,qwen3-coder-480b-a35b,,,
+Megatron-Turing NLG 530B,Megatron-Turing NLG 530B,,"Microsoft,NVIDIA",United States of America,2022-01-28,Unreleased,2021-10-11,8.586e+23,Confident,,,,Megatron-Turing NLG 530B,megatron-turing-nlg-530b,,,
+Claude Fable 5,claude-fable-5,Claude Fable 5,Anthropic,United States of America,2026-06-09,API access,2026-06-09,,Confident,,Claude Fable 5,,Claude Fable 5,claude-fable-5,160.75,158.5,164.79
+GPT‑5-Codex,gpt-5-codex,GPT-5-codex,OpenAI,United States of America,2025-09-15,API access,2025-09-15,,Unknown,,GPT-5-codex,,GPT‑5-Codex,gpt5-codex,,,
 Claude Sonnet 4,claude-sonnet-4-20250514_unknown,Claude Sonnet 4 (unknown thinking),Anthropic,United States of America,2025-05-22,API access,2025-05-22,,Unknown,"Anthropic's mid-sized Claude 4 series model, evaluated at up to 12,000 reasoning tokens.",Claude Sonnet 4 (12k thinking),,Claude Sonnet 4,claude-sonnet-4,142.18,139.59,143.61
-Claude 3.7 Sonnet,claude-3-7-sonnet-20250219_unknown,Claude 3.7 Sonnet (unknown thinking),Anthropic,United States of America,2025-02-24,API access,2025-02-24,3.3499999999999998e+25,Likely,"A previous flagship reasoning model from Anthropic, benchmarked with up to 64,000 reasoning tokens allowed.",Claude 3.7 Sonnet (64k thinking),,Claude 3.7 Sonnet,claude-3-7-sonnet,141.7,139.32,143.19
-GLM-4.5-Air,GLM-4.5-Air,,"Z.ai (Zhipu AI),Tsinghua University",China,2025-07-20,Open weights (unrestricted),2025-08-05,1.656e+24,Confident,"A smaller version of GLM-4.5, Zhipu AI & Tsinghua University's large open source model.",,,GLM-4.5-Air,glm-4-5-air,,,
-o3-mini,o3-mini-2025-01-31_low,,OpenAI,United States of America,2025-01-31,API access,2025-01-31,,Unknown,"A smaller version of OpenAI's o3 reasoning model, evaluated with low reasoning effort.",,,o3-mini,o3-mini,141.42,138.55,143.06
-Claude Opus 4.8,claude-opus-4-8_xhigh,Claude Opus 4.8,Anthropic,United States of America,2026-05-28,API access,2026-05-28,,Confident,,Claude Opus 4.8 (xhigh),,Claude Opus 4.8,claude-opus-4-8,158.03,155.7,160.86
-GPT-5.6 Sol,gpt-5.6-sol_high,GPT-5.6 Sol (high),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Sol (high),,GPT-5.6 Sol,gpt-5-6-sol,162.06,159.6,166.58
-Claude Opus 4.8,claude-opus-4-8_high,Claude Opus 4.8,Anthropic,United States of America,2026-05-28,API access,2026-05-28,,Confident,,Claude Opus 4.8 (high),,Claude Opus 4.8,claude-opus-4-8,158.03,155.7,160.86
+gpt-oss-120b,gpt-oss-120b_high,,OpenAI,United States of America,2025-08-05,Open weights (unrestricted),2025-08-05,4.94e+24,Confident,"The larger one of OpenAI's two latest open source language models, evaluated with high reasoning effort.",,,gpt-oss-120b,gpt-oss-120b,140.63,135.57,143.3
+Kimi K2 Thinking,kimi-k2-thinking,Kimi K2 Thinking,Moonshot,China,2025-11-06,Open weights (restricted use),2025-11-06,4.1999999999999997e+24,Likely,,,,Kimi K2 Thinking,kimi-k2-thinking,146.05,143.78,147.61
+,claude-mythos-preview-early,,,,,,,,Unverified,,,,,claude-mythos-preview-early,,,
+o3,o3-2025-04-16_unknown,o3 (unknown thinking),OpenAI,United States of America,2025-04-16,API access,2024-12-20,,Unknown,"OpenAI's second generation o-series reasoning model, evaluated with high reasoning effort.",,,o3,o3,147.07,145.01,148.52
+Claude Opus 4,claude-opus-4-20250514_unknown,Claude Opus 4,Anthropic,United States of America,2025-05-22,API access,2025-05-22,,Unknown,"Anthropic's largest model in the Claude 4 series (superseded by Claude Opus 4.1), benchmarked with up to 32,000 reasoning tokens.",Claude Opus 4 (unknown settings),,Claude Opus 4,claude-opus-4,142.93,140.32,144.52
+gpt-oss-120b,gpt-oss-120b,,OpenAI,United States of America,2025-08-05,Open weights (unrestricted),2025-08-05,4.94e+24,Confident,The larger one of OpenAI's two latest open source language models.,,,gpt-oss-120b,gpt-oss-120b,140.63,135.57,143.3
+GPT-3.5 Turbo Instruct,gpt-3.5-turbo-instruct,,OpenAI,United States of America,2023-09-18,API access,2023-09-28,,Likely,An instruction-tuned version of OpenAI's GPT-3.5 turbo.,,,GPT-3.5 Turbo Instruct,gpt-3-5-turbo-instruct,,,
+GPT-3 175B (davinci),davinci-002,,OpenAI,United States of America,,API access,2020-05-28,3.14e+23,Confident,,GPT-3 175B (davinci-002),,GPT-3 175B (davinci),gpt-3-175b-davinci,,,
+GPT-2 (1.5B),gpt2-xl,,OpenAI,United States of America,2019-11-05,Open weights (unrestricted),2019-02-14,1.920000000001e+21,Speculative,"The largest version of GPT-2, OpenAI's second generation transformer-based large pretrained language model.",,,GPT-2 (1.5B),gpt-2-1-5b,,,
+GLaM,GLaM (MoE),,Google,United States of America,2021-12-13,Unreleased,2021-12-13,3.6363112434e+23,Confident,,,,GLaM,glam,,,
+GPT-Neo-2.7B,gpt-neo-2.7B,,EleutherAI,United States of America,2023-03-30,Open weights (unrestricted),2021-03-21,7.9e+21,Confident,,,,GPT-Neo-2.7B,gpt-neo-2-7b,,,
+GPT-NeoX-20B,gpt-neox-20b,,EleutherAI,United States of America,2022-04-07,Open weights (unrestricted),2022-02-09,9.31627008e+22,Confident,,,,GPT-NeoX-20B,gpt-neox-20b,,,
+OPT-1.3B,opt-1.3b,,Meta AI,United States of America,2022-05-11,Open weights (non-commercial),2022-06-21,,Confident,,,,OPT-1.3B,opt-1-3b,,,
+,PaLM 2-M,,,,2023-05-17,,,,Unverified,DeepMind's mid-sized model in the PaLM 2 series.,,,,palm-2-m,,,
+,PaLM 2-S,,,,2023-05-17,,,,Unverified,DeepMind's smallest model in the PaLM 2 series.,,,,palm-2-s,,,
+,stablelm-tuned-alpha-7b,,,,2023-04-19,,,,Unverified,,,,,stablelm-tuned-alpha-7b,,,
+,vicuna-13b-v1.1,,,,2023-04-12,,,,Unverified,,,,,vicuna-13b-v1-1,,,
+video-SALMONN 2+,video-SALMONN-2plus,,ByteDance,China,2025-06-18,,2025-06-18,,Likely,,,,video-SALMONN 2+,video-salmonn-2,,,
+Qwen2.5-72B,Qwen2.5-VL-72B-Instruct,,Alibaba,China,2024-09-19,Open weights (unrestricted),2024-09-19,7.8e+24,Confident,A 72 billion-parameter instruction-tuned vision language model in the Qwen 2.5 series.,Qwen2.5-VL-72B,,Qwen2.5-72B,qwen2-5-72b,129.12,122.58,130.87
+InternVL2_5-78B,InternVL2_5-78B,,"Shanghai AI Lab,SenseTime,Tsinghua University,Nanjing University,Fudan University,Chinese University of Hong Kong (CUHK),Shanghai Jiao Tong University","China,Hong Kong",2024-12-06,Open weights (restricted use),2024-12-06,,Confident,,,,InternVL2_5-78B,internvl2-5-78b,,,
+,Qwen2-VL-72B-Instruct,,,,2024-08-29,,,,Unverified,A 72 billion-parameter instruction-tuned vision language model in Qwen's Qwen 2 series.,,,,qwen2-vl-72b-instruct,,,
+,LLaVA-Video-72B-Qwen2,,,,2024-09-02,,,,Unverified,,,,,llava-video-72b-qwen2,,,
+,LinVT,,,,2024-12-06,,,,Unverified,,,,,linvt,,,
+,Aria,,,,2024-09-30,,,,Unverified,,,,,aria,,,
+,ViLAMP-llava-qwen,,,,2025-05-01,,,,Unverified,,,,,vilamp-llava-qwen,,,
+,Oryx-1.5-32B,,,,2024-10-22,,,,Unverified,,,,,oryx-1-5-32b,,,
+,LLaVA-OneVision 72B,,,,2024-08-06,,,,Unverified,,,,,llava-onevision-72b,,,
+,VideoLLAMA3-7B,,,,2024-01-22,,,,Unverified,,,,,videollama3-7b,,,
+,LLaVA-Video-7B-Qwen2,,,,2024-09-02,,,,Unverified,,,,,llava-video-7b-qwen2,,,
+,LLaVA-Video-7B-Qwen2-TPO,,,,2025-01-19,,,,Unverified,,,,,llava-video-7b-qwen2-tpo,,,
+,VideoChat-Flash-Qwen2-7B_res448,,,,2025-01-11,,,,Unverified,,,,,videochat-flash-qwen2-7b-res448,,,
+,ByteVideoLLM-14B,,,,2024-10-13,,,,Unverified,,,,,bytevideollm-14b,,,
+NVILA 8B,NVILA-8B,,"NVIDIA,Massachusetts Institute of Technology (MIT),University of California (UC) Berkeley,University of California San Diego,University of Washington,Tsinghua University","China,United States of America",2024-12-10,Open weights (non-commercial),2024-12-05,2.2794518e+21,Likely,,,,NVILA 8B,nvila-8b,,,
+,LiveCC-7B-Instruct,,,,2024-04-12,,,,Unverified,,,,,livecc-7b-instruct,,,
+,Qwen2-VL-7B-Instruct,,,,2024-08-29,,,,Unverified,A 7 billion-parameter instruction-tuned vision language model in Qwen's Qwen 2 series.,,,,qwen2-vl-7b-instruct,,,
+,MiniCPM-o-2_6,,,,2025-01-12,,,,Unverified,,,,,minicpm-o-2-6,,,
+,VideoLLAMA2-7B,,,,2024-06-12,,,,Unverified,,,,,videollama2-7b,,,
+InternVL2-40B,InternVL2-40B,,Shanghai AI Lab,China,2024-07-08,Open weights (unrestricted),2024-07-04,,Confident,,,,InternVL2-40B,internvl2-40b,,,
+,MiniCPM-V-2_6,,,,2024-08-03,,,,Unverified,,,,,minicpm-v-2-6,,,
+GPT-4V,gpt-4-1106-vision-preview,,OpenAI,United States of America,2023-11-06,API access,2023-09-25,,Unknown,,,,GPT-4V,gpt-4v,,,
+,mPLUG-Owl3-7B-241101,,,,2024-11-26,,,,Unverified,,,,,mplug-owl3-7b-241101,,,
+,TimeMarker,,,,2024-11-27,,,,Unverified,,,,,timemarker,,,
+,VITA-1.5,,,,2024-12-20,,,,Unverified,,,,,vita-1-5,,,
+,kangaroo,,,,2024-11-13,,,,Unverified,,,,,kangaroo,,,
+,VITA,,,,2024-08-12,,,,Unverified,,,,,vita,,,
+,Video-XL-7B,,,,2024-10-17,,,,Unverified,,,,,video-xl-7b,,,
+,Video-CCAM-7B-v1.2,,,,2024-09-29,,,,Unverified,,,,,video-ccam-7b-v1-2,,,
+,long-llava-qwen2-7b,,,,2024-08-30,,,,Unverified,,,,,long-llava-qwen2-7b,,,
+,LongVA-7B,,,,2024-06-13,,,,Unverified,,,,,longva-7b,,,
+,Qwen-VL-Max,,,,2024-01-18,,,,Unverified,,,,,qwen-vl-max,,,
+,InternVL-Chat-V1-5,,,,2024-04-18,,,,Unverified,,,,,internvl-chat-v1-5,,,
+,SliME-Llama3-8B,,,,2024-06-02,,,,Unverified,,,,,slime-llama3-8b,,,
+,Chat-Uni-Vi-7B-v1.5 + 100k SG-WV,,,,2024-06-20,,,,Unverified,,,,,chat-uni-vi-7b-v1-5--100k-sg-wv,,,
+,Qwen-VL-Chat,,,,2023-08-20,,,,Unverified,,,,,qwen-vl-chat,,,
+,"Chat-UniVi-7B-v1.5 ",,,,2024-04-23,,,,Unverified,,,,,chat-univi-7b-v1-5-,,,
+,sharegpt4video-8b,,,,2024-05-27,,,,Unverified,,,,,sharegpt4video-8b,,,
+,Video-LLaVA-7B,,,,2023-11-17,,,,Unverified,,,,,video-llava-7b,,,
+,video_chat2_mistral,,,,2023-11-29,,,,Unverified,,,,,video-chat2-mistral,,,
+,ST-LLM,,,,2024-03-28,,,,Unverified,,,,,st-llm,,,
+Gemini 2.5 Flash,gemini-2.5-flash-preview-09-2025,,Google DeepMind,United States of America,2025-09-25,API access,2025-04-17,,Unknown,,Gemini 2.5 Flash (Sep 2025),Gemini 2.5 Flash (Sep 2025),Gemini 2.5 Flash (Sep 2025),gemini-2-5-flash-sep-2025,143.15,139.31,146.6
+,internlm-20b,,,,2023-09-18,,,,Unverified,,,,,internlm-20b,,,
+phi-3.5-mini,Phi-3.5-mini-instruct,,Microsoft,United States of America,2024-08-16,Open weights (unrestricted),2024-04-23,3.7101154e+22,Confident,"An instruction-tuned version of phi-3.5-mini, a small model in Microsoft's Phi 3.5 open source model series.",,,phi-3.5-mini,phi-3-5-mini,,,
+Phi-3.5-MoE,Phi-3.5-MoE-instruct,,Microsoft,United States of America,2024-08-17,Open weights (unrestricted),2024-04-23,3.0202896e+23,Confident,,,,Phi-3.5-MoE,phi-3-5-moe,,,
+Mistral NeMo,Mistral-Nemo-Base-2407,,Mistral AI,France,2024-07-18,Open weights (unrestricted),2024-07-18,,Confident,,,,Mistral NeMo,mistral-nemo,118.35,110.68,121.97
+Gemma 2 9B,gemma-2-9b,,Google DeepMind,United States of America,,Open weights (restricted use),2024-06-24,4.32e+23,Confident,A 9 billion-parameter open source model from Google DeepMind in the Gemma 2 series.,,,Gemma 2 9B,gemma-2-9b,119.55,111.45,122.25
+DeepSeek-V3,DeepSeek-V3-Base,,DeepSeek,China,2024-12-26,Open weights (restricted use),2024-12-24,3.3e+24,Confident,,DeepSeek-V3 (base),,DeepSeek-V3,deepseek-v3,133.0,127.6,135.89
+Mistral 7B,Mistral-7B-Instruct-v0.1,,Mistral AI,France,2023-09-27,Open weights (unrestricted),2023-10-10,,Confident,,,Mistral 7B v0.1,Mistral 7B v0.1,mistral-7b-v0-1,111.9,102.35,115.88
+Claude Fable 5,claude-fable-5_high,Claude Fable 5 (high),Anthropic,United States of America,2026-06-09,API access,2026-06-09,,Confident,,Claude Fable 5 (high),,Claude Fable 5,claude-fable-5,160.75,158.5,164.79
 GPT-5.3 Codex,gpt-5.3-codex_xhigh,GPT-5.3 Codex (xhigh),OpenAI,United States of America,2026-02-05,API access,2026-02-05,,Likely,,,,GPT-5.3 Codex,gpt-5-3-codex,155.57,153.34,158.79
-GPT-5.5,gpt-5.5_medium,GPT-5.5 (medium),OpenAI,United States of America,2026-04-23,API access,2026-04-23,,Likely,,,,GPT-5.5,gpt-5-5,158.52,156.66,161.58
-GPT-5.4,gpt-5.4-2026-03-05_medium,GPT-5.4 (medium),OpenAI,United States of America,2026-03-05,API access,2026-03-05,,Likely,,GPT-5.4 (medium),,GPT-5.4,gpt-5-4,156.12,154.56,158.38
-Claude Opus 4.8,claude-opus-4-8_none,Claude Opus 4.8,Anthropic,United States of America,2026-05-28,API access,2026-05-28,,Confident,,Claude Opus 4.8 (no thinking),,Claude Opus 4.8,claude-opus-4-8,158.03,155.7,160.86
-Claude Sonnet 4.6,claude-sonnet-4-6_medium,Claude Sonnet 4.6 (medium),Anthropic,United States of America,2026-02-17,API access,2026-02-17,,Likely,,,,Claude Sonnet 4.6,claude-sonnet-4-6,153.18,150.02,156.88
-GPT-5.2 Codex,gpt-5.2-codex,GPT-5.2 Codex,OpenAI,United States of America,2025-12-18,API access,2025-12-18,,Likely,,GPT-5.2 Codex,,GPT-5.2 Codex,gpt-5-2-codex,,,
-GPT-5.1-Codex,gpt-5.1-codex,GPT-5.1 Codex,OpenAI,United States of America,2025-11-12,API access,2025-11-12,,Unknown,,GPT-5.1-codex,,GPT-5.1-Codex,gpt-5-1-codex,,,
-GPT-5.1-Codex-Max,gpt-5.1-codex-max,GPT-5.1-Codex-Max,OpenAI,United States of America,2025-11-19,API access,2025-11-19,,Unknown,,GPT-5.1-Codex-Max,,GPT-5.1-Codex-Max,gpt-5-1-codex-max,,,
 GPT-5.5,gpt-5.5_none,GPT-5.5 (no thinking),OpenAI,United States of America,2026-04-23,API access,2026-04-23,,Likely,,,,GPT-5.5,gpt-5-5,158.52,156.66,161.58
 GPT-5.4,gpt-5.4-2026-03-05_none,GPT-5.4 (none),OpenAI,United States of America,2026-03-05,API access,2026-03-05,,Likely,,GPT-5.4 (none),,GPT-5.4,gpt-5-4,156.12,154.56,158.38
 GLM-5.2,glm-5.2_high,GLM-5.2,Z.ai (Zhipu AI),China,2026-06-16,Open weights (unrestricted),2026-06-16,,Confident,,GLM-5.2 (high),,GLM-5.2,glm-5-2,151.41,150.01,153.47
-Gemma 4 26B A4B,gemma-4-26b-a4b,Gemma 4 26B A4B,Google DeepMind,United States of America,2026-04-02,Open weights (unrestricted),2026-04-02,,Confident,,,,Gemma 4 26B A4B,gemma-4-26b-a4b,,,
-MiMo-V2.5-Pro,mimo-v2.5-pro,,Xiaomi Corp,China,,Open weights (unrestricted),2026-04-23,6.804e+24,Likely,,,,MiMo-V2.5-Pro,mimo-v2-5-pro,,,
-GPT-5,gpt-5-2025-08-07_minimal,GPT-5 (minimal),OpenAI,United States of America,2025-08-07,API access,2025-08-07,6.6e+25,Speculative,"OpenAI's latest flagship frontier model, benchmarked using minimal reasoning effort.",GPT-5 (minimal),,GPT-5,gpt-5,150.0,,
-Gemini 3.1 Flash-Lite,gemini-3.1-flash-lite,,Google,United States of America,2026-03-03,API access,2026-03-03,,Likely,,,,Gemini 3.1 Flash-Lite,gemini-3-1-flash-lite,144.34,137.3,146.47
-Mercury 2,mercury-2,Mercury 2,Inception Labs,United States of America,,API access,2026-02-20,,Unverified,,,,Mercury 2,mercury-2,,,
-Gemini 2.5 Pro (Jun 2025),gemini-2.5-pro_32K,,Google DeepMind,United States of America,2025-06-17,API access,2025-06-05,,Unknown,"Google’s general-purpose frontier reasoning model, evaluated with up to 32,000 reasoning tokens.",Gemini 2.5 Pro (32k thinking),Gemini 2.5 Pro (Jun 2025),Gemini 2.5 Pro (Jun 2025),gemini-2-5-pro-jun-2025,146.07,144.37,147.73
-MiMo-V2-Flash,mimo-v2-flash,,Xiaomi Corp,China,,Open weights (unrestricted),2025-12-16,2.43e+24,Likely,,,,MiMo-V2-Flash,mimo-v2-flash,,,
 DeepSeek-V4-Flash,deepseek-v4-flash_high,DeepSeek v4 Flash (high),DeepSeek,China,2026-04-24,Open weights (unrestricted),2026-04-24,2.496e+24,Likely,,DeepSeek v4 (high),,DeepSeek-V4-Flash,deepseek-v4-flash,,,
-MiniMax-M2.1,MiniMax-M2.1,,MiniMax,China,2025-12-23,Open weights (restricted use),2025-12-23,,Confident,,,,MiniMax-M2.1,minimax-m2-1,,,
-MiniMax-M2.7,MiniMax-M2.7,,MiniMax,China,2026-03-18,Open weights (non-commercial),2026-03-18,,Confident,,,,MiniMax-M2.7,minimax-m2-7,145.67,137.9,147.81
-Kimi K2 Thinking,kimi-k2-thinking,Kimi K2 Thinking,Moonshot,China,2025-11-06,Open weights (restricted use),2025-11-06,4.1999999999999997e+24,Likely,,,,Kimi K2 Thinking,kimi-k2-thinking,146.05,143.78,147.61
-,grok-code-fast-1,,,,2025-08-28,,,,Unverified,,,,,grok-code-fast-1,,,
 gpt-oss-20b,gpt-oss-20b,,OpenAI,United States of America,2025-08-05,Open weights (unrestricted),2025-08-05,5.49e+23,Confident,The smaller one of OpenAI's two latest open source language models.,,,gpt-oss-20b,gpt-oss-20b,,,
 DeepSeek-V4-Pro,deepseek-v4-pro_none,DeepSeek v4 Pro (unknown thinking),DeepSeek,China,2026-04-24,Open weights (unrestricted),2026-04-24,9.702e+24,Likely,,DeepSeek v4 (no thinking),,DeepSeek-V4-Pro,deepseek-v4-pro,148.87,147.05,151.42
-MiMo-V2.5,mimo-v2.5,,Xiaomi Corp,China,,Open weights (unrestricted),2026-04-23,4.32e+24,Unverified,,,,MiMo-V2.5,mimo-v2-5,,,
 ,qwen3-coder-plus,,,,2025-09-23,,,,Unverified,,,,,qwen3-coder-plus,,,
-GLM-4.6,glm-4.6,GLM-4.6,"Z.ai (Zhipu AI),Tsinghua University",China,2025-09-30,Open weights (unrestricted),2025-09-30,4.42e+24,Likely,,,,GLM-4.6,glm-4-6,141.02,136.28,142.71
 Gemini 2.5 Flash-Lite,gemini-2.5-flash-lite-preview-06-17-thinking,gemini-2.5-flash-lite-preview-06-17 (Default thinking length),Google DeepMind,United States of America,2025-06-17,API access,2025-06-15,,Unknown,A June 2025 preview of Gemini 2.5 Flash Lite.,Gemini 2.5 Flash-Lite (Jun 2025),Gemini 2.5 Flash-Lite (Jun 2025),Gemini 2.5 Flash-Lite (Jun 2025),gemini-2-5-flash-lite-jun-2025,,,
 DeepSeek-V4-Flash,deepseek-v4-flash_none,DeepSeek v4 Flash (high),DeepSeek,China,2026-04-24,Open weights (unrestricted),2026-04-24,2.496e+24,Likely,,DeepSeek v4 (no thinking),,DeepSeek-V4-Flash,deepseek-v4-flash,,,
 Kimi K2,moonshotai/kimi-k2-0905,Kimi K2 0905 (Novita),Moonshot,China,2025-09-05,Open weights (restricted use),2025-07-11,2.976e+24,Confident,"A July 2025 preview version of Kimi K2 turbo, an updated version of Kimi K2.",,Kimi K2 (Sep 2025),Kimi K2 (Sep 2025),kimi-k2-sep-2025,,,
 ,mistral-medium-2508,,,,2025-08-12,,,,Unverified,,,,,mistral-medium-2508,,,
 Codestral,codestral-2508,,Mistral AI,France,2025-07-30,Open weights (non-commercial),2024-05-29,,Confident,A January 2025 version of a 2024 coding-optimized model from Mistral.,,,Codestral,codestral,,,
-,claude-mythos-preview-early,,,,,,,,Unverified,,,,,claude-mythos-preview-early,,,
 GPT-5.4 Pro,gpt-5.4-pro-2026-03-05_unknown,GPT-5.4 Pro,OpenAI,United States of America,2026-03-05,API access,2026-03-05,,Likely,,GPT-5.4 Pro,,GPT-5.4 Pro,gpt-5-4-pro,157.95,155.97,160.94
-GPT-5 Pro,gpt-5-pro-2025-10-06_unknown,GPT-5 Pro,OpenAI,United States of America,2025-10-07,API access,2025-10-07,,Unknown,,GPT-5 Pro (unknown thinking),,GPT-5 Pro,gpt-5-pro,150.41,149.13,152.34
 GPT-5,gpt-5-2025-08-07_unknown,GPT-5 (unknown thinking),OpenAI,United States of America,2025-08-07,API access,2025-08-07,6.6e+25,Speculative,"OpenAI's latest flagship frontier model, benchmarked using high reasoning effort.",GPT-5 (high),,GPT-5,gpt-5,150.0,,
-Claude Opus 4.1,claude-opus-4-1-20250805_unknown,Claude Opus 4.1 (unknown thinking),Anthropic,United States of America,2025-08-05,API access,2025-08-05,,Unknown,"Anthropic’s largest flagship model, benchmarked with up to 27,000 reasoning tokens.",Claude Opus 4.1 (unknown settings),,Claude Opus 4.1,claude-opus-4-1,144.21,141.96,146.13
+GPT-5 mini,gpt-5-mini-2025-08-07_unknown,GPT-5 mini (unknown thinking),OpenAI,United States of America,2025-08-07,API access,2025-08-07,,Unknown,"A smaller version of OpenAI's latest flagship frontier model, benchmarked using high reasoning effort.",GPT-5 mini (high),,GPT-5 mini,gpt-5-mini,145.8,144.02,147.03
+GLM-4.5-Air,GLM-4.5-Air,,"Z.ai (Zhipu AI),Tsinghua University",China,2025-07-20,Open weights (unrestricted),2025-08-05,1.656e+24,Confident,"A smaller version of GLM-4.5, Zhipu AI & Tsinghua University's large open source model.",,,GLM-4.5-Air,glm-4-5-air,,,
 o1-pro,o1-pro-2025-03-19,o1 Pro,OpenAI,United States of America,2025-03-19,API access,2025-03-19,,Likely,"An An enhanced version of OpenAI's first reasoning model,o1, evaluated with low reasoning effort.",,,o1-pro,o1-pro,,,
+Claude 3.7 Sonnet,claude-3-7-sonnet-20250219_unknown,Claude 3.7 Sonnet (unknown thinking),Anthropic,United States of America,2025-02-24,API access,2025-02-24,3.3499999999999998e+25,Likely,"A previous flagship reasoning model from Anthropic, benchmarked with up to 64,000 reasoning tokens allowed.",Claude 3.7 Sonnet (64k thinking),,Claude 3.7 Sonnet,claude-3-7-sonnet,141.7,139.32,143.19
 o1,o1-2024-12-17_unknown,o1 (unknown thinking),OpenAI,United States of America,2024-12-17,API access,2024-12-05,,Unknown,"OpenAI's first reasoning model, evaluated with at the high reasoning effort level.",,,o1,o1,142.71,140.84,143.96
+,gemini-robotics-er-1.5-preview,,,,2025-09-26,,,,Unverified,,,,,gemini-robotics-er-1-5-preview,,,
+Gemini 2.5 Flash-Lite,gemini-2.5-flash-lite-preview-09-2025,,Google DeepMind,United States of America,2025-09-25,API access,2025-06-15,,Unknown,,Gemini 2.5 Flash-Lite (Sep 2025),Gemini 2.5 Flash-Lite (Sep 2025),Gemini 2.5 Flash-Lite (Sep 2025),gemini-2-5-flash-lite-sep-2025,,,
+GPT-5.6 Sol,gpt-5.6-sol_unknown,GPT-5.6 Sol (unknown thinking),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Sol (unknown thinking),,GPT-5.6 Sol,gpt-5-6-sol,162.06,159.6,166.58
+GPT-5.6 Terra,gpt-5.6-terra_unknown,GPT-5.6 Terra (unknown thinking),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Terra (unknown thinking),,GPT-5.6 Terra,gpt-5-6-terra,158.36,155.43,161.46
+Grok 4.5,grok-4.5_unknown,Grok 4.5 (unknown thinking),xAI,United States of America,2026-07-08,API access,2026-07-08,,Likely,,Grok 4.5 (unknown thinking),,Grok 4.5,grok-4-5,153.4,151.94,156.13
+GPT-5.6 Luna,gpt-5.6-luna_unknown,GPT-5.6 Luna (unknown thinking),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Luna (unknown thinking),,GPT-5.6 Luna,gpt-5-6-luna,155.31,152.67,158.14
+Claude Sonnet 4.6,claude-sonnet-4-6_unknown,Claude Sonnet 4.6 (unknown thinking),Anthropic,United States of America,2026-02-17,API access,2026-02-17,,Likely,,,,Claude Sonnet 4.6,claude-sonnet-4-6,153.18,150.02,156.88
+GLM-4.5,glm-4.5_thinking,GLM-4.5 Thinking,"Z.ai (Zhipu AI),Tsinghua University",China,2025-08-05,Open weights (unrestricted),2025-08-05,4.42e+24,Confident,,,,GLM-4.5,glm-4-5,,,
+GPT-5 Pro,gpt-5-pro-2025-10-06_medium,GPT-5 Pro,OpenAI,United States of America,2025-10-07,API access,2025-10-07,,Unknown,,GPT-5 Pro (medium),,GPT-5 Pro,gpt-5-pro,150.41,149.13,152.34
+Qwen3-235B-A22B,Qwen3-235B-A22B,,Alibaba,China,2025-04-29,Open weights (unrestricted),2025-04-29,4.752e+24,Likely,,Qwen3 (Apr 2025),,Qwen3-235B-A22B,qwen3-235b-a22b,139.58,134.04,141.45
+,openhands-lm-32b-v0.1,,,,2024-03-26,,,,Unverified,,,,,openhands-lm-32b-v0-1,,,
+Kimi K2,Kimi-K2-Instruct,Kimi K2 Instruct,Moonshot,China,2025-07-12,Open weights (restricted use),2025-07-11,2.976e+24,Confident,Moonshot AI’s 1-trillion parameter scale model.,,Kimi K2 (Jul 2025),Kimi K2 (Jul 2025),kimi-k2-jul-2025,140.45,137.2,142.25
+Gemini 2.5 Pro (Jun 2025),gemini-2.5-pro-preview-06-05_32K,Gemini 2.5 Pro Preview (Jun 2025),Google DeepMind,United States of America,2025-06-05,API access,2025-06-05,,Unknown,"A June 2025 preview version of Gemini 2.5 Pro, Google DeepMind's flagship frontier model, evaluated with up to 32,000 reasoning tokens.","Gemini 2.5 Pro Preview (Jun 2025, 32k thinking)",Gemini 2.5 Pro (Jun 2025),Gemini 2.5 Pro (Jun 2025),gemini-2-5-pro-jun-2025,146.07,144.37,147.73
+Claude Opus 4,claude-opus-4-20250514_32K,Claude Opus 4,Anthropic,United States of America,2025-05-22,API access,2025-05-22,,Unknown,"Anthropic's largest model in the Claude 4 series (superseded by Claude Opus 4.1), benchmarked with up to 32,000 reasoning tokens.",Claude Opus 4 (32k thinking),,Claude Opus 4,claude-opus-4,142.93,140.32,144.52
+Qwen3-32B,Qwen3-32B,,Alibaba,China,2025-04-29,Open weights (unrestricted),2025-04-29,7.0848e+24,Confident,The 32 billion-parameter model in the Qwen 3 series.,Qwen3 32B,,Qwen3-32B,qwen3-32b,,,
+GPT-4o,chatgpt-4o-03-27-2025,,OpenAI,United States of America,2025-03-27,API access,2024-05-13,,Speculative,"A version of GPT-4o that was behind the ChatGPT interface, released in March 2025.",ChatGPT-4o (Mar 2025),GPT-4o (Mar 2025),GPT-4o (Mar 2025),gpt-4o-mar-2025,,,
+Qwen2.5-Coder (32B),Qwen2.5-Coder-32B-Instruct,,Alibaba,China,2024-11-21,Open weights (unrestricted),2024-11-12,1.0725e+24,Confident,An instruction-tuned and coding-optimized 32 billion-parameter model in the Qwen 2.5 series.,Qwen2.5-Coder-32B (instruct),Qwen2.5-Coder-32B-Instruct,Qwen2.5-Coder-32B-Instruct,qwen2-5-coder-32b-instruct,,,
+Gemini 2.0 Flash,gemini-exp-1206,,"Google DeepMind,Google",United States of America,2024-12-06,API access,2024-12-11,,Unknown,"A December 2024 experimental version of Gemini 2.0 Flash, a small langauge model from Google DeepMind.",,Gemini 2.0 Flash (Dec 2024),Gemini 2.0 Flash (Dec 2024),gemini-2-0-flash-dec-2024,135.11,124.08,136.98
+QwQ-32B,QwQ-32B,,Alibaba,China,2025-03-05,Open weights (unrestricted),2025-03-06,3.51e+24,Speculative,,QwQ 32B,QwQ-32B,QwQ-32B,qwq-32b,,,
+Cohere Command A,c4ai-command-a-03-2025,,Cohere,Canada,2025-03-13,Open weights (non-commercial),2025-03-13,,Confident,,Command A,,Cohere Command A,cohere-command-a,,,
+DeepSeek-V2.5,DeepSeek-V2.5,,DeepSeek,China,2024-09-06,Open weights (restricted use),2024-09-06,1.7892e+24,Confident,,DeepSeek-V2.5 (Sept 2024),DeepSeek-V2.5 (Sep 2024),DeepSeek-V2.5 (Sep 2024),deepseek-v2-5-sep-2024,,,
+GPT-4o,chatgpt-4o-01-29-2025,,OpenAI,United States of America,2025-01-29,API access,2024-05-13,,Speculative,"A version of GPT-4o that was behind the ChatGPT interface, released in January 2025.",ChatGPT-4o (Jan 2025),GPT-4o (Jan 2025),GPT-4o (Jan 2025),gpt-4o-jan-2025,,,
+Codestral,codestral-2501,,Mistral AI,France,2025-01-13,Open weights (non-commercial),2024-05-29,,Confident,A January 2025 version of a 2024 coding-optimized model from Mistral.,,,Codestral,codestral,,,
+Yi-Lightning,yi-lightning,,01.AI,China,2024-12-02,API access,2024-10-18,1.5e+24,Confident,,Yi-Lightning,,Yi-Lightning,yi-lightning,,,
+DeepSeek-V3.2,deepseek-chat,,DeepSeek,China,2025-12-01,Open weights (unrestricted),2025-12-01,4.1999999999999997e+24,Likely,,,,DeepSeek-V3.2,deepseek-v3-2,146.59,144.75,147.64
+o4-mini,o4-mini-2025-04-16_unknown,o4-mini (unknown thinking),OpenAI,United States of America,2025-04-16,API access,2025-04-16,,Unknown,"The latest smaller size o-series reasoning model from OpenAI, evaluated with high reasoning effort.",,,o4-mini,o4-mini,146.53,143.9,147.86
+Kimi K2,Kimi-K2-Instruct-0905,,Moonshot,China,2025-09-05,Open weights (restricted use),2025-07-11,2.976e+24,Confident,,,Kimi K2 (Sep 2025),Kimi K2 (Sep 2025),kimi-k2-sep-2025,,,
+o3-mini,o3-mini-2025-01-31_unknown,o3-mini (unknown thinking),OpenAI,United States of America,2025-01-31,API access,2025-01-31,,Unknown,"A smaller version of OpenAI's o3 reasoning model, evaluated with high reasoning effort.",,,o3-mini,o3-mini,141.42,138.55,143.06
+GPT-5 nano,gpt-5-nano-2025-08-07_unknown,GPT-5 nano (unknown thinking),OpenAI,United States of America,2025-08-07,API access,2025-08-07,,Unknown,"The smallest version of OpenAI's latest flagship frontier model, benchmarked using high reasoning effort.",GPT-5 nano (high),,GPT-5 nano,gpt-5-nano,140.86,136.8,142.7
+QwQ-32B,QwQ-32B-Preview,,Alibaba,China,2024-11-28,Open weights (unrestricted),2025-03-06,3.51e+24,Speculative,,QwQ 32B Preview,QwQ-32B-Preview,QwQ-32B-Preview,qwq-32b-preview,,,
+DeepSeek-V3.1,DeepSeek-V3.1,,DeepSeek,China,2025-08-21,Open weights (unrestricted),2025-08-21,3.594058e+24,Confident,An updated version of DeepSeek V3.,DeepSeek-V3.1,,DeepSeek-V3.1,deepseek-v3-1,,,
+Qwen1.5-110B,qwen1.5-110b-chat,,Alibaba,China,2024-04-25,Open weights (unrestricted),2024-04-25,,Confident,,Qwen1.5-110B,,Qwen1.5-110B,qwen1-5-110b,,,
+GPT-5.4 Nano,gpt-5.4-nano-2026-03-17_unknown,GPT-5.4 nano (unknown thinking),OpenAI,United States of America,2026-03-17,API access,2026-03-17,,Likely,,GPT-5.4 nano (unknown thinking),,GPT-5.4 Nano,gpt-5-4-nano,146.61,144.41,148.63
+Llama 3-70B,Meta-Llama-3-70B,,Meta AI,United States of America,2024-04-18,Open weights (restricted use),2024-04-18,7.861e+24,Confident,Meta's 70 billion-parameter model in the Llama 3 series.,,,Llama 3-70B,llama-3-70b,122.59,116.4,125.52
+Gemini 2.0 Flash-Lite,gemini-2.0-flash-lite-001,,Google DeepMind,United States of America,2025-02-25,API access,2024-02-05,,Unknown,The first version of the smallest model in Google DeepMind's Gemini 2.0 series.,,,Gemini 2.0 Flash-Lite,gemini-2-0-flash-lite,,,
+GPT-5.4 Mini,gpt-5.4-mini-2026-03-17_unknown,GPT-5.4 mini (unknown thinking),OpenAI,United States of America,2026-03-17,API access,2026-03-17,,Likely,,GPT-5.4 mini (unknown thinking),,GPT-5.4 Mini,gpt-5-4-mini,148.87,147.14,150.16
+Mixtral 8x22B,Mixtral-8x22B-Instruct-v0.1,,Mistral AI,France,2024-04-17,Open weights (unrestricted),2024-04-17,2.34e+24,Speculative,An instruction-tuned version of Mistral's 8 billion active (176 billion total)-parameter mixture-of-experts model,,,Mixtral 8x22B,mixtral-8x22b,121.26,112.34,123.45
+Llama 3-8B,Meta-Llama-3-8B,,Meta AI,United States of America,2024-04-18,Open weights (restricted use),2024-04-18,7.2e+23,Confident,Meta's 8 billion-parameter model in the Llama 3 series.,,,Llama 3-8B,llama-3-8b,116.38,107.04,119.22
+Qwen2.5-Max,qwen2.5-max,,Alibaba,China,2025-01-28,API access,2025-01-28,,Unknown,The largest model in the Qwen 2.5 series.,Qwen2.5-Max,,Qwen2.5-Max,qwen2-5-max,133.4,128.66,136.47
+Gemini 2.0 Flash-Lite,gemini-2.0-flash-lite,,Google DeepMind,United States of America,2025-02-05,API access,2024-02-05,,Unknown,The smallest model in Google DeepMind's Gemini 2.0 series.,,,Gemini 2.0 Flash-Lite,gemini-2-0-flash-lite,,,
+Gemini 2.0 Flash-Lite,gemini-2.0-flash-lite-preview-02-05,,Google DeepMind,United States of America,2025-02-05,API access,2024-02-05,,Unknown,A February 2025 preview version of the smallest model in Google DeepMind's Gemini 2.0 series.,,,Gemini 2.0 Flash-Lite,gemini-2-0-flash-lite,,,
+,Dracarys2-72B-Instruct,,,,2024-09-30,,,,Unverified,,,,,dracarys2-72b-instruct,,,
+,learnlm-1.5-pro-experimental,,,,,,,,Unverified,,,,,learnlm-1-5-pro-experimental,,,
+,sonar,Perplexity Sonar,,,,,,,Unverified,,,,,sonar,,,
+,Dracarys2-Llama-3.1-70B-Instruct,,,,2024-08-14,,,,Unverified,,,,,dracarys2-llama-3-1-70b-instruct,,,
+DeepSeek-R1-Distill-Qwen-32B,DeepSeek-R1-Distill-Qwen-32B,,DeepSeek,China,2025-01-20,Open weights (unrestricted),2025-01-22,,Speculative,"A model based on Qwen 32B and additionally trained on outputs from DeepSeek’s R1 model, published as part of DeepSeek R1’s release. ",,,DeepSeek-R1-Distill-Qwen-32B,deepseek-r1-distill-qwen-32b,,,
+OLMo 2 Furious 13B,OLMo-2-1124-13B-Instruct,,"Allen Institute for AI,University of Washington,New York University (NYU)",United States of America,2024-12-31,Open weights (unrestricted),2024-12-31,4.6e+23,Confident,,,,OLMo 2 Furious 13B,olmo-2-furious-13b,,,
+BLIP-2 (Q-Former),blip2-opt-2.7b,,Salesforce Research,United States of America,2023-02-06,Open weights (unrestricted),2023-01-30,1.20000000001e+21,Confident,,,,BLIP-2 (Q-Former),blip-2-q-former,,,
+,Phi-3.5-vision-instruct,,,,2024-08-16,,,,Unverified,An multimodal version in Microsoft's Phi-3.5 series of open source models.,,,,phi-3-5-vision-instruct,,,
+,MM1-3B-Chat,,,,2024-03-14,,,,Unverified,,,,,mm1-3b-chat,,,
+,MM1-7B-Chat,,,,2024-03-14,,,,Unverified,,,,,mm1-7b-chat,,,
+,llava-v1.6-vicuna-7b,,,,2024-01-31,,,,Unverified,,,,,llava-v1-6-vicuna-7b,,,
+,llama3-llava-next-8b,,,,2024-04-20,,,,Unverified,,,,,llama3-llava-next-8b,,,
+Gemini 1.0 Pro Vision,gemini-1.0-pro-vision,,Google DeepMind,United States of America,2024-01-04,API access,2024-02-15,,Unknown,A vision language model from Google DeepMind.,,,Gemini 1.0 Pro Vision,gemini-1-0-pro-vision,,,
+,falcon-11B-vlm,,,,2024-05-21,,,,Unverified,,,,,falcon-11b-vlm,,,
+,llava-v1.6-vicuna-13b,,,,2024-01-31,,,,Unverified,,,,,llava-v1-6-vicuna-13b,,,
+,llava-v1.6-mistral-7b,,,,2024-01-31,,,,Unverified,,,,,llava-v1-6-mistral-7b,,,
+,instructblip-vicuna-7b,,,,2023-05-22,,,,Unverified,,,,,instructblip-vicuna-7b,,,
+,instructblip-vicuna-13b,,,,2023-12-25,,,,Unverified,,,,,instructblip-vicuna-13b,,,
+,InternVL-Chat-ViT-6B-Vicuna-7B,,,,2023-12-25,,,,Unverified,,,,,internvl-chat-vit-6b-vicuna-7b,,,
+,InternVL-Chat-ViT-6B-Vicuna-13B,,,,2024-08-16,,,,Unverified,,,,,internvl-chat-vit-6b-vicuna-13b,,,
+,llava-v1.5-7b,,,,2023-10-05,,,,Unverified,,,,,llava-v1-5-7b,,,
+Reka Flash 3,reka-flash-3,,Reka AI,United States of America,2025-03-10,Open weights (unrestricted),2025-03-10,,Confident,,Reka Flash 3,,Reka Flash 3,reka-flash-3,,,
+Mistral NeMo,Mistral-Nemo-Instruct-2407,,Mistral AI,France,2024-07-18,Open weights (unrestricted),2024-07-18,,Confident,,,,Mistral NeMo,mistral-nemo,118.35,110.68,121.97
+Llama 3.2 3B,Llama-3.2-3B-Instruct,,Meta AI,United States of America,2024-09-24,Open weights (restricted use),2024-09-24,1.7334e+23,Confident,A 3 billion-parameter instruction-tuned model in Meta's Llama 3.2 series.,,,Llama 3.2 3B,llama-3-2-3b,,,
+Llama 3.2 1B,Llama-3.2-1B-Instruct,,Meta AI,United States of America,2024-09-24,Open weights (restricted use),2024-09-24,6.642e+22,Confident,A 1 billion-parameter instruction-tuned model in Meta's Llama 3.2 series.,,,Llama 3.2 1B,llama-3-2-1b,,,
+,PaLM 2-L,,,,2023-05-17,,,,Unverified,DeepMind's largest model in the PaLM 2 series.,,,,palm-2-l,,,
+,Qwen2.5-Coder-3B,,,,2024-09-18,,,,Unverified,Qwen's 3 billion-parameter model in the Qwen 2.5 Coder series of open source models.,,,,qwen2-5-coder-3b,,,
+DeepSeek-Coder-V2 236B,DeepSeek-Coder-V2-Base,,DeepSeek,China,2024-06-17,Open weights (restricted use),2024-06-17,1.2852e+24,Confident,,DeepSeek-Coder-V2 (base),,DeepSeek-Coder-V2 236B,deepseek-coder-v2-236b,,,
+GPT-3.5 (davinci-003),text-davinci-003,,,,2022-11-28,,2022-11-28,,Likely,,,davinci-003,davinci-003,davinci-003,,,
+MPT-30B,mpt-30b-instruct,,MosaicML,United States of America,2023-06-22,Open weights (unrestricted),2023-06-22,1.8900000000001e+23,Confident,,,,MPT-30B,mpt-30b,100.24,90.86,106.45
+Vicuna-13B-v1.3,vicuna-13b-v1.3,,"Large Model Systems Organization,University of California (UC) Berkeley",United States of America,2023-06-18,Open weights (restricted use),2023-06-22,,Confident,,Vicuna-13B-v1.3,,Vicuna-13B-v1.3,vicuna-13b-v1-3,,,
+OPT-175B,opt-175b,,Meta AI,United States of America,2022-05-02,Open weights (non-commercial),2022-05-02,4.3e+23,Confident,Facebook's 66 billion-parameter model in the OPT series.,,,OPT-175B,opt-175b,,,
+T5-11B,T5-11B,,Google,United States of America,,Open weights (unrestricted),2019-10-23,3.3e+22,Confident,"The largest, 11 billion-parameter version of T5, an early large language model from Google. ",,,T5-11B,t5-11b,,,
+OPT-66B,opt-66b,,Meta AI,United States of America,2022-05-03,Open weights (non-commercial),2022-06-21,1.100000000001e+23,Confident,Facebook's 66 billion-parameter model in the OPT series.,,,OPT-66B,opt-66b,,,
+GPT-3 175B (davinci),davinci,,OpenAI,United States of America,,API access,2020-05-28,3.14e+23,Confident,,GPT-3 175B (davinci),,GPT-3 175B (davinci),gpt-3-175b-davinci,,,
+BLOOM-176B,bloom,,"Hugging Face,BigScience","France,United States of America",2022-07-06,Open weights (restricted use),2022-07-11,3.65664e+23,Confident,,,,BLOOM-176B,bloom-176b,,,
+GPT-3 6.7B,curie,,OpenAI,United States of America,,,2020-06-22,1.2e+22,Confident,,,,GPT-3 6.7B,gpt-3-6-7b,,,
+InstructGPT 6B,text-curie-001,,OpenAI,United States of America,,API access,2022-01-27,,Confident,,,,InstructGPT 6B,instructgpt-6b,,,
+GPT-3 Medium,ada,,OpenAI,United States of America,,,2020-06-22,6.41e+20,Confident,,,,GPT-3 Medium,gpt-3-medium,,,
+GPT-3 XL,babbage,,OpenAI,United States of America,2020-06-22,,2020-06-22,2.38e+21,Confident,,,GPT-3 XL (babbage),GPT-3 XL (babbage),gpt-3-xl-babbage,,,
+InstructGPT 350M,text-ada-001,,OpenAI,United States of America,,,2022-01-27,,Confident,,,,InstructGPT 350M,instructgpt-350m,,,
+InstructGPT 1.3B,text-babbage-001,,OpenAI,United States of America,,API access,2022-01-27,,Confident,,,,InstructGPT 1.3B,instructgpt-1-3b,,,
+,T5-Small,,,,,,,,Unverified,"The smallest version of T5, an early large language model from Google. ",,,,t5-small,,,
+,T5-Base,,,,,,,,Unverified,"A version of T5, an early large language model from Google. ",,,,t5-base,,,
+,T5-Large,,,,,,,,Unverified,"A version of T5, an early large language model from Google. ",,,,t5-large,,,
+T5-3B,T5-3B,,Google,United States of America,,Open weights (unrestricted),2019-10-23,9.0000000001e+21,Confident,"The 3 billion-parameter version of T5, an early large language model from Google. ",,,T5-3B,t5-3b,,,
 Pixtral Large,pixtral-large-2411,,Mistral AI,France,2024-11-18,Open weights (non-commercial),2024-11-18,,Confident,,,,Pixtral Large,pixtral-large,,,
 Gemini 2.0 Flash,gemini-2.0-flash-02-05,,"Google DeepMind,Google",United States of America,2025-02-05,API access,2024-12-11,,Unknown,"A February 2025 version of Gemini 2.0 Flash, a small language model from Google DeepMind.",,Gemini 2.0 Flash (Feb 2025),Gemini 2.0 Flash (Feb 2025),gemini-2-0-flash-feb-2025,135.78,132.1,137.96
-Llama 4 Maverick,Llama-4-Maverick-17B-128E-Instruct,Llama 4 Maverick,Meta AI,United States of America,2025-04-05,Open weights (restricted use),2025-04-05,2.244000000001e+24,Likely,The 17 billion active (400 billion total)-parameter model in Meta's Llama 4 series.,,,Llama 4 Maverick,llama-4-maverick,133.02,128.82,135.16
-o3,o3-2025-04-16_unknown,o3 (unknown thinking),OpenAI,United States of America,2025-04-16,API access,2024-12-20,,Unknown,"OpenAI's second generation o-series reasoning model, evaluated with high reasoning effort.",,,o3,o3,147.07,145.01,148.52
-GPT-4 Turbo (Nov 2023),gpt-4-turbo,,OpenAI,United States of America,2023-11-06,API access,2023-11-06,,Unknown,An updated version of GPT-4 and OpenAI's then-new flagship language model.,,,GPT-4 Turbo (Nov 2023),gpt-4-turbo-nov-2023,,,
-GPT-3.5 Turbo Instruct,gpt-3.5-turbo-instruct,,OpenAI,United States of America,2023-09-18,API access,2023-09-28,,Likely,An instruction-tuned version of OpenAI's GPT-3.5 turbo.,,,GPT-3.5 Turbo Instruct,gpt-3-5-turbo-instruct,,,
-GPT-3 175B (davinci),davinci-002,,OpenAI,United States of America,,API access,2020-05-28,3.14e+23,Confident,,GPT-3 175B (davinci-002),,GPT-3 175B (davinci),gpt-3-175b-davinci,,,
-GPT-2 (1.5B),gpt2-xl,,OpenAI,United States of America,2019-11-05,Open weights (unrestricted),2019-02-14,1.920000000001e+21,Speculative,"The largest version of GPT-2, OpenAI's second generation transformer-based large pretrained language model.",,,GPT-2 (1.5B),gpt-2-1-5b,,,
 ,ml-elephant,Zoo Ml-Ephant,,,,,,,Unverified,,,,,ml-elephant,,,
-Claude Opus 4.8,claude-opus-4-8_medium,Claude Opus 4.8,Anthropic,United States of America,2026-05-28,API access,2026-05-28,,Confident,,Claude Opus 4.8 (medium),,Claude Opus 4.8,claude-opus-4-8,158.03,155.7,160.86
-Claude Opus 4.8,claude-opus-4-8_low,Claude Opus 4.8,Anthropic,United States of America,2026-05-28,API access,2026-05-28,,Confident,,Claude Opus 4.8 (low),,Claude Opus 4.8,claude-opus-4-8,158.03,155.7,160.86
-Claude Opus 4.7,claude-opus-4-7_medium,Claude Opus 4.7 (medium),Anthropic,United States of America,2026-04-16,API access,2026-04-16,,Likely,,Claude Opus 4.7 (medium),,Claude Opus 4.7,claude-opus-4-7,156.1,154.29,158.61
-Claude Sonnet 4.6,claude-sonnet-4-6_max,Claude Sonnet 4.6 (max),Anthropic,United States of America,2026-02-17,API access,2026-02-17,,Likely,,,,Claude Sonnet 4.6,claude-sonnet-4-6,153.18,150.02,156.88
-Claude Sonnet 4.6,claude-sonnet-4-6_high,Claude Sonnet 4.6 (high),Anthropic,United States of America,2026-02-17,API access,2026-02-17,,Likely,,,,Claude Sonnet 4.6,claude-sonnet-4-6,153.18,150.02,156.88
-Claude Opus 4.7,claude-opus-4-7_low,Claude Opus 4.7 (low),Anthropic,United States of America,2026-04-16,API access,2026-04-16,,Likely,,Claude Opus 4.7 (low),,Claude Opus 4.7,claude-opus-4-7,156.1,154.29,158.61
-GPT-5.4 Mini,gpt-5.4-mini-2026-03-17_unknown,GPT-5.4 mini (unknown thinking),OpenAI,United States of America,2026-03-17,API access,2026-03-17,,Likely,,GPT-5.4 mini (unknown thinking),,GPT-5.4 Mini,gpt-5-4-mini,148.87,147.14,150.16
+gpt-oss-120b,gpt-oss-120b_unknown,gpt-oss-120b (unknown thinking),OpenAI,United States of America,2025-08-05,Open weights (unrestricted),2025-08-05,4.94e+24,Confident,"The larger one of OpenAI's two latest open source language models, evaluated with high reasoning effort.",,,gpt-oss-120b,gpt-oss-120b,140.63,135.57,143.3
+Qwen3.5-9B,qwen3.5-9B,,Alibaba,China,2026-02-24,Open weights (restricted use),2026-02-24,,Confident,,,,Qwen3.5-9B,qwen3-5-9b,,,
+gpt-oss-20b,gpt-oss-20b_unknown,gpt-oss-20b (unknown thinking),OpenAI,United States of America,2025-08-05,Open weights (unrestricted),2025-08-05,5.49e+23,Confident,"The smaller one of OpenAI's two latest open source language models, evaluated with high reasoning effort.",,,gpt-oss-20b,gpt-oss-20b,,,
+GPT-4 (Mar 2023),gpt-4-32k-0314,,OpenAI,United States of America,2023-03-14,API access,2023-03-15,2.1e+25,Likely,,,,GPT-4 (Mar 2023),gpt-4-mar-2023,125.92,120.16,131.58
+"GPT-3.5 (davinci-002)
+",code-davinci-002,,OpenAI,United States of America,2022-03-15,API access,2022-03-15,2.578e+24,Speculative,,,davinci-002,davinci-002,davinci-002,,,
+Falcon-40B,falcon-40b-instruct,,Technology Innovation Institute,United Arab Emirates,2023-05-25,Open weights (unrestricted),2023-03-15,2.4e+23,Confident,,,,Falcon-40B,falcon-40b,104.07,94.28,110.61
+,DeepSeek-Coder-V2-Lite-Instruct,,,,2024-06-13,,,,Unverified,,,,,deepseek-coder-v2-lite-instruct,,,
+DeepSeek-Coder-V2 236B,DeepSeek-Coder-V2-Instruct,,DeepSeek,China,2024-06-17,Open weights (restricted use),2024-06-17,1.2852e+24,Confident,"An instruction-tuned version of DeepSeek Coder V2, a 236 billion-parameter coding-optimized model from DeepSeek.",DeepSeek-Coder-V2 (instruct),,DeepSeek-Coder-V2 236B,deepseek-coder-v2-236b,,,
+,Qwen2.5-Coder-3B-Instruct,,,,2024-11-06,,,,Unverified,An instruction-tuned and coding-optimized 3 billion-parameter model in the Qwen 2.5 series.,,,,qwen2-5-coder-3b-instruct,,,
+Qwen2.5-Coder (7B),Qwen2.5-Coder-7B-Instruct,,Alibaba,China,2024-09-17,Open weights (unrestricted),2024-09-18,2.5113e+23,Confident,An instruction-tuned and coding-optimized 7 billion-parameter model in the Qwen 2.5 series.,Qwen2.5-Coder-7B (instruct),,Qwen2.5-Coder (7B),qwen2-5-coder-7b,112.83,101.15,119.2
+,Qwen2.5-Coder-14B-Instruct,,,,2024-11-06,,,,Unverified,An instruction-tuned and coding-optimized 14 billion-parameter model in the Qwen 2.5 series.,,,,qwen2-5-coder-14b-instruct,,,
+DeepSeek-V4-Flash,deepseek-v4-flash_max,DeepSeek v4 Flash (max),DeepSeek,China,2026-04-24,Open weights (unrestricted),2026-04-24,2.496e+24,Likely,,DeepSeek v4 (max),,DeepSeek-V4-Flash,deepseek-v4-flash,,,
+gpt-oss-20b,gpt-oss-20b_high,,OpenAI,United States of America,2025-08-05,Open weights (unrestricted),2025-08-05,5.49e+23,Confident,"The smaller one of OpenAI's two latest open source language models, evaluated with high reasoning effort.",,,gpt-oss-20b,gpt-oss-20b,,,
+Llama 4 Maverick,chutes/Llama-4-Maverick-17B-128E-Instruct,,Meta AI,United States of America,2025-04-06,Open weights (restricted use),2025-04-05,2.244000000001e+24,Likely,,Llama 4 Maverick (128 experts) (Chutes),,Llama 4 Maverick,llama-4-maverick,133.02,128.82,135.16
 DeepSeek-R1 (May 2025),chutes/DeepSeek-R1-0528,DeepSeek-R1 (May 2025),DeepSeek,China,2025-05-28,Open weights (unrestricted),2025-05-28,4.020010000000001e+24,Confident,,DeepSeek-R1 (May 2025) (Chutes),,DeepSeek-R1 (May 2025),deepseek-r1-may-2025,142.03,139.87,143.57
 ,chutes/GLM-4.5-FP8,,,,2025-07-27,,,,Unverified,,,,,chutes-glm-4-5-fp8,,,
 gpt-oss-120b,chutes/gpt-oss-120b,,OpenAI,United States of America,2025-08-05,Open weights (unrestricted),2025-08-05,4.94e+24,Confident,,gpt-oss-120b (Chutes),,gpt-oss-120b,gpt-oss-120b,140.63,135.57,143.3
 gpt-oss-120b,chutes/gpt-oss-120b_high,,OpenAI,United States of America,2025-08-05,Open weights (unrestricted),2025-08-05,4.94e+24,Confident,,gpt-oss-120b (high) (Chutes),,gpt-oss-120b,gpt-oss-120b,140.63,135.57,143.3
-Llama 4 Maverick,chutes/Llama-4-Maverick-17B-128E-Instruct,,Meta AI,United States of America,2025-04-06,Open weights (restricted use),2025-04-05,2.244000000001e+24,Likely,,Llama 4 Maverick (128 experts) (Chutes),,Llama 4 Maverick,llama-4-maverick,133.02,128.82,135.16
 Qwen3-8B,chutes/Qwen3-8B,,Alibaba,China,2025-04-28,Open weights (unrestricted),2025-04-29,1.7712e+24,Confident,,Qwen3 8B (Chutes),,Qwen3-8B,qwen3-8b,,,
 Qwen3-235B-A22B,chutes/Qwen3-235B-A22B,,Alibaba,China,2025-04-28,Open weights (unrestricted),2025-04-29,4.752e+24,Likely,,Qwen3 (Apr 2025) (Chutes),,Qwen3-235B-A22B,qwen3-235b-a22b,139.58,134.04,141.45
 Qwen3-235B-A22B (Jul 2025),chutes/Qwen3-235B-A22B-Thinking-2507,,Alibaba,China,2025-07-25,Open weights (unrestricted),2025-07-25,4.752e+24,Likely,,Qwen3 (Jul 2025) (Chutes),Qwen3-235B-A22B-Thinking (Jul 2025),Qwen3-235B-A22B-Thinking (Jul 2025),qwen3-235b-a22b-thinking-jul-2025,144.79,142.54,147.5
 QwQ-32B,chutes/QwQ-32B,,Alibaba,China,2025-03-05,Open weights (unrestricted),2025-03-06,3.51e+24,Speculative,,QwQ 32B (Chutes),QwQ-32B,QwQ-32B,qwq-32b,,,
-Claude 3.7 Sonnet,claude-3-7-sonnet-20250219_8K,Claude 3.7 Sonnet (8k thinking),Anthropic,United States of America,2025-02-24,API access,2025-02-24,3.3499999999999998e+25,Likely,"A previous flagship reasoning model from Anthropic, benchmarked with up to 9,000 reasoning tokens allowed.",Claude 3.7 Sonnet (8k thinking),,Claude 3.7 Sonnet,claude-3-7-sonnet,141.7,139.32,143.19
 ,deepinfra/Qwen3-Next-80B-A3B-Instruct,,,,2025-09-11,,,,Unverified,,,,,deepinfra-qwen3-next-80b-a3b-instruct,,,
 DeepSeek-V3.2-Exp,DeepSeek-V3.2-Exp_high,,DeepSeek,China,2025-09-29,Open weights (unrestricted),2025-09-29,4.18e+24,Confident,,,,DeepSeek-V3.2-Exp,deepseek-v3-2-exp,144.87,141.89,146.87
-Grok 4 Fast,grok-4-fast,,xAI,United States of America,2025-09-19,API access,2025-09-19,,Unknown,,Grok 4 Fast,,Grok 4 Fast,grok-4-fast,144.62,141.62,147.34
-o3-pro,o3-pro-2025-06-10_medium,,OpenAI,United States of America,2025-06-10,,2025-06-10,,Unknown,"An enhanced version of OpenAI's previous flagship reasoning model o3, evaluated with medium reasoning effort.",,,o3-pro,o3-pro,147.92,146.38,150.63
-GPT-4o,chatgpt-4o-01-29-2025,,OpenAI,United States of America,2025-01-29,API access,2024-05-13,,Speculative,"A version of GPT-4o that was behind the ChatGPT interface, released in January 2025.",ChatGPT-4o (Jan 2025),GPT-4o (Jan 2025),GPT-4o (Jan 2025),gpt-4o-jan-2025,,,
 DeepSeek-V3 (Mar 2025),chutes/DeepSeek-V3-0324,DeepSeek-V3 (Mar 2025),DeepSeek,China,2025-03-24,Open weights (restricted use),2025-03-24,3.3e+24,Confident,,DeepSeek-V3 (Mar 2025) (Chutes),,DeepSeek-V3 (Mar 2025),deepseek-v3-mar-2025,137.05,133.41,139.06
 Gemma 3 27B,chutes/Gemma-3-27b-It,,Google DeepMind,United States of America,2025-03-11,Open weights (restricted use),2025-03-12,2.268e+24,Confident,,Gemma-3-27b-it (Chutes),,Gemma 3 27B,gemma-3-27b,131.05,124.66,133.14
-DeepSeek-V3.1,DeepSeek-V3.1,,DeepSeek,China,2025-08-21,Open weights (unrestricted),2025-08-21,3.594058e+24,Confident,An updated version of DeepSeek V3.,DeepSeek-V3.1,,DeepSeek-V3.1,deepseek-v3-1,,,
 Kimi K2,fireworks/Kimi-K2-Instruct-0905,Kimi K2 Instruct (0905),Moonshot,China,2025-09-05,Open weights (restricted use),2025-07-11,2.976e+24,Confident,,,Kimi K2 (Sep 2025),Kimi K2 (Sep 2025),kimi-k2-sep-2025,,,
 Grok-3 mini,grok-3-mini-beta_medium,,xAI,United States of America,2025-04-09,API access,2025-02-19,,Unknown,"A beta release of a smaller version of XAI's third generation Grok model, evaluated with medium reasoning effort.",,,Grok-3 mini,grok-3-mini,141.03,138.11,142.62
 MiniMax-M1-80k,MiniMax-M1-80k,,MiniMax,China,2025-06-13,Open weights (unrestricted),2025-06-13,4.3240062e+24,Likely,,,,MiniMax-M1-80k,minimax-m1-80k,,,
@@ -364,335 +676,10 @@ Qwen3-14B,chutes/Qwen3-14B,,Alibaba,China,2025-04-28,Open weights (unrestricted)
 Qwen3-32B,chutes/Qwen3-32B,,Alibaba,China,2025-04-28,Open weights (unrestricted),2025-04-29,7.0848e+24,Confident,,Qwen3 32B (Chutes),,Qwen3-32B,qwen3-32b,,,
 ,chutes/Qwen3-Next-80B-A3B-Instruct,,,,2025-09-11,,,,Unverified,,,,,chutes-qwen3-next-80b-a3b-instruct,,,
 Llama 4 Scout,chutes/Llama-4-Scout-17B-16E Instruct,,Meta AI,United States of America,2025-04-06,Open weights (restricted use),2025-04-05,4.08e+24,Likely,,Llama 4 Maverick (16 experts) (Chutes),,Llama 4 Scout,llama-4-scout,130.54,125.12,132.17
-DeepSeek-V3.2-Exp,DeepSeek-V3.2-Exp,,DeepSeek,China,2025-09-29,Open weights (unrestricted),2025-09-29,4.18e+24,Confident,,,,DeepSeek-V3.2-Exp,deepseek-v3-2-exp,144.87,141.89,146.87
-GPT-5.2,gpt-5.2-2025-12-11_none,GPT-5.2 (none),OpenAI,United States of America,2025-12-11,API access,2025-12-11,,Unknown,,GPT-5.2 (none),,GPT-5.2,gpt-5-2,153.72,152.27,155.53
-Qwen2.5-72B,Qwen2.5-VL-72B-Instruct,,Alibaba,China,2024-09-19,Open weights (unrestricted),2024-09-19,7.8e+24,Confident,A 72 billion-parameter instruction-tuned vision language model in the Qwen 2.5 series.,Qwen2.5-VL-72B,,Qwen2.5-72B,qwen2-5-72b,129.12,122.58,130.87
-,Qwen-VL-Max,,,,2024-01-18,,,,Unverified,,,,,qwen-vl-max,,,
-Llama 2-7B,Llama-2-7b,,Meta AI,United States of America,2023-07-18,Open weights (restricted use),2023-07-18,8.4e+22,Confident,Meta's 7 billion-parameter model in the Llama 2 series of open source models.,,,Llama 2-7B,llama-2-7b,98.63,87.91,105.56
-Llama 2-13B,Llama-2-13b,,Meta AI,United States of America,2023-07-18,Open weights (restricted use),2023-07-18,1.6e+23,Confident,Meta's 13 billion-parameter model in the Llama 2 series of open source models.,,,Llama 2-13B,llama-2-13b,105.8,96.31,111.25
-Mistral 7B,Mistral-7B-Instruct-v0.2,,Mistral AI,France,2023-12-11,Open weights (unrestricted),2023-10-10,,Confident,,,Mistral 7B v0.2,Mistral 7B v0.2,mistral-7b-v0-2,,,
-Gemma 2B,gemma-2b,,Google DeepMind,United States of America,2024-02-21,Open weights (restricted use),2024-02-21,4.5115822e+22,Confident,Google's 2 billion-parameter model in the Gemma series of open source models.,,,Gemma 2B,gemma-2b,93.73,82.12,101.24
-Gemma 7B,gemma-7b,,Google DeepMind,United States of America,2024-02-21,Open weights (restricted use),2024-02-21,3.07e+23,Confident,Google's 7 billion-parameter model in the Gemma series of open source models.,,,Gemma 7B,gemma-7b,111.68,102.58,116.48
-MPT-7B,mpt-7b,,MosaicML,United States of America,2023-05-05,Open weights (unrestricted),2023-05-05,4.2e+22,Confident,,,,MPT-7B,mpt-7b,94.12,81.47,102.87
-Falcon-7B,falcon-7b,,Technology Innovation Institute,United Arab Emirates,2023-04-24,Open weights (unrestricted),2023-04-24,6.3e+22,Confident,The 7 billion-parameter model in the Falcon series.,,,Falcon-7B,falcon-7b,94.63,82.75,102.92
-,chatglm2-6b,,,,2023-06-24,,,,Unverified,,,,,chatglm2-6b,,,
-,internlm-7b,,,,2023-07-05,,,,Unverified,,,,,internlm-7b,,,
-,internlm-20b,,,,2023-09-18,,,,Unverified,,,,,internlm-20b,,,
-Baichuan1-7B,Baichuan-7B,,Baichuan,China,2023-06-01,Open weights (non-commercial),2023-06-01,5.04e+22,Confident,,,,Baichuan1-7B,baichuan1-7b,89.94,77.33,99.2
-Baichuan2-13B,Baichuan-2-13B-Base,,Baichuan,China,2023-09-06,Open weights (restricted use),2023-09-06,2.03e+23,Confident,,,,Baichuan2-13B,baichuan2-13b,102.8,89.83,110.21
-LLaMA-7B,LLaMA-7B,,Meta AI,United States of America,2023-02-24,Open weights (non-commercial),2023-02-24,4.00000001e+22,Confident,Meta's smallest model in the original Llama series.,,,LLaMA-7B,llama-7b,96.24,83.96,103.67
-LLaMA-13B,LLaMA-13B,,Meta AI,United States of America,2023-02-24,Open weights (non-commercial),2023-02-27,7.8e+22,Confident,Meta's 13 billion-parameter model in the original Llama series.,,,LLaMA-13B,llama-13b,100.16,89.84,106.81
-LLaMA-33B,LLaMA-33B,,Meta AI,United States of America,2023-02-24,Open weights (non-commercial),2023-02-27,2.7300000000001e+23,Confident,Meta's 33 billion-parameter model in the original Llama series,,,LLaMA-33B,llama-33b,107.05,97.79,112.22
-LLaMA-65B,LLaMA-65B,,Meta AI,United States of America,2023-02-24,Open weights (non-commercial),2023-02-24,5.5e+23,Confident,Meta's largest model in the original Llama series.,,,LLaMA-65B,llama-65b,109.84,100.69,114.44
-Llama 2-70B,"Llama-2-70b-hf ",,Meta AI,United States of America,2023-07-18,Open weights (restricted use),2023-07-18,8.1e+23,Confident,A chat-optimized of a 70 billion-parameter model in the Llama 2 series.,,,Llama 2-70B,llama-2-70b,113.66,104.17,117.96
-Stable Beluga 2,StableBeluga2,,Stability AI,United Kingdom of Great Britain and Northern Ireland,2023-07-20,Open weights (non-commercial),2023-07-20,,Likely,,Stable Beluga 2,,Stable Beluga 2,stable-beluga-2,116.85,109.0,120.31
-,Qwen-1_8B,Qwen-1.8B,,,2023-11-30,,,,Unverified,Qwen's 1.8 billion-parameter model in the original Qwen series.,,,,qwen-1-8b,,,
-Qwen-7B,Qwen-7B,,Alibaba,China,2023-09-28,Open weights (restricted use),2023-09-28,1.01e+23,Confident,Qwen's 7 billion-parameter model in the original Qwen series.,Qwen-7B,,Qwen-7B,qwen-7b,106.45,94.33,112.06
-Qwen-14B,Qwen-14B,,Alibaba,China,2023-09-28,Open weights (restricted use),2023-09-28,2.5e+23,Confident,Qwen's 14 billion-parameter model in the original Qwen series.,Qwen-14B,,Qwen-14B,qwen-14b,112.72,103.38,117.39
-InstructGPT 175B,text-davinci-001,,OpenAI,United States of America,2022-01-27,API access,2022-01-27,3.19181e+23,Confident,,,,InstructGPT 175B,instructgpt-175b,,,
-phi-3.5-mini,Phi-3.5-mini-instruct,,Microsoft,United States of America,2024-08-16,Open weights (unrestricted),2024-04-23,3.7101154e+22,Confident,"An instruction-tuned version of phi-3.5-mini, a small model in Microsoft's Phi 3.5 open source model series.",,,phi-3.5-mini,phi-3-5-mini,,,
-Phi-3.5-MoE,Phi-3.5-MoE-instruct,,Microsoft,United States of America,2024-08-17,Open weights (unrestricted),2024-04-23,3.0202896e+23,Confident,,,,Phi-3.5-MoE,phi-3-5-moe,,,
-Mistral 7B,Mistral-7B-v0.1,,Mistral AI,France,2023-09-27,Open weights (unrestricted),2023-10-10,,Confident,,,Mistral 7B v0.1,Mistral 7B v0.1,mistral-7b-v0-1,111.9,102.35,115.88
-Mistral NeMo,Mistral-Nemo-Base-2407,,Mistral AI,France,2024-07-18,Open weights (unrestricted),2024-07-18,,Confident,,,,Mistral NeMo,mistral-nemo,118.35,110.68,121.97
-Gemma 2 9B,gemma-2-9b,,Google DeepMind,United States of America,,Open weights (restricted use),2024-06-24,4.32e+23,Confident,A 9 billion-parameter open source model from Google DeepMind in the Gemma 2 series.,,,Gemma 2 9B,gemma-2-9b,119.55,111.45,122.25
-Gopher (280B),Gopher (280B),,DeepMind,United Kingdom of Great Britain and Northern Ireland,2021-12-08,Unreleased,2021-12-08,6.31e+23,Confident,A 280 billion-parameter model from DeepMind in 2021.,,,Gopher (280B),gopher-280b,,,
-Megatron-Turing NLG 530B,Megatron-Turing NLG 530B,,"Microsoft,NVIDIA",United States of America,2022-01-28,Unreleased,2021-10-11,8.586e+23,Confident,,,,Megatron-Turing NLG 530B,megatron-turing-nlg-530b,,,
-DeepSeek-V2 (MoE-236B),DeepSeek-V2,,DeepSeek,China,2024-05-07,Open weights (restricted use),2024-05-07,1.02e+24,Confident,,,"DeepSeek-V2 (MoE-236B, May 2024)","DeepSeek-V2 (MoE-236B, May 2024)",deepseek-v2-moe-236b-may-2024,124.57,117.19,127.39
-Qwen2.5-72B,Qwen2.5-72B,,Alibaba,China,2024-09-19,Open weights (unrestricted),2024-09-19,7.8e+24,Confident,A 72 billion-parameter model in the Qwen 2.5 series.,Qwen2.5-72B,,Qwen2.5-72B,qwen2-5-72b,129.12,122.58,130.87
-Llama 3.1-405B,Llama-3.1-405B,,Meta AI,United States of America,2024-07-23,Open weights (restricted use),2024-07-23,3.8e+25,Confident,The 405 billion-parameter model in Meta’s LLaMA 3.1 series.,,,Llama 3.1-405B,llama-3-1-405b,128.99,123.86,130.93
-DeepSeek-V3,DeepSeek-V3-Base,,DeepSeek,China,2024-12-26,Open weights (restricted use),2024-12-24,3.3e+24,Confident,,DeepSeek-V3 (base),,DeepSeek-V3,deepseek-v3,133.0,127.6,135.89
-MPT-30B,mpt-30b,,MosaicML,United States of America,2023-06-22,Open weights (unrestricted),2023-06-22,1.8900000000001e+23,Confident,,,,MPT-30B,mpt-30b,100.24,90.86,106.45
-Falcon-40B,falcon-40b,,Technology Innovation Institute,United Arab Emirates,2023-03-15,Open weights (unrestricted),2023-03-15,2.4e+23,Confident,The 40 billion-parameter model in the Falcon series.,,,Falcon-40B,falcon-40b,104.07,94.28,110.61
-Llama 2-34B,Llama-2-34b,,Meta AI,United States of America,2023-07-18,Unreleased,2023-07-18,4.08e+23,Confident,Meta's 34 billion-parameter model in the Llama 2 series.,,,Llama 2-34B,llama-2-34b,104.83,95.11,110.85
-Chinchilla,Chinchilla (70B),,DeepMind,United Kingdom of Great Britain and Northern Ireland,2022-03-29,Unreleased,2022-03-29,5.76e+23,Confident,,Chinchilla,,Chinchilla,chinchilla,,,
-,PaLM 62B,,,,2022-04-04,,,,Unverified,Google's 62 billion-parameter model in the PaLM series.,,,,palm-62b,,,
-PaLM (540B),PaLM 540B,,Google Research,United States of America,2022-04-04,Unreleased,2022-04-04,2.5272e+24,Confident,Google's largest model in the PaLM series.,,,PaLM (540B),palm-540b,,,
-Mistral 7B,Mistral-7B-Instruct-v0.1,,Mistral AI,France,2023-09-27,Open weights (unrestricted),2023-10-10,,Confident,,,Mistral 7B v0.1,Mistral 7B v0.1,mistral-7b-v0-1,111.9,102.35,115.88
-Mixtral 8x7B,Mixtral-8x7B-v0.1,,Mistral AI,France,2023-12-11,Open weights (unrestricted),2023-12-11,7.74e+23,Speculative,,,,Mixtral 8x7B,mixtral-8x7b,118.09,110.07,120.79
-Nemotron-4 15B,Nemotron-4 15B,,NVIDIA,United States of America,2024-02-26,Unreleased,2024-02-27,7.5005116e+23,Confident,A 15 billion-parameter language model trained by Nvidia.,,,Nemotron-4 15B,nemotron-4-15b,107.37,97.63,112.9
-,vicuna-13b-v1.1,,,,2023-04-12,,,,Unverified,,,,,vicuna-13b-v1-1,,,
-OPT-1.3B,opt-1.3b,,Meta AI,United States of America,2022-05-11,Open weights (non-commercial),2022-06-21,,Confident,,,,OPT-1.3B,opt-1-3b,,,
-GPT-Neo-2.7B,gpt-neo-2.7B,,EleutherAI,United States of America,2023-03-30,Open weights (unrestricted),2021-03-21,7.9e+21,Confident,,,,GPT-Neo-2.7B,gpt-neo-2-7b,,,
-Inflection-1,Inflection-1,,Inflection AI,United States of America,2023-06-22,Hosted access (no API),2023-06-23,1.0001e+24,Speculative,,,,Inflection-1,inflection-1,,,
-Falcon-180B,falcon-180B,,Technology Innovation Institute,United Arab Emirates,2023-09-06,Open weights (restricted use),2023-09-06,3.76e+24,Confident,The 180 billion-parameter model in the Falcon series.,,,Falcon-180B,falcon-180b,111.84,103.38,119.45
-XGen-7B,xgen-7b-8k-base,,Salesforce,United States of America,2023-06-27,Open weights (unrestricted),2023-09-07,8.02e+22,Confident,,XGen-7B,,XGen-7B,xgen-7b,92.92,81.16,100.75
-,open_llama_7b,,,,2023-06-07,,,,Unverified,,,,,open-llama-7b,,,
-,RedPajama-INCITE-7B-Base,,,,2023-05-04,,,,Unverified,,,,,redpajama-incite-7b-base,,,
-GPT-NeoX-20B,gpt-neox-20b,,EleutherAI,United States of America,2022-04-07,Open weights (unrestricted),2022-02-09,9.31627008e+22,Confident,,,,GPT-NeoX-20B,gpt-neox-20b,,,
-,opt-13b,,,,2022-05-11,,,,Unverified,,,,,opt-13b,,,
-GPT-J-6B,gpt-j-6b,,"EleutherAI,LAION","United States of America,Germany",2021-08-05,Open weights (unrestricted),2021-05-01,1.5e+22,Confident,,,,GPT-J-6B,gpt-j-6b,,,
-Dolly 2.0-12b,dolly-v2-12b,,Databricks,United States of America,2023-04-11,Open weights (unrestricted),2023-04-12,,Confident,,,,Dolly 2.0-12b,dolly-2-0-12b,89.16,74.74,98.36
-Cerebras-GPT-13B,Cerebras-GPT-13B,,Cerebras Systems,United States of America,2023-03-20,Open weights (unrestricted),2023-04-06,2.3e+22,Confident,,,,Cerebras-GPT-13B,cerebras-gpt-13b,82.7,67.67,92.51
-,stablelm-tuned-alpha-7b,,,,2023-04-19,,,,Unverified,,,,,stablelm-tuned-alpha-7b,,,
-Claude Sonnet 5,claude-sonnet-5_high,Claude Sonnet 5 (high),Anthropic,United States of America,2026-06-30,API access,2026-06-30,,Confident,,Claude Sonnet 5 (high),,Claude Sonnet 5,claude-sonnet-5,153.2,151.08,155.29
-o3-pro,o3-pro-2025-06-10_high,,OpenAI,United States of America,2025-06-10,,2025-06-10,,Unknown,"An enhanced version of OpenAI's previous flagship reasoning model o3, evaluated with high reasoning effort.",,,o3-pro,o3-pro,147.92,146.38,150.63
-GPT-5.4 Pro,gpt-5.4-pro-2026-03-05_none,GPT-5.4 Pro (no thinking),OpenAI,United States of America,2026-03-05,API access,2026-03-05,,Likely,,GPT-5.4 Pro (no thinking),,GPT-5.4 Pro,gpt-5-4-pro,157.95,155.97,160.94
-GPT‑5-Codex,gpt-5-codex,GPT-5-codex,OpenAI,United States of America,2025-09-15,API access,2025-09-15,,Unknown,,GPT-5-codex,,GPT‑5-Codex,gpt5-codex,,,
-GPT‑5-Codex,gpt-5-codex_high,GPT-5-codex (high),OpenAI,United States of America,2025-09-15,API access,2025-09-15,,Unknown,,GPT-5-codex,,GPT‑5-Codex,gpt5-codex,,,
-Gemini 2.5 Pro (Jun 2025),gemini-2.5-pro_16K,,Google DeepMind,United States of America,2025-06-17,API access,2025-06-05,,Unknown,"Google’s general-purpose frontier reasoning model, evaluated with up to 16,000 reasoning tokens.",Gemini 2.5 Pro (16k thinking),Gemini 2.5 Pro (Jun 2025),Gemini 2.5 Pro (Jun 2025),gemini-2-5-pro-jun-2025,146.07,144.37,147.73
-gpt-oss-120b,gpt-oss-120b_high,,OpenAI,United States of America,2025-08-05,Open weights (unrestricted),2025-08-05,4.94e+24,Confident,"The larger one of OpenAI's two latest open source language models, evaluated with high reasoning effort.",,,gpt-oss-120b,gpt-oss-120b,140.63,135.57,143.3
-DeepSeek-V3.2,DeepSeek-V3.2-Speciale,,DeepSeek,China,2025-12-01,Open weights (unrestricted),2025-12-01,4.1999999999999997e+24,Likely,,,DeepSeek-V3.2-Speciale,DeepSeek-V3.2-Speciale,deepseek-v3-2-speciale,,,
-DeepSeek-V4-Flash,deepseek-v4-flash_max,DeepSeek v4 Flash (max),DeepSeek,China,2026-04-24,Open weights (unrestricted),2026-04-24,2.496e+24,Likely,,DeepSeek v4 (max),,DeepSeek-V4-Flash,deepseek-v4-flash,,,
-Claude Haiku 4.5,claude-haiku-4-5-20251001_16K,,Anthropic,United States of America,2025-10-15,API access,2025-10-15,,Unknown,,Claude Haiku 4.5 (16k thinking),,Claude Haiku 4.5,claude-haiku-4-5,142.89,139.88,144.83
-Nemotron 3 Ultra,nemotron-3-ultra,,NVIDIA,United States of America,2026-06-04,Open weights (unrestricted),2026-06-04,6.6e+24,Likely,,,,Nemotron 3 Ultra,nemotron-3-ultra,,,
-Grok-3 mini,grok-3-mini_high,Grok 3 mini,xAI,United States of America,2025-06-24,API access,2025-02-19,,Unknown,,Grok 3 mini (high),,Grok-3 mini,grok-3-mini,141.03,138.11,142.62
-Gemini 2.5 Flash,gemini-2.5-flash-preview-09-2025_16k,,Google DeepMind,United States of America,2025-09-25,API access,2025-04-17,,Unknown,,"Gemini 2.5 Flash-Lite (Sep 2025, 16k thinking)",Gemini 2.5 Flash (Sep 2025),Gemini 2.5 Flash (Sep 2025),gemini-2-5-flash-sep-2025,143.15,139.31,146.6
-gpt-oss-120b,gpt-oss-120b_medium,,OpenAI,United States of America,2025-08-05,Open weights (unrestricted),2025-08-05,4.94e+24,Confident,"The larger one of OpenAI's two latest open source language models, evaluated with medium reasoning effort.",,,gpt-oss-120b,gpt-oss-120b,140.63,135.57,143.3
-Gemini 2.5 Flash,gemini-2.5-flash-preview-04-17 (16K thinking),,Google DeepMind,United States of America,2025-04-17,API access,2025-04-17,,Unknown,"An April 2025 preview version of Gemini 2.5 Flash, a small reasoning model in the Gemini 2.5 series from DeepMind, evaluated with up to 16,000 reasoning tokens.",,Gemini 2.5 Flash (Apr 2025),Gemini 2.5 Flash (Apr 2025),gemini-2-5-flash-apr-2025,140.63,136.54,142.72
-Gemini 2.5 Flash,gemini-2.5-flash-preview-05-20_16K,,Google DeepMind,United States of America,2025-05-20,API access,2025-04-17,,Unknown,"An April 2025 preview version of Gemini 2.5 Flash, a small reasoning model in the Gemini 2.5 series from DeepMind, evaluated with up to 16,000 reasoning tokens.",,Gemini 2.5 Flash (May 2025),Gemini 2.5 Flash (May 2025),gemini-2-5-flash-may-2025,142.24,139.76,143.76
-gpt-oss-20b,gpt-oss-20b_high,,OpenAI,United States of America,2025-08-05,Open weights (unrestricted),2025-08-05,5.49e+23,Confident,"The smaller one of OpenAI's two latest open source language models, evaluated with high reasoning effort.",,,gpt-oss-20b,gpt-oss-20b,,,
-GLM-4.5,glm-4.5_thinking,GLM-4.5 Thinking,"Z.ai (Zhipu AI),Tsinghua University",China,2025-08-05,Open weights (unrestricted),2025-08-05,4.42e+24,Confident,,,,GLM-4.5,glm-4-5,,,
-GPT-5,gpt-5-chat,,OpenAI,United States of America,,API access,2025-08-07,6.6e+25,Speculative,,,,GPT-5,gpt-5,150.0,,
-Kimi K2,kimi-k2-0711-preview,,Moonshot,China,2025-07-12,Open weights (restricted use),2025-07-11,2.976e+24,Confident,A preview of an updated version of Kimi K2.,,Kimi K2 (Jul 2025),Kimi K2 (Jul 2025),kimi-k2-jul-2025,140.45,137.2,142.25
-Qwen3-235B-A22B (Jul 2025),Qwen3-235B-A22B-Instruct-2507,,Alibaba,China,2025-07-25,Open weights (unrestricted),2025-07-25,4.752e+24,Likely,A 22 billion active (235 billion total)-parameter mixture-of-experts instruction-tuned model in the Qwen 3 series.,Qwen3 Non-thinking (Jul 2025),Qwen3-235B-A22B-Instruct (Jul 2025),Qwen3-235B-A22B-Instruct (Jul 2025),qwen3-235b-a22b-instruct-jul-2025,138.96,135.37,140.79
-Qwen3-235B-A22B (Jul 2025),qwen/qwen3-235b-a22b-thinking-2507,Qwen3-235B-A22B-Thinking-2507,Alibaba,China,2025-07-25,Open weights (unrestricted),2025-07-25,4.752e+24,Likely,,,Qwen3-235B-A22B-Thinking (Jul 2025),Qwen3-235B-A22B-Thinking (Jul 2025),qwen3-235b-a22b-thinking-jul-2025,144.79,142.54,147.5
-DeepSeek-V3.1,DeepSeek-V3.1_thinking,,DeepSeek,China,2025-08-21,Open weights (unrestricted),2025-08-21,3.594058e+24,Confident,,DeepSeek-V3.1 (thinking),,DeepSeek-V3.1,deepseek-v3-1,,,
-GPT-5.4 Nano,gpt-5.4-nano-2026-03-17_none,GPT-5.4 nano (no thinking),OpenAI,United States of America,2026-03-17,API access,2026-03-17,,Likely,,GPT-5.4 nano (no thinking),,GPT-5.4 Nano,gpt-5-4-nano,146.61,144.41,148.63
-GPT-5.4 Mini,gpt-5.4-mini-2026-03-17_none,GPT-5.4 mini (none),OpenAI,United States of America,2026-03-17,API access,2026-03-17,,Likely,,GPT-5.4 mini (none),,GPT-5.4 Mini,gpt-5-4-mini,148.87,147.14,150.16
-Qwen3-235B-A22B,Qwen3-235B-A22B,,Alibaba,China,2025-04-29,Open weights (unrestricted),2025-04-29,4.752e+24,Likely,,Qwen3 (Apr 2025),,Qwen3-235B-A22B,qwen3-235b-a22b,139.58,134.04,141.45
-Grok 3,grok-3,,xAI,United States of America,2025-04-09,API access,2025-02-17,3.5000000000000006e+26,Likely,XAI's third generation flagship model.,Grok 3,,Grok 3,grok-3,139.03,136.19,140.21
-gpt-oss-20b,gpt-oss-20b_medium,,OpenAI,United States of America,2025-08-05,Open weights (unrestricted),2025-08-05,5.49e+23,Confident,"The smaller one of OpenAI's two latest open source language models, evaluated with medium reasoning effort.",,,gpt-oss-20b,gpt-oss-20b,,,
-Kimi K2,Kimi-K2-Instruct-0905,,Moonshot,China,2025-09-05,Open weights (restricted use),2025-07-11,2.976e+24,Confident,,,Kimi K2 (Sep 2025),Kimi K2 (Sep 2025),kimi-k2-sep-2025,,,
-Gemini 2.5 Flash-Lite,gemini-2.5-flash-lite-preview-06-17_16K,,Google DeepMind,United States of America,2025-06-17,API access,2025-06-15,,Unknown,"A June 2025 preview of Gemini 2.5 Flash Lite, evaluated with up to 16,000 reasoning tokens.","Gemini 2.5 Flash-Lite (Jun 2025, 16k thinking)",Gemini 2.5 Flash-Lite (Jun 2025),Gemini 2.5 Flash-Lite (Jun 2025),gemini-2-5-flash-lite-jun-2025,,,
-Qwen 3.6 35B-A3B,qwen3.6-35b-a3b,,Alibaba,China,2026-04-14,Open weights (unrestricted),2026-04-14,,Unverified,,,,Qwen 3.6 35B-A3B,qwen-3-6-35b-a3b,143.38,137.69,147.11
-,qwen3-coder-next,,,,2026-02-02,,,,Unverified,,,,,qwen3-coder-next,,,
-Qwen3-30B-A3B,Qwen3-30B-A3B,,Alibaba,China,2025-04-29,Open weights (unrestricted),2025-04-29,6.48e+23,Likely,,Qwen3-30B-A3B,,Qwen3-30B-A3B,qwen3-30b-a3b,,,
-GPT-5 nano,gpt-5-nano-2025-08-07_low,GPT-5 nano (low),OpenAI,United States of America,2025-08-07,API access,2025-08-07,,Unknown,"The smallest version of OpenAI's latest flagship frontier model, benchmarked using medium reasoning effort.",GPT-5 nano (low),,GPT-5 nano,gpt-5-nano,140.86,136.8,142.7
-Mixtral 8x22B,Mixtral-8x22B-Instruct-v0.1,,Mistral AI,France,2024-04-17,Open weights (unrestricted),2024-04-17,2.34e+24,Speculative,An instruction-tuned version of Mistral's 8 billion active (176 billion total)-parameter mixture-of-experts model,,,Mixtral 8x22B,mixtral-8x22b,121.26,112.34,123.45
-Yi 6B,Yi-6B,,01.AI,China,2023-11-02,Open weights (restricted use),2023-11-02,1.26e+23,Confident,,Yi-6B (chat),,Yi 6B,yi-6b,104.39,93.55,110.61
-,Yi-9B,,,,2024-03-01,,,,Unverified,,,,,yi-9b,,,
-,PaLM 2-S,,,,2023-05-17,,,,Unverified,DeepMind's smallest model in the PaLM 2 series.,,,,palm-2-s,,,
-,PaLM 2-M,,,,2023-05-17,,,,Unverified,DeepMind's mid-sized model in the PaLM 2 series.,,,,palm-2-m,,,
-,PaLM 2-L,,,,2023-05-17,,,,Unverified,DeepMind's largest model in the PaLM 2 series.,,,,palm-2-l,,,
-Baichuan 2-7B,Baichuan-2-7B-Base,,Baichuan,China,2023-09-20,Open weights (restricted use),2023-09-20,1.092e+23,Confident,,,,Baichuan 2-7B,baichuan-2-7b,95.87,83.78,104.7
-phi-3-mini 3.8B,Phi-3-mini-4k-instruct,,Microsoft,United States of America,2024-04-23,Open weights (unrestricted),2024-04-23,7.524e+22,Confident,A 4 billion-parameter model in Microsoft's Phi-3 open source model series with a 4000-token context length.,,,phi-3-mini 3.8B,phi-3-mini-3-8b,117.09,107.67,120.81
-phi-3-small 7.4B,Phi-3-small-8k-instruct,,Microsoft,United States of America,2024-04-23,Open weights (unrestricted),2024-04-23,2.1312e+23,Confident,A 7 billion-parameter model in Microsoft's Phi-3 open source model series with a 8000-token context length.,,,phi-3-small 7.4B,phi-3-small-7-4b,121.61,114.15,124.33
-Phi-2,phi-2,,Microsoft,United States of America,2023-12-12,Open weights (unrestricted),2023-12-12,2.27e+22,Confident,,,,Phi-2,phi-2,107.56,85.07,113.66
-,Qwen2.5-Coder-0.5B,,,,2024-09-18,,,,Unverified,Qwen's 500 million-parameter model in the Qwen 2.5 Coder series of open source models.,,,,qwen2-5-coder-0-5b,,,
-DeepSeek Coder 1.3B,deepseek-coder-1.3b-base,,"DeepSeek,Peking University",China,2023-11-02,Open weights (restricted use),2024-01-25,1.56e+22,Likely,,DeepSeek Coder 1.3B (base),,DeepSeek Coder 1.3B,deepseek-coder-1-3b,63.63,47.75,78.94
-Qwen2.5-Coder (1.5B),Qwen2.5-Coder-1.5B,,Alibaba,China,2024-09-18,Open weights (unrestricted),2024-09-18,5.082e+22,Confident,Qwen's 1.5 billion-parameter model in the Qwen 2.5 Coder series of open source models.,Qwen2.5-Coder-1.5B,,Qwen2.5-Coder (1.5B),qwen2-5-coder-1-5b,102.59,85.79,110.57
-StarCoder 2 3B,starcoder2-3b,,"Hugging Face,ServiceNow,NVIDIA,BigCode",United States of America,2024-02-22,Open weights (restricted use),2024-02-29,5.94e+22,Confident,,StarCoder 2 3B,,StarCoder 2 3B,starcoder-2-3b,88.25,73.45,98.1
-,Qwen2.5-Coder-3B,,,,2024-09-18,,,,Unverified,Qwen's 3 billion-parameter model in the Qwen 2.5 Coder series of open source models.,,,,qwen2-5-coder-3b,,,
-StarCoder 2 7B,starcoder2-7b,,"Hugging Face,ServiceNow,NVIDIA,BigCode",United States of America,2024-02-20,Open weights (restricted use),2024-02-29,1.55e+23,Confident,,StarCoder 2 7B,,StarCoder 2 7B,starcoder-2-7b,93.07,75.06,102.39
-DeepSeek Coder 6.7B,deepseek-coder-6.7b-base,,"DeepSeek,Peking University",China,2023-11-02,Open weights (restricted use),2024-01-25,8.04e+22,Likely,,DeepSeek Coder 6.7B (base),,DeepSeek Coder 6.7B,deepseek-coder-6-7b,89.11,75.25,98.37
-,DeepSeek-Coder-V2-Lite-Base,,,,2024-06-13,,,,Unverified,,,,,deepseek-coder-v2-lite-base,,,
-,CodeQwen1.5-7B,,,,2024-04-15,,,,Unverified,,,,,codeqwen1-5-7b,,,
-Qwen2.5-Coder (7B),Qwen2.5-Coder-7B,,Alibaba,China,2024-09-18,Open weights (unrestricted),2024-09-18,2.5113e+23,Confident,Qwen's 7 billion-parameter model in the Qwen 2.5 Coder series of open source models.,Qwen2.5-Coder-7B,,Qwen2.5-Coder (7B),qwen2-5-coder-7b,112.83,101.15,119.2
-StarCoder 2 15B,starcoder2-15b,,"Hugging Face,ServiceNow,NVIDIA,BigCode",United States of America,2024-02-20,Open weights (restricted use),2024-02-29,3.87e+23,Confident,,StarCoder 2 15B,,StarCoder 2 15B,starcoder-2-15b,104.62,92.93,112.03
-,Qwen2.5-Coder-14B,,,,2024-09-18,,,,Unverified,Qwen's 14 billion-parameter model in the Qwen 2.5 Coder series of open source models.,,,,qwen2-5-coder-14b,,,
-DeepSeek Coder 33B,deepseek-coder-33b-base,,"DeepSeek,Peking University",China,2023-11-02,Open weights (restricted use),2024-01-25,3.96e+23,Likely,,DeepSeek Coder 33B (base),,DeepSeek Coder 33B,deepseek-coder-33b,95.86,84.08,103.49
-DeepSeek-Coder-V2 236B,DeepSeek-Coder-V2-Base,,DeepSeek,China,2024-06-17,Open weights (restricted use),2024-06-17,1.2852e+24,Confident,,DeepSeek-Coder-V2 (base),,DeepSeek-Coder-V2 236B,deepseek-coder-v2-236b,,,
-Qwen2.5-Coder (32B),Qwen2.5-Coder-32B,,Alibaba,China,2024-09-18,Open weights (unrestricted),2024-11-12,1.0725e+24,Confident,Qwen's 32 billion-parameter model in the Qwen 2.5 Coder series of open source models.,Qwen2.5-Coder-32B,Qwen2.5-Coder-32B,Qwen2.5-Coder-32B,qwen2-5-coder-32b,119.23,109.95,124.68
-Phi-1.5,phi-1_5,,Microsoft,United States of America,2023-09-11,Open weights (unrestricted),2023-09-11,1.17e+21,Confident,,,,Phi-1.5,phi-1-5,91.06,69.8,101.36
-"GPT-3.5 (davinci-002)
-",text-davinci-002,,OpenAI,United States of America,2022-03-15,API access,2022-03-15,2.578e+24,Speculative,,,davinci-002,davinci-002,davinci-002,,,
-Claude Instant,claude-instant-1.1,,Anthropic,United States of America,,API access,2023-08-09,,Unknown,,,,Claude Instant,claude-instant,121.08,113.11,123.91
-Claude Instant,claude-instant-1.2,,Anthropic,United States of America,2023-08-09,API access,2023-08-09,,Unknown,,,,Claude Instant,claude-instant,121.08,113.11,123.91
-INTELLECT-1,INTELLECT-1-Instruct,,"Prime Intellect,Hugging Face,Arcee AI",United States of America,2024-11-29,,2024-11-29,6.000001e+22,Confident,,,,INTELLECT-1,intellect-1,100.44,89.72,106.87
-GPT-5.6 Sol,gpt-5.6-sol_xhigh,GPT-5.6 Sol (xhigh),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Sol (xhigh),,GPT-5.6 Sol,gpt-5-6-sol,162.06,159.6,166.58
-GPT-5.6 Terra,gpt-5.6-terra_xhigh,GPT-5.6 Terra (xhigh),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Terra (xhigh),,GPT-5.6 Terra,gpt-5-6-terra,158.36,155.43,161.46
-GPT-5.6 Luna,gpt-5.6-luna_medium,GPT-5.6 Luna (medium),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Luna (medium),,GPT-5.6 Luna,gpt-5-6-luna,155.31,152.67,158.14
-GLaM,GLaM (MoE),,Google,United States of America,2021-12-13,Unreleased,2021-12-13,3.6363112434e+23,Confident,,,,GLaM,glam,,,
-GPT-5.6 Sol,gpt-5.6-sol_medium,GPT-5.6 Sol (medium),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Sol (medium),,GPT-5.6 Sol,gpt-5-6-sol,162.06,159.6,166.58
-GPT-5.6 Luna,gpt-5.6-luna_xhigh,GPT-5.6 Luna (xhigh),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Luna (xhigh),,GPT-5.6 Luna,gpt-5-6-luna,155.31,152.67,158.14
-GPT-5.6 Terra,gpt-5.6-terra_high,GPT-5.6 Terra (high),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Terra (high),,GPT-5.6 Terra,gpt-5-6-terra,158.36,155.43,161.46
-Muse Spark 1.1,muse-spark-1.1,Muse Spark 1.1,Meta AI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,Muse Spark 1.1,,Muse Spark 1.1,muse-spark-1-1,,,
-GPT-5.6 Sol,gpt-5.6-sol_low,GPT-5.6 Sol (low),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Sol (low),,GPT-5.6 Sol,gpt-5-6-sol,162.06,159.6,166.58
-GPT-5.6 Luna,gpt-5.6-luna_high,GPT-5.6 Luna (high),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Luna (high),,GPT-5.6 Luna,gpt-5-6-luna,155.31,152.67,158.14
-GPT-5.6 Terra,gpt-5.6-terra_medium,GPT-5.6 Terra (medium),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Terra (medium),,GPT-5.6 Terra,gpt-5-6-terra,158.36,155.43,161.46
-GPT-5.6 Terra,gpt-5.6-terra_low,GPT-5.6 Terra (low),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Terra (low),,GPT-5.6 Terra,gpt-5-6-terra,158.36,155.43,161.46
-GPT-5.6 Luna,gpt-5.6-luna_low,GPT-5.6 Luna (low),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Luna (low),,GPT-5.6 Luna,gpt-5-6-luna,155.31,152.67,158.14
-Gemma 3 12B,gemma-3-12b-it,,Google DeepMind,United States of America,2025-03-12,Open weights (restricted use),2025-03-12,8.64e+23,Confident,An instruction-tuned version of the 12 billion-parameter model Google DeepMind's Gemma 3 series.,,,Gemma 3 12B,gemma-3-12b,,,
-,mPLUG-Owl3-7B-241101,,,,2024-11-26,,,,Unverified,,,,,mplug-owl3-7b-241101,,,
-,LLaVA-Video-7B-Qwen2,,,,2024-09-02,,,,Unverified,,,,,llava-video-7b-qwen2,,,
-,LongVA-7B,,,,2024-06-13,,,,Unverified,,,,,longva-7b,,,
-,gemini-3-deep-think-preview,,,,2026-02-12,,,,Unverified,,,,,gemini-3-deep-think-preview,,,
-GPT-5.5 Pro,gpt-5.5-pro_high,GPT-5.5 Pro (high),OpenAI,United States of America,2026-04-23,API access,2026-04-23,,Likely,,,,GPT-5.5 Pro,gpt-5-5-pro,160.93,158.44,164.63
-GPT-5.2 Pro,gpt-5.2-pro-2025-12-11_high,GPT-5.2 Pro,OpenAI,United States of America,2025-12-11,API access,2025-12-11,,Likely,,GPT-5.2 Pro (high),,GPT-5.2 Pro,gpt-5-2-pro,154.67,152.95,157.22
-GPT-5.2 Pro,gpt-5.2-pro-2025-12-11_medium,GPT-5.2 Pro,OpenAI,United States of America,2025-12-11,API access,2025-12-11,,Likely,,GPT-5.2 Pro (medium),,GPT-5.2 Pro,gpt-5-2-pro,154.67,152.95,157.22
-Claude Opus 4.5,claude-opus-4-5-20251101_64K,Claude Opus 4.5 (64k thinking),Anthropic,United States of America,2025-11-24,API access,2025-11-24,,Unknown,,Claude Opus 4.5 (64k thinking),,Claude Opus 4.5,claude-opus-4-5,149.54,147.4,152.08
-GPT-5.4,gpt-5.4-2026-03-05_low,GPT-5.4 (low),OpenAI,United States of America,2026-03-05,API access,2026-03-05,,Likely,,GPT-5.4 (low),,GPT-5.4,gpt-5-4,156.12,154.56,158.38
-Claude Opus 4.5,claude-opus-4-5-20251101_8K,Claude Opus 4.5 (8k thinking),Anthropic,United States of America,2025-11-24,API access,2025-11-24,,Unknown,,Claude Opus 4.5 (8k thinking),,Claude Opus 4.5,claude-opus-4-5,149.54,147.4,152.08
-Gemini 3.5 Flash,gemini-3.5-flash_minimal,Gemini 3.5 Flash (minimal),Google,United States of America,2026-05-19,API access,,,Confident,,,,Gemini 3.5 Flash,gemini-3-5-flash,154.66,152.99,157.19
-Claude Sonnet 4.5,claude-sonnet-4-5-20250929_8K,Claude Sonnet 4.5 (8k thinking),Anthropic,United States of America,2025-09-29,API access,2025-09-29,,Unknown,,Claude Sonnet 4.5 (2k thinking),,Claude Sonnet 4.5,claude-sonnet-4-5,146.76,144.75,148.29
-,tiny-recursion-model,,,,2025-10-06,,,,Unverified,,,,,tiny-recursion-model,,,
-Claude Sonnet 4.5,claude-sonnet-4-5-20250929_1K,Claude Sonnet 4.5 (1k thinking),Anthropic,United States of America,2025-09-29,API access,2025-09-29,,Unknown,,Claude Sonnet 4.5 (2k thinking),,Claude Sonnet 4.5,claude-sonnet-4-5,146.76,144.75,148.29
-GPT-5.4 Nano,gpt-5.4-nano-2026-03-17_xhigh,GPT-5.4 nano (xhigh),OpenAI,United States of America,2026-03-17,API access,2026-03-17,,Likely,,GPT-5.4 nano (xhigh),,GPT-5.4 Nano,gpt-5-4-nano,146.61,144.41,148.63
-Claude Opus 4,claude-opus-4-20250514_8K,Claude Opus 4,Anthropic,United States of America,2025-05-22,API access,2025-05-22,,Unknown,"Anthropic's largest model in the Claude 4 series (superseded by Claude Opus 4.1), benchmarked with up to 8,000 reasoning tokens.",Claude Opus 4 (8k thinking),,Claude Opus 4,claude-opus-4,142.93,140.32,144.52
-GPT-5.4 Mini,gpt-5.4-mini-2026-03-17_medium,GPT-5.4 mini (medium),OpenAI,United States of America,2026-03-17,API access,2026-03-17,,Likely,,GPT-5.4 mini (medium),,GPT-5.4 Mini,gpt-5-4-mini,148.87,147.14,150.16
-Gemini 2.5 Pro (Jun 2025),gemini-2.5-pro_8K,,Google DeepMind,United States of America,2025-06-17,API access,2025-06-05,,Unknown,"Google’s general-purpose frontier reasoning model, evaluated with up to 8,000 reasoning tokens.",Gemini 2.5 Pro (8k thinking),Gemini 2.5 Pro (Jun 2025),Gemini 2.5 Pro (Jun 2025),gemini-2-5-pro-jun-2025,146.07,144.37,147.73
-Gemini 2.5 Flash,gemini-2.5-flash-preview-05-20_23K,,Google DeepMind,United States of America,2025-05-20,API access,2025-04-17,,Unknown,"A May 2025 preview version of Gemini 2.5 Flash, a small model in Google DeepMind's Gemini 2.5 series, evaluated with up to 23,000 reasoning tokens.",,Gemini 2.5 Flash (May 2025),Gemini 2.5 Flash (May 2025),gemini-2-5-flash-may-2025,142.24,139.76,143.76
-Gemini 2.5 Flash,gemini-2.5-flash-preview-05-20_1K,,Google DeepMind,United States of America,2025-05-20,API access,2025-04-17,,Unknown,"An April 2025 preview version of Gemini 2.5 Flash, a small reasoning model in the Gemini 2.5 series from DeepMind, evaluated with up to 1,000 reasoning tokens.",,Gemini 2.5 Flash (May 2025),Gemini 2.5 Flash (May 2025),gemini-2-5-flash-may-2025,142.24,139.76,143.76
-Gemini 2.5 Flash,gemini-2.5-flash-preview-05-20_8K,,Google DeepMind,United States of America,2025-05-20,API access,2025-04-17,,Unknown,"An April 2025 preview version of Gemini 2.5 Flash, a small reasoning model in the Gemini 2.5 series from DeepMind, evaluated with up to 8,000 reasoning tokens.",,Gemini 2.5 Flash (May 2025),Gemini 2.5 Flash (May 2025),gemini-2-5-flash-may-2025,142.24,139.76,143.76
-Claude Sonnet 4,claude-sonnet-4-20250514_8K,,Anthropic,United States of America,2025-05-22,API access,2025-05-22,,Unknown,,Claude Sonnet 4 (8k thinking),,Claude Sonnet 4,claude-sonnet-4,142.18,139.59,143.61
-o3-pro,o3-pro-2025-06-10_low,,OpenAI,United States of America,2025-06-10,,2025-06-10,,Unknown,"An enhanced version of OpenAI's previous flagship reasoning model o3, evaluated with low reasoning effort.",,,o3-pro,o3-pro,147.92,146.38,150.63
-GPT-5,gpt-5-2025-08-07_low,GPT-5 (low),OpenAI,United States of America,2025-08-07,API access,2025-08-07,6.6e+25,Speculative,"OpenAI's latest flagship frontier model, benchmarked using low reasoning effort.",GPT-5 (low),,GPT-5,gpt-5,150.0,,
-GPT-5.4 Nano,gpt-5.4-nano-2026-03-17_medium,GPT-5.4 nano (medium),OpenAI,United States of America,2026-03-17,API access,2026-03-17,,Likely,,GPT-5.4 nano (medium),,GPT-5.4 Nano,gpt-5-4-nano,146.61,144.41,148.63
-GPT-5 mini,gpt-5-mini-2025-08-07_minimal,GPT-5 mini (minimal),OpenAI,United States of America,2025-08-07,API access,2025-08-07,,Unknown,"A smaller version of OpenAI's latest flagship frontier model, benchmarked using medium reasoning effort.",GPT-5 mini (medium),,GPT-5 mini,gpt-5-mini,145.8,144.02,147.03
-Claude Haiku 4.5,claude-haiku-4-5-20251001_8K,,Anthropic,United States of America,2025-10-15,API access,2025-10-15,,Unknown,,Claude Haiku 4.5 (8k thinking),,Claude Haiku 4.5,claude-haiku-4-5,142.89,139.88,144.83
-GPT-5.4 Nano,gpt-5.4-nano-2026-03-17_low,GPT-5.4 nano (low),OpenAI,United States of America,2026-03-17,API access,2026-03-17,,Likely,,GPT-5.4 nano (low),,GPT-5.4 Nano,gpt-5-4-nano,146.61,144.41,148.63
-,codex-mini-2025-05-16,,,,2025-05-16,,,,Unverified,,,,,codex-mini-2025-05-16,,,
-Claude Haiku 4.5,claude-haiku-4-5-20251001_1K,,Anthropic,United States of America,2025-10-15,API access,2025-10-15,,Unknown,,Claude Haiku 4.5 (1k thinking),,Claude Haiku 4.5,claude-haiku-4-5,142.89,139.88,144.83
-GPT-5.4 Mini,gpt-5.4-mini-2026-03-17_low,GPT-5.4 mini (low),OpenAI,United States of America,2026-03-17,API access,2026-03-17,,Likely,,GPT-5.4 mini (low),,GPT-5.4 Mini,gpt-5-4-mini,148.87,147.14,150.16
-Claude Sonnet 4,claude-sonnet-4-20250514_1K,,Anthropic,United States of America,2025-05-22,API access,2025-05-22,,Unknown,"Anthropic's mid-sized Claude 4 series model, evaluated at up to 1,000 reasoning tokens.",Claude Sonnet 4 (1k thinking),,Claude Sonnet 4,claude-sonnet-4,142.18,139.59,143.61
-o1-mini,o1-mini-2024-09-12_unknown,o1-mini (unknown thinking),OpenAI,United States of America,2024-09-12,API access,2024-09-12,,Unknown,"A smaller version of OpenAI’s first reasoning model, o1, evaluated with high reasoning effort.",,,o1-mini,o1-mini,136.58,132.79,138.06
-GPT-5 mini,gpt-5-mini-2025-08-07_low,GPT-5 mini (low),OpenAI,United States of America,2025-08-07,API access,2025-08-07,,Unknown,"A smaller version of OpenAI's latest flagship frontier model, benchmarked using medium reasoning effort.",GPT-5 mini (medium),,GPT-5 mini,gpt-5-mini,145.8,144.02,147.03
-Grok-3 mini,grok-3-mini_low,Grok 3 mini,xAI,United States of America,2025-06-24,API access,2025-02-19,,Unknown,,Grok 3 mini (low),,Grok-3 mini,grok-3-mini,141.03,138.11,142.62
-Claude 3.7 Sonnet,claude-3-7-sonnet-20250219_1K,Claude 3.7 Sonnet (1k thinking),Anthropic,United States of America,2025-02-24,API access,2025-02-24,3.3499999999999998e+25,Likely,"A previous flagship reasoning model from Anthropic, benchmarked with up to 1,000 reasoning tokens allowed.",Claude 3.7 Sonnet (1k thinking),,Claude 3.7 Sonnet,claude-3-7-sonnet,141.7,139.32,143.19
-Claude Opus 4,claude-opus-4-20250514_1K,Claude Opus 4,Anthropic,United States of America,2025-05-22,API access,2025-05-22,,Unknown,"Anthropic's largest model in the Claude 4 series (superseded by Claude Opus 4.1), benchmarked with up to 1,000 reasoning tokens.",Claude Opus 4 (1k thinking),,Claude Opus 4,claude-opus-4,142.93,140.32,144.52
-Magistral Medium 1.1,magistral-medium-2506,,Mistral AI,France,2025-06-10,API access,2025-06-10,,Unknown,,,,Magistral Medium 1.1,magistral-medium-1-1,,,
-Gemini 2.5 Pro (Jun 2025),gemini-2.5-pro-preview-06-05_1K,Gemini 2.5 Pro Preview (Jun 2025),Google DeepMind,United States of America,2025-06-05,API access,2025-06-05,,Unknown,"A June 2025 preview version of Gemini 2.5 Pro, Google DeepMind's flagship frontier model, evaluated with up to 1,000 reasoning tokens.","Gemini 2.5 Pro Preview (Jun 2025, 1k thinking)",Gemini 2.5 Pro (Jun 2025),Gemini 2.5 Pro (Jun 2025),gemini-2-5-pro-jun-2025,146.07,144.37,147.73
-GPT-5 nano,gpt-5-nano-2025-08-07_minimal,GPT-5 nano (minimal),OpenAI,United States of America,2025-08-07,API access,2025-08-07,,Unknown,"The smallest version of OpenAI's latest flagship frontier model, benchmarked using medium reasoning effort.",GPT-5 nano (low),,GPT-5 nano,gpt-5-nano,140.86,136.8,142.7
-Yi-34B,Yi-34B,,01.AI,China,2023-11-02,Open weights (restricted use),2023-11-02,6.1e+23,Confident,,Yi-34B,Yi-34B,Yi-34B,yi-34b,117.1,107.88,120.52
-GPT-3.5 Turbo,gpt-3.5-turbo-0613,GPT-3.5 Turbo (June 2023),OpenAI,United States of America,2023-06-13,API access,2023-06-13,,Likely,,GPT-3.5 Turbo (June 2023),GPT-3.5 Turbo (Jun 2023),GPT-3.5 Turbo (Jun 2023),gpt-3-5-turbo-jun-2023,113.05,104.68,117.82
-Baichuan 1-13B,Baichuan-13B-Base,,Baichuan,China,2023-07-11,Open weights (restricted use),2023-07-11,9.36e+22,Confident,,,,Baichuan 1-13B,baichuan-1-13b,,,
-Llama 2-13B,Llama-2-13b-chat,,Meta AI,United States of America,2023-07-18,Open weights (restricted use),2023-07-18,1.6e+23,Confident,A chat-optimized version of Meta's 13 billion-parameter model in the Llama 2 series.,,,Llama 2-13B,llama-2-13b,105.8,96.31,111.25
-Llama 2-70B,Llama-2-70b-chat,,Meta AI,United States of America,2023-07-18,Open weights (restricted use),2023-07-18,8.1e+23,Confident,A chat-optimized version of Meta's 70 billion-parameter model in the Llama 2 series.,,,Llama 2-70B,llama-2-70b,113.66,104.17,117.96
-,Baichuan2-13B-Chat,,,,2023-09-06,,,,Unverified,A chat-optimized version of Baichuan's 13 billion-parameter model in the Baichuan 2 series.,,,,baichuan2-13b-chat,,,
-Qwen-14B,Qwen-14B-Chat,,Alibaba,China,2023-09-24,Open weights (restricted use),2023-09-28,2.5e+23,Confident,A chat-optimized version of Qwen's first-generation 14 billion-parameter model.,Qwen-14B (chat),,Qwen-14B,qwen-14b,112.72,103.38,117.39
-,internlm-chat-20b,,,,2023-09-17,,,,Unverified,,,,,internlm-chat-20b,,,
-Yi 6B,Yi-6B-Chat,,01.AI,China,2023-11-22,Open weights (restricted use),2023-11-02,1.26e+23,Confident,,Yi-6B,,Yi 6B,yi-6b,104.39,93.55,110.61
-Gemini 1.5 Pro,gemini-1.5-pro-001-feb24,,Google DeepMind,United States of America,2024-02-15,API access,2024-02-15,,Speculative,"The first of two versions of a previous flagship model from Google DeepMind, Gemini 1.5 Pro.",,Gemini 1.5 Pro (Feb 2024),Gemini 1.5 Pro (Feb 2024),gemini-1-5-pro-feb-2024,,,
-Amazon Nova Pro,amazon.nova-pro-v1:0,,Amazon,United States of America,2024-12-03,API access,2024-12-03,6.000010000000001e+24,Speculative,,,,Amazon Nova Pro,amazon-nova-pro,123.85,108.99,126.58
-Gemini 2.5 Flash,gemini-2.5-flash-preview-09-2025,,Google DeepMind,United States of America,2025-09-25,API access,2025-04-17,,Unknown,,Gemini 2.5 Flash (Sep 2025),Gemini 2.5 Flash (Sep 2025),Gemini 2.5 Flash (Sep 2025),gemini-2-5-flash-sep-2025,143.15,139.31,146.6
-BLIP-2 (Q-Former),blip2-opt-2.7b,,Salesforce Research,United States of America,2023-02-06,Open weights (unrestricted),2023-01-30,1.20000000001e+21,Confident,,,,BLIP-2 (Q-Former),blip-2-q-former,,,
-,Phi-3.5-vision-instruct,,,,2024-08-16,,,,Unverified,An multimodal version in Microsoft's Phi-3.5 series of open source models.,,,,phi-3-5-vision-instruct,,,
-,MM1-3B-Chat,,,,2024-03-14,,,,Unverified,,,,,mm1-3b-chat,,,
-,MM1-7B-Chat,,,,2024-03-14,,,,Unverified,,,,,mm1-7b-chat,,,
-,llava-v1.6-vicuna-7b,,,,2024-01-31,,,,Unverified,,,,,llava-v1-6-vicuna-7b,,,
-,llama3-llava-next-8b,,,,2024-04-20,,,,Unverified,,,,,llama3-llava-next-8b,,,
-,Qwen-VL-Chat,,,,2023-08-20,,,,Unverified,,,,,qwen-vl-chat,,,
-Gemini 1.0 Pro Vision,gemini-1.0-pro-vision,,Google DeepMind,United States of America,2024-01-04,API access,2024-02-15,,Unknown,A vision language model from Google DeepMind.,,,Gemini 1.0 Pro Vision,gemini-1-0-pro-vision,,,
-,falcon-11B-vlm,,,,2024-05-21,,,,Unverified,,,,,falcon-11b-vlm,,,
-,llava-v1.6-vicuna-13b,,,,2024-01-31,,,,Unverified,,,,,llava-v1-6-vicuna-13b,,,
-,llava-v1.6-mistral-7b,,,,2024-01-31,,,,Unverified,,,,,llava-v1-6-mistral-7b,,,
-,instructblip-vicuna-7b,,,,2023-05-22,,,,Unverified,,,,,instructblip-vicuna-7b,,,
-,instructblip-vicuna-13b,,,,2023-12-25,,,,Unverified,,,,,instructblip-vicuna-13b,,,
-,InternVL-Chat-ViT-6B-Vicuna-7B,,,,2023-12-25,,,,Unverified,,,,,internvl-chat-vit-6b-vicuna-7b,,,
-,InternVL-Chat-ViT-6B-Vicuna-13B,,,,2024-08-16,,,,Unverified,,,,,internvl-chat-vit-6b-vicuna-13b,,,
-,llava-v1.5-7b,,,,2023-10-05,,,,Unverified,,,,,llava-v1-5-7b,,,
-Claude Fable 5,claude-fable-5_unknown,Claude Fable 5 (unknown),Anthropic,United States of America,2026-06-09,API access,2026-06-09,,Confident,,Claude Fable 5 (unknown),,Claude Fable 5,claude-fable-5,160.75,158.5,164.79
-,openhands-lm-32b-v0.1,,,,2024-03-26,,,,Unverified,,,,,openhands-lm-32b-v0-1,,,
-Gemini 2.5 Pro (Jun 2025),gemini-2.5-pro-preview-06-05_32K,Gemini 2.5 Pro Preview (Jun 2025),Google DeepMind,United States of America,2025-06-05,API access,2025-06-05,,Unknown,"A June 2025 preview version of Gemini 2.5 Pro, Google DeepMind's flagship frontier model, evaluated with up to 32,000 reasoning tokens.","Gemini 2.5 Pro Preview (Jun 2025, 32k thinking)",Gemini 2.5 Pro (Jun 2025),Gemini 2.5 Pro (Jun 2025),gemini-2-5-pro-jun-2025,146.07,144.37,147.73
-Claude Opus 4,claude-opus-4-20250514_32K,Claude Opus 4,Anthropic,United States of America,2025-05-22,API access,2025-05-22,,Unknown,"Anthropic's largest model in the Claude 4 series (superseded by Claude Opus 4.1), benchmarked with up to 32,000 reasoning tokens.",Claude Opus 4 (32k thinking),,Claude Opus 4,claude-opus-4,142.93,140.32,144.52
-Qwen3-32B,Qwen3-32B,,Alibaba,China,2025-04-29,Open weights (unrestricted),2025-04-29,7.0848e+24,Confident,The 32 billion-parameter model in the Qwen 3 series.,Qwen3 32B,,Qwen3-32B,qwen3-32b,,,
-GPT-4o,chatgpt-4o-03-27-2025,,OpenAI,United States of America,2025-03-27,API access,2024-05-13,,Speculative,"A version of GPT-4o that was behind the ChatGPT interface, released in March 2025.",ChatGPT-4o (Mar 2025),GPT-4o (Mar 2025),GPT-4o (Mar 2025),gpt-4o-mar-2025,,,
-Qwen2.5-Coder (32B),Qwen2.5-Coder-32B-Instruct,,Alibaba,China,2024-11-21,Open weights (unrestricted),2024-11-12,1.0725e+24,Confident,An instruction-tuned and coding-optimized 32 billion-parameter model in the Qwen 2.5 series.,Qwen2.5-Coder-32B (instruct),Qwen2.5-Coder-32B-Instruct,Qwen2.5-Coder-32B-Instruct,qwen2-5-coder-32b-instruct,,,
-Gemini 2.0 Flash,gemini-exp-1206,,"Google DeepMind,Google",United States of America,2024-12-06,API access,2024-12-11,,Unknown,"A December 2024 experimental version of Gemini 2.0 Flash, a small langauge model from Google DeepMind.",,Gemini 2.0 Flash (Dec 2024),Gemini 2.0 Flash (Dec 2024),gemini-2-0-flash-dec-2024,135.11,124.08,136.98
-QwQ-32B,QwQ-32B,,Alibaba,China,2025-03-05,Open weights (unrestricted),2025-03-06,3.51e+24,Speculative,,QwQ 32B,QwQ-32B,QwQ-32B,qwq-32b,,,
-Cohere Command A,c4ai-command-a-03-2025,,Cohere,Canada,2025-03-13,Open weights (non-commercial),2025-03-13,,Confident,,Command A,,Cohere Command A,cohere-command-a,,,
-Gemini 2.0 Flash,gemini-2.0-flash-exp,,"Google DeepMind,Google",United States of America,2024-12-11,API access,2024-12-11,,Unknown,"A December 2024 experimental version of Gemini 2.0 Flash, a small langauge model from Google DeepMind.",,Gemini 2.0 Flash (Dec 2024),Gemini 2.0 Flash (Dec 2024),gemini-2-0-flash-dec-2024,135.11,124.08,136.98
-DeepSeek-V2.5,DeepSeek-V2.5,,DeepSeek,China,2024-09-06,Open weights (restricted use),2024-09-06,1.7892e+24,Confident,,DeepSeek-V2.5 (Sept 2024),DeepSeek-V2.5 (Sep 2024),DeepSeek-V2.5 (Sep 2024),deepseek-v2-5-sep-2024,,,
-Codestral,codestral-2501,,Mistral AI,France,2025-01-13,Open weights (non-commercial),2024-05-29,,Confident,A January 2025 version of a 2024 coding-optimized model from Mistral.,,,Codestral,codestral,,,
-Yi-Lightning,yi-lightning,,01.AI,China,2024-12-02,API access,2024-10-18,1.5e+24,Confident,,Yi-Lightning,,Yi-Lightning,yi-lightning,,,
-Grok 4,grok-4-0709_high,,xAI,United States of America,2025-07-09,API access,2025-07-09,5.0000000000001e+26,Speculative,,Grok 4,,Grok 4,grok-4,147.05,145.08,148.91
-DeepSeek-V3.2,deepseek-chat,,DeepSeek,China,2025-12-01,Open weights (unrestricted),2025-12-01,4.1999999999999997e+24,Likely,,,,DeepSeek-V3.2,deepseek-v3-2,146.59,144.75,147.64
-,computer-use-preview-2025-03-11,,,,2025-03-11,,,,Unverified,,,,,computer-use-preview-2025-03-11,,,
-Kimi K2.5,kimi-k2.5_none,Kimi K2.5 (instant),Moonshot,China,2026-01-27,Open weights (unrestricted),2026-02-02,5.8e+24,Likely,,,,Kimi K2.5,kimi-k2-5,148.26,146.57,149.45
-GPT-5.1-Codex-mini,gpt-5.1-codex-mini,GPT-5.1 Codex Mini,OpenAI,United States of America,2025-11-12,API access,2025-11-12,,Unknown,,GPT-5.1-codex mini,,GPT-5.1-Codex-mini,gpt-5-1-codex-mini,,,
-Grok 4.1,grok-4-1,,xAI,United States of America,2025-11-17,API access,2025-11-17,,Unknown,,,,Grok 4.1,grok-4-1,,,
-Claude 3.7 Sonnet,claude-3-7-sonnet-20250219_15K,Claude 3.7 Sonnet (15k thinking),Anthropic,United States of America,2025-02-24,API access,2025-02-24,3.3499999999999998e+25,Likely,"A previous flagship reasoning model from Anthropic, benchmarked with up to 15,000 reasoning tokens allowed.",Claude 3.7 Sonnet (15k thinking),,Claude 3.7 Sonnet,claude-3-7-sonnet,141.7,139.32,143.19
-Pixtral 12B,Pixtral-12B-2409,,Mistral AI,France,2024-09-17,Open weights (unrestricted),2024-09-17,,Confident,,,,Pixtral 12B,pixtral-12b,,,
-video-SALMONN 2+,video-SALMONN-2plus,,ByteDance,China,2025-06-18,,2025-06-18,,Likely,,,,video-SALMONN 2+,video-salmonn-2,,,
-InternVL2_5-78B,InternVL2_5-78B,,"Shanghai AI Lab,SenseTime,Tsinghua University,Nanjing University,Fudan University,Chinese University of Hong Kong (CUHK),Shanghai Jiao Tong University","Hong Kong,China",2024-12-06,Open weights (restricted use),2024-12-06,,Confident,,,,InternVL2_5-78B,internvl2-5-78b,,,
-,Qwen2-VL-72B-Instruct,,,,2024-08-29,,,,Unverified,A 72 billion-parameter instruction-tuned vision language model in Qwen's Qwen 2 series.,,,,qwen2-vl-72b-instruct,,,
-,LLaVA-Video-72B-Qwen2,,,,2024-09-02,,,,Unverified,,,,,llava-video-72b-qwen2,,,
-,LinVT,,,,2024-12-06,,,,Unverified,,,,,linvt,,,
-,Aria,,,,2024-09-30,,,,Unverified,,,,,aria,,,
-,ViLAMP-llava-qwen,,,,2025-05-01,,,,Unverified,,,,,vilamp-llava-qwen,,,
-,Oryx-1.5-32B,,,,2024-10-22,,,,Unverified,,,,,oryx-1-5-32b,,,
-,LLaVA-OneVision 72B,,,,2024-08-06,,,,Unverified,,,,,llava-onevision-72b,,,
-,VideoLLAMA3-7B,,,,2024-01-22,,,,Unverified,,,,,videollama3-7b,,,
-,LLaVA-Video-7B-Qwen2-TPO,,,,2025-01-19,,,,Unverified,,,,,llava-video-7b-qwen2-tpo,,,
-,VideoChat-Flash-Qwen2-7B_res448,,,,2025-01-11,,,,Unverified,,,,,videochat-flash-qwen2-7b-res448,,,
-,ByteVideoLLM-14B,,,,2024-10-13,,,,Unverified,,,,,bytevideollm-14b,,,
-NVILA 8B,NVILA-8B,,"NVIDIA,Massachusetts Institute of Technology (MIT),University of California (UC) Berkeley,University of California San Diego,University of Washington,Tsinghua University","United States of America,China",2024-12-10,Open weights (non-commercial),2024-12-05,2.2794518e+21,Likely,,,,NVILA 8B,nvila-8b,,,
-,LiveCC-7B-Instruct,,,,2024-04-12,,,,Unverified,,,,,livecc-7b-instruct,,,
-,Qwen2-VL-7B-Instruct,,,,2024-08-29,,,,Unverified,A 7 billion-parameter instruction-tuned vision language model in Qwen's Qwen 2 series.,,,,qwen2-vl-7b-instruct,,,
-,MiniCPM-o-2_6,,,,2025-01-12,,,,Unverified,,,,,minicpm-o-2-6,,,
-,VideoLLAMA2-7B,,,,2024-06-12,,,,Unverified,,,,,videollama2-7b,,,
-InternVL2-40B,InternVL2-40B,,Shanghai AI Lab,China,2024-07-08,Open weights (unrestricted),2024-07-04,,Confident,,,,InternVL2-40B,internvl2-40b,,,
-,MiniCPM-V-2_6,,,,2024-08-03,,,,Unverified,,,,,minicpm-v-2-6,,,
-GPT-4V,gpt-4-1106-vision-preview,,OpenAI,United States of America,2023-11-06,API access,2023-09-25,,Unknown,,,,GPT-4V,gpt-4v,,,
-,TimeMarker,,,,2024-11-27,,,,Unverified,,,,,timemarker,,,
-,VITA-1.5,,,,2024-12-20,,,,Unverified,,,,,vita-1-5,,,
-,kangaroo,,,,2024-11-13,,,,Unverified,,,,,kangaroo,,,
-,VITA,,,,2024-08-12,,,,Unverified,,,,,vita,,,
-,Video-XL-7B,,,,2024-10-17,,,,Unverified,,,,,video-xl-7b,,,
-,Video-CCAM-7B-v1.2,,,,2024-09-29,,,,Unverified,,,,,video-ccam-7b-v1-2,,,
-,long-llava-qwen2-7b,,,,2024-08-30,,,,Unverified,,,,,long-llava-qwen2-7b,,,
-,InternVL-Chat-V1-5,,,,2024-04-18,,,,Unverified,,,,,internvl-chat-v1-5,,,
-,SliME-Llama3-8B,,,,2024-06-02,,,,Unverified,,,,,slime-llama3-8b,,,
-,Chat-Uni-Vi-7B-v1.5 + 100k SG-WV,,,,2024-06-20,,,,Unverified,,,,,chat-uni-vi-7b-v1-5--100k-sg-wv,,,
-,"Chat-UniVi-7B-v1.5 ",,,,2024-04-23,,,,Unverified,,,,,chat-univi-7b-v1-5-,,,
-,sharegpt4video-8b,,,,2024-05-27,,,,Unverified,,,,,sharegpt4video-8b,,,
-,Video-LLaVA-7B,,,,2023-11-17,,,,Unverified,,,,,video-llava-7b,,,
-,video_chat2_mistral,,,,2023-11-29,,,,Unverified,,,,,video-chat2-mistral,,,
-,ST-LLM,,,,2024-03-28,,,,Unverified,,,,,st-llm,,,
-o4-mini,o4-mini-2025-04-16_unknown,o4-mini (unknown thinking),OpenAI,United States of America,2025-04-16,API access,2025-04-16,,Unknown,"The latest smaller size o-series reasoning model from OpenAI, evaluated with high reasoning effort.",,,o4-mini,o4-mini,146.53,143.9,147.86
-o3-mini,o3-mini-2025-01-31_unknown,o3-mini (unknown thinking),OpenAI,United States of America,2025-01-31,API access,2025-01-31,,Unknown,"A smaller version of OpenAI's o3 reasoning model, evaluated with high reasoning effort.",,,o3-mini,o3-mini,141.42,138.55,143.06
-GPT-5 nano,gpt-5-nano-2025-08-07_unknown,GPT-5 nano (unknown thinking),OpenAI,United States of America,2025-08-07,API access,2025-08-07,,Unknown,"The smallest version of OpenAI's latest flagship frontier model, benchmarked using high reasoning effort.",GPT-5 nano (high),,GPT-5 nano,gpt-5-nano,140.86,136.8,142.7
-QwQ-32B,QwQ-32B-Preview,,Alibaba,China,2024-11-28,Open weights (unrestricted),2025-03-06,3.51e+24,Speculative,,QwQ 32B Preview,QwQ-32B-Preview,QwQ-32B-Preview,qwq-32b-preview,,,
-Qwen1.5-110B,qwen1.5-110b-chat,,Alibaba,China,2024-04-25,Open weights (unrestricted),2024-04-25,,Confident,,Qwen1.5-110B,,Qwen1.5-110B,qwen1-5-110b,,,
-GPT-5.4 Nano,gpt-5.4-nano-2026-03-17_unknown,GPT-5.4 nano (unknown thinking),OpenAI,United States of America,2026-03-17,API access,2026-03-17,,Likely,,GPT-5.4 nano (unknown thinking),,GPT-5.4 Nano,gpt-5-4-nano,146.61,144.41,148.63
-Llama 3-70B,Meta-Llama-3-70B,,Meta AI,United States of America,2024-04-18,Open weights (restricted use),2024-04-18,7.861e+24,Confident,Meta's 70 billion-parameter model in the Llama 3 series.,,,Llama 3-70B,llama-3-70b,122.59,116.4,125.52
-Gemini 2.0 Flash-Lite,gemini-2.0-flash-lite-001,,Google DeepMind,United States of America,2025-02-25,API access,2024-02-05,,Unknown,The first version of the smallest model in Google DeepMind's Gemini 2.0 series.,,,Gemini 2.0 Flash-Lite,gemini-2-0-flash-lite,,,
-Llama 3-8B,Meta-Llama-3-8B,,Meta AI,United States of America,2024-04-18,Open weights (restricted use),2024-04-18,7.2e+23,Confident,Meta's 8 billion-parameter model in the Llama 3 series.,,,Llama 3-8B,llama-3-8b,116.38,107.04,119.22
-,gemini-robotics-er-1.5-preview,,,,2025-09-26,,,,Unverified,,,,,gemini-robotics-er-1-5-preview,,,
-Gemini 2.5 Flash-Lite,gemini-2.5-flash-lite-preview-09-2025,,Google DeepMind,United States of America,2025-09-25,API access,2025-06-15,,Unknown,,Gemini 2.5 Flash-Lite (Sep 2025),Gemini 2.5 Flash-Lite (Sep 2025),Gemini 2.5 Flash-Lite (Sep 2025),gemini-2-5-flash-lite-sep-2025,,,
-Qwen3.5-9B,qwen3.5-9B,,Alibaba,China,2026-02-24,Open weights (restricted use),2026-02-24,,Confident,,,,Qwen3.5-9B,qwen3-5-9b,,,
-Claude 1.3,claude-1.3,,Anthropic,United States of America,2023-04-18,API access,2023-04-18,,Unknown,An updated version of Anthropic's first generation Claude model.,,,Claude 1.3,claude-1-3,,,
-Amazon Nova Lite,amazon.nova-lite-v1:0,,Amazon,United States of America,2024-12-03,API access,2024-12-03,,Unknown,,,,Amazon Nova Lite,amazon-nova-lite,,,
-Amazon Nova Micro,amazon.nova-micro-v1:0,,Amazon,United States of America,2024-12-03,API access,2024-12-03,,Unknown,,,,Amazon Nova Micro,amazon-nova-micro,,,
-,c4ai-command-r-08-2024,,,,2024-08-30,,,,Unverified,,,,,c4ai-command-r-08-2024,,,
-Command R+,c4ai-command-r-plus-08-2024,,"Cohere,Cohere for AI",Canada,2024-08-30,Open weights (non-commercial),2024-04-04,,Confident,,Command R+,,Command R+,command-r,,,
-Falcon 2 11B,falcon-11b,Falcon 2-11B,Technology Innovation Institute,United Arab Emirates,2024-05-09,Open weights (restricted use),2024-05-09,3.6e+23,Confident,,,,Falcon 2 11B,falcon-2-11b,109.21,100.72,115.4
-Gemini 1.5 Flash,gemini-1.5-flash-0514,,Google DeepMind,United States of America,2024-05-14,API access,2024-05-10,,Unknown,,,Gemini 1.5 Flash (May 2024),Gemini 1.5 Flash (May 2024),gemini-1-5-flash-may-2024,122.52,115.74,124.63
-Llama 3.2 11B,Llama-3.2-11B-Vision-Instruct,,Meta AI,United States of America,2024-09-24,Open weights (restricted use),2024-09-24,5.79e+23,Confident,An 11 billion-parameter instruction-tuned vision language model in Meta's Llama 3.2 series.,,,Llama 3.2 11B,llama-3-2-11b,,,
-,mistral-small-2402,,,,2024-02-26,,,,Unverified,A 2024 version of a Mistral language model.,,,,mistral-small-2402,,,
-Mixtral 8x22B,Mixtral-8x22B-v0.1,,Mistral AI,France,2024-04-17,Open weights (unrestricted),2024-04-17,2.34e+24,Speculative,,,,Mixtral 8x22B,mixtral-8x22b,121.26,112.34,123.45
-Qwen1.5-7B,Qwen1.5-7B,,Alibaba,China,2024-02-04,Open weights (unrestricted),2024-02-04,1.68e+23,Confident,A 7 billion-parameter model in the Qwen 1.5 series.,Qwen1.5-7B,,Qwen1.5-7B,qwen1-5-7b,,,
-Qwen1.5-14B,qwen1.5-14B,,Alibaba,China,2024-02-04,Open weights (unrestricted),2024-02-04,3.36e+23,Confident,A 14 billion-parameter model in the Qwen 1.5 series.,Qwen1.5-14B,,Qwen1.5-14B,qwen1-5-14b,,,
-Qwen1.5-32B,qwen1.5-32B,,Alibaba,China,2024-02-04,Open weights (restricted use),2024-02-05,,Confident,A 32 billion-parameter model in the Qwen 1.5 series.,Qwen1.5-32B,,Qwen1.5-32B,qwen1-5-32b,,,
-Qwen2.5-14B,qwen2.5-14b-instruct,,Alibaba,China,2025-02-26,Open weights (unrestricted),2024-09-19,1.58760000000001e+24,Confident,An instruction-tuned version of Qwen 2.5 14b.,Qwen2.5-14B (instruct),,Qwen2.5-14B,qwen2-5-14b,,,
-Qwen2.5-7B,qwen2.5-7b-instruct,,Alibaba,China,2025-02-26,Open weights (unrestricted),2024-09-19,8.2188e+23,Confident,An instruction-tuned version of Qwen 2.5 7b.,Qwen2.5-7B,,Qwen2.5-7B,qwen2-5-7b,,,
-Yi-Large,Yi-large,,01.AI,China,2024-05-13,API access,2024-05-13,1.8e+24,Speculative,,Yi-Large,,Yi-Large,yi-large,,,
-,T5-Large,,,,,,,,Unverified,"A version of T5, an early large language model from Google. ",,,,t5-large,,,
-T5-11B,T5-11B,,Google,United States of America,,Open weights (unrestricted),2019-10-23,3.3e+22,Confident,"The largest, 11 billion-parameter version of T5, an early large language model from Google. ",,,T5-11B,t5-11b,,,
-T5-3B,T5-3B,,Google,United States of America,,Open weights (unrestricted),2019-10-23,9.0000000001e+21,Confident,"The 3 billion-parameter version of T5, an early large language model from Google. ",,,T5-3B,t5-3b,,,
-GPT-3 Medium,ada,,OpenAI,United States of America,,,2020-06-22,6.41e+20,Confident,,,,GPT-3 Medium,gpt-3-medium,,,
-GPT-3 XL,babbage,,OpenAI,United States of America,2020-06-22,,2020-06-22,2.38e+21,Confident,,,GPT-3 XL (babbage),GPT-3 XL (babbage),gpt-3-xl-babbage,,,
-BLOOM-176B,bloom,,"Hugging Face,BigScience","France,United States of America",2022-07-06,Open weights (restricted use),2022-07-11,3.65664e+23,Confident,,,,BLOOM-176B,bloom-176b,,,
-GPT-3 6.7B,curie,,OpenAI,United States of America,,,2020-06-22,1.2e+22,Confident,,,,GPT-3 6.7B,gpt-3-6-7b,,,
-GPT-3 175B (davinci),davinci,,OpenAI,United States of America,,API access,2020-05-28,3.14e+23,Confident,,GPT-3 175B (davinci),,GPT-3 175B (davinci),gpt-3-175b-davinci,,,
-GPT-3.5 (davinci-003),text-davinci-003,,,,2022-11-28,,2022-11-28,,Likely,,,davinci-003,davinci-003,davinci-003,,,
-GPT-4 (Mar 2023),gpt-4-32k-0314,,OpenAI,United States of America,2023-03-14,API access,2023-03-15,2.1e+25,Likely,,,,GPT-4 (Mar 2023),gpt-4-mar-2023,125.92,120.16,131.58
-OPT-66B,opt-66b,,Meta AI,United States of America,2022-05-03,Open weights (non-commercial),2022-06-21,1.100000000001e+23,Confident,Facebook's 66 billion-parameter model in the OPT series.,,,OPT-66B,opt-66b,,,
-OPT-175B,opt-175b,,Meta AI,United States of America,2022-05-02,Open weights (non-commercial),2022-05-02,4.3e+23,Confident,Facebook's 66 billion-parameter model in the OPT series.,,,OPT-175B,opt-175b,,,
-InstructGPT 350M,text-ada-001,,OpenAI,United States of America,,,2022-01-27,,Confident,,,,InstructGPT 350M,instructgpt-350m,,,
-InstructGPT 1.3B,text-babbage-001,,OpenAI,United States of America,,API access,2022-01-27,,Confident,,,,InstructGPT 1.3B,instructgpt-1-3b,,,
-InstructGPT 6B,text-curie-001,,OpenAI,United States of America,,API access,2022-01-27,,Confident,,,,InstructGPT 6B,instructgpt-6b,,,
-Gemini 2.5 Flash,gemini-2.5-flash-preview-04-17 (24K thinking),,Google DeepMind,United States of America,2025-04-17,API access,2025-04-17,,Unknown,"An April 2025 preview version of Gemini 2.5 Flash, a small reasoning model in the Gemini 2.5 series from DeepMind, evaluated with up to 24,000 reasoning tokens.",,Gemini 2.5 Flash (Apr 2025),Gemini 2.5 Flash (Apr 2025),gemini-2-5-flash-apr-2025,140.63,136.54,142.72
-o1,o1-2024-12-17_low,o1 (low),OpenAI,United States of America,2024-12-17,API access,2024-12-05,,Unknown,"OpenAI's first reasoning model, evaluated with at the low reasoning tokens level.",,,o1,o1,142.71,140.84,143.96
-o1-pro,o1-pro-2025-03-19_low,o1 Pro (low),OpenAI,United States of America,2025-03-19,API access,2025-03-19,,Likely,"An An enhanced version of OpenAI's first reasoning model,o1, evaluated with low reasoning effort.",,,o1-pro,o1-pro,,,
-MPT-30B,mpt-30b-instruct,,MosaicML,United States of America,2023-06-22,Open weights (unrestricted),2023-06-22,1.8900000000001e+23,Confident,,,,MPT-30B,mpt-30b,100.24,90.86,106.45
-Vicuna-13B-v1.3,vicuna-13b-v1.3,,"Large Model Systems Organization,University of California (UC) Berkeley",United States of America,2023-06-18,Open weights (restricted use),2023-06-22,,Confident,,Vicuna-13B-v1.3,,Vicuna-13B-v1.3,vicuna-13b-v1-3,,,
-,T5-Small,,,,,,,,Unverified,"The smallest version of T5, an early large language model from Google. ",,,,t5-small,,,
-,T5-Base,,,,,,,,Unverified,"A version of T5, an early large language model from Google. ",,,,t5-base,,,
-Qwen2.5-Max,qwen2.5-max,,Alibaba,China,2025-01-28,API access,2025-01-28,,Unknown,The largest model in the Qwen 2.5 series.,Qwen2.5-Max,,Qwen2.5-Max,qwen2-5-max,133.4,128.66,136.47
-Gemini 2.0 Flash-Lite,gemini-2.0-flash-lite,,Google DeepMind,United States of America,2025-02-05,API access,2024-02-05,,Unknown,The smallest model in Google DeepMind's Gemini 2.0 series.,,,Gemini 2.0 Flash-Lite,gemini-2-0-flash-lite,,,
-Gemini 2.0 Flash-Lite,gemini-2.0-flash-lite-preview-02-05,,Google DeepMind,United States of America,2025-02-05,API access,2024-02-05,,Unknown,A February 2025 preview version of the smallest model in Google DeepMind's Gemini 2.0 series.,,,Gemini 2.0 Flash-Lite,gemini-2-0-flash-lite,,,
-,Dracarys2-72B-Instruct,,,,2024-09-30,,,,Unverified,,,,,dracarys2-72b-instruct,,,
-,learnlm-1.5-pro-experimental,,,,,,,,Unverified,,,,,learnlm-1-5-pro-experimental,,,
-,sonar,Perplexity Sonar,,,,,,,Unverified,,,,,sonar,,,
-,Dracarys2-Llama-3.1-70B-Instruct,,,,2024-08-14,,,,Unverified,,,,,dracarys2-llama-3-1-70b-instruct,,,
-DeepSeek-R1-Distill-Qwen-32B,DeepSeek-R1-Distill-Qwen-32B,,DeepSeek,China,2025-01-20,Open weights (unrestricted),2025-01-22,,Speculative,"A model based on Qwen 32B and additionally trained on outputs from DeepSeek’s R1 model, published as part of DeepSeek R1’s release. ",,,DeepSeek-R1-Distill-Qwen-32B,deepseek-r1-distill-qwen-32b,,,
-OLMo 2 Furious 13B,OLMo-2-1124-13B-Instruct,,"Allen Institute for AI,University of Washington,New York University (NYU)",United States of America,2024-12-31,Open weights (unrestricted),2024-12-31,4.6e+23,Confident,,,,OLMo 2 Furious 13B,olmo-2-furious-13b,,,
-GPT-5 Pro,gpt-5-pro-2025-10-06_medium,GPT-5 Pro,OpenAI,United States of America,2025-10-07,API access,2025-10-07,,Unknown,,GPT-5 Pro (medium),,GPT-5 Pro,gpt-5-pro,150.41,149.13,152.34
-,Switch-Base,,,,,,,,Unverified,,,,,switch-base,,,
-,Switch-Large,,,,,,,,Unverified,,,,,switch-large,,,
-gpt-oss-120b,gpt-oss-120b_unknown,gpt-oss-120b (unknown thinking),OpenAI,United States of America,2025-08-05,Open weights (unrestricted),2025-08-05,4.94e+24,Confident,"The larger one of OpenAI's two latest open source language models, evaluated with high reasoning effort.",,,gpt-oss-120b,gpt-oss-120b,140.63,135.57,143.3
-gpt-oss-20b,gpt-oss-20b_unknown,gpt-oss-20b (unknown thinking),OpenAI,United States of America,2025-08-05,Open weights (unrestricted),2025-08-05,5.49e+23,Confident,"The smaller one of OpenAI's two latest open source language models, evaluated with high reasoning effort.",,,gpt-oss-20b,gpt-oss-20b,,,
+Claude Sonnet 5,claude-sonnet-5_unknown,Claude Sonnet 5 (unknown thinking),Anthropic,United States of America,2026-06-30,API access,2026-06-30,,Confident,,Claude Sonnet 5 (unknown thinking),,Claude Sonnet 5,claude-sonnet-5,153.2,151.08,155.29
+Claude Fable 5,claude-fable-5_low,Claude Fable 5 (low),Anthropic,United States of America,2026-06-09,API access,2026-06-09,,Confident,,Claude Fable 5 (low),,Claude Fable 5,claude-fable-5,160.75,158.5,164.79
+Claude Fable 5,claude-fable-5_medium,Claude Fable 5 (medium),Anthropic,United States of America,2026-06-09,API access,2026-06-09,,Confident,,Claude Fable 5 (medium),,Claude Fable 5,claude-fable-5,160.75,158.5,164.79
+DeepSeek-V3.2-Exp,DeepSeek-V3.2-Exp_unknown,,DeepSeek,China,2025-09-29,Open weights (unrestricted),2025-09-29,4.18e+24,Confident,,,,DeepSeek-V3.2-Exp,deepseek-v3-2-exp,144.87,141.89,146.87
 ,xiaoyi-deepresearch,,,,2026-03-06,,,,Unverified,,,,,xiaoyi-deepresearch,,,
 Claude Opus 4.6,claude-opus-4-6_medium,Claude Opus 4.6 (medium),Anthropic,United States of America,2026-02-05,API access,2026-02-05,,Likely,,Claude Opus 4.6 (medium),,Claude Opus 4.6,claude-opus-4-6,155.38,153.47,157.95
 Claude Sonnet 4.5,claude-sonnet-4-5-20250929_2K,Claude Sonnet 4.5 (2k thinking),Anthropic,United States of America,2025-09-29,API access,2025-09-29,,Unknown,,Claude Sonnet 4.5 (2k thinking),,Claude Sonnet 4.5,claude-sonnet-4-5,146.76,144.75,148.29
@@ -700,6 +687,30 @@ Claude Opus 4,claude-opus-4-20250514_2K,Claude Opus 4,Anthropic,United States of
 Claude Sonnet 4,claude-sonnet-4-20250514_2K,,Anthropic,United States of America,2025-05-22,API access,2025-05-22,,Unknown,"Anthropic's mid-sized Claude 4 series model, evaluated at up to 2,000 reasoning tokens.",Claude Sonnet 4 (2k thinking),,Claude Sonnet 4,claude-sonnet-4,142.18,139.59,143.61
 Claude 3.7 Sonnet,claude-3-7-sonnet-20250219_2K,Claude 3.7 Sonnet (2k thinking),Anthropic,United States of America,2025-02-24,API access,2025-02-24,3.3499999999999998e+25,Likely,"A previous flagship reasoning model from Anthropic, benchmarked with up to 2,000 reasoning tokens allowed.",Claude 3.7 Sonnet (2k thinking),,Claude 3.7 Sonnet,claude-3-7-sonnet,141.7,139.32,143.19
 Sonar,sonar-pro,,Perplexity,United States of America,2025-01-21,API access,2025-02-11,,Confident,A search-optimized language model from Perplexity.,Sonar Pro,,Sonar,sonar,,,
+Gemma 3 12B,gemma-3-12b-it,,Google DeepMind,United States of America,2025-03-12,Open weights (restricted use),2025-03-12,8.64e+23,Confident,An instruction-tuned version of the 12 billion-parameter model Google DeepMind's Gemma 3 series.,,,Gemma 3 12B,gemma-3-12b,,,
+,Switch-Base,,,,,,,,Unverified,,,,,switch-base,,,
+,Switch-Large,,,,,,,,Unverified,,,,,switch-large,,,
+Claude Opus 4.8,claude-opus-4-8_xhigh,Claude Opus 4.8,Anthropic,United States of America,2026-05-28,API access,2026-05-28,,Confident,,Claude Opus 4.8 (xhigh),,Claude Opus 4.8,claude-opus-4-8,158.03,155.7,160.86
+Claude Sonnet 5,claude-sonnet-5_high,Claude Sonnet 5 (high),Anthropic,United States of America,2026-06-30,API access,2026-06-30,,Confident,,Claude Sonnet 5 (high),,Claude Sonnet 5,claude-sonnet-5,153.2,151.08,155.29
+GPT-5.4 Pro,gpt-5.4-pro-2026-03-05_none,GPT-5.4 Pro (no thinking),OpenAI,United States of America,2026-03-05,API access,2026-03-05,,Likely,,GPT-5.4 Pro (no thinking),,GPT-5.4 Pro,gpt-5-4-pro,157.95,155.97,160.94
+GPT‑5-Codex,gpt-5-codex_high,GPT-5-codex (high),OpenAI,United States of America,2025-09-15,API access,2025-09-15,,Unknown,,GPT-5-codex,,GPT‑5-Codex,gpt5-codex,,,
+DeepSeek-V3.2,DeepSeek-V3.2-Speciale,,DeepSeek,China,2025-12-01,Open weights (unrestricted),2025-12-01,4.1999999999999997e+24,Likely,,,DeepSeek-V3.2-Speciale,DeepSeek-V3.2-Speciale,deepseek-v3-2-speciale,,,
+Grok-3 mini,grok-3-mini_high,Grok 3 mini,xAI,United States of America,2025-06-24,API access,2025-02-19,,Unknown,,Grok 3 mini (high),,Grok-3 mini,grok-3-mini,141.03,138.11,142.62
+Gemini 2.5 Flash,gemini-2.5-flash-preview-09-2025_16k,,Google DeepMind,United States of America,2025-09-25,API access,2025-04-17,,Unknown,,"Gemini 2.5 Flash-Lite (Sep 2025, 16k thinking)",Gemini 2.5 Flash (Sep 2025),Gemini 2.5 Flash (Sep 2025),gemini-2-5-flash-sep-2025,143.15,139.31,146.6
+gpt-oss-120b,gpt-oss-120b_medium,,OpenAI,United States of America,2025-08-05,Open weights (unrestricted),2025-08-05,4.94e+24,Confident,"The larger one of OpenAI's two latest open source language models, evaluated with medium reasoning effort.",,,gpt-oss-120b,gpt-oss-120b,140.63,135.57,143.3
+Gemini 2.5 Flash,gemini-2.5-flash-preview-04-17 (16K thinking),,Google DeepMind,United States of America,2025-04-17,API access,2025-04-17,,Unknown,"An April 2025 preview version of Gemini 2.5 Flash, a small reasoning model in the Gemini 2.5 series from DeepMind, evaluated with up to 16,000 reasoning tokens.",,Gemini 2.5 Flash (Apr 2025),Gemini 2.5 Flash (Apr 2025),gemini-2-5-flash-apr-2025,140.63,136.54,142.72
+GPT-5,gpt-5-chat,,OpenAI,United States of America,,API access,2025-08-07,6.6e+25,Speculative,,,,GPT-5,gpt-5,150.0,,
+Kimi K2,kimi-k2-0711-preview,,Moonshot,China,2025-07-12,Open weights (restricted use),2025-07-11,2.976e+24,Confident,A preview of an updated version of Kimi K2.,,Kimi K2 (Jul 2025),Kimi K2 (Jul 2025),kimi-k2-jul-2025,140.45,137.2,142.25
+Qwen3-235B-A22B (Jul 2025),qwen/qwen3-235b-a22b-thinking-2507,Qwen3-235B-A22B-Thinking-2507,Alibaba,China,2025-07-25,Open weights (unrestricted),2025-07-25,4.752e+24,Likely,,,Qwen3-235B-A22B-Thinking (Jul 2025),Qwen3-235B-A22B-Thinking (Jul 2025),qwen3-235b-a22b-thinking-jul-2025,144.79,142.54,147.5
+DeepSeek-V3.1,DeepSeek-V3.1_thinking,,DeepSeek,China,2025-08-21,Open weights (unrestricted),2025-08-21,3.594058e+24,Confident,,DeepSeek-V3.1 (thinking),,DeepSeek-V3.1,deepseek-v3-1,,,
+GPT-5.4 Nano,gpt-5.4-nano-2026-03-17_none,GPT-5.4 nano (no thinking),OpenAI,United States of America,2026-03-17,API access,2026-03-17,,Likely,,GPT-5.4 nano (no thinking),,GPT-5.4 Nano,gpt-5-4-nano,146.61,144.41,148.63
+GPT-5.4 Mini,gpt-5.4-mini-2026-03-17_none,GPT-5.4 mini (none),OpenAI,United States of America,2026-03-17,API access,2026-03-17,,Likely,,GPT-5.4 mini (none),,GPT-5.4 Mini,gpt-5-4-mini,148.87,147.14,150.16
+gpt-oss-20b,gpt-oss-20b_medium,,OpenAI,United States of America,2025-08-05,Open weights (unrestricted),2025-08-05,5.49e+23,Confident,"The smaller one of OpenAI's two latest open source language models, evaluated with medium reasoning effort.",,,gpt-oss-20b,gpt-oss-20b,,,
+Gemini 2.5 Flash-Lite,gemini-2.5-flash-lite-preview-06-17_16K,,Google DeepMind,United States of America,2025-06-17,API access,2025-06-15,,Unknown,"A June 2025 preview of Gemini 2.5 Flash Lite, evaluated with up to 16,000 reasoning tokens.","Gemini 2.5 Flash-Lite (Jun 2025, 16k thinking)",Gemini 2.5 Flash-Lite (Jun 2025),Gemini 2.5 Flash-Lite (Jun 2025),gemini-2-5-flash-lite-jun-2025,,,
+,qwen3-coder-next,,,,2026-02-02,,,,Unverified,,,,,qwen3-coder-next,,,
+Qwen3-30B-A3B,Qwen3-30B-A3B,,Alibaba,China,2025-04-29,Open weights (unrestricted),2025-04-29,6.48e+23,Likely,,Qwen3-30B-A3B,,Qwen3-30B-A3B,qwen3-30b-a3b,,,
+Claude 3.7 Sonnet,claude-3-7-sonnet-20250219_15K,Claude 3.7 Sonnet (15k thinking),Anthropic,United States of America,2025-02-24,API access,2025-02-24,3.3499999999999998e+25,Likely,"A previous flagship reasoning model from Anthropic, benchmarked with up to 15,000 reasoning tokens allowed.",Claude 3.7 Sonnet (15k thinking),,Claude 3.7 Sonnet,claude-3-7-sonnet,141.7,139.32,143.19
+Pixtral 12B,Pixtral-12B-2409,,Mistral AI,France,2024-09-17,Open weights (unrestricted),2024-09-17,,Confident,,,,Pixtral 12B,pixtral-12b,,,
 GPT-5.5 Pro,gpt-5.5-pro_unknown,GPT-5.5 Pro (unknown thinking),OpenAI,United States of America,2026-04-23,API access,2026-04-23,,Likely,,,,GPT-5.5 Pro,gpt-5-5-pro,160.93,158.44,164.63
 GPT-5.6 Sol,gpt-5.6-sol_prounknown,"GPT-5.6 Sol (pro, unknown thinking)",OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,"GPT-5.6 Sol (pro, unknown thinking)",,GPT-5.6 Sol,gpt-5-6-sol,162.06,159.6,166.58
 Claude Opus 4,claude-opus-4-20250514_12K,"Claude Opus 4 ",Anthropic,United States of America,2025-05-22,API access,2025-05-22,,Unknown,"Anthropic's largest model in the Claude 4 series (superseded by Claude Opus 4.1), benchmarked with up to 12,000 reasoning tokens.",Claude Opus 4 (12k thinking),,Claude Opus 4,claude-opus-4,142.93,140.32,144.52
@@ -708,16 +719,5 @@ Grok 4.1 Fast,grok-4-1-fast-non-reasoning,,xAI,United States of America,2025-11-
 Claude Sonnet 4.5,claude-sonnet-4-5-20250929_12K,Claude Sonnet 4.5 (12k thinking),Anthropic,United States of America,2025-09-29,API access,2025-09-29,,Unknown,,Claude Sonnet 4.5 (12k thinking),,Claude Sonnet 4.5,claude-sonnet-4-5,146.76,144.75,148.29
 Claude 3.7 Sonnet,claude-3-7-sonnet-20250219_12K,Claude 3.7 Sonnet (12k thinking),Anthropic,United States of America,2025-02-24,API access,2025-02-24,3.3499999999999998e+25,Likely,"A previous flagship reasoning model from Anthropic, benchmarked with up to 12,000 reasoning tokens allowed.",Claude 3.7 Sonnet (12k thinking),,Claude 3.7 Sonnet,claude-3-7-sonnet,141.7,139.32,143.19
 Claude Sonnet 4,claude-sonnet-4-20250514_12K,,Anthropic,United States of America,2025-05-22,API access,2025-05-22,,Unknown,"Anthropic's mid-sized Claude 4 series model, evaluated at up to 12,000 reasoning tokens.",Claude Sonnet 4 (12k thinking),,Claude Sonnet 4,claude-sonnet-4,142.18,139.59,143.61
-Reka Flash 3,reka-flash-3,,Reka AI,United States of America,2025-03-10,Open weights (unrestricted),2025-03-10,,Confident,,Reka Flash 3,,Reka Flash 3,reka-flash-3,,,
-Mistral NeMo,Mistral-Nemo-Instruct-2407,,Mistral AI,France,2024-07-18,Open weights (unrestricted),2024-07-18,,Confident,,,,Mistral NeMo,mistral-nemo,118.35,110.68,121.97
-Llama 3.2 3B,Llama-3.2-3B-Instruct,,Meta AI,United States of America,2024-09-24,Open weights (restricted use),2024-09-24,1.7334e+23,Confident,A 3 billion-parameter instruction-tuned model in Meta's Llama 3.2 series.,,,Llama 3.2 3B,llama-3-2-3b,,,
-Llama 3.2 1B,Llama-3.2-1B-Instruct,,Meta AI,United States of America,2024-09-24,Open weights (restricted use),2024-09-24,6.642e+22,Confident,A 1 billion-parameter instruction-tuned model in Meta's Llama 3.2 series.,,,Llama 3.2 1B,llama-3-2-1b,,,
-"GPT-3.5 (davinci-002)
-",code-davinci-002,,OpenAI,United States of America,2022-03-15,API access,2022-03-15,2.578e+24,Speculative,,,davinci-002,davinci-002,davinci-002,,,
-Falcon-40B,falcon-40b-instruct,,Technology Innovation Institute,United Arab Emirates,2023-05-25,Open weights (unrestricted),2023-03-15,2.4e+23,Confident,,,,Falcon-40B,falcon-40b,104.07,94.28,110.61
-,DeepSeek-Coder-V2-Lite-Instruct,,,,2024-06-13,,,,Unverified,,,,,deepseek-coder-v2-lite-instruct,,,
-DeepSeek-Coder-V2 236B,DeepSeek-Coder-V2-Instruct,,DeepSeek,China,2024-06-17,Open weights (restricted use),2024-06-17,1.2852e+24,Confident,"An instruction-tuned version of DeepSeek Coder V2, a 236 billion-parameter coding-optimized model from DeepSeek.",DeepSeek-Coder-V2 (instruct),,DeepSeek-Coder-V2 236B,deepseek-coder-v2-236b,,,
-,Qwen2.5-Coder-3B-Instruct,,,,2024-11-06,,,,Unverified,An instruction-tuned and coding-optimized 3 billion-parameter model in the Qwen 2.5 series.,,,,qwen2-5-coder-3b-instruct,,,
-Qwen2.5-Coder (7B),Qwen2.5-Coder-7B-Instruct,,Alibaba,China,2024-09-17,Open weights (unrestricted),2024-09-18,2.5113e+23,Confident,An instruction-tuned and coding-optimized 7 billion-parameter model in the Qwen 2.5 series.,Qwen2.5-Coder-7B (instruct),,Qwen2.5-Coder (7B),qwen2-5-coder-7b,112.83,101.15,119.2
-,Qwen2.5-Coder-14B-Instruct,,,,2024-11-06,,,,Unverified,An instruction-tuned and coding-optimized 14 billion-parameter model in the Qwen 2.5 series.,,,,qwen2-5-coder-14b-instruct,,,
+,computer-use-preview-2025-03-11,,,,2025-03-11,,,,Unverified,,,,,computer-use-preview-2025-03-11,,,
 QwQ-32B,QwQ-32B (16K thinking),,Alibaba,China,2025-03-05,Open weights (unrestricted),2025-03-06,3.51e+24,Speculative,,QwQ 32B (16k thinking),QwQ-32B,QwQ-32B,qwq-32b,,,
