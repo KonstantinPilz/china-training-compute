@@ -391,7 +391,7 @@ InstructGPT 175B,text-davinci-001,,OpenAI,United States of America,2022-01-27,AP
 ",text-davinci-002,,OpenAI,United States of America,2022-03-15,API access,2022-03-15,2.578e+24,Speculative,,,davinci-002,davinci-002,davinci-002,,,
 GPT-3.5 Turbo,gpt-3.5-turbo-0613,GPT-3.5 Turbo (June 2023),OpenAI,United States of America,2023-06-13,API access,2023-06-13,,Likely,,GPT-3.5 Turbo (June 2023),GPT-3.5 Turbo (Jun 2023),GPT-3.5 Turbo (Jun 2023),gpt-3-5-turbo-jun-2023,113.09,104.87,118.26
 GPT-4 Turbo (Nov 2023),gpt-4-turbo,,OpenAI,United States of America,2023-11-06,API access,2023-11-06,,Unknown,An updated version of GPT-4 and OpenAI's then-new flagship language model.,,,GPT-4 Turbo (Nov 2023),gpt-4-turbo-nov-2023,,,
-GPT-J-6B,gpt-j-6b,,"EleutherAI,LAION","Germany,United States of America",2021-08-05,Open weights (unrestricted),2021-05-01,1.5e+22,Confident,,,,GPT-J-6B,gpt-j-6b,,,
+GPT-J-6B,gpt-j-6b,,"EleutherAI,LAION","United States of America,Germany",2021-08-05,Open weights (unrestricted),2021-05-01,1.5e+22,Confident,,,,GPT-J-6B,gpt-j-6b,,,
 Inflection-1,Inflection-1,,Inflection AI,United States of America,2023-06-22,Hosted access (no API),2023-06-23,1.0001e+24,Speculative,,,,Inflection-1,inflection-1,,,
 INTELLECT-1,INTELLECT-1-Instruct,,"Prime Intellect,Hugging Face,Arcee AI",United States of America,2024-11-29,,2024-11-29,6.000001e+22,Confident,,,,INTELLECT-1,intellect-1,100.52,89.62,106.83
 ,internlm-7b,,,,2023-07-05,,,,Unverified,,,,,internlm-7b,,,
@@ -628,7 +628,7 @@ OPT-175B,opt-175b,,Meta AI,United States of America,2022-05-02,Open weights (non
 T5-11B,T5-11B,,Google,United States of America,,Open weights (unrestricted),2019-10-23,3.3e+22,Confident,"The largest, 11 billion-parameter version of T5, an early large language model from Google. ",,,T5-11B,t5-11b,,,
 OPT-66B,opt-66b,,Meta AI,United States of America,2022-05-03,Open weights (non-commercial),2022-06-21,1.100000000001e+23,Confident,Facebook's 66 billion-parameter model in the OPT series.,,,OPT-66B,opt-66b,,,
 GPT-3 175B (davinci),davinci,,OpenAI,United States of America,,API access,2020-05-28,3.14e+23,Confident,,GPT-3 175B (davinci),,GPT-3 175B (davinci),gpt-3-175b-davinci,,,
-BLOOM-176B,bloom,,"Hugging Face,BigScience","France,United States of America",2022-07-06,Open weights (restricted use),2022-07-11,3.65664e+23,Confident,,,,BLOOM-176B,bloom-176b,,,
+BLOOM-176B,bloom,,"Hugging Face,BigScience","United States of America,France",2022-07-06,Open weights (restricted use),2022-07-11,3.65664e+23,Confident,,,,BLOOM-176B,bloom-176b,,,
 GPT-3 6.7B,curie,,OpenAI,United States of America,,,2020-06-22,1.2e+22,Confident,,,,GPT-3 6.7B,gpt-3-6-7b,,,
 InstructGPT 6B,text-curie-001,,OpenAI,United States of America,,API access,2022-01-27,,Confident,,,,InstructGPT 6B,instructgpt-6b,,,
 GPT-3 Medium,ada,,OpenAI,United States of America,,,2020-06-22,6.41e+20,Confident,,,,GPT-3 Medium,gpt-3-medium,,,
