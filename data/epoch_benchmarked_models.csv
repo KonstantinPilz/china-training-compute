@@ -481,7 +481,7 @@ OPT-1.3B,opt-1.3b,,Meta AI,United States of America,2022-05-11,Open weights (non
 ,vicuna-13b-v1.1,,,,2023-04-12,,,,Unverified,,,,,vicuna-13b-v1-1,,,
 video-SALMONN 2+,video-SALMONN-2plus,,ByteDance,China,2025-06-18,,2025-06-18,,Likely,,,,video-SALMONN 2+,video-salmonn-2,,,
 Qwen2.5-72B,Qwen2.5-VL-72B-Instruct,,Alibaba,China,2024-09-19,Open weights (unrestricted),2024-09-19,7.8e+24,Confident,A 72 billion-parameter instruction-tuned vision language model in the Qwen 2.5 series.,Qwen2.5-VL-72B,,Qwen2.5-72B,qwen2-5-72b,129.12,122.66,130.95
-InternVL2_5-78B,InternVL2_5-78B,,"Shanghai AI Lab,SenseTime,Tsinghua University,Nanjing University,Fudan University,Chinese University of Hong Kong (CUHK),Shanghai Jiao Tong University","Hong Kong,China",2024-12-06,Open weights (restricted use),2024-12-06,,Confident,,,,InternVL2_5-78B,internvl2-5-78b,,,
+InternVL2_5-78B,InternVL2_5-78B,,"Shanghai AI Lab,SenseTime,Tsinghua University,Nanjing University,Fudan University,Chinese University of Hong Kong (CUHK),Shanghai Jiao Tong University","China,Hong Kong",2024-12-06,Open weights (restricted use),2024-12-06,,Confident,,,,InternVL2_5-78B,internvl2-5-78b,,,
 ,Qwen2-VL-72B-Instruct,,,,2024-08-29,,,,Unverified,A 72 billion-parameter instruction-tuned vision language model in Qwen's Qwen 2 series.,,,,qwen2-vl-72b-instruct,,,
 ,LLaVA-Video-72B-Qwen2,,,,2024-09-02,,,,Unverified,,,,,llava-video-72b-qwen2,,,
 ,LinVT,,,,2024-12-06,,,,Unverified,,,,,linvt,,,
