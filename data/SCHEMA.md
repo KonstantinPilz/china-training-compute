@@ -2,7 +2,14 @@
 
 Goal: augment Epoch's notable-models data with Chinese training runs (model released **2023-01-01 or later**) that Epoch is **missing** or for which Epoch has **no training-compute estimate**.
 
-The 106 China models (since 2023) already in Epoch are listed in `epoch_china_inventory.txt`. **Do not re-add those** unless you are supplying a training-compute estimate Epoch lacks (note that in `compute_basis`).
+The China models (since 2023) already in Epoch are listed in `epoch_china_inventory.txt`, with the
+file each came from and whether Epoch has a compute figure for it. **Do not re-add those** unless you
+are supplying a training-compute estimate Epoch lacks (note that in `compute_basis`).
+
+**Before writing "not in Epoch inventory", check that file and grep all three `epoch_*.csv` mirrors.**
+Until 2026-07-28 the inventory was built from `notable_ai_models.csv` alone and listed 106 models;
+regenerated from all three it lists 281. Twelve existing entries say "Not in Epoch inventory" about
+models Epoch does cover — see [`README.md`](README.md).
 
 Write your findings to `data/additions_<yourname>.json` as a JSON array of objects:
 

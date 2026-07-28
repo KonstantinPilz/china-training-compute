@@ -1,106 +1,292 @@
-AgentFounder-30B
-AndesGPT
-ChatGLM3-6B
-CoRe
-CogAgent
-CogVLM-17B
-DeepSeek-Coder-V2 236B
-DeepSeek-R1
-DeepSeek-R1 (May 2025)
-DeepSeek-V2.5
-DeepSeek-V3
-DeepSeek-V3 (Mar 2025)
-DeepSeek-V4-Flash
-DeepSeek-V4-Pro
-DeepSeekMath-V2
-Doubao-1.5-pro
-Doubao-pro
-ERNIE 3.5
-ERNIE 4.0
-ERNIE-4.5-VL-424B-A47B (文心大模型4.5)
-Eagle 2
-Ernie 4.0 Turbo
-Eurus-2-7B-PRIME
-GGNN
-GLM-4 (0520)
-GLM-4-Plus
-GLM-4.5
-GLM-4.6
-GLM-4.7
-GLM-5
-GLM-5.1
-GR-2
-Hairuo
-Hunyuan Turbo
-Hunyuan-Large
-Hunyuan-TurboS
-Infinity
-InternLM
-Kimi Explorer
-Kimi K2
-Kimi K2 Thinking
-Kimi K2.5
-Kimi K2.6
-Kimi k1.5
-LLaVA-OV-72B
-Ling-1T
-LongCat-Flash
-ManiGaussian
-MegaScale (Production)
-MiMo-V2-Pro
-MiMo-V2.5-Pro
-MindLink-72B
-MiniMax-M2
-MiniMax-M2.1
-NVILA 15B
-ONE-PEACE
-Oryx 34B
-P1-235B-A22B
-PanGu-Σ
-Pangu Ultra
-Pangu-Weather
-PixelDance
-QwQ-32B
-Qwen 3.6 Plus
-Qwen 3.7 Max
-Qwen Image
-Qwen-72B
-Qwen-Audio-Chat
-Qwen-VL
-Qwen-VL-Max
-Qwen1.5-72B
-Qwen2-72B
-Qwen2.5 Instruct (72B)
-Qwen2.5-32B
-Qwen2.5-72B
-Qwen3 Embedding
-Qwen3-235B-A22B
-Qwen3-235B-A22B (Jul 2025)
-Qwen3-235B-A22B-Thinking (Jul 2025)
-Qwen3-Coder-480B-A35B
-Qwen3-Coder-Next
-Qwen3-Max
-Qwen3-Max-Thinking
-Qwen3-Omni-30B-A3B
-Qwen3.5 397B-A17B
-Qwen3.5-122B-A10B
-Qwen3.5-Omni-Flash
-Qwen3.5-Omni-Plus
-RDT-1B
-RoFormer
-Robot Parkour
-SPHINX (Llama 2 13B)
-Seed-1.6-Thinking
-Seed1.5-VL
-SeedEdit
-Seedance 2.0
-Skywork-13B
-Telechat2-115B
-Tongyi DeepResearch
-VideoMAE V2
-Yi-34B
-Yi-Large
-Yi-Lightning
-k0-math
-mPLUG-Owl2
-xTrimoPGLM -100B
+# Chinese models (published 2023-01-01 or later) already in Epoch AI's data.
+# Generated from ALL THREE Epoch CSVs in this directory — notable_ai_models,
+# large_scale_ai_models, benchmarked_models. Regenerate whenever they refresh.
+#
+# The pre-2026-07-28 version of this file was built from notable_ai_models.csv alone
+# and listed 106 names. That omission made the research team write "Not in Epoch
+# inventory" for at least 12 models Epoch does cover. See README.md in this directory.
+#
+# Columns: model <TAB> which file(s) <TAB> has a training-compute figure
+# Generated 2026-07-28 — 281 models
+
+360 Smart Brain	large_scale	no-compute
+360gpt2-pro	large_scale	no-compute
+360Zhinao-7B	large_scale	compute
+ABAB	large_scale	no-compute
+abab6.5	large_scale	no-compute
+abab7	large_scale	no-compute
+AgentFounder-30B	notable	compute
+AiLMe-100B v3	large_scale	no-compute
+AndesGPT	notable	no-compute
+Aquila2 34B	large_scale	no-compute
+Baichuan 1-13B	benchmarked	compute
+Baichuan 2-7B	benchmarked,large_scale	compute
+Baichuan1-7B	benchmarked	compute
+Baichuan2-13B	benchmarked,large_scale	compute
+Baichuan2-53B	large_scale	compute
+BaiLing	large_scale	no-compute
+bailing-pro-1120	large_scale	no-compute
+Bailing-Pro-20250225	large_scale	no-compute
+BlueLM 130B	large_scale	compute
+BlueLM 175B	large_scale	compute
+BlueLM 70B	large_scale	compute
+BlueLM 7B	large_scale	compute
+ChatGLM3-6B	notable	compute
+ChatRhino	large_scale	no-compute
+CodeFuse-13B	large_scale	compute
+CogAgent	notable	compute
+CogVideoX	large_scale	no-compute
+CogVLM-17B	notable	compute
+CoRe	notable	no-compute
+DeepSeek Coder 1.3B	benchmarked	compute
+DeepSeek Coder 33B	benchmarked,large_scale	compute
+DeepSeek Coder 6.7B	benchmarked	compute
+DeepSeek LLM 67B	benchmarked,large_scale	compute
+DeepSeek-Coder-V2 236B	benchmarked,notable	compute
+DeepSeek-R1	benchmarked,large_scale,notable	compute
+DeepSeek-R1 (May 2025)	benchmarked,large_scale,notable	compute
+DeepSeek-R1-Distill-Llama-70B	benchmarked	no-compute
+DeepSeek-R1-Distill-Qwen-14B	benchmarked	no-compute
+DeepSeek-R1-Distill-Qwen-32B	benchmarked	no-compute
+DeepSeek-V2 (MoE-236B)	benchmarked,large_scale	compute
+DeepSeek-V2.5	benchmarked,large_scale,notable	compute
+DeepSeek-V3	benchmarked,large_scale,notable	compute
+DeepSeek-V3 (Mar 2025)	benchmarked,large_scale,notable	compute
+DeepSeek-V3.1	benchmarked,large_scale	compute
+DeepSeek-V3.1-Terminus	large_scale	compute
+DeepSeek-V3.2	benchmarked,large_scale	compute
+DeepSeek-V3.2-Exp	benchmarked,large_scale	compute
+DeepSeek-V4-Flash	benchmarked,large_scale,notable	compute
+DeepSeek-V4-Pro	benchmarked,large_scale,notable	compute
+DeepSeekMath-V2	notable	no-compute
+dots.llm1	large_scale	compute
+Dou Bao	large_scale	no-compute
+Doubao-1.5-pro	large_scale,notable	no-compute
+Doubao-lite	large_scale	no-compute
+Doubao-pro	large_scale,notable	compute
+Eagle 2	notable	compute
+Emu3.5	large_scale	compute
+ERNIE 3.5	large_scale,notable	no-compute
+ERNIE 4.0	large_scale,notable	no-compute
+Ernie 4.0 Turbo	large_scale,notable	no-compute
+ERNIE x1 (文心大模型X1)	large_scale	no-compute
+ERNIE-4.5-21B-A3B	large_scale	compute
+ERNIE-4.5-300B-A47B	large_scale	compute
+ERNIE-4.5-VL-424B-A47B (文心大模型4.5)	notable	no-compute
+Eurus-2-7B-PRIME	benchmarked,notable	no-compute
+GGNN	notable	compute
+GLM-4	large_scale	no-compute
+GLM-4 (0116)	large_scale	no-compute
+GLM-4 (0520)	notable	no-compute
+GLM-4-32B-0414	large_scale	compute
+GLM-4-9B-0414	large_scale	compute
+GLM-4-Plus	large_scale,notable	no-compute
+GLM-4.1V-Thinking	large_scale	compute
+GLM-4.5	benchmarked,large_scale,notable	compute
+GLM-4.5-Air	benchmarked,large_scale	compute
+GLM-4.5V	large_scale	compute
+GLM-4.6	benchmarked,large_scale,notable	compute
+GLM-4.7	benchmarked,notable	compute
+GLM-4V-9B	large_scale	no-compute
+GLM-5	benchmarked,large_scale,notable	compute
+GLM-5.1	benchmarked,notable	no-compute
+GLM-5.2	benchmarked	no-compute
+GLM-Z1-Rumination-32B-0414	large_scale	compute
+GR-2	notable	no-compute
+Hairuo	notable	no-compute
+Hunyuan	large_scale	compute
+Hunyuan T1	large_scale	no-compute
+Hunyuan Turbo	notable	no-compute
+Hunyuan Video	large_scale	compute
+Hunyuan-Large	large_scale,notable	compute
+Hunyuan-TurboS	large_scale,notable	compute
+Infinity	notable	no-compute
+InternLM	large_scale,notable	compute
+InternLM2-20B	large_scale	compute
+InternVL2-40B	benchmarked	no-compute
+InternVL2_5-78B	benchmarked	no-compute
+Jiutian	large_scale	compute
+JIUTIAN-139MoE	large_scale	compute
+k0-math	notable	no-compute
+Kimi Explorer	notable	no-compute
+Kimi k1.5	notable	no-compute
+Kimi K2	benchmarked,large_scale,notable	compute
+Kimi K2 Thinking	benchmarked,notable	compute
+Kimi K2.5	benchmarked,large_scale,notable	compute
+Kimi K2.6	benchmarked,notable	no-compute
+Kimi K2.7 Code	benchmarked	no-compute
+Kimi K3	benchmarked,large_scale,notable	compute
+Kimi Linear	large_scale	compute
+Kling	large_scale	no-compute
+Kling 1.5 Pro	large_scale	no-compute
+Kling 1.6 Pro	large_scale	no-compute
+Kling 2.0 Video Generation	large_scale	no-compute
+Kling 2.1	large_scale	no-compute
+KwaiYii 13B	large_scale	no-compute
+KwaiYii 175B	large_scale	no-compute
+Ling-1T	large_scale,notable	compute
+Ling-flash-base-2.0-20T	large_scale	compute
+Ling-lite-1.5 ("Bailing")	large_scale	compute
+Ling-mini-base-2.0-20T	large_scale	compute
+Ling-Plus ("Bailing")	large_scale	compute
+LingoWhale-8B	large_scale	no-compute
+LLaVA-OV-72B	notable	compute
+LongCat-Flash	large_scale,notable	compute
+Luca 2.0	large_scale	compute
+ManiGaussian	notable	no-compute
+MAP-Neo	large_scale	compute
+MathGPT	large_scale	no-compute
+MegaScale (175B)	large_scale	compute
+MegaScale (530B)	large_scale	compute
+MegaScale (Production)	large_scale,notable	compute
+MiMo-7B-Base	large_scale	compute
+MiMo-V2-Flash	benchmarked,large_scale	compute
+MiMo-V2-Pro	benchmarked,notable	no-compute
+MiMo-V2.5	benchmarked,large_scale	compute
+MiMo-V2.5-Pro	benchmarked,large_scale,notable	compute
+MiMo-VL-7B-SFT	large_scale	compute
+MindLink-72B	notable	no-compute
+Minimax Hailuo 02	large_scale	no-compute
+MiniMax Speech-01-HD (T2A-01-HD)	large_scale	no-compute
+MiniMax-M1-40k	large_scale	compute
+MiniMax-M1-80k	benchmarked,large_scale	compute
+MiniMax-M2	benchmarked,notable	no-compute
+MiniMax-M2.1	benchmarked,notable	no-compute
+MiniMax-M2.5	benchmarked	no-compute
+MiniMax-M2.7	benchmarked	no-compute
+MiniMax-M3	benchmarked	no-compute
+Minimax-Speech-02-HD	large_scale	no-compute
+MiniMax-Speech-02-turbo	large_scale	no-compute
+MiniMax-Text-01	large_scale	compute
+MiniMax-VL-01	large_scale	compute
+Moonshot-v1	large_scale	no-compute
+mPLUG-Owl2	notable	no-compute
+Nanbeige-16B	large_scale	compute
+Nanbeige2-16B-Chat	large_scale	compute
+NVILA 15B	notable	no-compute
+NVILA 8B	benchmarked	compute
+ONE-PEACE	notable	compute
+Oryx 34B	notable	no-compute
+P1-235B-A22B	notable	no-compute
+Pangu 3.0	large_scale	no-compute
+Pangu Pro MoE	large_scale	compute
+Pangu Ultra	large_scale,notable	compute
+Pangu Ultra MoE	large_scale	compute
+Pangu-Weather	notable	compute
+PanGu-Σ	large_scale,notable	compute
+PixelDance	large_scale,notable	no-compute
+QVQ-Max	large_scale	no-compute
+Qwen 3.5 Flash (hosted 35B-A3B)	benchmarked	no-compute
+Qwen 3.5 Plus (hosted 397B-A17B)	benchmarked	no-compute
+Qwen 3.6 35B-A3B	benchmarked	no-compute
+Qwen 3.6 Flash	benchmarked	no-compute
+Qwen 3.6 Max (Preview)	benchmarked	no-compute
+Qwen 3.6 Plus	benchmarked,notable	no-compute
+Qwen 3.7 Max	notable	no-compute
+Qwen Image	notable	no-compute
+Qwen Plus	benchmarked	no-compute
+Qwen-14B	benchmarked,large_scale	compute
+Qwen-72B	large_scale,notable	compute
+Qwen-7B	benchmarked,large_scale	compute
+Qwen-Audio-Chat	notable	no-compute
+Qwen-Turbo	benchmarked	no-compute
+Qwen-VL	notable	no-compute
+Qwen-VL-Max	large_scale,notable	no-compute
+Qwen1.5-110B	benchmarked,large_scale	no-compute
+Qwen1.5-14B	benchmarked,large_scale	compute
+Qwen1.5-32B	benchmarked,large_scale	no-compute
+Qwen1.5-72B	benchmarked,large_scale,notable	compute
+Qwen1.5-7B	benchmarked,large_scale	compute
+Qwen2-57B-A14B	large_scale	compute
+Qwen2-72B	benchmarked,large_scale,notable	compute
+Qwen2-7B	large_scale	compute
+Qwen2-VL-72B	large_scale	compute
+Qwen2.5 Instruct (72B)	notable	compute
+Qwen2.5-1.5B	large_scale	compute
+Qwen2.5-14B	benchmarked,large_scale	compute
+Qwen2.5-32B	benchmarked,large_scale,notable	compute
+Qwen2.5-3B	large_scale	compute
+Qwen2.5-72B	benchmarked,large_scale,notable	compute
+Qwen2.5-7B	benchmarked,large_scale	compute
+Qwen2.5-Coder (1.5B)	benchmarked	compute
+Qwen2.5-Coder (32B)	benchmarked,large_scale	compute
+Qwen2.5-Coder (7B)	benchmarked,large_scale	compute
+Qwen2.5-Max	benchmarked,large_scale	no-compute
+Qwen2.5-VL-72B	large_scale	compute
+Qwen2.5-VL-7B	large_scale	compute
+Qwen3 Embedding	notable	no-compute
+Qwen3-0.6B	large_scale	compute
+Qwen3-1.7B	large_scale	compute
+Qwen3-14B	benchmarked,large_scale	compute
+Qwen3-235B-A22B	benchmarked,large_scale,notable	compute
+Qwen3-235B-A22B (Jul 2025)	benchmarked,large_scale,notable	compute
+Qwen3-235B-A22B-Thinking (Jul 2025)	large_scale,notable	compute
+Qwen3-30B-A3B	benchmarked,large_scale	compute
+Qwen3-32B	benchmarked,large_scale	compute
+Qwen3-4B	large_scale	compute
+Qwen3-8B	benchmarked,large_scale	compute
+Qwen3-Coder-480B-A35B	benchmarked,large_scale,notable	compute
+Qwen3-Coder-Next	notable	no-compute
+Qwen3-Max	benchmarked,large_scale,notable	compute
+Qwen3-Max-Thinking	notable	no-compute
+Qwen3-Next-80B-A3B	large_scale	compute
+Qwen3-Omni-30B-A3B	notable	compute
+Qwen3.5 397B-A17B	notable	no-compute
+Qwen3.5-122B-A10B	notable	no-compute
+Qwen3.5-27B	benchmarked	no-compute
+Qwen3.5-9B	benchmarked	no-compute
+Qwen3.5-Omni-Flash	notable	no-compute
+Qwen3.5-Omni-Plus	notable	no-compute
+Qwen3.7-Max	benchmarked	no-compute
+QwQ-32B	benchmarked,notable	compute
+QWQ-Plus	benchmarked,large_scale	no-compute
+RDT-1B	notable	compute
+Robot Parkour	notable	no-compute
+RoFormer	notable	compute
+Seaweed-7B	large_scale	compute
+Seed 1.6	large_scale	no-compute
+Seed-1.6-Thinking	large_scale,notable	no-compute
+Seed-OSS-36B-Base	large_scale	compute
+Seed1.5-VL	large_scale,notable	compute
+Seedance 1.0	large_scale	no-compute
+Seedance 2.0	notable	no-compute
+SeedEdit	notable	no-compute
+Seedream 2.0	large_scale	no-compute
+Seedream 3.0	large_scale	no-compute
+Skywork-13B	large_scale,notable	compute
+Spark 3.0	large_scale	no-compute
+Spark 4.0	large_scale	no-compute
+Spark-X1	large_scale	no-compute
+SPHINX (Llama 2 13B)	notable	compute
+Step-1	large_scale	compute
+Step-2	large_scale	no-compute
+Step-Video-T2V	large_scale	compute
+TeleChat	large_scale	no-compute
+Telechat2-115B	large_scale,notable	compute
+TeleChat2-35B	large_scale	no-compute
+Tencent Hy3 preview	notable	no-compute
+TigerBot-70B	large_scale	compute
+Tongyi DeepResearch	notable	no-compute
+Tongyi Qianwen 2.0	large_scale	no-compute
+video-SALMONN 2+	benchmarked	no-compute
+VideoMAE V2	notable	compute
+Wan 2.1 14B I2V	large_scale	compute
+Wan 2.2 14B T2V	large_scale	compute
+Wu Dao Aquila-33B	large_scale	no-compute
+Wu Dao Aquila-7B	large_scale	no-compute
+Xinghai (星海)	large_scale	no-compute
+Xinghan Foundation Model	large_scale	no-compute
+xTrimoPGLM -100B	large_scale,notable	compute
+XVERSE-13B-2	large_scale	no-compute
+XVERSE-65B-2	large_scale	compute
+YaYi 2.0	large_scale	compute
+YAYI-Ultra	large_scale	no-compute
+Yi 6B	benchmarked,large_scale	compute
+Yi-1.5-34B	benchmarked,large_scale	compute
+Yi-1.5-9B	large_scale	compute
+Yi-34B	benchmarked,large_scale,notable	compute
+Yi-Large	benchmarked,large_scale,notable	compute
+Yi-Lightning	benchmarked,large_scale,notable	compute
+Yuan 2.0	large_scale	compute
+Zi Yue	large_scale	no-compute
+Zi Yue 2.0	large_scale	no-compute
