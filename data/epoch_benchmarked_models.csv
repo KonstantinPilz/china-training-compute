@@ -1,6 +1,6 @@
 Model,id_model_version,Display name,Organization,Country (of organization),Version release date,Model accessibility,Publication date,Training compute (FLOP),Confidence,Description,Unique display name,Model aggregation,model_group,slug,eci,eci_ci_low,eci_ci_high
 Claude Opus 5,claude-opus-5_max,Claude Opus 5,Anthropic,United States of America,2026-07-24,API access,2026-07-24,,Confident,,Claude Opus 5 (max),,Claude Opus 5,claude-opus-5,159.38,157.25,162.21
-Kimi K3,kimi-k3_max,Kimi K3 (max),Moonshot,China,2026-07-16,API access,2026-07-16,,Confident,,,,Kimi K3,kimi-k3,155.59,153.72,158.77
+Kimi K3,kimi-k3_max,Kimi K3 (max),Moonshot,China,2026-07-16,Open weights (non-commercial),2026-07-16,2.0001e+25,Speculative,,,,Kimi K3,kimi-k3,155.59,153.72,158.77
 Grok 4.20,grok-4.20-0309-reasoning,,xAI,United States of America,2026-02-17,API access,2026-02-17,,Likely,,,,Grok 4.20,grok-4-20,152.59,148.96,154.77
 GPT-5.6 Sol,gpt-5.6-sol_promax,"GPT-5.6 Sol (pro, max)",OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,"GPT-5.6 Sol (pro, max)",,GPT-5.6 Sol,gpt-5-6-sol,161.72,159.31,165.5
 GPT-5.6 Terra,gpt-5.6-terra_max,GPT-5.6 Terra (max),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Terra (max),,GPT-5.6 Terra,gpt-5-6-terra,158.23,155.58,161.28
@@ -391,7 +391,7 @@ InstructGPT 175B,text-davinci-001,,OpenAI,United States of America,2022-01-27,AP
 ",text-davinci-002,,OpenAI,United States of America,2022-03-15,API access,2022-03-15,2.578e+24,Speculative,,,davinci-002,davinci-002,davinci-002,,,
 GPT-3.5 Turbo,gpt-3.5-turbo-0613,GPT-3.5 Turbo (June 2023),OpenAI,United States of America,2023-06-13,API access,2023-06-13,,Likely,,GPT-3.5 Turbo (June 2023),GPT-3.5 Turbo (Jun 2023),GPT-3.5 Turbo (Jun 2023),gpt-3-5-turbo-jun-2023,113.09,104.87,118.26
 GPT-4 Turbo (Nov 2023),gpt-4-turbo,,OpenAI,United States of America,2023-11-06,API access,2023-11-06,,Unknown,An updated version of GPT-4 and OpenAI's then-new flagship language model.,,,GPT-4 Turbo (Nov 2023),gpt-4-turbo-nov-2023,,,
-GPT-J-6B,gpt-j-6b,,"EleutherAI,LAION","United States of America,Germany",2021-08-05,Open weights (unrestricted),2021-05-01,1.5e+22,Confident,,,,GPT-J-6B,gpt-j-6b,,,
+GPT-J-6B,gpt-j-6b,,"EleutherAI,LAION","Germany,United States of America",2021-08-05,Open weights (unrestricted),2021-05-01,1.5e+22,Confident,,,,GPT-J-6B,gpt-j-6b,,,
 Inflection-1,Inflection-1,,Inflection AI,United States of America,2023-06-22,Hosted access (no API),2023-06-23,1.0001e+24,Speculative,,,,Inflection-1,inflection-1,,,
 INTELLECT-1,INTELLECT-1-Instruct,,"Prime Intellect,Hugging Face,Arcee AI",United States of America,2024-11-29,,2024-11-29,6.000001e+22,Confident,,,,INTELLECT-1,intellect-1,100.52,89.62,106.83
 ,internlm-7b,,,,2023-07-05,,,,Unverified,,,,,internlm-7b,,,
@@ -464,7 +464,7 @@ GPT‑5-Codex,gpt-5-codex,GPT-5-codex,OpenAI,United States of America,2025-09-15
 Claude Sonnet 4,claude-sonnet-4-20250514_unknown,Claude Sonnet 4 (unknown thinking),Anthropic,United States of America,2025-05-22,API access,2025-05-22,,Unknown,"Anthropic's mid-sized Claude 4 series model, evaluated at up to 12,000 reasoning tokens.",Claude Sonnet 4 (12k thinking),,Claude Sonnet 4,claude-sonnet-4,142.18,138.59,143.51
 gpt-oss-120b,gpt-oss-120b_high,,OpenAI,United States of America,2025-08-05,Open weights (unrestricted),2025-08-05,4.94e+24,Confident,"The larger one of OpenAI's two latest open source language models, evaluated with high reasoning effort.",,,gpt-oss-120b,gpt-oss-120b,140.61,136.13,143.38
 Kimi K2 Thinking,kimi-k2-thinking,Kimi K2 Thinking,Moonshot,China,2025-11-06,Open weights (restricted use),2025-11-06,4.1999999999999997e+24,Likely,,,,Kimi K2 Thinking,kimi-k2-thinking,146.04,143.88,147.44
-,claude-mythos-preview-early,,,,,,,,Unverified,,,,,claude-mythos-preview-early,,,
+Claude Mythos 5,claude-mythos-preview-early,Claude Mythos Preview (Early),Anthropic,United States of America,2026-04-07,Unreleased,2026-06-09,,Confident,,,,Claude Mythos 5,claude-mythos-5,,,
 o3,o3-2025-04-16_unknown,o3 (unknown thinking),OpenAI,United States of America,2025-04-16,API access,2024-12-20,,Unknown,"OpenAI's second generation o-series reasoning model, evaluated with high reasoning effort.",,,o3,o3,147.06,145.01,148.35
 Claude Opus 4,claude-opus-4-20250514_unknown,Claude Opus 4,Anthropic,United States of America,2025-05-22,API access,2025-05-22,,Unknown,"Anthropic's largest model in the Claude 4 series (superseded by Claude Opus 4.1), benchmarked with up to 32,000 reasoning tokens.",Claude Opus 4 (unknown settings),,Claude Opus 4,claude-opus-4,142.93,140.42,144.42
 gpt-oss-120b,gpt-oss-120b,,OpenAI,United States of America,2025-08-05,Open weights (unrestricted),2025-08-05,4.94e+24,Confident,The larger one of OpenAI's two latest open source language models.,,,gpt-oss-120b,gpt-oss-120b,140.61,136.13,143.38
