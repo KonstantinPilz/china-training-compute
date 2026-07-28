@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """Build docs/data.json for the China training-compute plot.
 
-Source 1 (primary): Epoch AI's public notable-models data (CC-BY)
-  https://epoch.ai/data/notable_ai_models.csv
+Source 1 (primary): Epoch AI's public model data (CC-BY), https://epoch.ai/data/
   Filtered to China-based organizations, models published 2023-01-01 or later,
   with a training-compute (FLOP) estimate.
 
@@ -11,7 +10,12 @@ Source 2 (augmentation): data/additions_*.json — hand-researched models Epoch
 
 Each plotted point carries a `source` field ("Epoch" | "Team research") so the
 provenance is visible on hover. Stdlib only. Run: python3 fetch_data.py
+
+Epoch mirrors ALL THREE of Epoch's model CSVs into data/ on every run, whether or
+not the build reads them — see data/README.md. Do not make the mirror conditional:
+a partial mirror of this set silently produces false negatives on model membership.
 """
+import argparse
 import csv
 import glob
 import io
@@ -22,21 +26,39 @@ import urllib.request
 from datetime import date, datetime, timezone
 from pathlib import Path
 
-CSV_URL = "https://epoch.ai/data/notable_ai_models.csv"
-ECI_URL = "https://epoch.ai/data/benchmarked_models.csv"
+BASE = "https://epoch.ai/data/"
 ROOT = Path(__file__).parent
 OUT = ROOT / "docs" / "data.json"
-CSV_CACHE = ROOT / "data" / "epoch_notable_ai_models.csv"
-ECI_CACHE = ROOT / "data" / "epoch_benchmarked_models.csv"
+DATA = ROOT / "data"
 MIN_DATE = "2023-01-01"
 
+# Epoch publishes three overlapping model CSVs. Mirror all of them, always.
+# `notable` and `large_scale` are NOT nested sets — containment fails in BOTH
+# directions (337 models are in large_scale only, 856 in notable only). See
+# data/README.md before querying any one of them for an absence.
+EPOCH_FILES = {
+    "notable": "notable_ai_models.csv",
+    "benchmarked": "benchmarked_models.csv",
+    "large_scale": "large_scale_ai_models.csv",
+}
+# A truncated/empty download is a silent-corruption risk since we overwrite the
+# cache; refuse to cache anything implausibly small for these files.
+MIN_CSV_BYTES = 50_000
 
-def fetch_csv(url: str, cache: Path) -> str:
-    """Fetch a CSV, falling back to the local cache on network failure."""
+
+def cache_path(key: str) -> Path:
+    return DATA / f"epoch_{EPOCH_FILES[key]}"
+
+
+def fetch_csv(key: str) -> str:
+    """Fetch one Epoch CSV, falling back to the local mirror on network failure."""
+    url, cache = BASE + EPOCH_FILES[key], cache_path(key)
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "china-training-compute/1.0"})
         with urllib.request.urlopen(req, timeout=90) as r:
             text = r.read().decode("utf-8")
+        if len(text) < MIN_CSV_BYTES:
+            raise ValueError(f"response only {len(text)} bytes, refusing to overwrite mirror")
         cache.parent.mkdir(parents=True, exist_ok=True)
         cache.write_text(text)
         return text
@@ -47,8 +69,26 @@ def fetch_csv(url: str, cache: Path) -> str:
         raise
 
 
-def fetch_epoch_csv() -> str:
-    return fetch_csv(CSV_URL, CSV_CACHE)
+def refresh_mirror() -> dict:
+    """Fetch every Epoch CSV so the local mirror can never go partial.
+
+    Returns {key: text}. Raises if any file ends up missing — a partial mirror is
+    the failure this function exists to prevent, so it is never tolerated quietly.
+    """
+    texts, missing = {}, []
+    for k in EPOCH_FILES:
+        try:
+            texts[k] = fetch_csv(k)
+        except Exception as e:  # noqa: BLE001
+            missing.append(f"{EPOCH_FILES[k]} ({e})")
+    if missing:
+        raise SystemExit(
+            "ERROR: Epoch mirror incomplete — refusing to build from a partial set.\n"
+            "  Unavailable: " + "; ".join(missing) + "\n"
+            "  See data/README.md: these CSVs are not nested sets, so a missing file\n"
+            "  produces false negatives on model membership, not just missing points."
+        )
+    return texts
 
 
 def _norm(s: str) -> str:
@@ -62,13 +102,13 @@ def _parse_date(s: str):
         return None
 
 
-def eci_index() -> dict:
+def eci_index(text: str) -> dict:
     """normalized model name -> list of {date, eci, ci_low, ci_high} from benchmarked_models.csv.
 
     ECI (Epoch Capabilities Index) is only computed for benchmarked models, so most
     plotted models will have no entry — that is expected.
     """
-    rows = list(csv.DictReader(io.StringIO(fetch_csv(ECI_URL, ECI_CACHE))))
+    rows = list(csv.DictReader(io.StringIO(text)))
     idx = {}
     for r in rows:
         eci = r.get("eci")
@@ -138,13 +178,20 @@ def short_org(org: str) -> str:
     return norm.get(lead, lead)
 
 
-def epoch_models() -> list:
-    rows = list(csv.DictReader(io.StringIO(fetch_epoch_csv())))
+def epoch_models(text: str, source: str = "Epoch") -> list:
+    """China-org models since MIN_DATE that carry a compute estimate.
+
+    Works for either notable_ai_models.csv or large_scale_ai_models.csv — the two
+    share the columns read here.
+    """
+    rows = list(csv.DictReader(io.StringIO(text)))
     out = []
     for r in rows:
         date = (r.get("Publication date") or "").strip()
         if not is_china(r) or date < MIN_DATE:
             continue
+        # Confidence and compute are independent columns: rows exist with
+        # Confidence="Confident" and an empty compute cell. Test the compute cell.
         compute = to_float(r.get("Training compute (FLOP)"))
         if compute is None:
             continue  # plot only models with a compute estimate
@@ -159,7 +206,7 @@ def epoch_models() -> list:
                 "domain": (r.get("Domain") or "").strip() or None,
                 "compute_basis": (r.get("Training compute notes") or "").strip() or None,
                 "confidence": (r.get("Confidence") or "").strip() or None,
-                "source": "Epoch",
+                "source": source,
                 "link": (r.get("Link") or "").strip() or None,
             }
         )
@@ -199,19 +246,42 @@ def addition_models() -> list:
 
 
 def main() -> None:
-    models = epoch_models()
-    epoch_names = {(m["model"], m["org"]) for m in models}
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument(
+        "--include-large-scale",
+        action="store_true",
+        help="also plot China models found only in large_scale_ai_models.csv "
+        "(adds ~73 points, many of them size variants). OFF by default so the "
+        "daily cron cannot change the published plot without a decision.",
+    )
+    ap.add_argument("--out", type=Path, default=OUT, help="output path (default docs/data.json)")
+    args = ap.parse_args()
+
+    texts = refresh_mirror()  # always mirrors all three CSVs, used or not
+
+    models = epoch_models(texts["notable"])
     n_epoch = len(models)
+    seen = {(m["model"], m["org"]) for m in models}
+
+    n_large = 0
+    if args.include_large_scale:
+        for m in epoch_models(texts["large_scale"], source="Epoch (large-scale)"):
+            if (m["model"], m["org"]) in seen:
+                continue
+            seen.add((m["model"], m["org"]))
+            models.append(m)
+            n_large += 1
 
     added = 0
     for m in addition_models():
-        if (m["model"], m["org"]) in epoch_names:
+        if (m["model"], m["org"]) in seen:
             continue  # don't duplicate an Epoch model
+        seen.add((m["model"], m["org"]))
         models.append(m)
         added += 1
 
     # Join Epoch Capabilities Index (ECI) where the model is benchmarked
-    idx = eci_index()
+    idx = eci_index(texts["benchmarked"])
     for m in models:
         attach_eci(m, idx)
     n_eci = sum(1 for m in models if "eci" in m)
@@ -221,17 +291,18 @@ def main() -> None:
     payload = {
         "updated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
         "n_epoch": n_epoch,
+        "n_large_scale": n_large,
         "n_team": added,
         "n_eci": n_eci,
         "orgs": orgs,
         "models": models,
     }
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps(payload, separators=(",", ":")))
+    args.out.parent.mkdir(parents=True, exist_ok=True)
+    args.out.write_text(json.dumps(payload, separators=(",", ":")))
     print(
-        f"wrote {OUT}: {len(models)} models "
-        f"({n_epoch} from Epoch, {added} from team research), {len(orgs)} orgs, "
-        f"{n_eci} with ECI"
+        f"wrote {args.out}: {len(models)} models "
+        f"({n_epoch} from Epoch notable, {n_large} from Epoch large-scale, "
+        f"{added} from team research), {len(orgs)} orgs, {n_eci} with ECI"
     )
     if len(models) < 40:
         print("WARNING: suspiciously few models — check upstream schema", file=sys.stderr)

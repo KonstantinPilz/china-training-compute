@@ -33,9 +33,25 @@ Sources merged by [`fetch_data.py`](fetch_data.py) into `docs/data.json`:
 Training-compute values are mostly estimates of varying confidence; each point's basis is
 on hover. Most are computed as `6 × params × tokens` (dense) or with active params (MoE).
 
+`fetch_data.py` mirrors **all three** of Epoch's model CSVs into `data/` on every run,
+including `large_scale_ai_models.csv`, which the plot does not currently read. That is
+deliberate — `notable` and `large_scale` are not nested sets, and a partial mirror yields
+false negatives on model *membership*. Read [`data/README.md`](data/README.md) before
+querying any one of them for an absence.
+
+Plotting the models Epoch lists only in `large_scale` is opt-in:
+
+```bash
+python3 fetch_data.py --include-large-scale --out /tmp/preview.json
+```
+
+It adds ~88 China points (many of them size variants such as Qwen3-0.6B … Qwen3-32B) and
+supersedes 8 team-research estimates with Epoch figures. Off by default so the daily cron
+cannot change the published plot without a decision.
+
 ## Update
 
-`fetch_data.py` re-fetches the Epoch CSV (falling back to the local cache offline), re-merges
+`fetch_data.py` re-fetches the Epoch CSVs (falling back to the local mirror offline), re-merges
 the additions, and rewrites `docs/data.json`. A daily VM cron (`update.sh`) pushes if it changed;
 GitHub Pages (serving `/docs` on `main`) redeploys automatically.
 

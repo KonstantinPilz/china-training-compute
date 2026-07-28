@@ -391,7 +391,7 @@ InstructGPT 175B,text-davinci-001,,OpenAI,United States of America,2022-01-27,AP
 ",text-davinci-002,,OpenAI,United States of America,2022-03-15,API access,2022-03-15,2.578e+24,Speculative,,,davinci-002,davinci-002,davinci-002,,,
 GPT-3.5 Turbo,gpt-3.5-turbo-0613,GPT-3.5 Turbo (June 2023),OpenAI,United States of America,2023-06-13,API access,2023-06-13,,Likely,,GPT-3.5 Turbo (June 2023),GPT-3.5 Turbo (Jun 2023),GPT-3.5 Turbo (Jun 2023),gpt-3-5-turbo-jun-2023,113.09,104.87,118.26
 GPT-4 Turbo (Nov 2023),gpt-4-turbo,,OpenAI,United States of America,2023-11-06,API access,2023-11-06,,Unknown,An updated version of GPT-4 and OpenAI's then-new flagship language model.,,,GPT-4 Turbo (Nov 2023),gpt-4-turbo-nov-2023,,,
-GPT-J-6B,gpt-j-6b,,"EleutherAI,LAION","Germany,United States of America",2021-08-05,Open weights (unrestricted),2021-05-01,1.5e+22,Confident,,,,GPT-J-6B,gpt-j-6b,,,
+GPT-J-6B,gpt-j-6b,,"EleutherAI,LAION","United States of America,Germany",2021-08-05,Open weights (unrestricted),2021-05-01,1.5e+22,Confident,,,,GPT-J-6B,gpt-j-6b,,,
 Inflection-1,Inflection-1,,Inflection AI,United States of America,2023-06-22,Hosted access (no API),2023-06-23,1.0001e+24,Speculative,,,,Inflection-1,inflection-1,,,
 INTELLECT-1,INTELLECT-1-Instruct,,"Prime Intellect,Hugging Face,Arcee AI",United States of America,2024-11-29,,2024-11-29,6.000001e+22,Confident,,,,INTELLECT-1,intellect-1,100.52,89.62,106.83
 ,internlm-7b,,,,2023-07-05,,,,Unverified,,,,,internlm-7b,,,
@@ -481,7 +481,7 @@ OPT-1.3B,opt-1.3b,,Meta AI,United States of America,2022-05-11,Open weights (non
 ,vicuna-13b-v1.1,,,,2023-04-12,,,,Unverified,,,,,vicuna-13b-v1-1,,,
 video-SALMONN 2+,video-SALMONN-2plus,,ByteDance,China,2025-06-18,,2025-06-18,,Likely,,,,video-SALMONN 2+,video-salmonn-2,,,
 Qwen2.5-72B,Qwen2.5-VL-72B-Instruct,,Alibaba,China,2024-09-19,Open weights (unrestricted),2024-09-19,7.8e+24,Confident,A 72 billion-parameter instruction-tuned vision language model in the Qwen 2.5 series.,Qwen2.5-VL-72B,,Qwen2.5-72B,qwen2-5-72b,129.12,122.66,130.95
-InternVL2_5-78B,InternVL2_5-78B,,"Shanghai AI Lab,SenseTime,Tsinghua University,Nanjing University,Fudan University,Chinese University of Hong Kong (CUHK),Shanghai Jiao Tong University","China,Hong Kong",2024-12-06,Open weights (restricted use),2024-12-06,,Confident,,,,InternVL2_5-78B,internvl2-5-78b,,,
+InternVL2_5-78B,InternVL2_5-78B,,"Shanghai AI Lab,SenseTime,Tsinghua University,Nanjing University,Fudan University,Chinese University of Hong Kong (CUHK),Shanghai Jiao Tong University","Hong Kong,China",2024-12-06,Open weights (restricted use),2024-12-06,,Confident,,,,InternVL2_5-78B,internvl2-5-78b,,,
 ,Qwen2-VL-72B-Instruct,,,,2024-08-29,,,,Unverified,A 72 billion-parameter instruction-tuned vision language model in Qwen's Qwen 2 series.,,,,qwen2-vl-72b-instruct,,,
 ,LLaVA-Video-72B-Qwen2,,,,2024-09-02,,,,Unverified,,,,,llava-video-72b-qwen2,,,
 ,LinVT,,,,2024-12-06,,,,Unverified,,,,,linvt,,,
