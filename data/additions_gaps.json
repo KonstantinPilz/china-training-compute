@@ -37,22 +37,22 @@
     "organization": "Kunlun (Skywork AI)",
     "publication_date": "2025-03-18",
     "parameters": 3.8e10,
-    "training_compute_flop": null,
-    "compute_basis": "Built by connecting a pretrained vision encoder (InternViT-6B) to a pretrained LLM (DeepSeek-R1-Distill-Qwen-32B) via a lightweight adapter, then alignment/SFT. No from-scratch pretraining; the dominant compute is in the (separately-counted) base models. Marginal fine-tuning/alignment compute is small and the token count is unpublished, so we leave null rather than estimate.",
-    "confidence": 0.0,
-    "source_urls": ["https://arxiv.org/abs/2504.05599", "https://huggingface.co/Skywork/Skywork-R1V-38B"],
-    "notes": "Multimodal reasoning model. Composed from pretrained InternViT-6B + DeepSeek-R1-Distill-Qwen-32B. Training compute is fine-tune-only and unquantified -> null. Including for date/attribution completeness."
+    "training_compute_flop": 3.51e24,
+    "compute_basis": "Cumulative lower-bound estimate: Skywork R1V uses a frozen vision encoder and DeepSeek-R1-Distill-Qwen-32B, which inherits Qwen2.5-32B; Epoch estimates the 32B text base at 6 x 32.5e9 x 18e12 = 3.51e24 FLOP, while R1V's adapter/SFT/RL increments and the vision encoder's inherited training compute are unpublished, so 3.51e24 + unknown positive terms is reported as a 3.51e24 floor.",
+    "confidence": 0.3,
+    "source_urls": ["https://arxiv.org/abs/2504.05599", "https://huggingface.co/Skywork/Skywork-R1V-38B", "https://epoch.ai/data/large_scale_ai_models.csv"],
+    "notes": "Multimodal reasoning model built from pretrained components. The cumulative figure includes Epoch's separately plotted Qwen2.5-32B estimate but omits unavailable InternViT and Skywork training terms, so it is a lower bound."
   },
   {
     "model": "Skywork-R1V2-38B",
     "organization": "Kunlun (Skywork AI)",
     "publication_date": "2025-04-24",
     "parameters": 3.8e10,
-    "training_compute_flop": null,
-    "compute_basis": "Same composition as R1V (InternViT-6B + DeepSeek-R1-Distill-Qwen-32B) with a hybrid RL (MPO/GRPO) post-training stage. RL post-training FLOP is not disclosed and base-model compute is counted under the base models, so no defensible standalone estimate -> null.",
-    "confidence": 0.0,
-    "source_urls": ["https://arxiv.org/abs/2504.16656", "https://huggingface.co/Skywork/Skywork-R1V2-38B"],
-    "notes": "RL-trained successor to R1V. Training compute fine-tune/RL-only and undisclosed -> null."
+    "training_compute_flop": 3.51e24,
+    "compute_basis": "Cumulative lower-bound estimate: the R1V2 report specifies an InternViT-6B encoder and QwQ-32B language model; Epoch estimates QwQ-32B's inherited Qwen2.5-32B training at 6 x 32.5e9 x 18e12 = 3.51e24 FLOP, while the vision encoder, adapter, MPO, and GRPO compute are unpublished, so 3.51e24 + unknown positive terms is reported as a 3.51e24 floor.",
+    "confidence": 0.3,
+    "source_urls": ["https://arxiv.org/abs/2504.16656", "https://huggingface.co/Skywork/Skywork-R1V2-38B", "https://epoch.ai/data/notable_ai_models.csv"],
+    "notes": "R1V2 uses QwQ-32B rather than R1V's DeepSeek-R1-Distill-Qwen-32B. The cumulative figure includes Epoch's QwQ-32B estimate but omits unavailable InternViT and Skywork training terms, so it is a lower bound."
   },
   {
     "model": "360Zhinao2-7B",

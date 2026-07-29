@@ -15,11 +15,11 @@
     "organization": "Alibaba",
     "publication_date": "2024-09-18",
     "parameters": 73.4e9,
-    "training_compute_flop": 7.0e23,
-    "compute_basis": "Our estimate of incremental VL training only (the Qwen2-72B text base is separately in Epoch). Qwen2-VL technical report (arXiv:2409.12191) states VL pretraining of ~600B tokens (phase 1) + ~800B tokens (phase 2) = ~1.4T tokens over the 73.4B dense model: 6 x 73.4e9 x 1.4e12 = 6.2e23, rounded to ~7e23 to include instruction tuning. Excludes the text-base pretrain (would add ~3e24 if counting Qwen2-72B's 7T tokens, but that is already an Epoch entry).",
+    "training_compute_flop": 3.72e24,
+    "compute_basis": "Cumulative estimate: Epoch estimates the inherited Qwen2-72B text base at 3.02e24 FLOP (6 x 72e9 x 7e12); the Qwen2-VL report states ~600B + ~800B = ~1.4T VL tokens, giving 6 x 73.4e9 x 1.4e12 = 6.2e23, rounded to ~7e23 including instruction tuning; 3.02e24 base + 0.70e24 incremental VL training = 3.72e24 FLOP.",
     "confidence": 0.35,
     "source_urls": ["https://arxiv.org/abs/2409.12191", "https://arxiv.org/html/2409.12191v1"],
-    "notes": "Qwen2-VL flagship VLM, Sep 2024. NOT in Epoch inventory (Epoch has Qwen2-72B text base, Qwen-VL, Qwen-VL-Max but not Qwen2-VL). Compute counts the VL adaptation stage; flag in any rollup whether to add the text-base FLOP."
+    "notes": "Qwen2-VL flagship VLM, Sep 2024. Cumulative total includes the separately plotted Qwen2-72B base. Epoch's large-scale file lists Qwen2-VL-72B at 6.048e23 FLOP, which appears to count only the ~1.4T-token VL extension and is 6.2x below this cumulative estimate."
   },
   {
     "model": "Qwen2.5-VL-72B",
@@ -27,7 +27,7 @@
     "publication_date": "2025-02-20",
     "parameters": 72e9,
     "training_compute_flop": 8.0e24,
-    "compute_basis": "Our estimate. Qwen2.5-VL technical report (arXiv:2502.13923) builds on the Qwen2.5-72B base (18T text tokens) plus a from-scratch dynamic-resolution ViT and multimodal pretraining. Full run dominated by the text base: 6 x 72e9 x 18e12 = 7.8e24; VL pretraining adds ~few x 1e23. Rounded to ~8e24 for the whole model. If only the VL adaptation stage is wanted (text base counted under Qwen2.5-72B, which is in Epoch), use ~7e23.",
+    "compute_basis": "Cumulative estimate: the Qwen2.5-VL report builds on Qwen2.5-72B, whose 18T-token text training gives 6 x 72e9 x 18e12 = 7.8e24 FLOP, plus an uncertain multimodal extension of roughly a few 1e23 FLOP (the standalone extension estimate remains ~7e23); rounded total ~8e24 FLOP.",
     "confidence": 0.4,
     "source_urls": ["https://arxiv.org/abs/2502.13923", "https://arxiv.org/pdf/2502.13923"],
     "notes": "Qwen2.5-VL flagship VLM, Feb 2025. NOT in Epoch inventory. Estimate is total-run including the 18T-token text base; flag the base-vs-adaptation framing."
@@ -37,11 +37,11 @@
     "organization": "Alibaba",
     "publication_date": "2024-12-24",
     "parameters": 72e9,
-    "training_compute_flop": null,
-    "compute_basis": "No defensible standalone figure. QvQ-72B-Preview is a visual-reasoning fine-tune built on Qwen2-VL-72B (Simon Willison; Maginative). The incremental RL/reasoning post-training compute is unpublished and small relative to the base; the base VL pretrain is captured under Qwen2-VL-72B. training_compute_flop=null to avoid double-counting the base.",
-    "confidence": 0.2,
-    "source_urls": ["https://simonwillison.net/2024/Dec/24/qvq/", "https://www.maginative.com/article/alibaba-unveils-qvq-an-open-weight-ai-model-focused-on-visual-reasoning-2/"],
-    "notes": "First open visual-reasoning model, Dec 2024. NOT in Epoch inventory. A post-trained variant of Qwen2-VL-72B; standalone compute not separable."
+    "training_compute_flop": 3.72e24,
+    "compute_basis": "Cumulative lower-bound estimate: QvQ-72B-Preview is a visual-reasoning fine-tune of Qwen2-VL-72B, whose cumulative estimate is 3.02e24 Qwen2-72B base + 0.70e24 VL extension = 3.72e24 FLOP; QvQ's incremental RL/reasoning post-training compute is unpublished, so the reported total preserves the 3.72e24 inherited base and omits an unknown positive increment.",
+    "confidence": 0.3,
+    "source_urls": ["https://simonwillison.net/2024/Dec/24/qvq/", "https://www.maginative.com/article/alibaba-unveils-qvq-an-open-weight-ai-model-focused-on-visual-reasoning-2/", "https://arxiv.org/abs/2409.12191"],
+    "notes": "First open visual-reasoning model, Dec 2024. The cumulative figure is a lower bound because the QvQ extension is unpublished; the inherited Qwen2-VL-72B value is itself a team estimate."
   },
   {
     "model": "Qwen2.5-Omni-7B",
@@ -60,10 +60,10 @@
     "publication_date": "2025-09-23",
     "parameters": 235e9,
     "training_compute_flop": 4.8e24,
-    "compute_basis": "Our estimate. Qwen3-VL technical report (arXiv:2511.21631): flagship is 235B total / 22B active MoE built on the Qwen3 backbone. Assuming the VL training mirrors Qwen3-235B-A22B's ~36T tokens at 22B active: 6 x 22e9 x 36e12 = 4.75e24. Token count assumed equal to the Qwen3 text base (report does not separately state VL token volume); active-param count is official.",
+    "compute_basis": "Cumulative lower-bound estimate: the Qwen3-VL report says the 235B-total/22B-active MoE uses the Qwen3 backbone; Epoch estimates that inherited Qwen3-235B-A22B base at 6 x 22e9 x 36e12 = 4.752e24 FLOP, rounded here to 4.8e24; the report does not disclose the incremental VL token volume, so no extra term is invented.",
     "confidence": 0.35,
     "source_urls": ["https://arxiv.org/abs/2511.21631", "https://arxiv.org/pdf/2511.21631"],
-    "notes": "Qwen3-VL flagship VLM, Sep 2025. NOT in Epoch (Epoch lists Qwen3-235B-A22B text variants but not Qwen3-VL). Estimate assumes shared 36T-token budget with the Qwen3 text base; flag overlap if both summed."
+    "notes": "Qwen3-VL flagship VLM, Sep 2025. The 4.8e24 figure is a cumulative floor based on Epoch's separately plotted Qwen3 text-base estimate; the undisclosed VL extension makes the true total higher."
   },
   {
     "model": "Wan2.1-T2V-14B",
@@ -114,11 +114,11 @@
     "organization": "Tencent",
     "publication_date": "2025-03-21",
     "parameters": 560e9,
-    "training_compute_flop": null,
-    "compute_basis": "No defensible standalone pretraining figure. Hunyuan-T1 is the reasoning model built ON Hunyuan-TurboS (Tencent T1 page) via heavy RL post-training (Tencent states 96.7% of post-training compute went to RL). The base pretrain compute is captured under Hunyuan-TurboS (~5.4e24); the incremental RL compute is unpublished. training_compute_flop=null to avoid double-counting the TurboS base.",
-    "confidence": 0.2,
-    "source_urls": ["https://tencent.github.io/llm.hunyuan.T1/README_EN.html", "https://the-decoder.com/tencent-develops-reasoning-model-that-matches-openais-o1-capabilities/"],
-    "notes": "Reasoning model on the TurboS base, Mar 2025. NOT in Epoch inventory. Standalone compute not separable from TurboS; RL post-training volume unpublished."
+    "training_compute_flop": 5.4e24,
+    "compute_basis": "Cumulative lower-bound estimate: Tencent states Hunyuan-T1 is built on Hunyuan-TurboS, whose 56B-active, 16T-token pretraining gives 6 x 56e9 x 16e12 = 5.38e24, rounded to 5.4e24 FLOP; Tencent says 96.7% of T1 post-training compute went to RL but does not publish its absolute amount, so 5.4e24 base + unknown positive T1 extension is reported as a 5.4e24 floor.",
+    "confidence": 0.4,
+    "source_urls": ["https://tencent.github.io/llm.hunyuan.T1/README_EN.html", "https://the-decoder.com/tencent-develops-reasoning-model-that-matches-openais-o1-capabilities/", "https://arxiv.org/abs/2505.15431"],
+    "notes": "Reasoning model on the separately plotted TurboS base, Mar 2025. The cumulative figure is a lower bound because Tencent publishes the post-training mix but not the incremental RL compute."
   },
   {
     "model": "Hunyuan-A13B",
@@ -159,21 +159,21 @@
     "publication_date": "2025-04-17",
     "parameters": 200e9,
     "training_compute_flop": 1.4e24,
-    "compute_basis": "Our estimate. MoE 200B total / 20B active (ByteDance Seed blog). Token count not officially stated; ByteDance Seed base models are ~10-20T-token class. Taking ~12T tokens for the pretrained base under the reasoning model: 6 x 20e9 x 12e12 = 1.44e24. NOTE this is the base-pretrain estimate; the RL reasoning post-training adds an unpublished increment. Token count assumed, not first-party.",
+    "compute_basis": "Cumulative lower-bound estimate: ByteDance reports a 200B-total/20B-active MoE but no token count; assuming ~12T base-model tokens gives 6 x 20e9 x 12e12 = 1.44e24, rounded to 1.4e24 FLOP, plus an unpublished positive RL post-training increment that is not invented here.",
     "confidence": 0.3,
     "source_urls": ["https://seed.bytedance.com/en/blog/bytedance-s-latest-thinking-model-seed-thinking-v1-5-technical-details-disclosed"],
-    "notes": "ByteDance reasoning MoE (200B/20B), Apr 2025. NOT in Epoch inventory (Epoch has Seed-1.6-Thinking and Seed1.5-VL, not Seed-Thinking-v1.5). Token count assumed; flag estimate."
+    "notes": "ByteDance reasoning MoE (200B/20B), Apr 2025. The reported cumulative floor inherits a team-estimated base because ByteDance does not publish its token count; RL compute is also unpublished."
   },
   {
     "model": "UI-TARS-72B",
     "organization": "ByteDance",
     "publication_date": "2025-01-21",
     "parameters": 72e9,
-    "training_compute_flop": 3.2e22,
-    "compute_basis": "Our estimate of the incremental GUI-agent training only. UI-TARS-72B is built by continually training Qwen2-VL-72B on ~50B tokens of GUI-interaction data (arXiv:2501.12326; HF model card): 6 x 72e9 x 50e9 = 2.16e22, rounded up to ~3.2e22 to include DPO. The Qwen2-VL-72B base pretrain is counted separately. Token count and base both first-party.",
+    "training_compute_flop": 3.75e24,
+    "compute_basis": "Cumulative estimate: UI-TARS reports continual training of Qwen2-VL-72B on ~50B GUI tokens, giving 6 x 72e9 x 50e9 = 2.16e22 and rounded to 3.2e22 FLOP including DPO; 3.72e24 cumulative Qwen2-VL-72B base + 0.032e24 incremental UI-TARS training = 3.752e24, rounded to 3.75e24 FLOP.",
     "confidence": 0.4,
     "source_urls": ["https://arxiv.org/html/2501.12326v1", "https://huggingface.co/ByteDance-Seed/UI-TARS-72B-DPO"],
-    "notes": "GUI-agent model continual-trained on Qwen2-VL-72B, Jan 2025. NOT in Epoch inventory. Compute counts only the ~50B-token continual-training stage (base captured under Qwen2-VL-72B)."
+    "notes": "GUI-agent model continually trained on Qwen2-VL-72B, Jan 2025. The cumulative total includes the separately plotted Qwen2-VL-72B base; 3.2e22 FLOP remains the estimated incremental stage."
   },
   {
     "model": "Seedream 3.0",

@@ -26,11 +26,11 @@
     "organization": "DeepSeek",
     "publication_date": "2024-02-05",
     "parameters": 7e9,
-    "training_compute_flop": 2.1e22,
-    "compute_basis": "Estimated (6ND, continued pre-train only): initialized from DeepSeek-Coder-v1.5 7B, continually trained on 500B tokens; 6 x 7e9 x 500e9 = 2.1e22. Counts only the math continued-pretrain stage, not the inherited base.",
+    "training_compute_flop": 1.89e23,
+    "compute_basis": "Cumulative estimate from DeepSeek's model cards and reports: DeepSeek-LLM 7B was trained on 2T tokens (6 x 7e9 x 2e12 = 8.4e22 FLOP), DeepSeek-Coder-v1.5 continued from it on another 2T (8.4e22), and DeepSeekMath continued for 500B more (6 x 7e9 x 500e9 = 2.1e22); 8.4e22 LLM base + 8.4e22 coder extension + 2.1e22 incremental math training = 1.89e23 FLOP.",
     "confidence": 0.55,
-    "source_urls": ["https://arxiv.org/abs/2402.03300"],
-    "notes": "GRPO paper model. 500B-token continued pre-train (120B math + code/web/arXiv mix). FLOP excludes the base-model compute it was initialized from. Not in Epoch inventory."
+    "source_urls": ["https://arxiv.org/abs/2402.03300", "https://huggingface.co/deepseek-ai/deepseek-coder-7b-base-v1.5", "https://arxiv.org/abs/2401.02954"],
+    "notes": "GRPO paper model. The cumulative total follows the full two-level inheritance chain from DeepSeek-LLM through DeepSeek-Coder-v1.5; 2.1e22 FLOP remains the incremental 500B-token math stage."
   },
   {
     "model": "DeepSeek-V2-Lite",
@@ -49,10 +49,10 @@
     "publication_date": "2024-12-13",
     "parameters": 27e9,
     "training_compute_flop": 2.2e22,
-    "compute_basis": "Estimated (6ND, MoE active + assumed VL token budget): 27B total / 4.5B activated. VL training-token count not disclosed; assume ~0.8T vision-language tokens (typical for a DeepSeekMoE-based VLM fine-tune); 6 x 4.5e9 x 0.8e12 = 2.2e22.",
+    "compute_basis": "UNRESOLVED cumulative accounting: the DeepSeek-VL2 report describes a pretrained DeepSeekMoE-27B base but publishes no base-training token count, and that base is absent from Epoch; the retained 2.2e22 FLOP is only the prior assumed incremental VL stage (6 x 4.5e9 active x assumed 0.8e12 tokens), so a defensible base + extension total cannot be built.",
     "confidence": 0.25,
     "source_urls": ["https://arxiv.org/abs/2412.10302", "https://github.com/deepseek-ai/DeepSeek-VL2"],
-    "notes": "MoE vision-language model on DeepSeekMoE + MoonViT-style encoder. Token budget is OUR assumption (not disclosed) -> low confidence. Not in Epoch inventory."
+    "notes": "MoE vision-language model on an unpublished-compute DeepSeekMoE-27B base. This remains the sole plotted team exception to cumulative accounting: both the base compute and VL token budget are unavailable, and the retained incremental estimate is low confidence."
   },
   {
     "model": "DeepSeek-V3.1",
@@ -60,7 +60,7 @@
     "publication_date": "2025-08-21",
     "parameters": 671e9,
     "training_compute_flop": 3.7e24,
-    "compute_basis": "Estimated (6ND, MoE active, base + extension): V3 base (37B active x 14.8T = 3.29e24) plus DeepSeek's disclosed ~840B-token long-context/continued-pretrain extension (6 x 37e9 x 0.84e12 = 1.9e23); total ~3.5e24, rounded to 3.7e24 to include the V3.1 hybrid-reasoning extension.",
+    "compute_basis": "Cumulative estimate: the inherited V3 base gives 6 x 37e9 active x 14.8e12 tokens = 3.29e24 FLOP; DeepSeek discloses an ~840B-token continued-pretraining stage adding 6 x 37e9 x 0.84e12 = 1.9e23; 3.29e24 base + 0.19e24 incremental pretraining = 3.48e24, rounded to 3.7e24 to allow for the unpublished hybrid-reasoning extension.",
     "confidence": 0.4,
     "source_urls": ["https://api-docs.deepseek.com/news/news250821", "https://huggingface.co/deepseek-ai/DeepSeek-V3.1"],
     "notes": "Hybrid (think/non-think) update on the V3 base; 671B total / 37B active. Most compute is inherited V3 pre-training. Epoch lists 'DeepSeek-V3 (Mar 2025)' but not V3.1 specifically."
@@ -71,7 +71,7 @@
     "publication_date": "2025-09-29",
     "parameters": 671e9,
     "training_compute_flop": 3.8e24,
-    "compute_basis": "Estimated: continued-pretrain/sparse-attention experiment on the V3.1 base; adds a modest continued-pretrain budget on top of V3.1 (~3.7e24). Marginal new compute small; total dominated by inherited V3 pre-training.",
+    "compute_basis": "Cumulative estimate: V3.2-Exp continues from the ~3.7e24 FLOP V3.1 base; the sparse-attention continued/post-training amount is unpublished, so we retain the prior ~0.1e24 incremental allowance; 3.7e24 base + ~0.1e24 extension = ~3.8e24 FLOP.",
     "confidence": 0.35,
     "source_urls": ["https://api-docs.deepseek.com/news/news250929", "https://arxiv.org/abs/2412.19437"],
     "notes": "DeepSeek Sparse Attention experimental release (V3.2 official 2025-12-01). 671B/37B-active MoE. FLOP near-identical to V3.1; new compute is incremental. Not separately in Epoch inventory."
@@ -158,22 +158,22 @@
     "organization": "Shanghai AI Laboratory (OpenGVLab)",
     "publication_date": "2024-12-05",
     "parameters": 78e9,
-    "training_compute_flop": null,
-    "compute_basis": "No defensible training-compute estimate: InternVL2.5-78B composes a 6B InternViT vision encoder with a ~72B Qwen2.5 LLM backbone (not trained from scratch by OpenGVLab); the multimodal alignment/SFT token budget is undisclosed and the LLM compute belongs to Alibaba's Qwen2.5-72B. Left null to avoid double-counting.",
-    "confidence": 0.0,
-    "source_urls": ["https://internvl.github.io/blog/2024-12-05-InternVL-2.5/", "https://github.com/OpenGVLab/InternVL"],
-    "notes": "First open MLLM >70% on MMMU. Compute null on purpose (backbone is Qwen2.5-72B; alignment tokens undisclosed). Included for inventory completeness. Not in Epoch inventory."
+    "training_compute_flop": 7.8e24,
+    "compute_basis": "Cumulative lower-bound estimate: OpenGVLab reports that InternVL2.5-78B combines a 5.54B InternViT with a 72.70B language model; its Qwen2.5-72B backbone has an Epoch estimate of 6 x 72.7e9 x 18e12 = 7.8e24 FLOP, while the inherited InternViT training and InternVL multimodal alignment/SFT compute are unpublished, so 7.8e24 + unknown positive terms is reported as a 7.8e24 floor.",
+    "confidence": 0.3,
+    "source_urls": ["https://internvl.github.io/blog/2024-12-05-InternVL-2.5/", "https://github.com/OpenGVLab/InternVL", "https://epoch.ai/data/large_scale_ai_models.csv"],
+    "notes": "First open MLLM above 70% on MMMU. The cumulative figure includes Epoch's separately plotted Qwen2.5-72B estimate but omits unavailable InternViT and InternVL training terms, so it is a lower bound."
   },
   {
     "model": "Yi-1.5 34B",
     "organization": "01.AI",
     "publication_date": "2024-05-13",
     "parameters": 34e9,
-    "training_compute_flop": 1.0e23,
-    "compute_basis": "Estimated (6ND, continued pre-train only): 01.AI states Yi-1.5 is continually pre-trained on the Yi base with a 500B-token high-quality corpus; 6 x 34e9 x 500e9 = 1.02e23. Counts only the 1.5 continued-pretrain stage (the ~3.1T-token Yi base is the separately-listed Yi-34B).",
+    "training_compute_flop": 7.12e23,
+    "compute_basis": "Cumulative estimate: Epoch estimates the inherited Yi-34B base at 6.1e23 FLOP from ~3T tokens; 01.AI states Yi-1.5 continues from Yi on a 500B-token corpus, adding 6 x 34e9 x 500e9 = 1.02e23; 6.1e23 base + 1.02e23 incremental continued pretraining = 7.12e23 FLOP.",
     "confidence": 0.5,
     "source_urls": ["https://www.marktechpost.com/2024/05/18/01-ai-introduces-yi-1-5-34b-model-an-upgraded-version-of-yi-with-a-high-quality-corpus-of-500b-tokens-and-fine-tuned-on-3m-diverse-fine-tuning-samples/", "https://huggingface.co/01-ai/Yi-1.5-34B"],
-    "notes": "Conflicting figures exist (500B continued vs 3.1T from-scratch); we treat it as a 500B continued-pretrain on the existing Yi-34B base (Epoch already lists Yi-34B). FLOP excludes inherited base. Moderate confidence."
+    "notes": "Conflicting figures exist (500B continued versus 3.1T described for the full model); this treats 500B as the incremental stage on the separately plotted Yi-34B base. Epoch's direct Yi-1.5-34B estimate is 7.344e23 FLOP, 3% above this cumulative estimate."
   },
   {
     "model": "MiniCPM-2.4B",

@@ -159,7 +159,7 @@
     "publication_date": "2024-07-05",
     "parameters": 600000000000,
     "training_compute_flop": 1.5e25,
-    "compute_basis": "Back-of-envelope: incremental update over SenseNova 5.0 (~30% performance gain), same >10TB token claim and ~600B MoE. Assuming modestly more compute than 5.0; same dense-equivalent upper bound ~1.5e25. Active params undisclosed.",
+    "compute_basis": "Cumulative back-of-envelope: SenseNova 5.5 continues from the team-estimated ~1.4e25 FLOP SenseNova 5.0 base; no extension compute is disclosed, so we retain the prior assumed ~1e24 incremental allowance; 1.4e25 estimated base + ~0.1e25 assumed extension = ~1.5e25 FLOP. Both figures are highly uncertain because active params and tokens are undisclosed.",
     "confidence": 0.18,
     "source_urls": ["https://www.marktechpost.com/2024/07/10/sensetime-unveiled-sensenova-5-5-setting-a-new-benchmark-to-rival-gpt-4o-in-5-out-of-8-key-metrics/"],
     "notes": "Closed MoE update of 5.0. Same caveats as SenseNova 5.0 (TB-not-tokens, undisclosed active params). Low confidence. Not in Epoch inventory. (SenseNova V6, Apr 2025, >600B MoE, also exists but with no token disclosure.)"

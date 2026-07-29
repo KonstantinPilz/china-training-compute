@@ -2,6 +2,8 @@
 
 Goal: augment Epoch's notable-models data with Chinese training runs (model released **2023-01-01 or later**) that Epoch is **missing** or for which Epoch has **no training-compute estimate**.
 
+**Accounting convention (required): `training_compute_flop` is cumulative compute embodied in the released model, so a continued-pretrained, multimodal, or post-trained model includes its inherited base training even when the base has its own point; show `base + extension = total` and any unknown term in `compute_basis`.** Most plotted points come from Epoch, whose estimates use this cumulative convention, and readers interpret the chart as the total training behind each model rather than as an additive rollup across points.
+
 The China models (since 2023) already in Epoch are listed in `epoch_china_inventory.txt`, with the
 file each came from and whether Epoch has a compute figure for it. **Do not re-add those** unless you
 are supplying a training-compute estimate Epoch lacks (note that in `compute_basis`).
@@ -32,7 +34,7 @@ Write your findings to `data/additions_<yourname>.json` as a JSON array of objec
 Field rules:
 - `publication_date`: YYYY-MM-DD (use YYYY-MM-01 if only month known; flag in notes).
 - `training_compute_flop`: a NUMBER in FLOP (e.g. `3.0e24`), or `null` if no defensible estimate. If you estimate it, show the arithmetic in `compute_basis` (params × tokens × 6 for dense; adjust for MoE active params).
-- `compute_basis`: one sentence. State whether it's an official figure, a third-party estimate (link it), or your own back-of-envelope (show the math). Per Konstantin's reasoning-transparency rules, every compute number must be justified.
+- `compute_basis`: one sentence. State whether it's an official figure, a third-party estimate (link it), or your own back-of-envelope (show the math). For a derived model, preserve the incremental figure and identify whether the reported cumulative total is exact, estimated, or only a lower bound because an extension is unpublished. Per Konstantin's reasoning-transparency rules, every compute number must be justified.
 - `confidence`: 0–1, your confidence in the compute number being within ~3x.
 - `source_urls`: at least one. Prefer primary (tech report, paper, official blog). Flag paywalled/second-hand access.
 - Only include models you can date and attribute to a China-based organization.
