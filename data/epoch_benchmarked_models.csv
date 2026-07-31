@@ -484,12 +484,11 @@ GLM-4.7,zai-org/glm-4.7,GLM-4.7 (Novita),Z.ai (Zhipu AI),China,2025-12-22,Open w
 Megatron-Turing NLG 530B,Megatron-Turing NLG 530B,,"Microsoft,NVIDIA",United States of America,2022-01-28,Unreleased,2021-10-11,8.586e+23,Confident,,,,Megatron-Turing NLG 530B,megatron-turing-nlg-530b,,,
 Claude Fable 5,claude-fable-5,Claude Fable 5,Anthropic,United States of America,2026-06-09,API access,2026-06-09,,Confident,,Claude Fable 5,,Claude Fable 5,claude-fable-5,160.73,158.5,164.46
 GPT-5.6 Sol,gpt-5.6-sol_unknown,GPT-5.6 Sol (unknown thinking),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Sol (unknown thinking),,GPT-5.6 Sol,gpt-5-6-sol,161.72,159.31,165.5
+Claude Sonnet 5,claude-sonnet-5_unknown,Claude Sonnet 5 (unknown thinking),Anthropic,United States of America,2026-06-30,API access,2026-06-30,,Confident,,Claude Sonnet 5 (unknown thinking),,Claude Sonnet 5,claude-sonnet-5,153.47,151.14,155.36
 GPT-5.4 Mini,gpt-5.4-mini-2026-03-17_unknown,GPT-5.4 mini (unknown thinking),OpenAI,United States of America,2026-03-17,API access,2026-03-17,,Likely,,GPT-5.4 mini (unknown thinking),,GPT-5.4 Mini,gpt-5-4-mini,148.88,147.06,150.0
 GPT‑5-Codex,gpt-5-codex_high,GPT-5-codex (high),OpenAI,United States of America,2025-09-15,API access,2025-09-15,,Unknown,,GPT-5-codex,,GPT‑5-Codex,gpt5-codex,,,
-GPT‑5-Codex,gpt-5-codex,GPT-5-codex,OpenAI,United States of America,2025-09-15,API access,2025-09-15,,Unknown,,GPT-5-codex,,GPT‑5-Codex,gpt5-codex,,,
 GPT-5.4 Nano,gpt-5.4-nano-2026-03-17_unknown,GPT-5.4 nano (unknown thinking),OpenAI,United States of America,2026-03-17,API access,2026-03-17,,Likely,,GPT-5.4 nano (unknown thinking),,GPT-5.4 Nano,gpt-5-4-nano,146.61,144.18,148.22
 Claude Sonnet 4,claude-sonnet-4-20250514_unknown,Claude Sonnet 4 (unknown thinking),Anthropic,United States of America,2025-05-22,API access,2025-05-22,,Unknown,"Anthropic's mid-sized Claude 4 series model, evaluated at up to 12,000 reasoning tokens.",Claude Sonnet 4 (12k thinking),,Claude Sonnet 4,claude-sonnet-4,142.18,138.59,143.51
-gpt-oss-120b,gpt-oss-120b_high,,OpenAI,United States of America,2025-08-05,Open weights (unrestricted),2025-08-05,4.94e+24,Confident,"The larger one of OpenAI's two latest open source language models, evaluated with high reasoning effort.",,,gpt-oss-120b,gpt-oss-120b,140.61,136.13,143.38
 gpt-oss-120b,gpt-oss-120b,,OpenAI,United States of America,2025-08-05,Open weights (unrestricted),2025-08-05,4.94e+24,Confident,The larger one of OpenAI's two latest open source language models.,,,gpt-oss-120b,gpt-oss-120b,140.61,136.13,143.38
 Kimi K2 Thinking,kimi-k2-thinking,Kimi K2 Thinking,Moonshot,China,2025-11-06,Open weights (restricted use),2025-11-06,4.1999999999999997e+24,Likely,,,,Kimi K2 Thinking,kimi-k2-thinking,146.04,143.88,147.44
 Claude Mythos 5,claude-mythos-preview-early,Claude Mythos Preview (Early),Anthropic,United States of America,2026-04-07,Unreleased,2026-06-09,,Confident,,,,Claude Mythos 5,claude-mythos-5,,,
@@ -589,6 +588,7 @@ Gemini Robotics-ER 1.6,gemini-robotics-er-1.6-preview,Gemini Robotics-ER 1.6 Pre
 GLM-4.5,glm-4.5_thinking,GLM-4.5 Thinking,"Z.ai (Zhipu AI),Tsinghua University",China,2025-08-05,Open weights (unrestricted),2025-08-05,4.42e+24,Confident,,,,GLM-4.5,glm-4-5,,,
 GPT-5 Pro,gpt-5-pro-2025-10-06_medium,GPT-5 Pro,OpenAI,United States of America,2025-10-07,API access,2025-10-07,,Unknown,,GPT-5 Pro (medium),,GPT-5 Pro,gpt-5-pro,150.42,149.05,152.35
 Claude Sonnet 5,claude-sonnet-5_medium,Claude Sonnet 5 (medium),Anthropic,United States of America,2026-06-30,API access,2026-06-30,,Confident,,Claude Sonnet 5 (medium),,Claude Sonnet 5,claude-sonnet-5,153.47,151.14,155.36
+gpt-oss-120b,gpt-oss-120b_high,,OpenAI,United States of America,2025-08-05,Open weights (unrestricted),2025-08-05,4.94e+24,Confident,"The larger one of OpenAI's two latest open source language models, evaluated with high reasoning effort.",,,gpt-oss-120b,gpt-oss-120b,140.61,136.13,143.38
 Qwen3-235B-A22B,Qwen3-235B-A22B,,Alibaba,China,2025-04-29,Open weights (unrestricted),2025-04-29,4.752e+24,Likely,,Qwen3 (Apr 2025),,Qwen3-235B-A22B,qwen3-235b-a22b,139.58,135.08,141.3
 ,openhands-lm-32b-v0.1,,,,2024-03-26,,,,Unverified,,,,,openhands-lm-32b-v0-1,,,
 Kimi K2,Kimi-K2-Instruct,Kimi K2 Instruct,Moonshot,China,2025-07-12,Open weights (restricted use),2025-07-11,2.976e+24,Confident,Moonshot AI’s 1-trillion parameter scale model.,,Kimi K2 (Jul 2025),Kimi K2 (Jul 2025),kimi-k2-jul-2025,140.45,136.99,142.2
@@ -643,7 +643,6 @@ Reka Flash 3,reka-flash-3,,Reka AI,United States of America,2025-03-10,Open weig
 Mistral NeMo,Mistral-Nemo-Instruct-2407,,Mistral AI,France,2024-07-18,Open weights (unrestricted),2024-07-18,,Confident,,,,Mistral NeMo,mistral-nemo,118.36,110.4,121.7
 Llama 3.2 3B,Llama-3.2-3B-Instruct,,Meta AI,United States of America,2024-09-24,Open weights (restricted use),2024-09-24,1.7334e+23,Confident,A 3 billion-parameter instruction-tuned model in Meta's Llama 3.2 series.,,,Llama 3.2 3B,llama-3-2-3b,,,
 Llama 3.2 1B,Llama-3.2-1B-Instruct,,Meta AI,United States of America,2024-09-24,Open weights (restricted use),2024-09-24,6.642e+22,Confident,A 1 billion-parameter instruction-tuned model in Meta's Llama 3.2 series.,,,Llama 3.2 1B,llama-3-2-1b,,,
-Claude Sonnet 5,claude-sonnet-5_unknown,Claude Sonnet 5 (unknown thinking),Anthropic,United States of America,2026-06-30,API access,2026-06-30,,Confident,,Claude Sonnet 5 (unknown thinking),,Claude Sonnet 5,claude-sonnet-5,153.47,151.14,155.36
 SWE-1.7,swe-1.7,SWE-1.7,Cognition,United States of America,2026-07-08,,2026-07-08,,Unverified,,SWE-1.7,,SWE-1.7,swe-1-7,,,
 Composer 2.5,Composer 2.5,Composer 2.5,Cursor,United States of America,2026-05-18,,2026-05-18,3.87e+25,Likely,,,,Composer 2.5,composer-2-5,,,
 GLM-5.2,glm-5.2_none,GLM-5.2,Z.ai (Zhipu AI),China,2026-06-16,Open weights (unrestricted),2026-06-16,,Confident,,GLM-5.2 (no thinking),,GLM-5.2,glm-5-2,151.37,149.78,153.35
@@ -672,6 +671,7 @@ T5-3B,T5-3B,,Google,United States of America,,Open weights (unrestricted),2019-1
 Pixtral Large,pixtral-large-2411,,Mistral AI,France,2024-11-18,Open weights (non-commercial),2024-11-18,,Confident,,,,Pixtral Large,pixtral-large,,,
 Gemini 2.0 Flash,gemini-2.0-flash-02-05,,"Google DeepMind,Google",United States of America,2025-02-05,API access,2024-12-11,,Unknown,"A February 2025 version of Gemini 2.0 Flash, a small language model from Google DeepMind.",,Gemini 2.0 Flash (Feb 2025),Gemini 2.0 Flash (Feb 2025),gemini-2-0-flash-feb-2025,135.78,132.59,137.48
 ,ml-elephant,Zoo Ml-Ephant,,,,,,,Unverified,,,,,ml-elephant,,,
+GPT‑5-Codex,gpt-5-codex,GPT-5-codex,OpenAI,United States of America,2025-09-15,API access,2025-09-15,,Unknown,,GPT-5-codex,,GPT‑5-Codex,gpt5-codex,,,
 gpt-oss-120b,gpt-oss-120b_unknown,gpt-oss-120b (unknown thinking),OpenAI,United States of America,2025-08-05,Open weights (unrestricted),2025-08-05,4.94e+24,Confident,"The larger one of OpenAI's two latest open source language models, evaluated with high reasoning effort.",,,gpt-oss-120b,gpt-oss-120b,140.61,136.13,143.38
 Qwen3.5-9B,qwen3.5-9B,,Alibaba,China,2026-02-24,Open weights (restricted use),2026-02-24,,Confident,,,,Qwen3.5-9B,qwen3-5-9b,,,
 gpt-oss-20b,gpt-oss-20b_unknown,gpt-oss-20b (unknown thinking),OpenAI,United States of America,2025-08-05,Open weights (unrestricted),2025-08-05,5.49e+23,Confident,"The smaller one of OpenAI's two latest open source language models, evaluated with high reasoning effort.",,,gpt-oss-20b,gpt-oss-20b,,,
