@@ -1,4 +1,7 @@
 Model,id_model_version,Display name,Organization,Country (of organization),Version release date,Model accessibility,Publication date,Training compute (FLOP),Confidence,Description,Unique display name,Model aggregation,model_group,slug,eci,eci_ci_low,eci_ci_high
+Inkling-Small,inkling-small_xhigh,Inkling Small (xhigh),Thinking Machines,United States of America,2026-07-15,Open weights (unrestricted),2026-07-30,,Confident,,Inkling Small (xhigh),,Inkling-Small,inkling-small,,,
+Gemini 3.7 Flash,gemini-3.7-flash_high,Gemini 3.7 Flash (high),Google DeepMind,United States of America,2026-08-13,API access,2026-08-13,,Confident,,Gemini 3.7 Flash (high),,Gemini 3.7 Flash,gemini-3-7-flash,,,
+Grok 4.6,grok-4.6_xhigh,Grok 4.6 (xhigh),xAI,United States of America,2026-08-12,API access,2026-08-12,,Confident,,Grok 4.6 (xhigh),,Grok 4.6,grok-4-6,,,
 Grok 4.6,grok-4.6_high,Grok 4.6 (high),xAI,United States of America,2026-08-12,API access,2026-08-12,,Confident,,Grok 4.6 (high),,Grok 4.6,grok-4-6,,,
 Claude Opus 4.7,claude-opus-4-7_high,Claude Opus 4.7 (high),Anthropic,United States of America,2026-04-16,API access,2026-04-16,,Likely,,Claude Opus 4.7 (high),,Claude Opus 4.7,claude-opus-4-7,155.76,153.99,157.7
 Gemini 3.5 Flash,gemini-3.5-flash_high,Gemini 3.5 Flash,Google,United States of America,2026-05-19,API access,2026-05-19,,Confident,,Gemini 3.5 Flash (high),,Gemini 3.5 Flash,gemini-3-5-flash,154.56,152.58,156.62
