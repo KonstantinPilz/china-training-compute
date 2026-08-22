@@ -1,8 +1,8 @@
 Model,id_model_version,Display name,Organization,Country (of organization),Version release date,Model accessibility,Publication date,Training compute (FLOP),Confidence,Description,Unique display name,Model aggregation,model_group,slug,eci,eci_ci_low,eci_ci_high
 DeepSeek V4 Pro 0813,deepseek-v4-pro-0813_max,DeepSeek V4 Pro 0813 (max),DeepSeek,China,2026-08-13,Open weights (unrestricted),2026-08-13,9.702e+24,Unverified,,DeepSeek V4 Pro 0813 (max),,DeepSeek V4 Pro 0813,deepseek-v4-pro-0813,,,
+Grok 4.6,grok-4.6_xhigh,Grok 4.6 (xhigh),xAI,United States of America,2026-08-12,API access,2026-08-12,,Confident,,Grok 4.6 (xhigh),,Grok 4.6,grok-4-6,155.94,154.09,158.41
 Inkling-Small,inkling-small_xhigh,Inkling Small (xhigh),Thinking Machines,United States of America,2026-07-15,Open weights (unrestricted),2026-07-30,,Confident,,Inkling Small (xhigh),,Inkling-Small,inkling-small,150.17,147.28,152.0
 Gemini 3.7 Flash,gemini-3.7-flash_high,Gemini 3.7 Flash (high),Google DeepMind,United States of America,2026-08-13,API access,2026-08-13,,Confident,,Gemini 3.7 Flash (high),,Gemini 3.7 Flash,gemini-3-7-flash,156.85,155.03,159.81
-Grok 4.6,grok-4.6_xhigh,Grok 4.6 (xhigh),xAI,United States of America,2026-08-12,API access,2026-08-12,,Confident,,Grok 4.6 (xhigh),,Grok 4.6,grok-4-6,155.94,154.09,158.41
 Grok 4.6,grok-4.6_high,Grok 4.6 (high),xAI,United States of America,2026-08-12,API access,2026-08-12,,Confident,,Grok 4.6 (high),,Grok 4.6,grok-4-6,155.94,154.09,158.41
 Claude Opus 4.7,claude-opus-4-7_high,Claude Opus 4.7 (high),Anthropic,United States of America,2026-04-16,API access,2026-04-16,,Likely,,Claude Opus 4.7 (high),,Claude Opus 4.7,claude-opus-4-7,155.98,154.07,157.99
 Gemini 3.5 Flash,gemini-3.5-flash_high,Gemini 3.5 Flash,Google,United States of America,2026-05-19,API access,2026-05-19,,Confident,,Gemini 3.5 Flash (high),,Gemini 3.5 Flash,gemini-3-5-flash,154.45,152.6,156.73
@@ -322,7 +322,7 @@ Ministral 8B,ministral-8b-2410,,Mistral AI,France,2024-10-16,Open weights (non-c
 Mixtral 8x7B,open-mixtral-8x7b,,Mistral AI,France,2023-12-11,Open weights (unrestricted),2023-12-11,7.74e+23,Speculative,,,,Mixtral 8x7B,mixtral-8x7b,117.75,109.15,120.38
 Mistral 7B,open-mistral-7b,,Mistral AI,France,2023-09-27,Open weights (unrestricted),2023-10-10,,Confident,,,Mistral 7B v0.3,Mistral 7B v0.3,mistral-7b-v0-3,,,
 Mistral NeMo,open-mistral-nemo-2407,,Mistral AI,France,2024-07-18,Open weights (unrestricted),2024-07-18,,Confident,,,,Mistral NeMo,mistral-nemo,118.02,109.96,121.65
-Eurus-2-7B-PRIME,Eurus-2-7B-PRIME,,"Tsinghua University,University of Illinois Urbana-Champaign (UIUC),Shanghai AI Lab,Peking University,Shanghai Jiao Tong University,CUHK Shenzhen Research Institute","China,United States of America",2024-12-31,Open weights (unrestricted),2025-02-03,4.01915904e+20,Speculative,,,,Eurus-2-7B-PRIME,eurus-2-7b-prime,,,
+Eurus-2-7B-PRIME,Eurus-2-7B-PRIME,,"Tsinghua University,University of Illinois Urbana-Champaign (UIUC),Shanghai AI Lab,Peking University,Shanghai Jiao Tong University,CUHK Shenzhen Research Institute","United States of America,China",2024-12-31,Open weights (unrestricted),2025-02-03,4.01915904e+20,Speculative,,,,Eurus-2-7B-PRIME,eurus-2-7b-prime,,,
 Gemini 2.5 Deep Think,gemini-2.5-deep-think-2025-08-01-webapp,,"Google,Google DeepMind",United States of America,2025-08-01,Hosted access (no API),2025-08-01,,Unknown,,,,Gemini 2.5 Deep Think,gemini-2-5-deep-think,,,
 Claude Opus 4.8,claude-opus-4-8_unknown,Claude Opus 4.8,Anthropic,United States of America,2026-05-28,API access,2026-05-28,,Confident,,Claude Opus 4.8 (unknown thinking),,Claude Opus 4.8,claude-opus-4-8,157.78,155.74,160.17
 Claude Opus 4.6,claude-opus-4-6_high,Claude Opus 4.6 (high),Anthropic,United States of America,2026-02-05,API access,2026-02-05,,Likely,,Claude Opus 4.6 (high),,Claude Opus 4.6,claude-opus-4-6,155.01,153.19,156.89
@@ -401,7 +401,7 @@ GPT-3 Medium,ada,,OpenAI,United States of America,,,2020-06-22,6.41e+20,Confiden
 GPT-3 XL,babbage,,OpenAI,United States of America,2020-06-22,,2020-06-22,2.38e+21,Confident,,,GPT-3 XL (babbage),GPT-3 XL (babbage),gpt-3-xl-babbage,,,
 Baichuan 2-7B,Baichuan-2-7B-Base,,Baichuan,China,2023-09-20,Open weights (restricted use),2023-09-20,1.092e+23,Confident,,,,Baichuan 2-7B,baichuan-2-7b,95.17,81.59,103.66
 Baichuan2-13B,Baichuan-2-13B-Base,,Baichuan,China,2023-09-06,Open weights (restricted use),2023-09-06,2.03e+23,Confident,,,,Baichuan2-13B,baichuan2-13b,102.22,91.02,109.33
-BLOOM-176B,bloom,,"Hugging Face,BigScience","United States of America,France",2022-07-06,Open weights (restricted use),2022-07-11,3.65664e+23,Confident,,,,BLOOM-176B,bloom-176b,,,
+BLOOM-176B,bloom,,"Hugging Face,BigScience","France,United States of America",2022-07-06,Open weights (restricted use),2022-07-11,3.65664e+23,Confident,,,,BLOOM-176B,bloom-176b,,,
 Cerebras-GPT-13B,Cerebras-GPT-13B,,Cerebras Systems,United States of America,2023-03-20,Open weights (unrestricted),2023-04-06,2.3e+22,Confident,,,,Cerebras-GPT-13B,cerebras-gpt-13b,81.79,64.11,91.7
 ,chatglm2-6b,,,,2023-06-24,,,,Unverified,,,,,chatglm2-6b,,,
 GPT-3 6.7B,curie,,OpenAI,United States of America,,,2020-06-22,1.2e+22,Confident,,,,GPT-3 6.7B,gpt-3-6-7b,,,
@@ -685,7 +685,7 @@ GLM-4.5,glm-4.5_thinking,GLM-4.5 Thinking,"Z.ai (Zhipu AI),Tsinghua University",
 GPT-5 Pro,gpt-5-pro-2025-10-06_medium,GPT-5 Pro,OpenAI,United States of America,2025-10-07,API access,2025-10-07,,Unknown,,GPT-5 Pro (medium),,GPT-5 Pro,gpt-5-pro,150.27,148.8,152.69
 video-SALMONN 2+,video-SALMONN-2plus,,ByteDance,China,2025-06-18,,2025-06-18,,Likely,,,,video-SALMONN 2+,video-salmonn-2,,,
 Gemini 1.5 Pro,gemini-1.5-pro-001-feb24,,Google DeepMind,United States of America,2024-02-15,API access,2024-02-15,,Speculative,"The first of two versions of a previous flagship model from Google DeepMind, Gemini 1.5 Pro.",,Gemini 1.5 Pro (Feb 2024),Gemini 1.5 Pro (Feb 2024),gemini-1-5-pro-feb-2024,,,
-InternVL2_5-78B,InternVL2_5-78B,,"Shanghai AI Lab,SenseTime,Tsinghua University,Nanjing University,Fudan University,Chinese University of Hong Kong (CUHK),Shanghai Jiao Tong University","China,Hong Kong",2024-12-06,Open weights (restricted use),2024-12-06,,Confident,,,,InternVL2_5-78B,internvl2-5-78b,,,
+InternVL2_5-78B,InternVL2_5-78B,,"Shanghai AI Lab,SenseTime,Tsinghua University,Nanjing University,Fudan University,Chinese University of Hong Kong (CUHK),Shanghai Jiao Tong University","Hong Kong,China",2024-12-06,Open weights (restricted use),2024-12-06,,Confident,,,,InternVL2_5-78B,internvl2-5-78b,,,
 ,Qwen2-VL-72B-Instruct,,,,2024-08-29,,,,Unverified,A 72 billion-parameter instruction-tuned vision language model in Qwen's Qwen 2 series.,,,,qwen2-vl-72b-instruct,,,
 ,LLaVA-Video-72B-Qwen2,,,,2024-09-02,,,,Unverified,,,,,llava-video-72b-qwen2,,,
 ,LinVT,,,,2024-12-06,,,,Unverified,,,,,linvt,,,
