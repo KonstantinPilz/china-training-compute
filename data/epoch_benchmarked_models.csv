@@ -397,6 +397,7 @@ Mistral Medium 3.5,mistral-medium-2604,Mistral Medium 3.5,Mistral AI,France,2026
 Laguna M.1,laguna-m.1,Laguna M.1,Poolside,United States of America,2026-04-28,,2026-04-28,,Unverified,,Laguna M.1,,Laguna M.1,laguna-m-1,,,
 Trinity Large Thinking,trinity-large-thinking,Trinity Large Thinking,Arcee AI,United States of America,2026-04-01,,2026-04-01,,Unverified,,Trinity Large Thinking,,Trinity Large Thinking,trinity-large-thinking,,,
 Muse Spark 1.1,muse-spark-1.1_high,Muse Spark 1.1 (high),Meta AI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,Muse Spark 1.1 (high),,Muse Spark 1.1,muse-spark-1-1,154.37,151.91,157.37
+Qwen 3.8 27B,qwen3.8-27b_xhigh,Qwen3.8 27B (xhigh),Alibaba,China,2026-08-14,Open weights (unrestricted),2026-08-14,,Confident,,Qwen3.8 27B (xhigh),,Qwen 3.8 27B,qwen-3-8-27b,,,
 GPT-3 Medium,ada,,OpenAI,United States of America,,,2020-06-22,6.41e+20,Confident,,,,GPT-3 Medium,gpt-3-medium,,,
 GPT-3 XL,babbage,,OpenAI,United States of America,2020-06-22,,2020-06-22,2.38e+21,Confident,,,GPT-3 XL (babbage),GPT-3 XL (babbage),gpt-3-xl-babbage,,,
 Baichuan 2-7B,Baichuan-2-7B-Base,,Baichuan,China,2023-09-20,Open weights (restricted use),2023-09-20,1.092e+23,Confident,,,,Baichuan 2-7B,baichuan-2-7b,95.17,81.59,103.66
@@ -465,16 +466,16 @@ GPT-3.5 (davinci-002),text-davinci-002,,OpenAI,United States of America,2022-03-
 XGen-7B,xgen-7b-8k-base,,Salesforce,United States of America,2023-06-27,Open weights (unrestricted),2023-09-07,8.02e+22,Confident,,XGen-7B,,XGen-7B,xgen-7b,92.19,77.04,99.81
 Yi 6B,Yi-6B,,01.AI,China,2023-11-02,Open weights (restricted use),2023-11-02,1.26e+23,Confident,,Yi-6B (chat),,Yi 6B,yi-6b,103.83,92.21,109.4
 ,Yi-9B,,,,2024-03-01,,,,Unverified,,,,,yi-9b,,,
-Claude Fable 5,claude-fable-5_unknown,Claude Fable 5 (unknown),Anthropic,United States of America,2026-06-09,API access,2026-06-09,,Confident,,Claude Fable 5 (unknown),,Claude Fable 5,claude-fable-5,162.49,159.5,166.3
-Claude Sonnet 4.6,claude-sonnet-4-6_unknown,Claude Sonnet 4.6 (unknown thinking),Anthropic,United States of America,2026-02-17,API access,2026-02-17,,Likely,,Claude Sonnet 4.6 (unknown thinking),,Claude Sonnet 4.6,claude-sonnet-4-6,152.17,149.63,154.44
-Claude Opus 4.7,claude-opus-4-7_unknown,Claude Opus 4.7 (unknown),Anthropic,United States of America,2026-04-16,API access,2026-04-16,,Likely,,Claude Opus 4.7 (unknown settings),,Claude Opus 4.7,claude-opus-4-7,155.98,154.07,157.99
-GPT-5.4,gpt-5.4-2026-03-05_unknown,GPT-5.4,OpenAI,United States of America,2026-03-05,API access,2026-03-05,,Likely,,GPT-5.4 (none),,GPT-5.4,gpt-5-4,156.5,154.7,158.57
-GLM-5.2,glm-5.2_unknown,GLM-5.2,Z.ai (Zhipu AI),China,2026-06-16,Open weights (unrestricted),2026-06-16,,Confident,,GLM-5.2 (unknown thinking),,GLM-5.2,glm-5-2,152.14,150.21,154.48
 Claude Opus 5,claude-opus-5_unknown,Claude Opus 5 (unknown),Anthropic,United States of America,2026-07-24,API access,2026-07-24,,Confident,,Claude Opus 5 (unknown),,Claude Opus 5,claude-opus-5,161.54,158.76,165.02
+Claude Fable 5,claude-fable-5_unknown,Claude Fable 5 (unknown),Anthropic,United States of America,2026-06-09,API access,2026-06-09,,Confident,,Claude Fable 5 (unknown),,Claude Fable 5,claude-fable-5,162.49,159.5,166.3
 Grok 4.5,grok-4.5_unknown,Grok 4.5 (unknown thinking),xAI,United States of America,2026-07-08,API access,2026-07-08,,Likely,,Grok 4.5 (unknown thinking),,Grok 4.5,grok-4-5,153.94,152.4,156.1
 GPT-5.6 Sol,gpt-5.6-sol_unknown,GPT-5.6 Sol (unknown thinking),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Sol (unknown thinking),,GPT-5.6 Sol,gpt-5-6-sol,161.08,158.8,165.03
+Claude Sonnet 4.6,claude-sonnet-4-6_unknown,Claude Sonnet 4.6 (unknown thinking),Anthropic,United States of America,2026-02-17,API access,2026-02-17,,Likely,,Claude Sonnet 4.6 (unknown thinking),,Claude Sonnet 4.6,claude-sonnet-4-6,152.17,149.63,154.44
+GPT-5.4,gpt-5.4-2026-03-05_unknown,GPT-5.4,OpenAI,United States of America,2026-03-05,API access,2026-03-05,,Likely,,GPT-5.4 (none),,GPT-5.4,gpt-5-4,156.5,154.7,158.57
+Claude Opus 4.7,claude-opus-4-7_unknown,Claude Opus 4.7 (unknown),Anthropic,United States of America,2026-04-16,API access,2026-04-16,,Likely,,Claude Opus 4.7 (unknown settings),,Claude Opus 4.7,claude-opus-4-7,155.98,154.07,157.99
 Muse Spark 1.1,muse-spark-1.1,Muse Spark 1.1,Meta AI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,Muse Spark 1.1,,Muse Spark 1.1,muse-spark-1-1,154.37,151.91,157.37
 Grok Build 0.1,grok-build-0.1,Grok Build 0.1,xAI,United States of America,2026-05-29,API access,2026-05-29,,Confident,,Grok Build 0.1,,Grok Build 0.1,grok-build-0-1,,,
+GLM-5.2,glm-5.2_unknown,GLM-5.2,Z.ai (Zhipu AI),China,2026-06-16,Open weights (unrestricted),2026-06-16,,Confident,,GLM-5.2 (unknown thinking),,GLM-5.2,glm-5-2,152.14,150.21,154.48
 ,T5-Base,,,,,,,,Unverified,"A version of T5, an early large language model from Google. ",,,,t5-base,,,
 ,Switch-Base,,,,,,,,Unverified,,,,,switch-base,,,
 ,T5-Large,,,,,,,,Unverified,"A version of T5, an early large language model from Google. ",,,,t5-large,,,
@@ -509,6 +510,7 @@ o3,o3-2025-04-16_unknown,o3 (unknown thinking),OpenAI,United States of America,2
 Grok 4,grok-4-0709_high,,xAI,United States of America,2025-07-09,API access,2025-07-09,5.0000000000001e+26,Speculative,,Grok 4,,Grok 4,grok-4,146.83,144.95,148.56
 Kimi K2,moonshotai/kimi-k2-0905,Kimi K2 0905 (Novita),Moonshot,China,2025-09-05,Open weights (restricted use),2025-07-11,2.976e+24,Confident,"A July 2025 preview version of Kimi K2 turbo, an updated version of Kimi K2.",,Kimi K2 (Sep 2025),Kimi K2 (Sep 2025),kimi-k2-sep-2025,,,
 Claude Fable 5,claude-fable-5,Claude Fable 5,Anthropic,United States of America,2026-06-09,API access,2026-06-09,,Confident,,Claude Fable 5,,Claude Fable 5,claude-fable-5,162.49,159.5,166.3
+Gemini 3.7 Flash,gemini-3.7-flash_unknown,Gemini 3.7 Flash (unknown),Google DeepMind,United States of America,2026-08-13,API access,2026-08-13,,Confident,,Gemini 3.7 Flash (unknown),,Gemini 3.7 Flash,gemini-3-7-flash,156.85,155.03,159.81
 GPT-5.2,gpt-5.2-2025-12-11_unknown,GPT-5.2 (unknown thinking),OpenAI,United States of America,2025-12-11,API access,2025-12-11,,Unknown,,GPT-5.2 (high),,GPT-5.2,gpt-5-2,153.31,151.59,155.21
 GPT-5,gpt-5-2025-08-07_unknown,GPT-5 (unknown thinking),OpenAI,United States of America,2025-08-07,API access,2025-08-07,6.6e+25,Speculative,"OpenAI's latest flagship frontier model, benchmarked using high reasoning effort.",GPT-5 (high),,GPT-5,gpt-5,150.0,,
 QwQ-32B,QwQ-32B (16K thinking),,Alibaba,China,2025-03-05,Open weights (unrestricted),2025-03-06,3.51e+24,Speculative,,QwQ 32B (16k thinking),QwQ-32B,QwQ-32B,qwq-32b,,,
@@ -518,7 +520,6 @@ Qwen2.5-Max,qwen2.5-max,,Alibaba,China,2025-01-28,API access,2025-01-28,,Unknown
 Amazon Nova Pro,amazon.nova-pro-v1:0,,Amazon,United States of America,2024-12-03,API access,2024-12-03,6.000010000000001e+24,Speculative,,,,Amazon Nova Pro,amazon-nova-pro,123.61,109.6,126.5
 o3-pro,o3-pro-2025-06-10_medium,,OpenAI,United States of America,2025-06-10,API access,2025-06-10,,Unknown,"An enhanced version of OpenAI's previous flagship reasoning model o3, evaluated with medium reasoning effort.",,,o3-pro,o3-pro,147.44,145.73,150.97
 Grok 4.6,grok-4.6_unknown,Grok 4.6 (unknown),xAI,United States of America,2026-08-12,API access,2026-08-12,,Confident,,Grok 4.6 (unknown),,Grok 4.6,grok-4-6,155.94,154.09,158.41
-Gemini 3.7 Flash,gemini-3.7-flash_unknown,Gemini 3.7 Flash (unknown),Google DeepMind,United States of America,2026-08-13,API access,2026-08-13,,Confident,,Gemini 3.7 Flash (unknown),,Gemini 3.7 Flash,gemini-3-7-flash,156.85,155.03,159.81
 SWE-1.7,swe-1.7,SWE-1.7,Cognition,United States of America,2026-07-08,,2026-07-08,,Confident,,SWE-1.7,,SWE-1.7,swe-1-7,,,
 GPT-5.6 Terra,gpt-5.6-terra_unknown,GPT-5.6 Terra (unknown thinking),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Terra (unknown thinking),,GPT-5.6 Terra,gpt-5-6-terra,158.78,156.45,161.74
 GPT-5.6 Luna,gpt-5.6-luna_unknown,GPT-5.6 Luna (unknown thinking),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Luna (unknown thinking),,GPT-5.6 Luna,gpt-5-6-luna,156.22,153.75,158.95
@@ -535,8 +536,10 @@ MiniMax-M2.1,MiniMax-M2.1,,MiniMax,China,2025-12-23,Open weights (restricted use
 Kimi K2 Thinking,kimi-k2-thinking,Kimi K2 Thinking,Moonshot,China,2025-11-06,Open weights (restricted use),2025-11-06,4.1999999999999997e+24,Likely,,,,Kimi K2 Thinking,kimi-k2-thinking,145.94,143.58,147.3
 Qwen 3.8 Max,qwen3.8-max_unknown,Qwen3.8 Max (unknown),Alibaba,China,2026-08-02,API access,2026-07-19,,Confident,,Qwen3.8 Max (unknown),,Qwen 3.8 Max,qwen-3-8-max,156.43,154.55,158.71
 DeepSeek V4 Pro 0813,deepseek-v4-pro-0813_unknown,DeepSeek V4 Pro 0813 (unknown),DeepSeek,China,2026-08-13,Open weights (unrestricted),2026-08-13,9.702e+24,Unverified,,DeepSeek V4 Pro 0813 (unknown),,DeepSeek V4 Pro 0813,deepseek-v4-pro-0813,,,
+Muse Spark 1.2,muse-spark-1.2,Muse Spark 1.2,Meta AI,United States of America,2026-08-05,API access,2026-08-05,,Confident,,Muse Spark 1.2,,Muse Spark 1.2,muse-spark-1-2,,,
 MiMo-V2.5-Pro,mimo-v2.5-pro,,Xiaomi Corp,China,,Open weights (unrestricted),2026-04-23,6.804e+24,Likely,,,,MiMo-V2.5-Pro,mimo-v2-5-pro,,,
 MiMo-V2.5,mimo-v2.5,,Xiaomi Corp,China,,Open weights (unrestricted),2026-04-23,4.32e+24,Unverified,,,,MiMo-V2.5,mimo-v2-5,,,
+Qwen 3.8 27B,qwen3.8-27b,Qwen3.8 27B,Alibaba,China,2026-08-14,Open weights (unrestricted),2026-08-14,,Confident,,Qwen3.8 27B,,Qwen 3.8 27B,qwen-3-8-27b,,,
 Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google DeepMind,United States of America,2026-07-21,API access,2026-07-21,,Confident,,Gemini 3.5 Flash-Lite,,Gemini 3.5 Flash-Lite,gemini-3-5-flash-lite,145.11,142.23,146.69
 Inkling-Small,inkling-small,Inkling Small,Thinking Machines,United States of America,2026-07-15,Open weights (unrestricted),2026-07-30,,Confident,,Inkling Small,,Inkling-Small,inkling-small,150.17,147.28,152.0
 Grok 4.1 Fast,grok-4-1-fast-reasoning,,xAI,United States of America,2025-11-19,API access,2025-11-19,,Unknown,,,,Grok 4.1 Fast,grok-4-1-fast,,,
@@ -595,8 +598,10 @@ o4-mini,o4-mini-2025-04-16_unknown,o4-mini (unknown thinking),OpenAI,United Stat
 Grok 4.20,grok-4-20,,xAI,United States of America,2026-02-17,API access,2026-02-17,,Likely,,,,Grok 4.20,grok-4-20,152.07,149.43,154.21
 Grok 4 Fast,grok-4-fast,,xAI,United States of America,2025-09-19,API access,2025-09-19,,Unknown,,Grok 4 Fast,,Grok 4 Fast,grok-4-fast,144.45,141.6,146.71
 Grok 4.3 Beta,grok-4-3,,xAI,United States of America,2026-04-17,Hosted access (no API),2026-04-17,,Likely,,,,Grok 4.3 Beta,grok-4-3-beta,149.16,147.72,150.64
+Claude Sonnet 5,claude-sonnet-5_16K,Claude Sonnet 5 (16k thinking),Anthropic,United States of America,2026-06-30,API access,2026-06-30,,Confident,,Claude Sonnet 5 (16k thinking),,Claude Sonnet 5,claude-sonnet-5,155.9,153.16,158.29
 Kimi K2,Kimi-K2-Instruct-0905,,Moonshot,China,2025-09-05,Open weights (restricted use),2025-07-11,2.976e+24,Confident,,,Kimi K2 (Sep 2025),Kimi K2 (Sep 2025),kimi-k2-sep-2025,,,
 o3-mini,o3-mini-2025-01-31_unknown,o3-mini (unknown thinking),OpenAI,United States of America,2025-01-31,API access,2025-01-31,,Unknown,"A smaller version of OpenAI's o3 reasoning model, evaluated with high reasoning effort.",,,o3-mini,o3-mini,141.36,138.21,142.68
+Claude Opus 4.8,claude-opus-4-8_24K,Claude Opus 4.8 (24k thinking),Anthropic,United States of America,2026-05-28,API access,2026-05-28,,Confident,,Claude Opus 4.8 (24k thinking),,Claude Opus 4.8,claude-opus-4-8,157.78,155.74,160.17
 GPT-5 nano,gpt-5-nano-2025-08-07_unknown,GPT-5 nano (unknown thinking),OpenAI,United States of America,2025-08-07,API access,2025-08-07,,Unknown,"The smallest version of OpenAI's latest flagship frontier model, benchmarked using high reasoning effort.",GPT-5 nano (high),,GPT-5 nano,gpt-5-nano,140.98,136.99,142.99
 QwQ-32B,QwQ-32B-Preview,,Alibaba,China,2024-11-28,Open weights (unrestricted),2025-03-06,3.51e+24,Speculative,,QwQ 32B Preview,QwQ-32B-Preview,QwQ-32B-Preview,qwq-32b-preview,,,
 DeepSeek-V3.1,DeepSeek-V3.1,,DeepSeek,China,2025-08-21,Open weights (unrestricted),2025-08-21,3.594058e+24,Confident,An updated version of DeepSeek V3.,DeepSeek-V3.1,,DeepSeek-V3.1,deepseek-v3-1,,,
@@ -611,7 +616,9 @@ Llama 3-8B,Meta-Llama-3-8B,,Meta AI,United States of America,2024-04-18,Open wei
 Qwen2.5-72B,Qwen2.5-VL-72B-Instruct,,Alibaba,China,2024-09-19,Open weights (unrestricted),2024-09-19,7.8e+24,Confident,A 72 billion-parameter instruction-tuned vision language model in the Qwen 2.5 series.,Qwen2.5-VL-72B,,Qwen2.5-72B,qwen2-5-72b,128.79,122.05,130.45
 GPT-5.5 Pro,gpt-5.5-pro_high,GPT-5.5 Pro (high),OpenAI,United States of America,2026-04-23,API access,2026-04-23,,Likely,,,,GPT-5.5 Pro,gpt-5-5-pro,161.73,159.12,165.65
 ,gemini-3-deep-think-preview,,,,2026-02-12,,,,Unverified,,,,,gemini-3-deep-think-preview,,,
+DeepSeek V4 Pro 0813,deepseek-v4-pro-0813_low,DeepSeek V4 Pro 0813 (low),DeepSeek,China,2026-08-13,Open weights (unrestricted),2026-08-13,9.702e+24,Unverified,,DeepSeek V4 Pro 0813 (low),,DeepSeek V4 Pro 0813,deepseek-v4-pro-0813,,,
 Grok 4.5,grok-4.5_medium,Grok 4.5 (medium),xAI,United States of America,2026-07-08,API access,2026-07-08,,Likely,,Grok 4.5 (medium),,Grok 4.5,grok-4-5,153.94,152.4,156.1
+DeepSeek V4 Pro 0813,deepseek-v4-pro-0813_high,DeepSeek V4 Pro 0813 (high),DeepSeek,China,2026-08-13,Open weights (unrestricted),2026-08-13,9.702e+24,Unverified,,DeepSeek V4 Pro 0813 (high),,DeepSeek V4 Pro 0813,deepseek-v4-pro-0813,,,
 DeepSeek V4 Flash 0731,deepseek-v4-flash-0731_high,DeepSeek V4 Flash 0731 (high),DeepSeek,China,2026-07-31,Open weights (unrestricted),2026-07-31,2.496e+24,Likely,,DeepSeek V4 Flash 0731 (high),,DeepSeek V4 Flash 0731,deepseek-v4-flash-0731,154.43,152.07,156.41
 GPT-5.2 Pro,gpt-5.2-pro-2025-12-11_high,GPT-5.2 Pro,OpenAI,United States of America,2025-12-11,API access,2025-12-11,,Likely,,GPT-5.2 Pro (high),,GPT-5.2 Pro,gpt-5-2-pro,155.09,152.87,157.36
 DeepSeek V4 Flash 0731,deepseek-v4-flash-0731_low,DeepSeek V4 Flash 0731 (low),DeepSeek,China,2026-07-31,Open weights (unrestricted),2026-07-31,2.496e+24,Likely,,DeepSeek V4 Flash 0731 (low),,DeepSeek V4 Flash 0731,deepseek-v4-flash-0731,154.43,152.07,156.41
@@ -651,6 +658,8 @@ Claude Haiku 4.5,claude-haiku-4-5-20251001_1K,,Anthropic,United States of Americ
 Grok-3 mini,grok-3-mini_low,Grok 3 mini,xAI,United States of America,2025-06-24,API access,2025-02-19,,Unknown,,Grok 3 mini (low),,Grok-3 mini,grok-3-mini,140.91,138.06,142.65
 Gemini 2.5 Flash,gemini-2.5-flash-preview-05-20_1K,,Google DeepMind,United States of America,2025-05-20,API access,2025-04-17,,Unknown,"An April 2025 preview version of Gemini 2.5 Flash, a small reasoning model in the Gemini 2.5 series from DeepMind, evaluated with up to 1,000 reasoning tokens.",,Gemini 2.5 Flash (May 2025),Gemini 2.5 Flash (May 2025),gemini-2-5-flash-may-2025,142.17,139.8,143.4
 GPT-5.4 Mini,gpt-5.4-mini-2026-03-17_low,GPT-5.4 mini (low),OpenAI,United States of America,2026-03-17,API access,2026-03-17,,Likely,,GPT-5.4 mini (low),,GPT-5.4 Mini,gpt-5-4-mini,149.29,147.58,151.02
+DeepSeek V4 Pro 0813,deepseek-v4-pro-0813_none,DeepSeek V4 Pro 0813 (none),DeepSeek,China,2026-08-13,Open weights (unrestricted),2026-08-13,9.702e+24,Unverified,,DeepSeek V4 Pro 0813 (none),,DeepSeek V4 Pro 0813,deepseek-v4-pro-0813,,,
+DeepSeek V4 Flash 0731,deepseek-v4-flash-0731_none,DeepSeek V4 Flash 0731 (none),DeepSeek,China,2026-07-31,Open weights (unrestricted),2026-07-31,2.496e+24,Likely,,DeepSeek V4 Flash 0731 (none),,DeepSeek V4 Flash 0731,deepseek-v4-flash-0731,154.43,152.07,156.41
 Claude 3.7 Sonnet,claude-3-7-sonnet-20250219_1K,Claude 3.7 Sonnet (1k thinking),Anthropic,United States of America,2025-02-24,API access,2025-02-24,3.3499999999999998e+25,Likely,"A previous flagship reasoning model from Anthropic, benchmarked with up to 1,000 reasoning tokens allowed.",Claude 3.7 Sonnet (1k thinking),,Claude 3.7 Sonnet,claude-3-7-sonnet,141.67,139.47,143.05
 Magistral Medium 1.1,magistral-medium-2506,,Mistral AI,France,2025-06-10,API access,2025-06-10,,Unknown,,,,Magistral Medium 1.1,magistral-medium-1-1,,,
 Grok 3,grok-3,,xAI,United States of America,2025-04-09,API access,2025-02-17,3.5000000000000006e+26,Likely,XAI's third generation flagship model.,Grok 3,,Grok 3,grok-3,138.92,136.0,140.1
@@ -671,6 +680,7 @@ Claude Instant,claude-instant-1.1,,Anthropic,United States of America,,API acces
 Claude 1.3,claude-1.3,,Anthropic,United States of America,2023-04-18,API access,2023-04-18,,Unknown,An updated version of Anthropic's first generation Claude model.,,,Claude 1.3,claude-1-3,,,
 Claude Instant,claude-instant-1.2,,Anthropic,United States of America,2023-08-09,API access,2023-08-09,,Unknown,,,,Claude Instant,claude-instant,120.79,113.35,123.71
 GPT-5.3 Codex,gpt-5.3-codex_xhigh,GPT-5.3 Codex (xhigh),OpenAI,United States of America,2026-02-05,API access,2026-02-05,,Likely,,,,GPT-5.3 Codex,gpt-5-3-codex,155.61,153.14,158.56
+GLM-5.3,glm-5.3_high,GLM-5.3 (high),Z.ai (Zhipu AI),China,2026-08-14,API access,2026-08-14,,Confident,,GLM-5.3 (high),,GLM-5.3,glm-5-3,,,
 GPT-5.1-Codex,gpt-5.1-codex,GPT-5.1 Codex,OpenAI,United States of America,2025-11-12,API access,2025-11-12,,Unknown,,GPT-5.1-codex,,GPT-5.1-Codex,gpt-5-1-codex,,,
 MiMo-V2-Pro,mimo-v2-pro,,Xiaomi Corp,China,,API access,2026-03-18,,Confident,,,,MiMo-V2-Pro,mimo-v2-pro,,,
 ,grok-code-fast-1,,,,2025-08-28,,,,Unverified,,,,,grok-code-fast-1,,,
@@ -767,11 +777,14 @@ o1,o1-2024-12-17_unknown,o1 (unknown thinking),OpenAI,United States of America,2
 Pixtral Large,pixtral-large-2411,,Mistral AI,France,2024-11-18,Open weights (non-commercial),2024-11-18,,Confident,,,,Pixtral Large,pixtral-large,,,
 Gemini 2.0 Flash,gemini-2.0-flash-02-05,,"Google DeepMind,Google",United States of America,2025-02-05,API access,2024-12-11,,Unknown,"A February 2025 version of Gemini 2.0 Flash, a small language model from Google DeepMind.",,Gemini 2.0 Flash (Feb 2025),Gemini 2.0 Flash (Feb 2025),gemini-2-0-flash-feb-2025,135.63,132.14,137.47
 Nova 2.0 Pro Preview,nova-2.0-pro-preview_unknown,Nova 2.0 Pro Preview (unknown),Amazon,United States of America,2025-12-02,API access,2025-12-02,,Confident,,Nova 2.0 Pro Preview (unknown),,Nova 2.0 Pro Preview,nova-2-0-pro-preview,,,
-DeepSeek V4 Pro 0813,deepseek-v4-pro-0813_high,DeepSeek V4 Pro 0813 (high),DeepSeek,China,2026-08-13,Open weights (unrestricted),2026-08-13,9.702e+24,Unverified,,DeepSeek V4 Pro 0813 (high),,DeepSeek V4 Pro 0813,deepseek-v4-pro-0813,,,
+Muse Spark 1.2,muse-spark-1.2_xhigh,Muse Spark 1.2 (xhigh),Meta AI,United States of America,2026-08-05,API access,2026-08-05,,Confident,,Muse Spark 1.2 (xhigh),,Muse Spark 1.2,muse-spark-1-2,,,
+GLM-5.3,glm-5.3_max,GLM-5.3 (max),Z.ai (Zhipu AI),China,2026-08-14,API access,2026-08-14,,Confident,,GLM-5.3 (max),,GLM-5.3,glm-5-3,,,
 Kimi K2.5,kimi-k2.5_none,Kimi K2.5 (instant),Moonshot,China,2026-01-27,Open weights (unrestricted),2026-02-02,5.8e+24,Likely,,,,Kimi K2.5,kimi-k2-5,148.13,146.52,149.29
 MiniMax-M2,MiniMax-M2,,MiniMax,China,2025-10-27,Open weights (unrestricted),2025-10-27,,Confident,,,,MiniMax-M2,minimax-m2,,,
 GPT-5.1-Codex-mini,gpt-5.1-codex-mini,GPT-5.1 Codex Mini,OpenAI,United States of America,2025-11-12,API access,2025-11-12,,Unknown,,GPT-5.1-codex mini,,GPT-5.1-Codex-mini,gpt-5-1-codex-mini,,,
+GLM-5.3,glm-5.3_unknown,GLM-5.3 (unknown thinking),Z.ai (Zhipu AI),China,2026-08-14,API access,2026-08-14,,Confident,,GLM-5.3 (unknown thinking),,GLM-5.3,glm-5-3,,,
 GPT-5.5 Pro,gpt-5.5-pro_unknown,GPT-5.5 Pro (unknown thinking),OpenAI,United States of America,2026-04-23,API access,2026-04-23,,Likely,,,,GPT-5.5 Pro,gpt-5-5-pro,161.73,159.12,165.65
+GPT-5.6 Sol,gpt-5.6-sol_proxhigh,"GPT-5.6 Sol (pro, xhigh)",OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,"GPT-5.6 Sol (pro, xhigh)",,GPT-5.6 Sol,gpt-5-6-sol,161.08,158.8,165.03
 GPT-5.6 Sol,gpt-5.6-sol_prounknown,"GPT-5.6 Sol (pro, unknown thinking)",OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,"GPT-5.6 Sol (pro, unknown thinking)",,GPT-5.6 Sol,gpt-5-6-sol,161.08,158.8,165.03
 Claude Opus 4,claude-opus-4-20250514_12K,"Claude Opus 4 ",Anthropic,United States of America,2025-05-22,API access,2025-05-22,,Unknown,"Anthropic's largest model in the Claude 4 series (superseded by Claude Opus 4.1), benchmarked with up to 12,000 reasoning tokens.",Claude Opus 4 (12k thinking),,Claude Opus 4,claude-opus-4,142.92,140.72,144.31
 GPT-5.2 Pro,gpt-5.2-pro-2025-12-11,GPT-5.2 Pro,OpenAI,United States of America,2025-12-11,API access,2025-12-11,,Likely,,GPT-5.2 Pro,,GPT-5.2 Pro,gpt-5-2-pro,155.09,152.87,157.36
@@ -779,6 +792,7 @@ Grok 4.1 Fast,grok-4-1-fast-non-reasoning,,xAI,United States of America,2025-11-
 Claude Sonnet 4.5,claude-sonnet-4-5-20250929_12K,Claude Sonnet 4.5 (12k thinking),Anthropic,United States of America,2025-09-29,API access,2025-09-29,,Unknown,,Claude Sonnet 4.5 (12k thinking),,Claude Sonnet 4.5,claude-sonnet-4-5,146.86,145.15,148.36
 DeepSeek-V3.2,DeepSeek-V3.2-Speciale,,DeepSeek,China,2025-12-01,Open weights (unrestricted),2025-12-01,4.1999999999999997e+24,Likely,,,DeepSeek-V3.2-Speciale,DeepSeek-V3.2-Speciale,deepseek-v3-2-speciale,,,
 Claude 3.7 Sonnet,claude-3-7-sonnet-20250219_12K,Claude 3.7 Sonnet (12k thinking),Anthropic,United States of America,2025-02-24,API access,2025-02-24,3.3499999999999998e+25,Likely,"A previous flagship reasoning model from Anthropic, benchmarked with up to 12,000 reasoning tokens allowed.",Claude 3.7 Sonnet (12k thinking),,Claude 3.7 Sonnet,claude-3-7-sonnet,141.67,139.47,143.05
+DeepSeek-V4-Flash,deepseek-v4-flash_unknown,DeepSeek v4 (unknown),DeepSeek,China,2026-04-24,Open weights (unrestricted),2026-04-24,2.496e+24,Likely,,DeepSeek v4 (unknown),,DeepSeek-V4-Flash,deepseek-v4-flash,,,
 Claude Sonnet 4,claude-sonnet-4-20250514_12K,,Anthropic,United States of America,2025-05-22,API access,2025-05-22,,Unknown,"Anthropic's mid-sized Claude 4 series model, evaluated at up to 12,000 reasoning tokens.",Claude Sonnet 4 (12k thinking),,Claude Sonnet 4,claude-sonnet-4,142.2,139.09,143.48
 GPT-5-Codex,gpt-5-codex,GPT-5-codex,OpenAI,United States of America,2025-09-15,API access,2025-09-15,,Unknown,,GPT-5-codex,,GPT-5-Codex,gpt-5-codex,,,
 gpt-oss-120b,gpt-oss-120b_unknown,gpt-oss-120b (unknown thinking),OpenAI,United States of America,2025-08-05,Open weights (unrestricted),2025-08-05,4.94e+24,Confident,"The larger one of OpenAI's two latest open source language models, evaluated with high reasoning effort.",,,gpt-oss-120b,gpt-oss-120b,140.54,135.72,143.46
@@ -786,13 +800,16 @@ gpt-oss-20b,gpt-oss-20b_unknown,gpt-oss-20b (unknown thinking),OpenAI,United Sta
 DeepSeek-V3.2-Exp,DeepSeek-V3.2-Exp_unknown,,DeepSeek,China,2025-09-29,Open weights (unrestricted),2025-09-29,4.18e+24,Confident,,,,DeepSeek-V3.2-Exp,deepseek-v3-2-exp,144.86,142.31,146.55
 Claude 3.7 Sonnet,claude-3-7-sonnet-20250219_15K,Claude 3.7 Sonnet (15k thinking),Anthropic,United States of America,2025-02-24,API access,2025-02-24,3.3499999999999998e+25,Likely,"A previous flagship reasoning model from Anthropic, benchmarked with up to 15,000 reasoning tokens allowed.",Claude 3.7 Sonnet (15k thinking),,Claude 3.7 Sonnet,claude-3-7-sonnet,141.67,139.47,143.05
 Pixtral 12B,Pixtral-12B-2409,,Mistral AI,France,2024-09-17,Open weights (unrestricted),2024-09-17,,Confident,,,,Pixtral 12B,pixtral-12b,,,
-,xiaoyi-deepresearch,,,,2026-03-06,,,,Unverified,,,,,xiaoyi-deepresearch,,,
+Claude Opus 4.5,claude-opus-4-5-20251101_high,Claude Opus 4.5 (high),Anthropic,United States of America,2025-11-24,API access,2025-11-24,,Unknown,,Claude Opus 4.5 (high),,Claude Opus 4.5,claude-opus-4-5,149.93,148.09,152.58
+Claude Opus 4.5,claude-opus-4-5-20251101_low,Claude Opus 4.5 (low),Anthropic,United States of America,2025-11-24,API access,2025-11-24,,Unknown,,Claude Opus 4.5 (low),,Claude Opus 4.5,claude-opus-4-5,149.93,148.09,152.58
 Claude Opus 4.6,claude-opus-4-6_medium,Claude Opus 4.6 (medium),Anthropic,United States of America,2026-02-05,API access,2026-02-05,,Likely,,Claude Opus 4.6 (medium),,Claude Opus 4.6,claude-opus-4-6,155.01,153.19,156.89
 Claude Sonnet 4.5,claude-sonnet-4-5-20250929_2K,Claude Sonnet 4.5 (2k thinking),Anthropic,United States of America,2025-09-29,API access,2025-09-29,,Unknown,,Claude Sonnet 4.5 (2k thinking),,Claude Sonnet 4.5,claude-sonnet-4-5,146.86,145.15,148.36
+Claude Sonnet 4.5,claude-sonnet-4-5-20250929_low,Claude Sonnet 4.5 (low),Anthropic,United States of America,2025-09-29,API access,2025-09-29,,Unknown,,Claude Sonnet 4.5 (low),,Claude Sonnet 4.5,claude-sonnet-4-5,146.86,145.15,148.36
 Claude Opus 4,claude-opus-4-20250514_2K,Claude Opus 4,Anthropic,United States of America,2025-05-22,API access,2025-05-22,,Unknown,"Anthropic's largest model in the Claude 4 series (superseded by Claude Opus 4.1), benchmarked with up to 2,000 reasoning tokens.",Claude Opus 4 (2k thinking),,Claude Opus 4,claude-opus-4,142.92,140.72,144.31
 Claude Sonnet 4,claude-sonnet-4-20250514_2K,,Anthropic,United States of America,2025-05-22,API access,2025-05-22,,Unknown,"Anthropic's mid-sized Claude 4 series model, evaluated at up to 2,000 reasoning tokens.",Claude Sonnet 4 (2k thinking),,Claude Sonnet 4,claude-sonnet-4,142.2,139.09,143.48
+Gemini 3 Pro,gemini-3-pro-preview_low,Gemini 3 Pro Preview (low),Google DeepMind,United States of America,2025-11-18,API access,2025-11-18,,Unknown,,Gemini 3 Pro Preview (low),,Gemini 3 Pro,gemini-3-pro,153.06,151.16,155.16
+Claude Haiku 4.5,claude-haiku-4-5-20251001_low,Claude Haiku 4.5 (low),Anthropic,United States of America,2025-10-15,API access,2025-10-15,,Unknown,,Claude Haiku 4.5 (low),,Claude Haiku 4.5,claude-haiku-4-5,142.86,139.46,144.33
 Claude 3.7 Sonnet,claude-3-7-sonnet-20250219_2K,Claude 3.7 Sonnet (2k thinking),Anthropic,United States of America,2025-02-24,API access,2025-02-24,3.3499999999999998e+25,Likely,"A previous flagship reasoning model from Anthropic, benchmarked with up to 2,000 reasoning tokens allowed.",Claude 3.7 Sonnet (2k thinking),,Claude 3.7 Sonnet,claude-3-7-sonnet,141.67,139.47,143.05
-Sonar,sonar-pro,,Perplexity,United States of America,2025-01-21,API access,2025-01-21,,Confident,A search-optimized language model from Perplexity.,Sonar Pro,,Sonar,sonar,,,
 GPT-5.4 Pro,gpt-5.4-pro-2026-03-05_none,GPT-5.4 Pro (no thinking),OpenAI,United States of America,2026-03-05,API access,2026-03-05,,Likely,,GPT-5.4 Pro (no thinking),,GPT-5.4 Pro,gpt-5-4-pro,158.57,156.25,161.58
 Grok-3 mini,grok-3-mini_high,Grok 3 mini,xAI,United States of America,2025-06-24,API access,2025-02-19,,Unknown,,Grok 3 mini (high),,Grok-3 mini,grok-3-mini,140.91,138.06,142.65
 Gemini 2.5 Flash,gemini-2.5-flash-preview-09-2025_16k,,Google DeepMind,United States of America,2025-09-25,API access,2025-04-17,,Unknown,,"Gemini 2.5 Flash-Lite (Sep 2025, 16k thinking)",Gemini 2.5 Flash (Sep 2025),Gemini 2.5 Flash (Sep 2025),gemini-2-5-flash-sep-2025,143.22,139.41,146.48
