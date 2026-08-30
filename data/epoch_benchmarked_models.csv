@@ -1,4 +1,17 @@
 Model,id_model_version,Display name,Organization,Country (of organization),Version release date,Model accessibility,Publication date,Training compute (FLOP),Confidence,Description,Unique display name,Model aggregation,model_group,slug,eci,eci_ci_low,eci_ci_high
+GLM-5.2,glm-5.2_none,GLM-5.2,Z.ai (Zhipu AI),China,2026-06-16,Open weights (unrestricted),2026-06-16,,Confident,,GLM-5.2 (no thinking),,GLM-5.2,glm-5-2,152.02,150.2,154.01
+Qwen3.7 Flash,qwen3.7-flash_none,Qwen3.7 Flash,Alibaba,China,2026-07-27,API access,2026-07-27,,Confident,,Qwen3.7 Flash (no thinking),,Qwen3.7 Flash,qwen3-7-flash,,,
+Qwen3.7 Flash,qwen3.7-flash,Qwen3.7 Flash,Alibaba,China,2026-07-27,API access,2026-07-27,,Confident,,Qwen3.7 Flash (thinking),,Qwen3.7 Flash,qwen3-7-flash,,,
+GPT-5.6 Luna,gpt-5.6-luna_none,GPT-5.6 Luna (none),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Luna (none),,GPT-5.6 Luna,gpt-5-6-luna,156.21,153.81,158.62
+Qwen3.7-Plus,qwen3.7-plus_none,Qwen3.7 Plus,Alibaba,China,2026-06-02,,2026-06-02,,Unverified,,Qwen3.7 Plus (no thinking),,Qwen3.7-Plus,qwen3-7-plus,148.3,146.51,150.53
+GPT-5.6 Luna,gpt-5.6-luna_low,GPT-5.6 Luna (low),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Luna (low),,GPT-5.6 Luna,gpt-5-6-luna,156.21,153.81,158.62
+GLM-5.2,glm-5.2_low,GLM-5.2,Z.ai (Zhipu AI),China,2026-06-16,Open weights (unrestricted),2026-06-16,,Confident,,GLM-5.2 (low),,GLM-5.2,glm-5-2,152.02,150.2,154.01
+Qwen 3.6 Flash,qwen3.6-flash,Qwen 3.6 Flash (2026-04-16),Alibaba,China,2026-04-27,,2026-04-26,,Unverified,,Qwen3.6 Flash (thinking),,Qwen 3.6 Flash,qwen-3-6-flash,144.15,141.51,145.63
+Qwen 3.6 Flash,qwen3.6-flash_none,Qwen 3.6 Flash (2026-04-16),Alibaba,China,2026-04-27,,2026-04-26,,Unverified,,Qwen3.6 Flash (no thinking),,Qwen 3.6 Flash,qwen-3-6-flash,144.15,141.51,145.63
+Qwen 3.6 Plus,qwen3.6-plus_none,Qwen 3.6 Plus (2026-04-02),Alibaba,China,2026-03-31,API access,2026-04-01,,Confident,,Qwen3.6 Plus (no thinking),,Qwen 3.6 Plus,qwen-3-6-plus,149.37,147.51,151.35
+Qwen 3.6 35B-A3B,qwen3.6-35b-a3b,Qwen3.6 35B-A3B,Alibaba,China,2026-04-14,Open weights (unrestricted),2026-04-14,,Unverified,,Qwen3.6 35B-A3B (thinking),,Qwen 3.6 35B-A3B,qwen-3-6-35b-a3b,145.03,142.09,148.05
+Qwen3.6 27B,qwen3.6-27b_none,Qwen3.6 27B,Alibaba,China,2026-04-22,Open weights (unrestricted),2026-04-22,,Confident,,Qwen3.6 27B (no thinking),,Qwen3.6 27B,qwen3-6-27b,,,
+Kimi K3,kimi-k3_low,Kimi K3 (low),Moonshot,China,2026-07-16,Open weights (non-commercial),2026-07-16,2.0001e+25,Speculative,,Kimi K3 (low),,Kimi K3,kimi-k3,157.33,154.74,159.7
 DeepSeek LLM 67B,deepseek-llm-67b-chat,,DeepSeek,China,2023-11-29,Open weights (restricted use),2024-01-05,8.04e+23,Confident,,DeepSeek LLM 67B (chat),,DeepSeek LLM 67B,deepseek-llm-67b,,,
 Phi-4,phi-4,,Microsoft Research,United States of America,2024-12-12,Open weights (unrestricted),2024-12-12,9.3202015e+23,Confident,,,Phi-4,Phi-4,phi-4,131.04,125.27,132.37
 Gemma 4 26B A4B,gemma-4-26b-a4b-it_minimal,Gemma 4 26B A4B,Google DeepMind,United States of America,2026-04-02,Open weights (unrestricted),2026-04-02,,Confident,,Gemma 4 26B-A4B IT,,Gemma 4 26B A4B,gemma-4-26b-a4b,,,
@@ -15,7 +28,6 @@ Gemma 3 4B,gemma-3-4b-it,,Google DeepMind,United States of America,2025-03-12,Op
 Gemma 3 1B,gemma-3-1b-it,,Google DeepMind,United States of America,2025-03-12,Open weights (restricted use),2025-03-12,1.2e+22,Confident,An instruction-tuned version of the 1 billion-parameter model Google DeepMind's Gemma 3 series.,,,Gemma 3 1B,gemma-3-1b,,,
 Gemma 3 12B,gemma-3-12b-it,,Google DeepMind,United States of America,2025-03-12,Open weights (restricted use),2025-03-12,8.64e+23,Confident,An instruction-tuned version of the 12 billion-parameter model Google DeepMind's Gemma 3 series.,,,Gemma 3 12B,gemma-3-12b,,,
 QwQ-32B,QwQ-32B,,Alibaba,China,2025-03-05,Open weights (unrestricted),2025-03-06,3.51e+24,Speculative,,QwQ 32B,QwQ-32B,QwQ-32B,qwq-32b,,,
-Qwen3.7 Flash,qwen3.7-flash,Qwen3.7 Flash,Alibaba,China,2026-07-27,API access,2026-07-27,,Confident,,Qwen3.7 Flash (thinking),,Qwen3.7 Flash,qwen3-7-flash,,,
 GPT-5.6 Terra,gpt-5.6-terra_medium,GPT-5.6 Terra (medium),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Terra (medium),,GPT-5.6 Terra,gpt-5-6-terra,158.86,156.35,161.41
 GPT-5.2,gpt-5.2-2025-12-11_medium,GPT-5.2 (medium),OpenAI,United States of America,2025-12-11,API access,2025-12-11,,Unknown,,GPT-5.2 (medium),,GPT-5.2,gpt-5-2,153.31,151.68,155.05
 GPT-5.5,gpt-5.5_low,GPT-5.5 (low),OpenAI,United States of America,2026-04-23,API access,2026-04-23,,Likely,,,,GPT-5.5,gpt-5-5,158.67,156.41,161.45
@@ -45,7 +57,6 @@ Kimi K2.5,kimi-k2.5,Kimi K2.5,Moonshot,China,2026-01-27,Open weights (unrestrict
 Qwen3.7-Max,qwen3.7-max,Qwen3.7 Max,Alibaba,China,2026-05-19,API access,2026-05-19,,Confident,,,,Qwen3.7-Max,qwen3-7-max,153.55,151.91,155.6
 Qwen 3.6 Plus,qwen3.6-plus,Qwen 3.6 Plus (2026-04-02),Alibaba,China,2026-03-31,API access,2026-04-01,,Confident,,Qwen3.6 Plus (thinking),,Qwen 3.6 Plus,qwen-3-6-plus,149.37,147.51,151.35
 Qwen 3.6 Max (Preview),qwen3.6-max-preview,Qwen 3.6 Max (Preview),Alibaba,China,2026-04-20,,2026-04-20,,Unverified,,Qwen3.6 Max Preview (thinking),,Qwen 3.6 Max (Preview),qwen-3-6-max-preview,149.33,147.88,152.16
-Qwen 3.6 Flash,qwen3.6-flash,Qwen 3.6 Flash (2026-04-16),Alibaba,China,2026-04-27,,2026-04-26,,Unverified,,Qwen3.6 Flash (thinking),,Qwen 3.6 Flash,qwen-3-6-flash,144.15,141.51,145.63
 Qwen3-Max,qwen3-max-2025-09-23,Qwen3-Max-Instruct,Alibaba,China,2025-09-24,API access,2025-09-05,1.512e+25,Speculative,"A 1-trillion total parameter scale model in the Qwen 3 series. ",Qwen3 Max,,Qwen3-Max,qwen3-max,143.82,140.52,157.77
 Qwen 3.8 Max,qwen3.8-max_xhigh,Qwen3.8 Max (xhigh),Alibaba,China,2026-08-02,API access,2026-07-19,,Confident,,Qwen3.8 Max (xhigh),,Qwen 3.8 Max,qwen-3-8-max,156.42,154.56,158.28
 Gemini 3.5 Flash,gemini-3.5-flash_high,Gemini 3.5 Flash,Google,United States of America,2026-05-19,API access,2026-05-19,,Confident,,Gemini 3.5 Flash (high),,Gemini 3.5 Flash,gemini-3-5-flash,154.43,152.77,156.4
@@ -91,29 +102,28 @@ o3-mini,o3-mini-2025-01-31_high,o3-mini (high),OpenAI,United States of America,2
 GPT-5.1,gpt-5.1-2025-11-13_medium,GPT-5.1 (medium),OpenAI,United States of America,2025-11-13,API access,2025-11-13,,Unknown,,GPT-5.1 (medium),,GPT-5.1,gpt-5-1,149.63,148.55,150.84
 GPT-5,gpt-5-2025-08-07_medium,GPT-5 (medium),OpenAI,United States of America,2025-08-07,API access,2025-08-07,6.6e+25,Speculative,"OpenAI's latest flagship frontier model, benchmarked using medium reasoning effort.",GPT-5 (medium),,GPT-5,gpt-5,150.0,,
 GPT-5 mini,gpt-5-mini-2025-08-07_high,GPT-5 mini (high),OpenAI,United States of America,2025-08-07,API access,2025-08-07,,Unknown,"A smaller version of OpenAI's latest flagship frontier model, benchmarked using high reasoning effort.",GPT-5 mini (high),,GPT-5 mini,gpt-5-mini,145.91,144.08,147.47
-Kimi K3,kimi-k3_low,Kimi K3 (low),Moonshot,China,2026-07-16,Open weights (non-commercial),2026-07-16,2.0001e+25,Speculative,,Kimi K3 (low),,Kimi K3,kimi-k3,157.33,154.74,159.7
 GPT-5.6 Luna,gpt-5.6-luna_medium,GPT-5.6 Luna (medium),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Luna (medium),,GPT-5.6 Luna,gpt-5-6-luna,156.21,153.81,158.62
-Qwen3.6 27B,qwen3.6-27b_none,Qwen3.6 27B,Alibaba,China,2026-04-22,Open weights (unrestricted),2026-04-22,,Confident,,Qwen3.6 27B (no thinking),,Qwen3.6 27B,qwen3-6-27b,,,
 Qwen3.5 397B-A17B,qwen3.5-397b-a17b_none,Qwen3.5 397B-A17B,Alibaba,China,2026-02-13,Open weights (unrestricted),2026-02-13,,Likely,,Qwen3.5 397B-A17B (no thinking),,Qwen3.5 397B-A17B,qwen3-5-397b-a17b,,,
 GPT-5.1,gpt-5.1-2025-11-13_low,GPT-5.1 (low),OpenAI,United States of America,2025-11-13,API access,2025-11-13,,Unknown,,GPT-5.1 (low),,GPT-5.1,gpt-5-1,149.63,148.55,150.84
 GLM-5.2,glm-5.2_medium,GLM-5.2,Z.ai (Zhipu AI),China,2026-06-16,Open weights (unrestricted),2026-06-16,,Confident,,GLM-5.2 (medium),,GLM-5.2,glm-5-2,152.02,150.2,154.01
 GPT-5.4 Mini,gpt-5.4-mini-2026-03-17_medium,GPT-5.4 mini (medium),OpenAI,United States of America,2026-03-17,API access,2026-03-17,,Likely,,GPT-5.4 mini (medium),,GPT-5.4 Mini,gpt-5-4-mini,149.33,147.79,150.96
-Qwen 3.6 Plus,qwen3.6-plus_none,Qwen 3.6 Plus (2026-04-02),Alibaba,China,2026-03-31,API access,2026-04-01,,Confident,,Qwen3.6 Plus (no thinking),,Qwen 3.6 Plus,qwen-3-6-plus,149.37,147.51,151.35
 Qwen 3.5 Plus (hosted 397B-A17B),qwen3.5-plus_none,Qwen3.5 Plus,Alibaba,China,2026-02-16,,2026-02-16,,Likely,,Qwen3.5 Plus (no thinking),,Qwen 3.5 Plus (hosted 397B-A17B),qwen-3-5-plus-hosted-397b-a17b,147.18,145.13,148.16
-GPT-5.6 Luna,gpt-5.6-luna_low,GPT-5.6 Luna (low),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Luna (low),,GPT-5.6 Luna,gpt-5-6-luna,156.21,153.81,158.62
-Qwen3.7-Plus,qwen3.7-plus_none,Qwen3.7 Plus,Alibaba,China,2026-06-02,,2026-06-02,,Unverified,,Qwen3.7 Plus (no thinking),,Qwen3.7-Plus,qwen3-7-plus,148.3,146.51,150.53
 GPT-5 mini,gpt-5-mini-2025-08-07_medium,GPT-5 mini (medium),OpenAI,United States of America,2025-08-07,API access,2025-08-07,,Unknown,"A smaller version of OpenAI's latest flagship frontier model, benchmarked using medium reasoning effort.",GPT-5 mini (medium),,GPT-5 mini,gpt-5-mini,145.91,144.08,147.47
 GPT-5 nano,gpt-5-nano-2025-08-07_high,GPT-5 nano (high),OpenAI,United States of America,2025-08-07,API access,2025-08-07,,Unknown,"The smallest version of OpenAI's latest flagship frontier model, benchmarked using high reasoning effort.",GPT-5 nano (high),,GPT-5 nano,gpt-5-nano,141.11,136.88,142.99
 GPT-5.4 Nano,gpt-5.4-nano-2026-03-17_medium,GPT-5.4 nano (medium),OpenAI,United States of America,2026-03-17,API access,2026-03-17,,Likely,,GPT-5.4 nano (medium),,GPT-5.4 Nano,gpt-5-4-nano,146.29,144.17,147.96
+GPT-5.6 Sol,gpt-5.6-sol_none,GPT-5.6 Sol (none),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Sol (none),,GPT-5.6 Sol,gpt-5-6-sol,161.06,158.72,164.44
 GPT-5.5,gpt-5.5_none,GPT-5.5 (no thinking),OpenAI,United States of America,2026-04-23,API access,2026-04-23,,Likely,,,,GPT-5.5,gpt-5-5,158.67,156.41,161.45
 gpt-oss-120b,gpt-oss-120b_high,,OpenAI,United States of America,2025-08-05,Open weights (unrestricted),2025-08-05,4.94e+24,Confident,"The larger one of OpenAI's two latest open source language models, evaluated with high reasoning effort.",,,gpt-oss-120b,gpt-oss-120b,140.69,135.94,143.45
 GPT-5.2,gpt-5.2-2025-12-11_none,GPT-5.2 (none),OpenAI,United States of America,2025-12-11,API access,2025-12-11,,Unknown,,GPT-5.2 (none),,GPT-5.2,gpt-5-2,153.31,151.68,155.05
 Nemotron 3 Ultra,nemotron-3-ultra,,NVIDIA,United States of America,2026-06-04,Open weights (unrestricted),2026-06-04,6.6e+24,Likely,,,,Nemotron 3 Ultra,nemotron-3-ultra,143.11,141.1,144.82
 GPT-5.6 Terra,gpt-5.6-terra_none,GPT-5.6 Terra (none),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Terra (none),,GPT-5.6 Terra,gpt-5-6-terra,158.86,156.35,161.41
+GPT-5 nano,gpt-5-nano-2025-08-07_medium,GPT-5 nano (medium),OpenAI,United States of America,2025-08-07,API access,2025-08-07,,Unknown,"The smallest version of OpenAI's latest flagship frontier model, benchmarked using medium reasoning effort.",GPT-5 nano (medium),,GPT-5 nano,gpt-5-nano,141.11,136.88,142.99
 GPT-5,gpt-5-2025-08-07_minimal,GPT-5 (minimal),OpenAI,United States of America,2025-08-07,API access,2025-08-07,6.6e+25,Speculative,"OpenAI's latest flagship frontier model, benchmarked using minimal reasoning effort.",GPT-5 (minimal),,GPT-5,gpt-5,150.0,,
 GPT-5.1,gpt-5.1-2025-11-13_none,GPT-5.1 (no thinking),OpenAI,United States of America,2025-11-13,API access,2025-11-13,,Unknown,,GPT-5.1 (no thinking),,GPT-5.1,gpt-5-1,149.63,148.55,150.84
 GPT-5 mini,gpt-5-mini-2025-08-07_minimal,GPT-5 mini (minimal),OpenAI,United States of America,2025-08-07,API access,2025-08-07,,Unknown,"A smaller version of OpenAI's latest flagship frontier model, benchmarked using medium reasoning effort.",GPT-5 mini (medium),,GPT-5 mini,gpt-5-mini,145.91,144.08,147.47
 gpt-oss-120b,gpt-oss-120b_medium,,OpenAI,United States of America,2025-08-05,Open weights (unrestricted),2025-08-05,4.94e+24,Confident,"The larger one of OpenAI's two latest open source language models, evaluated with medium reasoning effort.",,,gpt-oss-120b,gpt-oss-120b,140.69,135.94,143.45
+GPT-5 nano,gpt-5-nano-2025-08-07_low,GPT-5 nano (low),OpenAI,United States of America,2025-08-07,API access,2025-08-07,,Unknown,"The smallest version of OpenAI's latest flagship frontier model, benchmarked using medium reasoning effort.",GPT-5 nano (low),,GPT-5 nano,gpt-5-nano,141.11,136.88,142.99
+GPT-5 nano,gpt-5-nano-2025-08-07_minimal,GPT-5 nano (minimal),OpenAI,United States of America,2025-08-07,API access,2025-08-07,,Unknown,"The smallest version of OpenAI's latest flagship frontier model, benchmarked using medium reasoning effort.",GPT-5 nano (low),,GPT-5 nano,gpt-5-nano,141.11,136.88,142.99
 o3,o3-2025-04-16_low,o3 (low),OpenAI,United States of America,2025-04-16,API access,2024-12-20,,Unknown,"OpenAI's latest full-size o-series reasoning model release, evaluated on low reasoning effort.",,,o3,o3,147.06,145.34,148.51
 GPT-4.1,gpt-4.1-2025-04-14,GPT-4.1,OpenAI,United States of America,2025-04-14,API access,2025-04-14,,Unknown,A coding-optimized GPT-4 series model from OpenAI.,,,GPT-4.1,gpt-4-1,137.54,134.65,139.02
 GPT-4 Turbo (Apr 2024),gpt-4-turbo-2024-04-09,,OpenAI,United States of America,2024-04-09,API access,2024-04-09,,Unknown,"The April 2024 version of GPT-4 Turbo, OpenAI's then-flagship language model.",,,GPT-4 Turbo (Apr 2024),gpt-4-turbo-apr-2024,127.61,123.0,128.84
@@ -121,9 +131,7 @@ GPT-4o,gpt-4o-2024-08-06,GPT-4o (Aug 2024),OpenAI,United States of America,2024-
 o4-mini,o4-mini-2025-04-16_medium,o4-mini (medium),OpenAI,United States of America,2025-04-16,API access,2025-04-16,,Unknown,"The latest smaller size o-series reasoning model from OpenAI, evaluated with medium reasoning effort.",,,o4-mini,o4-mini,146.4,144.21,147.94
 o3-mini,o3-mini-2025-01-31_medium,o3-mini (medium),OpenAI,United States of America,2025-01-31,API access,2025-01-31,,Unknown,"A smaller version of OpenAI's o3 reasoning model, evaluated with medium reasoning effort.",,,o3-mini,o3-mini,141.49,138.55,142.79
 GPT-5 mini,gpt-5-mini-2025-08-07_low,GPT-5 mini (low),OpenAI,United States of America,2025-08-07,API access,2025-08-07,,Unknown,"A smaller version of OpenAI's latest flagship frontier model, benchmarked using medium reasoning effort.",GPT-5 mini (medium),,GPT-5 mini,gpt-5-mini,145.91,144.08,147.47
-GPT-5 nano,gpt-5-nano-2025-08-07_minimal,GPT-5 nano (minimal),OpenAI,United States of America,2025-08-07,API access,2025-08-07,,Unknown,"The smallest version of OpenAI's latest flagship frontier model, benchmarked using medium reasoning effort.",GPT-5 nano (low),,GPT-5 nano,gpt-5-nano,141.11,136.88,142.99
 o3-mini,o3-mini-2025-01-31_low,,OpenAI,United States of America,2025-01-31,API access,2025-01-31,,Unknown,"A smaller version of OpenAI's o3 reasoning model, evaluated with low reasoning effort.",,,o3-mini,o3-mini,141.49,138.55,142.79
-GPT-5 nano,gpt-5-nano-2025-08-07_low,GPT-5 nano (low),OpenAI,United States of America,2025-08-07,API access,2025-08-07,,Unknown,"The smallest version of OpenAI's latest flagship frontier model, benchmarked using medium reasoning effort.",GPT-5 nano (low),,GPT-5 nano,gpt-5-nano,141.11,136.88,142.99
 Llama 3.1-8B,Llama-3.1-8B-Instruct,,Meta AI,United States of America,2024-07-23,Open weights (restricted use),2024-07-23,1.224e+24,Likely,An instruction-tuned version of the 8 billion-parameter model in Meta’s LLaMA 3.1 series.,,,Llama 3.1-8B,llama-3-1-8b,115.35,104.17,121.41
 Qwen3.5-9B,qwen3.5-9B_none,Qwen3.5 9B,Alibaba,China,2026-02-24,Open weights (restricted use),2026-02-24,,Confident,,Qwen3.5 9B (no thinking),,Qwen3.5-9B,qwen3-5-9b,,,
 Qwen3.5-9B,qwen3.5-9B,Qwen3.5 9B,Alibaba,China,2026-02-24,Open weights (restricted use),2026-02-24,,Confident,,Qwen3.5 9B (thinking),,Qwen3.5-9B,qwen3-5-9b,,,
@@ -151,20 +159,14 @@ Gemini 3.1 Pro,gemini-3.1-pro-preview_high,Gemini 3.1 Pro Preview,Google DeepMin
 Kimi K2.6,kimi-k2.6,Kimi K2.6,Moonshot,China,2026-04-20,Open weights (unrestricted),2026-04-20,,Confident,,,,Kimi K2.6,kimi-k2-6,151.0,149.37,152.57
 Claude Haiku 4.5,claude-haiku-4-5-20251001,,Anthropic,United States of America,2025-10-15,API access,2025-10-15,,Unknown,,,,Claude Haiku 4.5,claude-haiku-4-5,142.99,139.95,144.46
 MiniMax-M3,MiniMax-M3_none,,MiniMax,China,2026-06-01,Open weights (restricted use),2026-06-01,,Confident,,MiniMax M3 (no thinking),,MiniMax-M3,minimax-m3,147.76,143.36,150.52
-GLM-5.2,glm-5.2_none,GLM-5.2,Z.ai (Zhipu AI),China,2026-06-16,Open weights (unrestricted),2026-06-16,,Confident,,GLM-5.2 (no thinking),,GLM-5.2,glm-5-2,152.02,150.2,154.01
-GLM-5.2,glm-5.2_low,GLM-5.2,Z.ai (Zhipu AI),China,2026-06-16,Open weights (unrestricted),2026-06-16,,Confident,,GLM-5.2 (low),,GLM-5.2,glm-5-2,152.02,150.2,154.01
 GPT-5.5,gpt-5.5_high,GPT-5.5 (high),OpenAI,United States of America,2026-04-23,API access,2026-04-23,,Likely,,,,GPT-5.5,gpt-5-5,158.67,156.41,161.45
 GPT-5.4,gpt-5.4-2026-03-05_high,GPT-5.4 (high),OpenAI,United States of America,2026-03-05,API access,2026-03-05,,Likely,,GPT-5.4 (high),,GPT-5.4,gpt-5-4,156.49,154.63,158.35
 GPT-5.6 Sol,gpt-5.6-sol_high,GPT-5.6 Sol (high),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Sol (high),,GPT-5.6 Sol,gpt-5-6-sol,161.06,158.72,164.44
 GPT-5.4 Mini,gpt-5.4-mini-2026-03-17_xhigh,GPT-5.4 mini (xhigh),OpenAI,United States of America,2026-03-17,API access,2026-03-17,,Likely,,GPT-5.4 mini (xhigh),,GPT-5.4 Mini,gpt-5-4-mini,149.33,147.79,150.96
-GPT-5.6 Sol,gpt-5.6-sol_none,GPT-5.6 Sol (none),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Sol (none),,GPT-5.6 Sol,gpt-5-6-sol,161.06,158.72,164.44
 Kimi K3,kimi-k3_high,Kimi K3 (high),Moonshot,China,2026-07-16,Open weights (non-commercial),2026-07-16,2.0001e+25,Speculative,,Kimi K3 (high),,Kimi K3,kimi-k3,157.33,154.74,159.7
-GPT-5.6 Luna,gpt-5.6-luna_none,GPT-5.6 Luna (none),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Luna (none),,GPT-5.6 Luna,gpt-5-6-luna,156.21,153.81,158.62
 Gemini 3.6 Flash,gemini-3.6-flash_minimal,Gemini 3.6 Flash,Google DeepMind,United States of America,2026-07-21,API access,2026-07-21,,Confident,,Gemini 3.6 Flash (minimal),,Gemini 3.6 Flash,gemini-3-6-flash,154.14,152.67,155.99
 Gemini 3.6 Flash,gemini-3.6-flash_low,Gemini 3.6 Flash,Google DeepMind,United States of America,2026-07-21,API access,2026-07-21,,Confident,,Gemini 3.6 Flash (low),,Gemini 3.6 Flash,gemini-3-6-flash,154.14,152.67,155.99
-Qwen 3.6 35B-A3B,qwen3.6-35b-a3b,Qwen3.6 35B-A3B,Alibaba,China,2026-04-14,Open weights (unrestricted),2026-04-14,,Unverified,,Qwen3.6 35B-A3B (thinking),,Qwen 3.6 35B-A3B,qwen-3-6-35b-a3b,145.03,142.09,148.05
 Qwen 3.6 35B-A3B,qwen3.6-35b-a3b_none,Qwen3.6 35B-A3B,Alibaba,China,2026-04-14,Open weights (unrestricted),2026-04-14,,Unverified,,Qwen3.6 35B-A3B (no thinking),,Qwen 3.6 35B-A3B,qwen-3-6-35b-a3b,145.03,142.09,148.05
-Qwen3.7 Flash,qwen3.7-flash_none,Qwen3.7 Flash,Alibaba,China,2026-07-27,API access,2026-07-27,,Confident,,Qwen3.7 Flash (no thinking),,Qwen3.7 Flash,qwen3-7-flash,,,
 Gemma 4 31B IT,gemma-4-31b-it_minimal,Gemma 4 31B IT,Google DeepMind,United States of America,2026-04-02,Open weights (restricted use),2026-04-02,,Likely,,Gemma 4 31B IT (minimal),,Gemma 4 31B IT,gemma-4-31b-it,142.4,139.08,144.24
 DeepSeek-V4-Pro,deepseek-v4-pro_none,DeepSeek v4 Pro (unknown thinking),DeepSeek,China,2026-04-24,Open weights (unrestricted),2026-04-24,9.702e+24,Likely,,DeepSeek v4 (no thinking),,DeepSeek-V4-Pro,deepseek-v4-pro,149.24,147.46,151.23
 DeepSeek-V4-Pro,deepseek-v4-pro_high,DeepSeek v4 Pro (high),DeepSeek,China,2026-04-24,Open weights (unrestricted),2026-04-24,9.702e+24,Likely,,DeepSeek v4 (high),,DeepSeek-V4-Pro,deepseek-v4-pro,149.24,147.46,151.23
@@ -193,7 +195,6 @@ Gemini 3.1 Pro,gemini-3.1-pro-preview_low,Gemini 3.1 Pro Preview,Google DeepMind
 Claude Sonnet 5,claude-sonnet-5,Claude Sonnet 5 (no thinking),Anthropic,United States of America,2026-06-30,API access,2026-06-30,,Confident,,Claude Sonnet 5 (no thinking),,Claude Sonnet 5,claude-sonnet-5,155.87,153.24,157.89
 Gemini 3 Flash,gemini-3-flash-preview_minimal,Gemini 3 Flash Preview,Google DeepMind,United States of America,2025-12-17,API access,2025-12-17,,Unknown,,Gemini 3 Flash Preview (minimal),,Gemini 3 Flash,gemini-3-flash,151.73,150.48,153.35
 Gemini 3 Flash,gemini-3-flash-preview_low,Gemini 3 Flash Preview,Google DeepMind,United States of America,2025-12-17,API access,2025-12-17,,Unknown,,Gemini 3 Flash Preview (low),,Gemini 3 Flash,gemini-3-flash,151.73,150.48,153.35
-Qwen 3.6 Flash,qwen3.6-flash_none,Qwen 3.6 Flash (2026-04-16),Alibaba,China,2026-04-27,,2026-04-26,,Unverified,,Qwen3.6 Flash (no thinking),,Qwen 3.6 Flash,qwen-3-6-flash,144.15,141.51,145.63
 GPT-5.5 Instant,gpt-5.5-instant,GPT-5.5 Instant,OpenAI,United States of America,2026-05-05,API access,2026-05-05,,Confident,,GPT-5.5 Instant,,GPT-5.5 Instant,gpt-5-5-instant,143.56,141.58,146.21
 Claude Opus 4.8,claude-opus-4-8_xhigh,Claude Opus 4.8,Anthropic,United States of America,2026-05-28,API access,2026-05-28,,Confident,,Claude Opus 4.8 (xhigh),,Claude Opus 4.8,claude-opus-4-8,157.73,155.63,159.77
 Claude Sonnet 4.5,claude-sonnet-4-5-20250929_48K,Claude Sonnet 4.5 (48k thinking),Anthropic,United States of America,2025-09-29,API access,2025-09-29,,Unknown,,Claude Sonnet 4.5 (48k thinking),,Claude Sonnet 4.5,claude-sonnet-4-5,146.93,145.24,148.25
@@ -251,7 +252,6 @@ Claude Sonnet 4.5,claude-sonnet-4-5-20250929_16K,Claude Sonnet 4.5 (16k thinking
 GPT-4 (Mar 2023),gpt-4-0314,GPT-4 (Mar 2023),OpenAI,United States of America,2023-03-14,API access,2023-03-15,2.1e+25,Likely,"The March 2023 version of GPT-4, OpenAI's 2023 multimodal flagship model.",,,GPT-4 (Mar 2023),gpt-4-mar-2023,126.19,120.78,130.06
 Grok 4 Heavy,grok-4-heavy-web-app,Grok 4 Heavy (web app),xAI,United States of America,2025-07-10,Unreleased,2025-07-10,,Unknown,,,,Grok 4 Heavy,grok-4-heavy,,,
 GLM-4.5,glm-4.5,,"Z.ai (Zhipu AI),Tsinghua University",China,2025-08-03,Open weights (unrestricted),2025-08-05,4.42e+24,Confident,Zhipu AI & Tsinghua University’s large open source model.,,,GLM-4.5,glm-4-5,,,
-GPT-5 nano,gpt-5-nano-2025-08-07_medium,GPT-5 nano (medium),OpenAI,United States of America,2025-08-07,API access,2025-08-07,,Unknown,"The smallest version of OpenAI's latest flagship frontier model, benchmarked using medium reasoning effort.",GPT-5 nano (medium),,GPT-5 nano,gpt-5-nano,141.11,136.88,142.99
 Claude Opus 4,claude-opus-4-20250514_27K,Claude Opus 4,Anthropic,United States of America,2025-05-22,API access,2025-05-22,,Unknown,"Anthropic's largest model in the Claude 4 series (superseded by Claude Opus 4.1), benchmarked with up to 27,000 reasoning tokens.",Claude Opus 4 (27k thinking),,Claude Opus 4,claude-opus-4,143.02,140.9,144.49
 Claude Opus 4.1,claude-opus-4-1-20250805_27K,,Anthropic,United States of America,2025-08-05,API access,2025-08-05,,Unknown,"Anthropic’s largest flagship model, benchmarked with up to 27,000 reasoning tokens.",Claude Opus 4.1 (27k thinking),,Claude Opus 4.1,claude-opus-4-1,144.44,142.31,146.21
 Claude Opus 4.1,claude-opus-4-1-20250805_16K,,Anthropic,United States of America,2025-08-05,API access,2025-08-05,,Unknown,"Anthropic’s largest flagship model, benchmarked with up to 16,000 reasoning tokens.",Claude Opus 4.1 (16k thinking),,Claude Opus 4.1,claude-opus-4-1,144.44,142.31,146.21
@@ -425,7 +425,7 @@ GPT-3 Medium,ada,,OpenAI,United States of America,,,2020-06-22,6.41e+20,Confiden
 GPT-3 XL,babbage,,OpenAI,United States of America,2020-06-22,,2020-06-22,2.38e+21,Confident,,,GPT-3 XL (babbage),GPT-3 XL (babbage),gpt-3-xl-babbage,,,
 Baichuan 2-7B,Baichuan-2-7B-Base,,Baichuan,China,2023-09-20,Open weights (restricted use),2023-09-20,1.092e+23,Confident,,,,Baichuan 2-7B,baichuan-2-7b,95.58,84.41,104.03
 Baichuan2-13B,Baichuan-2-13B-Base,,Baichuan,China,2023-09-06,Open weights (restricted use),2023-09-06,2.03e+23,Confident,,,,Baichuan2-13B,baichuan2-13b,102.59,91.85,110.26
-BLOOM-176B,bloom,,"Hugging Face,BigScience","United States of America,France",2022-07-06,Open weights (restricted use),2022-07-11,3.65664e+23,Confident,,,,BLOOM-176B,bloom-176b,,,
+BLOOM-176B,bloom,,"Hugging Face,BigScience","France,United States of America",2022-07-06,Open weights (restricted use),2022-07-11,3.65664e+23,Confident,,,,BLOOM-176B,bloom-176b,,,
 Cerebras-GPT-13B,Cerebras-GPT-13B,,Cerebras Systems,United States of America,2023-03-20,Open weights (unrestricted),2023-04-06,2.3e+22,Confident,,,,Cerebras-GPT-13B,cerebras-gpt-13b,82.27,68.15,90.95
 ,chatglm2-6b,,,,2023-06-24,,,,Unverified,,,,,chatglm2-6b,,,
 GPT-3 6.7B,curie,,OpenAI,United States of America,,,2020-06-22,1.2e+22,Confident,,,,GPT-3 6.7B,gpt-3-6-7b,,,
@@ -442,7 +442,7 @@ GLaM,GLaM (MoE),,Google,United States of America,2021-12-13,Unreleased,2021-12-1
 Gopher (280B),Gopher (280B),,DeepMind,United Kingdom of Great Britain and Northern Ireland,2021-12-08,Unreleased,2021-12-08,6.31e+23,Confident,A 280 billion-parameter model from DeepMind in 2021.,,,Gopher (280B),gopher-280b,,,
 GPT-3.5 (davinci-003),text-davinci-003,,,,2022-11-28,,2022-11-28,,Likely,,,davinci-003,davinci-003,davinci-003,,,
 GPT-4 (Mar 2023),gpt-4-32k-0314,,OpenAI,United States of America,2023-03-14,API access,2023-03-15,2.1e+25,Likely,,,,GPT-4 (Mar 2023),gpt-4-mar-2023,126.19,120.78,130.06
-GPT-J-6B,gpt-j-6b,,"EleutherAI,LAION","United States of America,Germany",2021-08-05,Open weights (unrestricted),2021-05-01,1.5e+22,Confident,,,,GPT-J-6B,gpt-j-6b,,,
+GPT-J-6B,gpt-j-6b,,"EleutherAI,LAION","Germany,United States of America",2021-08-05,Open weights (unrestricted),2021-05-01,1.5e+22,Confident,,,,GPT-J-6B,gpt-j-6b,,,
 GPT-Neo-2.7B,gpt-neo-2.7B,,EleutherAI,United States of America,2023-03-30,Open weights (unrestricted),2021-03-21,7.9e+21,Confident,,,,GPT-Neo-2.7B,gpt-neo-2-7b,,,
 GPT-NeoX-20B,gpt-neox-20b,,EleutherAI,United States of America,2022-04-07,Open weights (unrestricted),2022-02-09,9.31627008e+22,Confident,,,,GPT-NeoX-20B,gpt-neox-20b,,,
 GPT-2 (1.5B),gpt2-xl,,OpenAI,United States of America,2019-11-05,Open weights (unrestricted),2019-02-14,1.920000000001e+21,Speculative,"The largest version of GPT-2, OpenAI's second generation transformer-based large pretrained language model.",,,GPT-2 (1.5B),gpt-2-1-5b,,,
@@ -722,7 +722,7 @@ InternVL2_5-78B,InternVL2_5-78B,,"Shanghai AI Lab,SenseTime,Tsinghua University,
 ,LLaVA-Video-7B-Qwen2-TPO,,,,2025-01-19,,,,Unverified,,,,,llava-video-7b-qwen2-tpo,,,
 ,VideoChat-Flash-Qwen2-7B_res448,,,,2025-01-11,,,,Unverified,,,,,videochat-flash-qwen2-7b-res448,,,
 ,ByteVideoLLM-14B,,,,2024-10-13,,,,Unverified,,,,,bytevideollm-14b,,,
-NVILA 8B,NVILA-8B,,"NVIDIA,Massachusetts Institute of Technology (MIT),University of California (UC) Berkeley,University of California San Diego,University of Washington,Tsinghua University","United States of America,China",2024-12-10,Open weights (non-commercial),2024-12-05,2.2794518e+21,Likely,,,,NVILA 8B,nvila-8b,,,
+NVILA 8B,NVILA-8B,,"NVIDIA,Massachusetts Institute of Technology (MIT),University of California (UC) Berkeley,University of California San Diego,University of Washington,Tsinghua University","China,United States of America",2024-12-10,Open weights (non-commercial),2024-12-05,2.2794518e+21,Likely,,,,NVILA 8B,nvila-8b,,,
 ,LiveCC-7B-Instruct,,,,2024-04-12,,,,Unverified,,,,,livecc-7b-instruct,,,
 ,Qwen2-VL-7B-Instruct,,,,2024-08-29,,,,Unverified,A 7 billion-parameter instruction-tuned vision language model in Qwen's Qwen 2 series.,,,,qwen2-vl-7b-instruct,,,
 ,MiniCPM-o-2_6,,,,2025-01-12,,,,Unverified,,,,,minicpm-o-2-6,,,
