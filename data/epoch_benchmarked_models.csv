@@ -278,7 +278,7 @@ GPT-5.5 Pro,gpt-5.5-pro-pre-release_high,GPT-5.5 Pro (high),OpenAI,United States
 Muse Spark,muse-spark,Muse Spark,Meta AI,United States of America,2026-04-08,API access,2026-04-08,,Confident,,Muse Spark,,Muse Spark,muse-spark,152.11,150.29,154.94
 GPT-5.4 Pro,gpt-5.4-pro-2026-03-05-web-app,GPT-5.4 Pro (web),OpenAI,United States of America,2026-03-05,API access,2026-03-05,,Likely,,GPT-5.4 Pro (Web App),,GPT-5.4 Pro,gpt-5-4-pro,158.89,156.54,161.67
 GPT-5.3 Codex,gpt-5.3-codex_high,GPT-5.3 Codex (high),OpenAI,United States of America,2026-02-05,API access,2026-02-05,,Likely,,,,GPT-5.3 Codex,gpt-5-3-codex,156.4,154.23,159.33
-Gemini 3.1 Pro,gemini-3.1-pro-preview-customtools,Gemini 3.1 Pro Preview,Google DeepMind,United States of America,2026-02-19,API access,2026-02-19,,Likely,,,,Gemini 3.1 Pro,gemini-3-1-pro,154.9,152.51,157.46
+Gemini 3.1 Pro,gemini-3.1-pro-preview-customtools,Gemini 3.1 Pro Preview,Google DeepMind,United States of America,2026-02-19,API access,2026-02-19,,Likely,,Gemini 3.1 Pro Preview (Custom tools),,Gemini 3.1 Pro,gemini-3-1-pro,154.9,152.51,157.46
 Claude Sonnet 4.6,claude-sonnet-4-6_16K,Claude Sonnet 4.6 (16k thinking),Anthropic,United States of America,2026-02-17,API access,2026-02-17,,Likely,,Claude Sonnet 4.6 (16k thinking),,Claude Sonnet 4.6,claude-sonnet-4-6,152.2,149.72,154.32
 Claude Sonnet 4.6,claude-sonnet-4-6_32K,Claude Sonnet 4.6 (32k thinking),Anthropic,United States of America,2026-02-17,API access,2026-02-17,,Likely,,Claude Sonnet 4.6 (32k thinking),,Claude Sonnet 4.6,claude-sonnet-4-6,152.2,149.72,154.32
 Claude Opus 4.6,claude-opus-4-6_120K,Claude Opus 4.6 (120k thinking),Anthropic,United States of America,2026-02-05,API access,2026-02-05,,Likely,,Claude Opus 4.6 (120k thinking),,Claude Opus 4.6,claude-opus-4-6,155.25,153.49,157.14
@@ -673,7 +673,7 @@ GPT-3.5 Turbo Instruct,gpt-3.5-turbo-instruct,,OpenAI,United States of America,2
 GPT-3 175B (davinci),davinci-002,,OpenAI,United States of America,,API access,2020-05-28,3.14e+23,Confident,,GPT-3 175B (davinci-002),,GPT-3 175B (davinci),gpt-3-175b-davinci,,,
 Claude Opus 5,claude-opus-5_high,Claude Opus 5 (high),Anthropic,United States of America,2026-07-24,API access,2026-07-24,,Confident,,Claude Opus 5 (high),,Claude Opus 5,claude-opus-5,162.33,159.75,165.78
 Claude Fable 5.1,claude-fable-5-1_xhigh,Claude Fable 5.1 (xhigh),Anthropic,United States of America,2026-09-01,API access,2026-09-01,,Confident,,Claude Fable 5.1 (xhigh),,Claude Fable 5.1,claude-fable-5-1,162.88,160.1,166.34
-,gemini-3-deep-think-preview,,,,2026-02-12,,,,Unverified,,,,,gemini-3-deep-think-preview,,,
+Gemini 3 Deep Think,gemini-3-deep-think-preview,Gemini 3 Deep Think,Google DeepMind,United States of America,2026-02-12,Hosted access (no API),2025-11-18,,Confident,,Gemini 3 Deep Think Preview,,Gemini 3 Deep Think,gemini-3-deep-think,,,
 Claude Fable 5.1,claude-fable-5-1_high,Claude Fable 5.1 (high),Anthropic,United States of America,2026-09-01,API access,2026-09-01,,Confident,,Claude Fable 5.1 (high),,Claude Fable 5.1,claude-fable-5-1,162.88,160.1,166.34
 Claude Fable 5,claude-fable-5_medium,Claude Fable 5 (medium),Anthropic,United States of America,2026-06-09,API access,2026-06-09,,Confident,,Claude Fable 5 (medium),,Claude Fable 5,claude-fable-5,162.9,160.17,166.77
 GPT-5.6 Terra,gpt-5.6-terra_high,GPT-5.6 Terra (high),OpenAI,United States of America,2026-07-09,API access,2026-07-09,,Confident,,GPT-5.6 Terra (high),,GPT-5.6 Terra,gpt-5-6-terra,159.18,156.6,161.61
@@ -788,7 +788,7 @@ GPT-5.4 Nano,gpt-5.4-nano-2026-03-17_unknown,GPT-5.4 nano (unknown thinking),Ope
 ,ml-elephant,Zoo Ml-Ephant,,,,,,,Unverified,,,,,ml-elephant,,,
 video-SALMONN 2+,video-SALMONN-2plus,,ByteDance,China,2025-06-18,,2025-06-18,,Likely,,,,video-SALMONN 2+,video-salmonn-2,,,
 Gemini 1.5 Pro,gemini-1.5-pro-001-feb24,,Google DeepMind,United States of America,2024-02-15,API access,2024-02-15,,Speculative,"The first of two versions of a previous flagship model from Google DeepMind, Gemini 1.5 Pro.",,Gemini 1.5 Pro (Feb 2024),Gemini 1.5 Pro (Feb 2024),gemini-1-5-pro-feb-2024,,,
-InternVL2_5-78B,InternVL2_5-78B,,"Shanghai AI Lab,SenseTime,Tsinghua University,Nanjing University,Fudan University,Chinese University of Hong Kong (CUHK),Shanghai Jiao Tong University","Hong Kong,China",2024-12-06,Open weights (restricted use),2024-12-06,,Confident,,,,InternVL2_5-78B,internvl2-5-78b,,,
+InternVL2_5-78B,InternVL2_5-78B,,"Shanghai AI Lab,SenseTime,Tsinghua University,Nanjing University,Fudan University,Chinese University of Hong Kong (CUHK),Shanghai Jiao Tong University","China,Hong Kong",2024-12-06,Open weights (restricted use),2024-12-06,,Confident,,,,InternVL2_5-78B,internvl2-5-78b,,,
 ,LLaVA-Video-72B-Qwen2,,,,2024-09-02,,,,Unverified,,,,,llava-video-72b-qwen2,,,
 ,LinVT,,,,2024-12-06,,,,Unverified,,,,,linvt,,,
 ,Aria,,,,2024-09-30,,,,Unverified,,,,,aria,,,
