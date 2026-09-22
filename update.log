@@ -586,3 +586,9 @@ wrote /home/ubuntu/projects/china-training-compute/docs/data.json: 119 models (6
 To https://github.com/KonstantinPilz/china-training-compute.git
    b975d39..c717033  main -> main
 pushed update
+wrote /home/ubuntu/projects/china-training-compute/docs/data.json: 119 models (63 from Epoch notable, 0 from Epoch large-scale, 56 from team research), 29 orgs, 29 with ECI
+[main 41964db] Update China compute data (2026-09-22)
+ 3 files changed, 702 insertions(+), 670 deletions(-)
+To https://github.com/KonstantinPilz/china-training-compute.git
+   209d6b7..41964db  main -> main
+pushed update
